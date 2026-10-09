@@ -87,15 +87,18 @@ python collector/collect.py --date "$DAY"
 - `tech`: `topic_id`, `title`, `category`, `pick`, `reading_minutes`(정수), `sections`(객체). 4. 기술 글 작성 섹션의 항목(`definition`, `why`, `how`, `example`, `when`, `further_reading`)은 `tech.sections` 안에 들어간다.
 - `further_reading`은 `{"title": ..., "url": ...}` 객체의 배열이다.
 
-`tests/factories.py`의 `BRIEF`는 Python 딕셔너리이므로 JSON에서는 `None`을 `null`로 쓴다. 긴 마크다운(코드 블록 포함)이 올바르게 이스케이프되도록 짧은 Python 코드로 파일을 쓰는 것을 권한다. 아래처럼 터미널에서 바로 실행하고, 저장소 안에 스크립트 파일을 만들지 않는다:
+`tests/factories.py`의 `BRIEF`는 Python 딕셔너리이므로 JSON에서는 `None`을 `null`로 쓴다. 긴 마크다운(코드 블록 포함)이 올바르게 이스케이프되도록 JSON을 손으로 쓰지 말고 Python 스크립트로 쓴다. 스크립트는 저장소 밖 `/tmp/write_brief.py`에 파일로 만든 뒤 실행한다 (마크다운에 따옴표·백틱이 많아 셸 heredoc으로 넘기면 깨질 수 있다):
+
+```python
+# /tmp/write_brief.py
+import json, sys
+brief = {...}  # BRIEF 구조대로 채운다 (JSON의 null은 Python에서 None). 긴 글은 '''...''' 문자열로 쓴다
+with open(sys.argv[1], "w", encoding="utf-8", newline="\n") as f:
+    json.dump(brief, f, ensure_ascii=False, indent=2)
+```
 
 ```bash
-python - <<'EOF'
-import json
-brief = {...}  # BRIEF 구조대로 채운다 (JSON의 null은 Python에서 None)
-with open("data/briefs/2026-10-09.json", "w", encoding="utf-8", newline="\n") as f:
-    json.dump(brief, f, ensure_ascii=False, indent=2)
-EOF
+python /tmp/write_brief.py data/briefs/<날짜>.json
 ```
 
 브리핑을 `data/briefs/$DAY.json`에 UTF-8로 저장한 뒤 (날짜 문자열은 0번 준비 단계에서 확인한 값을 쓴다):
@@ -111,16 +114,18 @@ python build.py "$DAY"
 먼저 변경된 파일을 확인한다:
 
 ```bash
-git status --porcelain
+git status --porcelain --untracked-files=all
 ```
+
+(`--untracked-files=all`이 없으면 처음 생긴 폴더가 `data/briefs/`처럼 폴더 단위로만 보여 판단이 어려우므로 꼭 붙인다.)
 
 변경되었거나 새로 생긴 경로 중 `data/raw/<날짜>.json`, `data/briefs/<날짜>.json`, `data/seen.json`, `docs/`, `curriculum.yaml` 밖의 것이 하나라도 있으면 커밋도 푸시도 하지 말고, 예상 밖 경로를 보고한 뒤 끝낸다.
 
 모두 허용 범위 안이면 그 경로만 정확히 추가하고 커밋한다 (`data/` 전체를 추가하지 않는다. 날짜는 0번에서 확인한 값):
 
 ```bash
-git add data/raw/2026-10-09.json data/briefs/2026-10-09.json data/seen.json docs curriculum.yaml
-git commit -m "brief: 2026-10-09"
+git add data/raw/<날짜>.json data/briefs/<날짜>.json data/seen.json docs curriculum.yaml
+git commit -m "brief: <날짜>"
 git pull --rebase origin main
 git push origin HEAD:main
 ```
@@ -128,7 +133,7 @@ git push origin HEAD:main
 `git pull --rebase` 뒤에도 `main` 푸시가 거부되면:
 
 ```bash
-git push origin HEAD:claude/brief-2026-10-09
+git push origin HEAD:claude/brief-<날짜>
 ```
 
 ## 7. 보고
