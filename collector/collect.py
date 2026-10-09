@@ -4,16 +4,27 @@
 """
 from __future__ import annotations
 
+import argparse
 import html
+import json
 import re
+import sys
+import urllib.error
+import urllib.request
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import feedparser
+import yaml
 
 KST = timezone(timedelta(hours=9))
+ROOT = Path(__file__).resolve().parent.parent
 MAX_AGE = timedelta(hours=48)
 SUMMARY_LIMIT = 500
+TIMEOUT_SECONDS = 15
+USER_AGENT = "Mozilla/5.0 (compatible; daily-tech-brief/1.0)"
+REGIONS = {"kr", "global"}
 
 
 def normalize_url(url: str) -> str:
@@ -69,3 +80,78 @@ def _entry_time(entry) -> datetime | None:
         if value:
             return datetime(*value[:6], tzinfo=timezone.utc)
     return None
+
+
+def load_sources(path: Path) -> list[dict]:
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    sources = data.get("sources", [])
+    for source in sources:
+        if not source.get("name") or not source.get("url") or source.get("region") not in REGIONS:
+            raise ValueError(f"sources.yaml 항목이 잘못되었습니다: {source}")
+    return sources
+
+
+def load_seen(path: Path) -> set[str]:
+    if not path.exists():
+        return set()
+    return {normalize_url(url) for url in json.loads(path.read_text(encoding="utf-8"))}
+
+
+def fetch(url: str) -> bytes:
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
+        return response.read()
+
+
+def collect(sources: list[dict], seen: set[str], now: datetime, fetcher=None) -> dict:
+    """모든 소스를 수집한다. 한 소스가 실패해도 나머지는 계속 수집한다."""
+    fetcher = fetcher or fetch
+    items: list[dict] = []
+    errors: list[dict] = []
+    collected: set[str] = set()
+    for source in sources:
+        try:
+            entries = parse_feed(fetcher(source["url"]), source, now)
+        except Exception as exc:  # 소스 하나의 실패가 전체 수집을 멈추지 않도록
+            errors.append({"source": source["name"], "error": _describe(exc)})
+            continue
+        for item in entries:
+            if item["url"] in seen or item["url"] in collected:
+                continue
+            collected.add(item["url"])
+            items.append(item)
+    return {"items": items, "errors": errors}
+
+
+def _describe(exc: Exception) -> str:
+    if isinstance(exc, urllib.error.HTTPError):
+        return f"HTTP {exc.code}"
+    return f"{type(exc).__name__}: {exc}"
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="RSS 피드를 수집해 data/raw/에 저장한다")
+    parser.add_argument("--date", help="저장할 파일 날짜 (기본: 오늘, 한국 시간)")
+    parser.add_argument("--root", default=str(ROOT), help=argparse.SUPPRESS)
+    args = parser.parse_args(argv)
+
+    root = Path(args.root)
+    now = datetime.now(timezone.utc)
+    day = args.date or now.astimezone(KST).date().isoformat()
+    sources = load_sources(root / "collector" / "sources.yaml")
+    seen = load_seen(root / "data" / "seen.json")
+    result = {"date": day, **collect(sources, seen, now)}
+
+    out = root / "data" / "raw" / f"{day}.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
+    )
+    print(f"{out}: 기사 {len(result['items'])}건, 실패한 소스 {len(result['errors'])}개")
+    for error in result["errors"]:
+        print(f"  - {error['source']}: {error['error']}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

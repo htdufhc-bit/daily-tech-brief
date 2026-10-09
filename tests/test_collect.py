@@ -1,3 +1,5 @@
+import json
+import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -61,3 +63,80 @@ def test_parse_feed_limits_summary_length():
 def test_parse_feed_rejects_garbage():
     with pytest.raises(ValueError):
         collect.parse_feed(b"this is not a feed", SOURCE, NOW)
+
+
+def test_collect_continues_after_failed_source():
+    def fetcher(url):
+        if url == "https://bad.example.com/feed":
+            raise urllib.error.HTTPError(url, 403, "Forbidden", None, None)
+        return RSS
+
+    sources = [
+        {"name": "Bad", "url": "https://bad.example.com/feed", "region": "global"},
+        {"name": "Good", "url": "https://good.example.com/feed", "region": "kr"},
+    ]
+    result = collect.collect(sources, seen=set(), now=NOW, fetcher=fetcher)
+    assert result["errors"] == [{"source": "Bad", "error": "HTTP 403"}]
+    assert {i["source"] for i in result["items"]} == {"Good"}
+
+
+def test_collect_records_parse_errors():
+    sources = [{"name": "Broken", "url": "https://x.example.com/feed", "region": "kr"}]
+    result = collect.collect(sources, seen=set(), now=NOW, fetcher=lambda url: b"garbage")
+    assert result["items"] == []
+    assert result["errors"][0]["source"] == "Broken"
+    assert result["errors"][0]["error"].startswith("ValueError")
+
+
+def test_collect_skips_seen_and_duplicate_urls():
+    sources = [
+        {"name": "A", "url": "https://a.example.com/feed", "region": "kr"},
+        {"name": "B", "url": "https://b.example.com/feed", "region": "kr"},
+    ]
+    result = collect.collect(
+        sources, seen={"https://example.com/nodate"}, now=NOW, fetcher=lambda url: RSS
+    )
+    assert [i["url"] for i in result["items"]] == ["https://example.com/a?id=1"]
+    assert result["items"][0]["source"] == "A"
+
+
+def test_load_sources_rejects_bad_region(tmp_path):
+    path = tmp_path / "sources.yaml"
+    path.write_text(
+        "sources:\n  - name: X\n    url: https://x.example.com/feed\n    region: us\n",
+        encoding="utf-8",
+    )
+    with pytest.raises(ValueError):
+        collect.load_sources(path)
+
+
+def test_load_seen_normalizes_and_handles_missing(tmp_path):
+    assert collect.load_seen(tmp_path / "none.json") == set()
+    path = tmp_path / "seen.json"
+    path.write_text('["https://example.com/a/"]', encoding="utf-8")
+    assert collect.load_seen(path) == {"https://example.com/a"}
+
+
+def test_main_writes_raw_json(tmp_path, monkeypatch):
+    (tmp_path / "collector").mkdir()
+    (tmp_path / "collector" / "sources.yaml").write_text(
+        "sources:\n  - name: 샘플\n    url: https://example.com/feed\n    region: kr\n",
+        encoding="utf-8",
+    )
+    (tmp_path / "data").mkdir()
+    (tmp_path / "data" / "seen.json").write_text('["https://example.com/seen"]', encoding="utf-8")
+    feed = (
+        '<?xml version="1.0"?><rss version="2.0"><channel><title>t</title>'
+        "<item><title>new</title><link>https://example.com/new</link></item>"
+        "<item><title>seen</title><link>https://example.com/seen/</link></item>"
+        "</channel></rss>"
+    ).encode("utf-8")
+    monkeypatch.setattr(collect, "fetch", lambda url: feed)
+
+    assert collect.main(["--date", "2026-10-08", "--root", str(tmp_path)]) == 0
+
+    out = tmp_path / "data" / "raw" / "2026-10-08.json"
+    result = json.loads(out.read_text(encoding="utf-8"))
+    assert result["date"] == "2026-10-08"
+    assert [i["url"] for i in result["items"]] == ["https://example.com/new"]
+    assert result["errors"] == []
