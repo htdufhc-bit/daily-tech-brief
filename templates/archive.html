@@ -1,0 +1,27 @@
+{% extends "_layout.html" %}
+{% block title %}지난 브리핑 · Daily Tech Brief{% endblock %}
+{% block masthead %}
+    <p class="date">지난 브리핑</p>
+    <nav class="day-nav"><a href="{{ base }}index.html">최신 브리핑</a></nav>
+{% endblock %}
+{% block content %}
+  <section>
+    <h2>날짜별</h2>
+    <ul class="archive-list">
+      {% for entry in entries %}
+      <li><a href="{{ base }}{{ entry.path }}">{{ entry.label }}</a> — {{ entry.title }} · 뉴스 {{ entry.news_count }}건</li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section>
+    <h2>다룬 기술</h2>
+    {% for category, items in by_category %}
+    <h3>{{ category }}</h3>
+    <ul class="archive-list">
+      {% for entry in items %}
+      <li><a href="{{ base }}{{ entry.path }}">{{ entry.title }}</a> <span class="muted">{{ entry.label }}</span></li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </section>
+{% endblock %}

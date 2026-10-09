@@ -1,0 +1,66 @@
+{% extends "_layout.html" %}
+{% block title %}Daily Tech Brief · {{ date_label }}{% endblock %}
+{% block masthead %}
+    <p class="date">{{ date_label }}</p>
+    <nav class="day-nav">
+      {% if prev_path %}<a href="{{ base }}{{ prev_path }}">◀ 이전</a>{% else %}<span class="disabled">◀ 이전</span>{% endif %}
+      <a href="{{ base }}archive.html">목록</a>
+      {% if next_path %}<a href="{{ base }}{{ next_path }}">다음 ▶</a>{% else %}<span class="disabled">다음 ▶</span>{% endif %}
+    </nav>
+{% endblock %}
+{% block content %}
+  <section class="headline">
+    <h2>오늘의 한 줄</h2>
+    <p>{{ brief.headline }}</p>
+  </section>
+
+  {% if kr_news or global_news %}
+  <section class="news">
+    <h2>IT 뉴스</h2>
+    {% for label, items in [("국내", kr_news), ("해외", global_news)] if items %}
+    <h3>{{ label }}</h3>
+    <ol class="news-list">
+      {% for item in items %}
+      <li class="news-item">
+        <a class="news-title" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+        <span class="source">{{ item.source }}</span>
+        {% if item.original_title %}<p class="original-title">{{ item.original_title }}</p>{% endif %}
+        <ul class="summary">
+          {% for line in item.summary %}<li>{{ line }}</li>{% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ol>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  <section class="tech">
+    <h2>오늘의 기술</h2>
+    <h3 class="tech-title">{{ tech.title }}</h3>
+    <p class="tech-meta">
+      <span class="badge">{% if tech.pick == "trend" %}트렌드 픽{% else %}커리큘럼 #{{ curriculum_no }}{% endif %}</span>
+      <span>{{ tech.category }}</span>
+      <span>⏱ {{ tech.reading_minutes }}분</span>
+    </p>
+    <p class="definition">{{ tech.sections.definition }}</p>
+    <h4>왜 필요한가</h4>
+    {{ tech.sections.why | md }}
+    <h4>동작 원리</h4>
+    {{ tech.sections.how | md }}
+    <h4>예시</h4>
+    {{ tech.sections.example | md }}
+    <h4>언제 쓰고 언제 안 쓰나</h4>
+    {{ tech.sections.when | md }}
+    <h4>더 읽을거리</h4>
+    <ul class="further">
+      {% for link in tech.sections.further_reading %}<li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>{% endfor %}
+    </ul>
+  </section>
+
+  {% if brief.notes %}
+  <footer class="notes">
+    {% for note in brief.notes %}<p>{{ note }}</p>{% endfor %}
+  </footer>
+  {% endif %}
+{% endblock %}

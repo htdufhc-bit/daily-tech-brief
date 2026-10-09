@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{% endblock %}</title>
+<link rel="stylesheet" href="{{ base }}style.css">
+<script>
+try { var saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
+</script>
+</head>
+<body>
+<main class="page">
+  <header class="masthead">
+    <div class="masthead-top">
+      <a class="brand" href="{{ base }}index.html">Daily Tech Brief</a>
+      <button class="theme-toggle" type="button" aria-label="다크 모드 전환">◐</button>
+    </div>
+    {% block masthead %}{% endblock %}
+  </header>
+  {% block content %}{% endblock %}
+</main>
+<script>
+document.querySelector(".theme-toggle").addEventListener("click", function () {
+  var root = document.documentElement;
+  var dark = root.dataset.theme
+    ? root.dataset.theme === "dark"
+    : window.matchMedia("(prefers-color-scheme: dark)").matches;
+  root.dataset.theme = dark ? "light" : "dark";
+  try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+});
+</script>
+</body>
+</html>
