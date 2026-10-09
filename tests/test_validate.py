@@ -73,3 +73,22 @@ def test_reports_all_errors_at_once():
     brief["news"][0]["url"] = "nope"
     brief["tech"]["reading_minutes"] = 99
     assert len(check(brief)) == 3
+
+
+NON_STRING_CASES = [
+    ("region_list", lambda b: b["news"][0].update(region=["kr"]), "news[0].region:"),
+    ("pick_dict", lambda b: b["tech"].update(pick={"a": 1}), "tech.pick:"),
+    (
+        "topic_id_list",
+        lambda b: b["tech"].update(topic_id=["http-caching"], pick="curriculum"),
+        "tech.topic_id:",
+    ),
+]
+
+
+@pytest.mark.parametrize(("name", "mutate", "prefix"), NON_STRING_CASES, ids=[c[0] for c in NON_STRING_CASES])
+def test_non_string_enum_fields_report_path_instead_of_crashing(name, mutate, prefix):
+    brief = make_brief()
+    mutate(brief)
+    errors = check(brief)
+    assert any(error.startswith(prefix) for error in errors), errors

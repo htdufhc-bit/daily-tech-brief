@@ -46,7 +46,7 @@ def _check_news(item, path: str) -> list[str]:
         return [f"{path}: 객체여야 합니다"]
     errors = []
     region = item.get("region")
-    if region not in REGIONS:
+    if not (isinstance(region, str) and region in REGIONS):
         errors.append(f"{path}.region: 'kr' 또는 'global'이어야 합니다")
     for key in ("source", "title"):
         if not _text(item.get(key)):
@@ -67,9 +67,9 @@ def _check_tech(tech: dict, topic_ids: set[str]) -> list[str]:
         if not _text(tech.get(key)):
             errors.append(f"tech.{key}: 비어 있지 않은 문자열이어야 합니다")
     pick = tech.get("pick")
-    if pick not in PICKS:
+    if not (isinstance(pick, str) and pick in PICKS):
         errors.append("tech.pick: 'trend' 또는 'curriculum'이어야 합니다")
-    elif pick == "curriculum" and tech.get("topic_id") not in topic_ids:
+    elif pick == "curriculum" and not (isinstance(tech.get("topic_id"), str) and tech.get("topic_id") in topic_ids):
         errors.append(f"tech.topic_id: curriculum.yaml에 없는 주제입니다 ({tech.get('topic_id')!r})")
     minutes = tech.get("reading_minutes")
     if not (isinstance(minutes, int) and not isinstance(minutes, bool) and 1 <= minutes <= 30):
