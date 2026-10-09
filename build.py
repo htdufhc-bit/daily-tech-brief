@@ -61,19 +61,37 @@ def build(day: str, root: Path = ROOT, force: bool = False) -> str:
             curriculum_no=numbers.get(tech["topic_id"]) if tech["pick"] == "curriculum" else None,
         )
 
-    _write(target, render_day(day, DAY_BASE))
+    # 1) 쓰기 전에 모든 결과를 메모리에서 먼저 계산한다. 여기서 실패하면 디스크는 그대로다.
     position = days.index(day)
+    previous_page = None
     if position > 0:  # 전날 페이지의 '다음' 링크를 새 페이지로 이어 준다
         previous = days[position - 1]
-        _write(docs / page_path(previous), render_day(previous, DAY_BASE))
-    _write(docs / "index.html", render_day(days[-1], ""))
-    _write(docs / "archive.html", render_archive([briefs[d] for d in days]))
+        previous_page = (docs / page_path(previous), render_day(previous, DAY_BASE))
+    day_html = render_day(day, DAY_BASE)
+    index_html = render_day(days[-1], "")
+    archive_html = render_archive([briefs[d] for d in days])
+    seen_path = root / "data" / "seen.json"
+    seen_text = _seen_text(seen_path, [item["url"] for item in brief["news"]])
+    curriculum_path = root / "curriculum.yaml"
+    curriculum_text = (
+        _covered_text(curriculum_path, brief["tech"]["topic_id"], day)
+        if brief["tech"]["pick"] == "curriculum"
+        else None
+    )
+
+    # 2) 상태 파일 -> 보조 페이지 -> 날짜 페이지 순으로 쓴다.
+    #    날짜 페이지가 "발행됨" 표시이므로 반드시 마지막에 쓴다. 그 앞의 쓰기는 모두
+    #    다시 실행해도 같은 결과가 나오므로, 중간에 실패해도 재실행으로 복구된다.
+    _write(seen_path, seen_text)
+    if curriculum_text is not None:
+        _write(curriculum_path, curriculum_text)
+    if previous_page:
+        _write(*previous_page)
+    _write(docs / "index.html", index_html)
+    _write(docs / "archive.html", archive_html)
     shutil.copyfile(TEMPLATES / "style.css", docs / "style.css")
     (docs / ".nojekyll").touch()
-
-    _add_seen(root / "data" / "seen.json", [item["url"] for item in brief["news"]])
-    if brief["tech"]["pick"] == "curriculum":
-        _mark_covered(root / "curriculum.yaml", brief["tech"]["topic_id"], day)
+    _write(target, day_html)
     return "built"
 
 
@@ -96,21 +114,26 @@ def _write(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8", newline="\n")
 
 
-def _add_seen(path: Path, urls: list[str]) -> None:
+def _seen_text(path: Path, urls: list[str]) -> str:
     seen = set(json.loads(path.read_text(encoding="utf-8"))) if path.exists() else set()
     seen.update(normalize_url(url) for url in urls)
-    _write(path, json.dumps(sorted(seen), ensure_ascii=False, indent=2) + "\n")
+    return json.dumps(sorted(seen), ensure_ascii=False, indent=2) + "\n"
 
 
-def _mark_covered(path: Path, topic_id: str, day: str) -> None:
+def _covered_text(path: Path, topic_id: str, day: str) -> str:
     data = yaml.safe_load(path.read_text(encoding="utf-8"))
     for topic in data["topics"]:
         if topic["id"] == topic_id and not topic.get("covered_on"):
             topic["covered_on"] = day
-    _write(path, yaml.safe_dump(data, allow_unicode=True, sort_keys=False))
+    return yaml.safe_dump(data, allow_unicode=True, sort_keys=False)
 
 
 def main(argv: list[str] | None = None) -> int:
+    # 한국어 Windows 콘솔(cp949)에서 표현할 수 없는 문자가 있어도 출력 때문에 실패하지 않도록
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if reconfigure:
+            reconfigure(errors="replace")
     parser = argparse.ArgumentParser(description="브리핑 JSON을 HTML 페이지로 만든다")
     parser.add_argument("date", help="브리핑 날짜 (YYYY-MM-DD)")
     parser.add_argument("--force", action="store_true", help="이미 있는 페이지를 덮어쓴다")

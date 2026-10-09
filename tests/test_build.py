@@ -141,3 +141,22 @@ def test_main_exit_codes(site, capsys):
     write_brief(site, bad)
     assert build.main(["2026-10-09", "--root", str(site)]) == 1
     assert "news[0].summary" in capsys.readouterr().err
+
+
+def test_build_failure_before_target_page_allows_clean_rerun(site):
+    # 상태 파일(seen.json) 처리에 실패하면 날짜 페이지가 만들어지지 않아야 한다.
+    # 그래야 다시 실행했을 때 "skipped"로 넘어가지 않고 상태까지 갱신된다.
+    write_brief(site, make_brief())
+    seen_path = site / "data/seen.json"
+    seen_path.write_text("{", encoding="utf-8")
+
+    with pytest.raises(Exception):
+        build.build("2026-10-08", site)
+    assert not (site / "docs/2026/10/08.html").exists()
+
+    seen_path.write_text("[]", encoding="utf-8")
+    assert build.build("2026-10-08", site) == "built"
+    assert (site / "docs/2026/10/08.html").exists()
+    assert "https://example.com/story" in json.loads(read(seen_path))
+    topics = yaml.safe_load(read(site / "curriculum.yaml"))["topics"]
+    assert topics[0]["covered_on"] == "2026-10-08"
