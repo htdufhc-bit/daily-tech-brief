@@ -1,4 +1,6 @@
+import io
 import json
+import sys
 import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
@@ -140,3 +142,23 @@ def test_main_writes_raw_json(tmp_path, monkeypatch):
     assert result["date"] == "2026-10-08"
     assert [i["url"] for i in result["items"]] == ["https://example.com/new"]
     assert result["errors"] == []
+
+
+def test_main_survives_non_cp949_console(tmp_path, monkeypatch):
+    (tmp_path / "collector").mkdir()
+    (tmp_path / "collector" / "sources.yaml").write_text(
+        "sources:\n  - name: 샘플\n    url: https://example.com/feed\n    region: kr\n",
+        encoding="utf-8",
+    )
+
+    def boom(url):
+        raise ValueError("깨짐 ☃ \U0001f600")
+
+    monkeypatch.setattr(collect, "fetch", boom)
+    monkeypatch.setattr(sys, "stdout", io.TextIOWrapper(io.BytesIO(), encoding="cp949"))
+
+    assert collect.main(["--date", "2026-10-08", "--root", str(tmp_path)]) == 0
+
+    out = tmp_path / "data" / "raw" / "2026-10-08.json"
+    result = json.loads(out.read_text(encoding="utf-8"))
+    assert "깨짐 ☃ \U0001f600" in result["errors"][0]["error"]

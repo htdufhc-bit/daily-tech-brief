@@ -130,6 +130,10 @@ def _describe(exc: Exception) -> str:
 
 
 def main(argv: list[str] | None = None) -> int:
+    # 한국어 Windows 콘솔(cp949)에서 표현할 수 없는 문자가 있어도 출력 때문에 실패하지 않도록
+    reconfigure = getattr(sys.stdout, "reconfigure", None)
+    if reconfigure:
+        reconfigure(errors="replace")
     parser = argparse.ArgumentParser(description="RSS 피드를 수집해 data/raw/에 저장한다")
     parser.add_argument("--date", help="저장할 파일 날짜 (기본: 오늘, 한국 시간)")
     parser.add_argument("--root", default=str(ROOT), help=argparse.SUPPRESS)
