@@ -30,7 +30,7 @@ sources:
     url: https://www.theverge.com/rss/index.xml
     region: global
   - name: Ars Technica
-    url: https://feeds.arstechnica.com/arstechnica/technology-lab
+    url: https://feeds.arstechnica.com/arstechnica/index
     region: global
   - name: GitHub Blog
     url: https://github.blog/feed/
