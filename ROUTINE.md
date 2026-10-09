@@ -11,7 +11,15 @@ DAY=$(TZ=Asia/Seoul date +%F)
 echo "$DAY"
 ```
 
-`docs/<YYYY>/<MM>/<DD>.html`(오늘 날짜)이 이미 있으면 "오늘 브리핑은 이미 발행됨"이라고 보고하고 끝낸다.
+셸 변수는 명령 실행 사이에 유지되지 않으므로, 출력된 날짜(예: 2026-10-09)를 기억해 두고 이후 모든 명령과 파일 경로에서 `$DAY` 대신 그 날짜 문자열을 직접 쓴다 (또는 각 명령 앞에 `DAY=$(TZ=Asia/Seoul date +%F);`를 다시 붙인다).
+
+오늘 브리핑이 이미 발행됐는지 확인한다:
+
+```bash
+test -f "docs/$(TZ=Asia/Seoul date +%Y/%m/%d).html" && echo "이미 발행됨"
+```
+
+`이미 발행됨`이 출력되면 "오늘 브리핑은 이미 발행됨"이라고 보고하고 끝낸다.
 
 ## 1. 수집
 
@@ -35,8 +43,9 @@ python collector/collect.py --date "$DAY"
 작성 규칙:
 
 - `title`: 국내 기사는 원제목 그대로. 해외 기사는 자연스러운 한국어로 옮기고 원제목은 `original_title`에 넣는다. 국내 기사의 `original_title`은 `null`.
-- `summary`: 정확히 3문장. 기사에 있는 내용만 쓰고, 원문 문장을 옮기지 말고 새로 쓴다. 문장당 80자 안팎.
+- `summary`: 문자열 3개의 JSON 배열. 정확히 3문장이며, 예: `"summary": ["첫 문장", "둘째 문장", "셋째 문장"]`. 기사에 있는 내용만 쓰고, 원문 문장을 옮기지 말고 새로 쓴다. 문장당 80자 안팎.
 - `url`: `data/raw`에 있는 `url`을 그대로 쓴다. WebSearch로 보충한 기사는 기사 주소.
+- WebSearch로 보충한 기사: `source`는 기사를 낸 매체 이름, `region`은 `kr` 또는 `global`을 명시적으로 쓰고, `url`은 기사 주소(`http://` 또는 `https://`로 시작)여야 한다.
 - `headline`: 오늘 뉴스 중 가장 중요한 이슈를 한 문장으로.
 
 ## 3. 오늘의 기술 선정
@@ -61,7 +70,14 @@ python collector/collect.py --date "$DAY"
 
 ## 5. 저장과 빌드
 
-브리핑을 `data/briefs/$DAY.json`에 UTF-8로 저장한 뒤:
+저장하기 전에 `tests/factories.py`를 열어 `BRIEF`의 구조를 정확히 따른다.
+
+- 최상위: `date`(오늘 날짜와 같은 `YYYY-MM-DD` 문자열), `headline`, `news`(배열), `tech`(객체), `notes`.
+- `notes`는 문자열 배열이다. 해당 없으면 `[]`.
+- `tech`: `topic_id`, `title`, `category`, `pick`, `reading_minutes`(정수), `sections`(객체). 4. 기술 글 작성 섹션의 항목(`definition`, `why`, `how`, `example`, `when`, `further_reading`)은 `tech.sections` 안에 들어간다.
+- `further_reading`은 `{"title": ..., "url": ...}` 객체의 배열이다.
+
+브리핑을 `data/briefs/$DAY.json`에 UTF-8로 저장한 뒤 (날짜 문자열은 0번 준비 단계에서 확인한 값을 쓴다):
 
 ```bash
 python build.py "$DAY"
