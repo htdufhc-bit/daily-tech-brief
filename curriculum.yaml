@@ -1,0 +1,141 @@
+topics:
+- id: http-caching
+  title: HTTP 캐싱
+  category: 웹
+  covered_on: null
+- id: db-index
+  title: 데이터베이스 인덱스와 B-Tree
+  category: 데이터베이스
+  covered_on: null
+- id: tcp-handshake
+  title: TCP 3-way 핸드셰이크
+  category: 네트워크
+  covered_on: null
+- id: process-thread
+  title: 프로세스와 스레드
+  category: 운영체제
+  covered_on: null
+- id: docker
+  title: 도커 컨테이너
+  category: 클라우드/인프라
+  covered_on: null
+- id: transformer
+  title: 트랜스포머 구조
+  category: AI/ML
+  covered_on: null
+- id: oauth-oidc
+  title: OAuth 2.0과 OIDC
+  category: 보안
+  covered_on: null
+- id: git-internals
+  title: Git 내부 구조
+  category: 언어/도구
+  covered_on: null
+- id: rest-vs-graphql
+  title: REST와 GraphQL
+  category: 웹
+  covered_on: null
+- id: transaction-isolation
+  title: 트랜잭션 격리 수준
+  category: 데이터베이스
+  covered_on: null
+- id: dns
+  title: DNS 동작 방식
+  category: 네트워크
+  covered_on: null
+- id: virtual-memory
+  title: 가상 메모리
+  category: 운영체제
+  covered_on: null
+- id: kubernetes
+  title: 쿠버네티스 기초
+  category: 클라우드/인프라
+  covered_on: null
+- id: rag
+  title: RAG(검색 증강 생성)
+  category: AI/ML
+  covered_on: null
+- id: jwt
+  title: JWT
+  category: 보안
+  covered_on: null
+- id: garbage-collection
+  title: 가비지 컬렉션
+  category: 언어/도구
+  covered_on: null
+- id: cors
+  title: CORS
+  category: 웹
+  covered_on: null
+- id: nosql-types
+  title: NoSQL의 종류
+  category: 데이터베이스
+  covered_on: null
+- id: https-tls
+  title: HTTPS와 TLS
+  category: 네트워크
+  covered_on: null
+- id: deadlock
+  title: 데드락
+  category: 운영체제
+  covered_on: null
+- id: ci-cd
+  title: CI/CD 파이프라인
+  category: 클라우드/인프라
+  covered_on: null
+- id: embedding-vector-db
+  title: 임베딩과 벡터 DB
+  category: AI/ML
+  covered_on: null
+- id: owasp-top10
+  title: OWASP Top 10
+  category: 보안
+  covered_on: null
+- id: regex
+  title: 정규표현식
+  category: 언어/도구
+  covered_on: null
+- id: web-rendering
+  title: CSR, SSR, SSG
+  category: 웹
+  covered_on: null
+- id: redis-caching
+  title: Redis 캐싱 전략
+  category: 데이터베이스
+  covered_on: null
+- id: load-balancer
+  title: 로드 밸런서
+  category: 네트워크
+  covered_on: null
+- id: async-io
+  title: 비동기 I/O와 이벤트 루프
+  category: 운영체제
+  covered_on: null
+- id: serverless
+  title: 서버리스
+  category: 클라우드/인프라
+  covered_on: null
+- id: ai-agent
+  title: AI 에이전트와 도구 호출
+  category: AI/ML
+  covered_on: null
+- id: password-hashing
+  title: 비밀번호 해싱
+  category: 보안
+  covered_on: null
+- id: websocket
+  title: WebSocket
+  category: 웹
+  covered_on: null
+- id: db-replication-sharding
+  title: 복제와 샤딩
+  category: 데이터베이스
+  covered_on: null
+- id: cdn
+  title: CDN
+  category: 네트워크
+  covered_on: null
+- id: iac-terraform
+  title: IaC와 Terraform
+  category: 클라우드/인프라
+  covered_on: null
