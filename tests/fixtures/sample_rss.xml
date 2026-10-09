@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Sample</title>
+<link>https://example.com</link>
+<description>sample feed</description>
+<item>
+<title>최근 기사</title>
+<link>https://example.com/a/?utm_source=rss&amp;id=1</link>
+<description><![CDATA[<p>본문 &amp; 요약</p>]]></description>
+<pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
+</item>
+<item>
+<title>오래된 기사</title>
+<link>https://example.com/old</link>
+<description>old</description>
+<pubDate>Thu, 01 Oct 2026 12:00:00 GMT</pubDate>
+</item>
+<item>
+<title>날짜 없는 기사</title>
+<link>https://example.com/nodate</link>
+<description>nodate</description>
+</item>
+</channel>
+</rss>
