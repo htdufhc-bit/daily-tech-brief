@@ -2,7 +2,7 @@ topics:
 - id: http-caching
   title: HTTP 캐싱
   category: 웹
-  covered_on: null
+  covered_on: '2026-10-10'
 - id: db-index
   title: 데이터베이스 인덱스와 B-Tree
   category: 데이터베이스

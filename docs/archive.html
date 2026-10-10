@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>지난 브리핑 · Daily Tech Brief</title>
+<link rel="stylesheet" href="style.css">
+<script>
+try { var saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
+</script>
+</head>
+<body>
+<main class="page">
+  <header class="masthead">
+    <div class="masthead-top">
+      <a class="brand" href="index.html">Daily Tech Brief</a>
+      <button class="theme-toggle" type="button" aria-label="다크 모드 전환">◐</button>
+    </div>
+    <p class="date">지난 브리핑</p>
+    <nav class="day-nav"><a href="index.html">최신 브리핑</a></nav>
+  </header>
+  <section>
+    <h2>날짜별</h2>
+    <ul class="archive-list">
+      <li><a href="2026/10/10.html">2026.10.10</a> — HTTP 캐싱 · 뉴스 9건</li>
+    </ul>
+  </section>
+  <section>
+    <h2>다룬 기술</h2>
+    <h3>웹</h3>
+    <ul class="archive-list">
+      <li><a href="2026/10/10.html">HTTP 캐싱</a> <span class="muted">2026.10.10</span></li>
+    </ul>
+  </section>
+</main>
+<script>
+document.querySelector(".theme-toggle").addEventListener("click", function () {
+  var root = document.documentElement;
+  var dark = root.dataset.theme
+    ? root.dataset.theme === "dark"
+    : window.matchMedia("(prefers-color-scheme: dark)").matches;
+  root.dataset.theme = dark ? "light" : "dark";
+  try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
+});
+</script>
+</body>
+</html>
