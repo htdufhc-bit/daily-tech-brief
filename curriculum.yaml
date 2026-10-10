@@ -6,7 +6,7 @@ topics:
 - id: db-index
   title: 데이터베이스 인덱스와 B-Tree
   category: 데이터베이스
-  covered_on: null
+  covered_on: '2026-10-11'
 - id: tcp-handshake
   title: TCP 3-way 핸드셰이크
   category: 네트워크
