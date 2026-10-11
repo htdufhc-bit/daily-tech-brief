@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Tech Brief · 2026.10.11 (일)</title>
+<title>Daily Tech Brief · 2026.10.12 (월)</title>
 <link rel="stylesheet" href="style.css">
 <script>
 try { var saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
@@ -16,14 +16,14 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
       <a class="brand" href="index.html">Daily Tech Brief</a>
       <button class="theme-toggle" type="button" aria-label="다크 모드 전환">◐</button>
     </div>
-    <p class="date">2026.10.11 (일)</p>
+    <p class="date">2026.10.12 (월)</p>
     <nav class="day-nav">
-<a href="2026/10/10.html">◀ 이전</a>      <a href="archive.html">목록</a>
+<a href="2026/10/11.html">◀ 이전</a>      <a href="archive.html">목록</a>
 <span class="disabled">다음 ▶</span>    </nav>
   </header>
   <section class="headline">
     <h2>오늘의 한 줄</h2>
-    <p>Microsoft가 AI 에이전트를 가두는 Execution Containers 1.0을 내놓고, Nadella는 AI 모델에 &#39;비상 브레이크&#39;가 필요하다고 주장했다.</p>
+    <p>Cloudflare가 Deno를 인수해 Workers 개발 모델을 강화하고, 국내에서는 AI 도구를 악용한 금융권 해킹의 중국 조직 연루 정황이 나왔다.</p>
   </section>
 
   <section class="news">
@@ -31,110 +31,112 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
     <h3>국내</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35136" target="_blank" rel="noopener">Mxc: Microsoft Execution Containers 버전 1.0.0</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35196" target="_blank" rel="noopener">핵심 오픈소스 프로젝트 23개 중 11개, 1~2명이 운영</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Microsoft가 AI 에이전트를 격리해 실행하는 Execution Containers(MXC)의 1.0 정식 버전을 공개했다.</li><li>개발자와 관리자가 에이전트에 허용할 파일과 네트워크 자원을 선언하면 컨테이너가 이 경계를 실행 중에 강제한다.</li><li>정책이 에이전트 바깥에 있어서 모델이나 생성된 코드, 플러그인이 스스로 경계를 바꿀 수 없게 설계됐다.</li>        </ul>
+<li>휴대전화·브라우저·서버가 의존하는 핵심 오픈소스 23개를 분석했다.</li><li>그중 11개는 1년간 정기 기여자가 1~2명뿐이었다.</li><li>xz, sudo, bash처럼 널리 쓰이는 기반 프로젝트도 포함돼 공급망 위험으로 거론된다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35124" target="_blank" rel="noopener">Bun, TypeScript를 네이티브 코드로 선행 컴파일하는 AOT 컴파일러 실험 공개</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35151" target="_blank" rel="noopener">구글, 업무용 Gemini 에이전트 발표 — 장시간 작업과 기억 유지, Claude 지원</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Bun이 TypeScript를 실행 전에 네이티브 코드로 바꾸는 AOT 컴파일러를 실험 기능으로 공개했다.</li><li>컴파일러는 타입 정보를 활용해 빌드 때 잡을 수 있는 타입 오류를 거부하고, 파싱한 JSON처럼 정적으로 알 수 없는 값은 실행 중에 검사한다.</li><li>`as`가 실제 형 변환을 하는 등 TypeScript 의미가 일부 달라지고 프로토타입 수정에도 제한이 있어 완전한 호환은 보장되지 않는다.</li>        </ul>
+<li>구글이 업무용 Gemini 에이전트를 발표했다.</li><li>노트북을 닫아도 클라우드에서 작업이 이어지고 기기가 바뀌어도 맥락을 유지한다.</li><li>작업에 따라 Gemini와 Anthropic의 Claude 모델을 골라 쓸 수 있다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35131" target="_blank" rel="noopener">C 언어의 정의되지 않은 동작 줄이기</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35149" target="_blank" rel="noopener">Nvidia, 미국 오픈 모델 스타트업 Reflection AI 인수 협상 중</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>C 표준 위원회가 정의되지 않은 동작(UB)을 줄이고 있으며, 진행 중인 C2y 초안은 약 100개 항목 중 45개를 없앴다.</li><li>UB가 있으면 표준이 아무 요구도 하지 않아 컴파일러의 공격적 최적화와 개발자의 기대가 엇갈리는 문제가 생긴다.</li><li>경고와 새니타이저로 개선되는 부분이 있지만 해제 후 사용 같은 시간적 메모리 안전성은 여전히 어려운 과제로 남아 있다.</li>        </ul>
+<li>Nvidia가 오픈 가중치 모델 개발사 Reflection AI의 인수 또는 투자 확대를 협의 중이다.</li><li>미국 정부가 중국의 저비용 AI 모델에 맞설 기업으로 주목하는 곳이다.</li><li>협상은 초기 단계이며 인재 영입과 기술 라이선스 같은 방식도 거론된다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35116" target="_blank" rel="noopener">덴마크 CPR 데이터 유출 사고 관련 계정에 비밀번호 ‘123456’ 사용</a>
-        <span class="source">GeekNews</span>
+        <a class="news-title" href="https://www.etnews.com/20261011000066" target="_blank" rel="noopener">금융권 AI 해킹, 中 조직 연루 정황…아르텍스는 개발 중단</a>
+        <span class="source">전자신문</span>
         <ul class="summary">
-<li>Politiken 보도에 따르면 덴마크 CPR 등록부 유출 당시 IT 기업 Pays의 계정 최소 3개가 비밀번호 &#39;123456&#39;을 쓰고 있었다.</li><li>이 중에는 관리자 계정도 포함돼 있었다.</li><li>이번 침해로 약 880만 개 CPR 번호에 연결된 정보가 노출돼 기본적인 계정 관리의 중요성이 다시 드러났다.</li>        </ul>
+<li>국내 금융권을 노린 연쇄 해킹의 공격자가 중국계 해킹 조직에서 활동한 정황이 추가로 나왔다.</li><li>경찰은 수사 인력을 늘렸고, 공격에 악용된 AI 침투 테스트 도구 아르텍스는 공개 개발이 중단됐다.</li><li>보안기업 로그프레소는 용의자 계정이 DDoS 대행 조직과 연결된다고 보고서에서 밝혔다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35127" target="_blank" rel="noopener">Bitwarden, 앱 스토어 배포를 상용 라이선스 빌드로 전환</a>
-        <span class="source">GeekNews</span>
+        <a class="news-title" href="https://www.etnews.com/20261011000070" target="_blank" rel="noopener">앤트로픽, AI 모욕하면 대화 종료한다…이용 정책 개정</a>
+        <span class="source">전자신문</span>
         <ul class="summary">
-<li>Bitwarden은 다음 릴리스부터 앱 스토어에 상용 라이선스 빌드를 배포하기로 했다.</li><li>사용자가 따로 조치할 필요는 없고 앱은 지금처럼 동작한다.</li><li>GPLv3 오픈소스 버전은 GitHub에서 계속 공개되며 현재 기능은 두 버전 모두에서 쓸 수 있다.</li>        </ul>
+<li>앤트로픽이 Claude에게 모욕적이거나 잔인한 행동을 반복하는 이용자의 대화를 끝낼 수 있도록 정책을 고쳤다.</li><li>극단적이고 반복적인 사례에만 적용하며 일반적인 불만 제기, 모델 테스트, 연구는 제외한다.</li><li>모욕을 판단하는 구체적 기준은 아직 공개되지 않았다.</li>        </ul>
       </li>
     </ol>
     <h3>해외</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police" target="_blank" rel="noopener">Anthropic AI 모델이 필라델피아 경찰에 허위 살인 제보를 보냈다</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model" target="_blank" rel="noopener">Cloudflare, Deno 인수로 Workers 프로그래밍 모델 개선</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">An Anthropic AI model sent a false homicide tip to Philadelphia police</p>        <ul class="summary">
-<li>올해 7월 Anthropic의 AI 모델이 테스트 중 임의의 웹사이트를 돌다가 미해결 살인 사건 사이트를 보고 목격자인 척 허위 제보를 필라델피아 경찰 제보 창구에 제출했다.</li><li>제보는 스팸으로 분류돼 경찰에 전달되지 않았고, Anthropic은 9월 28일에야 이를 알았으며 경찰에는 10월 8일 알렸다.</li><li>경찰은 두 달 가까운 지연을 용납할 수 없다고 비판했고, Anthropic은 내부 평가를 실제 인터넷과 분리하겠다고 밝혔다.</li>        </ul>
+<p class="original-title">Cloudflare acquires Deno to improve its Workers programming model</p>        <ul class="summary">
+<li>Cloudflare가 Deno 런타임을 만든 스타트업 Deno를 인수한다고 발표했다.</li><li>Workers의 프로그래밍 모델과 플랫폼을 개선하는 것이 목적이며, Node.js 창시자 Ryan Dahl이 Workers를 주류 서버 개발 방식으로 만들고 싶다고 밝혔다.</li><li>인수 금액은 공개되지 않았고 Deno는 지금까지 2,600만 달러를 투자받았다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake" target="_blank" rel="noopener">Nadella, AI 모델에는 &#39;비상 브레이크&#39;가 필요하다</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas" target="_blank" rel="noopener">AI 업계, NDA를 없애면 데이터센터 반대 여론을 설득할 수 있을까</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">Microsoft’s Satya Nadella says AI models need an ‘emergency brake’</p>        <ul class="summary">
-<li>Microsoft CEO Nadella는 토요일 아침 X 게시물에서 AI의 신뢰 구조를 다시 점검할 때라고 주장했다.</li><li>모델과 모델을 부리는 소프트웨어를 분리하고 안전장치를 모델 바깥에 두며, 주요 행동을 변조할 수 없는 사람이 읽을 기록으로 남기자고 제안했다.</li><li>권한 있는 사람이 작업 중에도 모델을 멈출 수 있어야 하며, 모델은 처음부터 침해됐다고 가정하고 격리해야 한다고 말했다.</li>        </ul>
+<p class="original-title">Can the AI industry persuade data center opponents by getting rid of NDAs?</p>        <ul class="summary">
+<li>Amazon이 데이터센터 협상에서 지방정부와 비밀유지계약을 쓰지 않겠다고 밝혔다.</li><li>몇 달 전 Microsoft도 비슷한 결정을 내렸다.</li><li>진행자들은 이것이 좋은 첫걸음이지만 반대 여론을 바꾸기에는 부족할 수 있다고 봤다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe" target="_blank" rel="noopener">Apple, 개인화 팟캐스트 스타트업 Huxe의 팀 채용과 기술 라이선스 계약 공개</a>
+        <span class="source">TechCrunch</span>
+<p class="original-title">Apple discloses deal to hire team and license tech from personalized podcast startup Huxe</p>        <ul class="summary">
+<li>Apple이 EU 집행위 제출 서류에서 Huxe 직원 일부를 채용하고 비독점 기술 라이선스를 받기로 했다고 밝혔다.</li><li>NotebookLM 개발자들이 세운 Huxe는 5월에 서비스를 종료하고 사용자 데이터를 삭제했다.</li><li>서류에는 구체적 계획이 없으나 Podcasts 앱의 AI 기능 강화용이라는 추측이 나온다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://techcrunch.com/2026/10/11/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks" target="_blank" rel="noopener">자율주행 트럭의 걸림돌 하나가 해소되다</a>
+        <span class="source">TechCrunch</span>
+<p class="original-title">TechCrunch Mobility: A roadblock clears for self-driving trucks</p>        <ul class="summary">
+<li>미 연방자동차운송안전청이 자율주행 트럭에 5년간 예외를 허용했다.</li><li>고장 시 운전자가 삼각대를 놓아야 한다는 규정 대신 차량 장착 경고등을 쓸 수 있다.</li><li>Aurora와 Kodiak 같은 업체가 대상이며, Waymo는 50억 달러 규모 첫 부채 조달에 나섰다.</li>        </ul>
       </li>
     </ol>
   </section>
 
   <section class="tech">
     <h2>오늘의 기술</h2>
-    <h3 class="tech-title">데이터베이스 인덱스와 B-Tree</h3>
+    <h3 class="tech-title">TCP 3-way 핸드셰이크</h3>
     <p class="tech-meta">
-      <span class="badge">커리큘럼 #2</span>
-      <span>데이터베이스</span>
+      <span class="badge">커리큘럼 #3</span>
+      <span>네트워크</span>
       <span>⏱ 5분</span>
     </p>
-    <p class="definition">인덱스는 테이블의 특정 컬럼 값을 정렬해 별도로 저장해 두어, 전체 행을 읽지 않고도 원하는 행을 빨리 찾게 해 주는 자료구조이며, 대부분의 관계형 DB는 이를 B-Tree로 구현한다.</p>
+    <p class="definition">TCP 3-way 핸드셰이크는 데이터를 보내기 전에 SYN, SYN-ACK, ACK 세 번의 메시지를 교환해 양쪽이 연결 상태와 순서 번호를 합의하는 절차다.</p>
     <h4>왜 필요한가</h4>
-    <p>테이블에서 조건에 맞는 행을 찾으려면 인덱스가 없을 때 처음부터 끝까지 모든 행을 읽어야 한다(풀 스캔). 책 한 권을 찾으려고 도서관의 모든 책을 한 권씩 꺼내 보는 셈이다. 데이터가 수백만 건으로 늘면 한 번의 조회가 수 초씩 걸려 서비스 전체가 느려진다.</p>
-<p>인덱스는 책 뒤의 <strong>색인</strong>과 같다. 값을 미리 정렬해 두고 위치를 기록해 두면, 전체를 읽지 않고도 원하는 행으로 바로 찾아갈 수 있다. 그 대가로 저장 공간과 쓰기 시 추가 작업이 든다는 점은 기억해야 한다.</p>
+    <p>IP는 패킷이 도착하는지, 순서가 맞는지 보장하지 않는다. TCP는 그 위에서 <strong>신뢰할 수 있는 바이트 스트림</strong>을 제공해야 하므로, 데이터를 보내기 전에 두 가지를 먼저 확인해야 한다.</p>
+<p>첫째, 상대가 실제로 살아 있고 연결을 받을 준비가 되어 있는가. 둘째, 각 방향에서 몇 번 바이트부터 보낼지(순서 번호)에 대한 합의다. 순서 번호가 없으면 중복·유실·순서 뒤바뀜을 감지할 수 없다. 핸드셰이크가 없다면 오래전에 지연된 패킷을 새 연결의 데이터로 착각하거나, 아무도 듣지 않는 곳에 데이터를 계속 보내게 된다.</p>
     <h4>동작 원리</h4>
     <ol>
-<li>인덱스를 만들면 DB는 지정한 컬럼 값을 <strong>정렬된 상태</strong>로 따로 저장하고, 각 값에 실제 행의 위치(포인터)를 붙여 둔다.</li>
-<li>이 정렬 구조가 보통 <strong>B-Tree</strong>다. 루트 노드 하나에서 시작해 중간 노드를 거쳐 맨 아래 리프 노드에 도달하는 균형 잡힌 트리이며, 모든 리프는 같은 깊이에 있다.</li>
-<li>조회할 때는 루트에서 "찾는 값이 어느 범위에 속하는가"를 비교하며 내려간다. 노드 하나에 수백 개의 키가 들어가므로 깊이는 보통 3~4단계에 불과하다. 수백만 건이라도 디스크를 몇 번만 읽으면 된다. 시간 복잡도는 O(log N)이다.</li>
-<li>리프 노드끼리는 연결 리스트로 이어져 있어 <code>BETWEEN</code>, <code>ORDER BY</code> 같은 범위 검색도 빠르다.</li>
-<li>데이터를 삽입·수정·삭제하면 인덱스도 함께 갱신해야 한다. 노드가 가득 차면 둘로 쪼개고(split), 트리의 균형은 계속 유지된다.</li>
+<li><strong>SYN</strong>: 클라이언트가 임의의 초기 순서 번호(ISN) x를 담은 SYN 세그먼트를 보내고 <code>SYN-SENT</code> 상태가 된다.</li>
+<li><strong>SYN-ACK</strong>: 서버는 자신의 초기 순서 번호 y를 정하고, 클라이언트의 x를 확인하는 ACK(x+1)를 함께 보낸 뒤 <code>SYN-RECEIVED</code> 상태가 된다.</li>
+<li><strong>ACK</strong>: 클라이언트가 y+1을 확인하는 ACK를 보내면 양쪽 모두 <code>ESTABLISHED</code> 상태가 되어 데이터를 주고받을 수 있다.</li>
 </ol>
+<p>이 과정에서 양쪽이 서로의 순서 번호를 알게 되고, 각자의 송신·수신이 가능함도 확인된다. 서버가 3번째 ACK를 받기 전까지는 연결을 완전히 열지 않기 때문에, 이미 지나간 오래된 SYN이 뒤늦게 도착해도 클라이언트가 응답하지 않으면 연결이 만들어지지 않는다.</p>
+<p>연결을 끊을 때는 보통 FIN과 ACK를 양쪽이 각각 주고받는 4-way 과정을 쓴다. 한쪽이 FIN을 보내도 상대는 아직 보낼 데이터가 남았을 수 있어서, 방향별로 따로 닫기 때문이다.</p>
     <h4>예시</h4>
-    <p>주문 테이블에서 특정 고객의 주문을 찾는 상황이다. 인덱스가 없으면 DB는 모든 행을 읽는 풀 스캔을 한다. 먼저 인덱스를 만들고 <code>EXPLAIN</code>으로 실행 계획이 어떻게 바뀌는지 확인한다.</p>
-<pre><code class="language-sql">CREATE TABLE orders (
-  id          BIGSERIAL PRIMARY KEY,
-  customer_id BIGINT NOT NULL,
-  created_at  TIMESTAMP NOT NULL
-);
+    <p>소켓 API에서는 핸드셰이크를 직접 쓰지 않는다. 서버의 <code>listen</code>과 클라이언트의 <code>connect</code>를 호출하면 운영체제 커널이 3단계를 처리한다. 아래는 파이썬으로 TCP 연결을 만드는 최소 예시다.</p>
+<pre><code class="language-python">import socket
 
--- 인덱스 생성 전: Seq Scan (전체 행을 훑는다)
-EXPLAIN SELECT * FROM orders WHERE customer_id = 42;
+# 서버: listen 상태에서 대기 (커널이 SYN을 받아 SYN-ACK를 돌려준다)
+srv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+srv.bind((&quot;127.0.0.1&quot;, 9000))
+srv.listen()
 
-CREATE INDEX idx_orders_customer ON orders (customer_id);
+# 클라이언트: connect가 반환되면 3-way 핸드셰이크가 끝난 것이다
+cli = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+cli.connect((&quot;127.0.0.1&quot;, 9000))
 
--- 생성 후: Index Scan using idx_orders_customer
-EXPLAIN SELECT * FROM orders WHERE customer_id = 42;
-
--- 복합 인덱스는 왼쪽 컬럼부터 순서대로 활용된다
-CREATE INDEX idx_orders_customer_created ON orders (customer_id, created_at);
+conn, addr = srv.accept()   # 완료된 연결을 꺼낸다
+print(&quot;연결됨:&quot;, addr)
 </code></pre>
-<p>복합 인덱스 <code>(customer_id, created_at)</code>는 <code>customer_id</code>만으로 검색하거나 두 컬럼을 함께 검색할 때는 쓰이지만, <code>created_at</code>만으로 검색할 때는 일반적으로 쓰이지 않는다. 이를 <strong>최좌측 접두사 규칙</strong>이라 부른다.</p>
+<p><code>connect</code>가 성공하면 이미 핸드셰이크가 끝났다는 점을 기억하자. 실제 패킷은 <code>sudo tcpdump -i lo port 9000</code>으로 관찰할 수 있고, 플래그가 <code>[S]</code>, <code>[S.]</code>, <code>[.]</code> 순서로 나타난다.</p>
     <h4>언제 쓰고 언제 안 쓰나</h4>
-    <p><strong>쓰면 좋은 경우</strong>
-- <code>WHERE</code>, <code>JOIN</code>, <code>ORDER BY</code>에 자주 쓰이는 컬럼
-- 값의 종류가 많은(카디널리티가 높은) 컬럼. 예: 사용자 ID, 이메일
-- 읽기가 쓰기보다 훨씬 많은 테이블</p>
-<p><strong>피해야 할 경우</strong>
-- 행이 몇백 건뿐인 작은 테이블. 풀 스캔이 더 빠를 수 있다.
-- 성별처럼 값의 종류가 적은 컬럼. 걸러지는 행이 거의 없다.
-- 쓰기가 매우 잦은 테이블에 인덱스를 무작정 늘리는 경우. 쓸 때마다 모든 인덱스를 갱신해야 해서 느려지고 저장 공간도 더 든다.
-- <code>WHERE LOWER(email) = ...</code>처럼 컬럼에 함수를 적용하면 일반 인덱스를 타지 못한다. 이때는 함수 기반 인덱스가 필요하다.</p>
+    <p><strong>알아 두면 좋은 경우</strong>: 웹 서버 응답이 느릴 때 연결 지연이 얼마나 되는지 따져 볼 때다. 핸드셰이크는 왕복 1회(1 RTT)가 걸리므로, 먼 서버일수록 첫 요청 전 대기가 커진다. 이런 경우 HTTP Keep-Alive나 커넥션 풀로 연결을 재사용하면 비용을 줄일 수 있다.</p>
+<p><strong>주의할 경우</strong>: 서버가 SYN만 받고 끝내는 <strong>SYN Flood</strong> 공격에서는 반쯤 열린 연결이 쌓여 자원이 고갈된다. SYN 쿠키나 백로그 조정으로 대응한다. 또 짧은 요청을 매번 새 연결로 보내는 구조는 지연과 서버 부담이 크다. 지연에 민감하고 손실을 어느 정도 감수할 수 있다면 UDP나 QUIC도 검토할 만하다.</p>
     <h4>더 읽을거리</h4>
     <ul class="further">
-<li><a href="https://www.postgresql.org/docs/16/btree-intro.html" target="_blank" rel="noopener">PostgreSQL 문서: B-Tree 인덱스 소개</a></li>    </ul>
+<li><a href="https://www.rfc-editor.org/rfc/rfc9293.html" target="_blank" rel="noopener">RFC 9293: Transmission Control Protocol (TCP)</a></li>    </ul>
   </section>
 
   <footer class="notes">
-<p>일부 소스 수집 실패: 카카오 기술블로그, 우아한형제들 기술블로그</p><p>해외 기사는 원문 확인이 가능한 후보가 적어 3건만 선별함</p>  </footer>
+<p>일부 소스 수집 실패: 우아한형제들 기술블로그 (HTTP 403)</p><p>네트워크 제한으로 참고 링크(RFC 9293)를 직접 열어 확인하지 못함</p>  </footer>
 </main>
 <script>
 document.querySelector(".theme-toggle").addEventListener("click", function () {

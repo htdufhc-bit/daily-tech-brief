@@ -10,7 +10,7 @@ topics:
 - id: tcp-handshake
   title: TCP 3-way 핸드셰이크
   category: 네트워크
-  covered_on: null
+  covered_on: '2026-10-12'
 - id: process-thread
   title: 프로세스와 스레드
   category: 운영체제

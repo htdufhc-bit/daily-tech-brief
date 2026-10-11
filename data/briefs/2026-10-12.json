@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-12",
+  "headline": "Cloudflare가 Deno를 인수해 Workers 개발 모델을 강화하고, 국내에서는 AI 도구를 악용한 금융권 해킹의 중국 조직 연루 정황이 나왔다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "핵심 오픈소스 프로젝트 23개 중 11개, 1~2명이 운영",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35196",
+      "summary": [
+        "휴대전화·브라우저·서버가 의존하는 핵심 오픈소스 23개를 분석했다.",
+        "그중 11개는 1년간 정기 기여자가 1~2명뿐이었다.",
+        "xz, sudo, bash처럼 널리 쓰이는 기반 프로젝트도 포함돼 공급망 위험으로 거론된다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "구글, 업무용 Gemini 에이전트 발표 — 장시간 작업과 기억 유지, Claude 지원",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35151",
+      "summary": [
+        "구글이 업무용 Gemini 에이전트를 발표했다.",
+        "노트북을 닫아도 클라우드에서 작업이 이어지고 기기가 바뀌어도 맥락을 유지한다.",
+        "작업에 따라 Gemini와 Anthropic의 Claude 모델을 골라 쓸 수 있다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Nvidia, 미국 오픈 모델 스타트업 Reflection AI 인수 협상 중",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35149",
+      "summary": [
+        "Nvidia가 오픈 가중치 모델 개발사 Reflection AI의 인수 또는 투자 확대를 협의 중이다.",
+        "미국 정부가 중국의 저비용 AI 모델에 맞설 기업으로 주목하는 곳이다.",
+        "협상은 초기 단계이며 인재 영입과 기술 라이선스 같은 방식도 거론된다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "금융권 AI 해킹, 中 조직 연루 정황…아르텍스는 개발 중단",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261011000066",
+      "summary": [
+        "국내 금융권을 노린 연쇄 해킹의 공격자가 중국계 해킹 조직에서 활동한 정황이 추가로 나왔다.",
+        "경찰은 수사 인력을 늘렸고, 공격에 악용된 AI 침투 테스트 도구 아르텍스는 공개 개발이 중단됐다.",
+        "보안기업 로그프레소는 용의자 계정이 DDoS 대행 조직과 연결된다고 보고서에서 밝혔다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "앤트로픽, AI 모욕하면 대화 종료한다…이용 정책 개정",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261011000070",
+      "summary": [
+        "앤트로픽이 Claude에게 모욕적이거나 잔인한 행동을 반복하는 이용자의 대화를 끝낼 수 있도록 정책을 고쳤다.",
+        "극단적이고 반복적인 사례에만 적용하며 일반적인 불만 제기, 모델 테스트, 연구는 제외한다.",
+        "모욕을 판단하는 구체적 기준은 아직 공개되지 않았다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "Cloudflare, Deno 인수로 Workers 프로그래밍 모델 개선",
+      "original_title": "Cloudflare acquires Deno to improve its Workers programming model",
+      "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "summary": [
+        "Cloudflare가 Deno 런타임을 만든 스타트업 Deno를 인수한다고 발표했다.",
+        "Workers의 프로그래밍 모델과 플랫폼을 개선하는 것이 목적이며, Node.js 창시자 Ryan Dahl이 Workers를 주류 서버 개발 방식으로 만들고 싶다고 밝혔다.",
+        "인수 금액은 공개되지 않았고 Deno는 지금까지 2,600만 달러를 투자받았다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "AI 업계, NDA를 없애면 데이터센터 반대 여론을 설득할 수 있을까",
+      "original_title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas",
+      "summary": [
+        "Amazon이 데이터센터 협상에서 지방정부와 비밀유지계약을 쓰지 않겠다고 밝혔다.",
+        "몇 달 전 Microsoft도 비슷한 결정을 내렸다.",
+        "진행자들은 이것이 좋은 첫걸음이지만 반대 여론을 바꾸기에는 부족할 수 있다고 봤다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "Apple, 개인화 팟캐스트 스타트업 Huxe의 팀 채용과 기술 라이선스 계약 공개",
+      "original_title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe",
+      "summary": [
+        "Apple이 EU 집행위 제출 서류에서 Huxe 직원 일부를 채용하고 비독점 기술 라이선스를 받기로 했다고 밝혔다.",
+        "NotebookLM 개발자들이 세운 Huxe는 5월에 서비스를 종료하고 사용자 데이터를 삭제했다.",
+        "서류에는 구체적 계획이 없으나 Podcasts 앱의 AI 기능 강화용이라는 추측이 나온다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "자율주행 트럭의 걸림돌 하나가 해소되다",
+      "original_title": "TechCrunch Mobility: A roadblock clears for self-driving trucks",
+      "url": "https://techcrunch.com/2026/10/11/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks",
+      "summary": [
+        "미 연방자동차운송안전청이 자율주행 트럭에 5년간 예외를 허용했다.",
+        "고장 시 운전자가 삼각대를 놓아야 한다는 규정 대신 차량 장착 경고등을 쓸 수 있다.",
+        "Aurora와 Kodiak 같은 업체가 대상이며, Waymo는 50억 달러 규모 첫 부채 조달에 나섰다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "tcp-handshake",
+    "title": "TCP 3-way 핸드셰이크",
+    "category": "네트워크",
+    "pick": "curriculum",
+    "reading_minutes": 5,
+    "sections": {
+      "definition": "TCP 3-way 핸드셰이크는 데이터를 보내기 전에 SYN, SYN-ACK, ACK 세 번의 메시지를 교환해 양쪽이 연결 상태와 순서 번호를 합의하는 절차다.",
+      "why": "IP는 패킷이 도착하는지, 순서가 맞는지 보장하지 않는다. TCP는 그 위에서 **신뢰할 수 있는 바이트 스트림**을 제공해야 하므로, 데이터를 보내기 전에 두 가지를 먼저 확인해야 한다.\n\n첫째, 상대가 실제로 살아 있고 연결을 받을 준비가 되어 있는가. 둘째, 각 방향에서 몇 번 바이트부터 보낼지(순서 번호)에 대한 합의다. 순서 번호가 없으면 중복·유실·순서 뒤바뀜을 감지할 수 없다. 핸드셰이크가 없다면 오래전에 지연된 패킷을 새 연결의 데이터로 착각하거나, 아무도 듣지 않는 곳에 데이터를 계속 보내게 된다.",
+      "how": "1. **SYN**: 클라이언트가 임의의 초기 순서 번호(ISN) x를 담은 SYN 세그먼트를 보내고 `SYN-SENT` 상태가 된다.\n2. **SYN-ACK**: 서버는 자신의 초기 순서 번호 y를 정하고, 클라이언트의 x를 확인하는 ACK(x+1)를 함께 보낸 뒤 `SYN-RECEIVED` 상태가 된다.\n3. **ACK**: 클라이언트가 y+1을 확인하는 ACK를 보내면 양쪽 모두 `ESTABLISHED` 상태가 되어 데이터를 주고받을 수 있다.\n\n이 과정에서 양쪽이 서로의 순서 번호를 알게 되고, 각자의 송신·수신이 가능함도 확인된다. 서버가 3번째 ACK를 받기 전까지는 연결을 완전히 열지 않기 때문에, 이미 지나간 오래된 SYN이 뒤늦게 도착해도 클라이언트가 응답하지 않으면 연결이 만들어지지 않는다.\n\n연결을 끊을 때는 보통 FIN과 ACK를 양쪽이 각각 주고받는 4-way 과정을 쓴다. 한쪽이 FIN을 보내도 상대는 아직 보낼 데이터가 남았을 수 있어서, 방향별로 따로 닫기 때문이다.",
+      "example": "소켓 API에서는 핸드셰이크를 직접 쓰지 않는다. 서버의 `listen`과 클라이언트의 `connect`를 호출하면 운영체제 커널이 3단계를 처리한다. 아래는 파이썬으로 TCP 연결을 만드는 최소 예시다.\n\n```python\nimport socket\n\n# 서버: listen 상태에서 대기 (커널이 SYN을 받아 SYN-ACK를 돌려준다)\nsrv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\nsrv.bind((\"127.0.0.1\", 9000))\nsrv.listen()\n\n# 클라이언트: connect가 반환되면 3-way 핸드셰이크가 끝난 것이다\ncli = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ncli.connect((\"127.0.0.1\", 9000))\n\nconn, addr = srv.accept()   # 완료된 연결을 꺼낸다\nprint(\"연결됨:\", addr)\n```\n\n`connect`가 성공하면 이미 핸드셰이크가 끝났다는 점을 기억하자. 실제 패킷은 `sudo tcpdump -i lo port 9000`으로 관찰할 수 있고, 플래그가 `[S]`, `[S.]`, `[.]` 순서로 나타난다.",
+      "when": "**알아 두면 좋은 경우**: 웹 서버 응답이 느릴 때 연결 지연이 얼마나 되는지 따져 볼 때다. 핸드셰이크는 왕복 1회(1 RTT)가 걸리므로, 먼 서버일수록 첫 요청 전 대기가 커진다. 이런 경우 HTTP Keep-Alive나 커넥션 풀로 연결을 재사용하면 비용을 줄일 수 있다.\n\n**주의할 경우**: 서버가 SYN만 받고 끝내는 **SYN Flood** 공격에서는 반쯤 열린 연결이 쌓여 자원이 고갈된다. SYN 쿠키나 백로그 조정으로 대응한다. 또 짧은 요청을 매번 새 연결로 보내는 구조는 지연과 서버 부담이 크다. 지연에 민감하고 손실을 어느 정도 감수할 수 있다면 UDP나 QUIC도 검토할 만하다.",
+      "further_reading": [
+        {
+          "title": "RFC 9293: Transmission Control Protocol (TCP)",
+          "url": "https://www.rfc-editor.org/rfc/rfc9293.html"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: 우아한형제들 기술블로그 (HTTP 403)",
+    "네트워크 제한으로 참고 링크(RFC 9293)를 직접 열어 확인하지 못함"
+  ]
+}
