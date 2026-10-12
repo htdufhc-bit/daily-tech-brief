@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-13",
+  "headline": "Google 포함 대형 서비스의 보안 사고와 Meta의 첫 프런티어 모델 Muse Wonder 공개가 오늘의 핵심 이슈다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Google에서 9만 달러 포상금을 받은 원격 코드 실행 취약점을 발견한 과정",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35260",
+      "summary": [
+        "Google 문서 플랫폼 DevSite에서 Flask 세션 쿠키 안에 서명 키가 함께 들어 있는 문제가 발견됐다.",
+        "쿠키에 담긴 OAuth client_secret이 Flask SECRET_KEY로도 쓰여, 로그인 없이 세션을 위조할 수 있었다.",
+        "이 취약점은 원격 코드 실행으로 이어져 Google에서 9만 달러의 포상금을 받았다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "프랑스 슈퍼마켓, ‘전례 없는’ 사이버공격으로 냉장 설비 가동 중단",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35250",
+      "summary": [
+        "E. Leclerc, Intermarche, Cooperative U 등 프랑스 대형 유통 체인이 사이버공격 피해를 확인했다.",
+        "수백 개 매장의 냉장 설비 온도가 올라 신선식품과 냉동식품을 폐기해야 하는 상황이 벌어졌다.",
+        "Intermarche와 Netto 매장만 최소 300곳이 피해를 입은 것으로 알려졌다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "MCP Gateway - 기존 API를 MCP 도구로 통합하는 Uber의 플랫폼 설계",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35213",
+      "summary": [
+        "Uber는 흩어져 있던 MCP 연동을 MCP Gateway로 통합해 일관된 방식으로 제공한다.",
+        "기존 API와 네이티브 MCP 서버를 함께 다루며, 현재 800개 이상의 서버와 5,000개 이상의 도구를 운영한다.",
+        "MCP Registry가 검색, 소유권, 활성화 설정을 관리하는 구조다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Zod 4.6.6, 악성코드에 감염됐나?",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35238",
+      "summary": [
+        "Zod 버전을 4.6.5에서 4.6.6으로 바꾸는 커밋에 외부 코드를 내려받아 실행하는 meta.test.mjs가 추가됐다.",
+        "같은 파일이 zod와 @zod/mini 양쪽에 들어 있어 감염 의혹이 제기됐다.",
+        "이 파일은 Ethereum RPC 응답에서 도메인 목록을 읽어 각 도메인에서 코드를 가져오는 방식으로 동작한다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Codex CLI, 기본 설정으로 상주하며 자동 업데이트되는 백그라운드 데몬 설치",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35256",
+      "summary": [
+        "Codex CLI 0.157.0부터 대화형 세션을 열면 창을 모두 닫아도 계속 실행되는 데몬이 시작된다는 보고가 올라왔다.",
+        "데몬은 약 374MB의 플랫폼 패키지를 별도 위치에 복사해 쓰며, 분리된 업데이터가 백엔드를 재시작해 작업이 끊길 수 있다.",
+        "사용자들은 daemon_auto_start를 기본 꺼짐(명시적 동의)으로 바꿔 달라고 요청하고 있다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "Meta, 첫 프런티어 모델 Muse Wonder 공개",
+      "original_title": "Meta releases its first frontier model, Muse Wonder",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder",
+      "summary": [
+        "Meta가 Muse Wonder와 Muse Wonder Full을 공개하며 자사 첫 프런티어 모델이라고 소개했다.",
+        "경량 모델인 Muse Spark보다 크고 코딩 같은 복잡한 작업에서 벤치마크 점수가 높다고 한다.",
+        "API 요금은 입력 100만 토큰당 4달러, 출력 20달러이며 Wonder Full은 Muse Code 구독자에게만 제공된다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "Hacker News",
+      "title": "QGIS, AI 기여 전면 금지 결정",
+      "original_title": "QGIS enacts moratorium on AI contributions",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "summary": [
+        "오픈소스 GIS 프로젝트 QGIS가 AI 활용 기여를 허용하지 않는 정책(QEP428)을 10월 7일 승인했다.",
+        "유지관리자들은 AI가 만든 PR이 검토 부담을 키우고, 기존 사람 개입 정책은 실제로 작동하지 않았다고 설명했다.",
+        "금지는 임시 조치로, 자동완성이나 번역처럼 사례별로 나중에 허용할 가능성을 열어 두었다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "GitHub Blog",
+      "title": "GitHub Copilot에 코드베이스를 가르치는 방법",
+      "original_title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+      "summary": [
+        "저장소 전체 지침은 .github/copilot-instructions.md에, 경로별 규칙은 .github/instructions에 applyTo 필드와 함께 둔다.",
+        "에이전트 스킬은 .github/skills 폴더의 SKILL.md로 정의하며 테스트 실행 같은 반복 절차를 담는다.",
+        "커스텀 에이전트와 MCP 서버를 쓰면 접근성 검토나 Playwright 브라우저 테스트 같은 작업도 맡길 수 있다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "process-thread",
+    "title": "프로세스와 스레드",
+    "category": "운영체제",
+    "pick": "curriculum",
+    "reading_minutes": 5,
+    "sections": {
+      "definition": "**프로세스**는 실행 중인 프로그램에 OS가 독립된 메모리와 자원을 할당한 단위이고, **스레드**는 한 프로세스 안에서 메모리를 공유하며 실제로 CPU에서 실행되는 흐름의 단위다.",
+      "why": "초기 컴퓨터는 한 번에 하나의 프로그램만 실행했다. 이 방식에서는 프로그램이 디스크나 네트워크를 기다리는 동안 CPU가 놀게 되고, 여러 프로그램을 동시에 쓸 수도 없다. 그래서 OS는 프로그램마다 독립된 메모리를 주고 CPU를 번갈아 쓰게 하는 **프로세스** 개념을 만들었다. 한 프로세스가 망가져도 다른 프로세스는 보호된다는 장점도 있다.\n\n하지만 프로세스는 만들고 전환하는 비용이 크고, 서로 데이터를 주고받기도 번거롭다. 웹 서버가 요청마다 프로세스를 새로 만들면 느리고 메모리를 많이 쓴다. 한 프로그램 안에서도 화면 그리기, 파일 읽기, 네트워크 통신처럼 동시에 진행하고 싶은 일이 많다. **스레드**는 메모리를 공유하는 가벼운 실행 흐름을 제공해 이 문제를 풀려고 나왔다. 스레드가 없다면 한 작업이 오래 걸릴 때 프로그램 전체가 멈춘 것처럼 보이게 된다.",
+      "how": "1. **프로세스 생성**: 프로그램을 실행하면 OS가 새 프로세스를 만들고 독립된 주소 공간(코드, 데이터, 힙, 스택)과 PCB(프로세스 제어 블록)를 할당한다.\n2. **스레드 생성**: 프로세스 안에서 스레드를 만들면 스레드마다 **자기 스택과 레지스터**(프로그램 카운터 포함)만 새로 생기고, 코드·데이터·힙·열린 파일은 프로세스의 것을 함께 쓴다.\n3. **스케줄링**: OS 스케줄러는 CPU 코어에 올릴 실행 단위(현대 OS에서는 주로 스레드)를 골라 번갈아 실행한다. 시간이 다 되면 현재 상태를 저장하고 다음 단위의 상태를 불러오는데, 이것이 **문맥 교환(context switch)**이다.\n4. **전환 비용 차이**: 프로세스 간 전환은 주소 공간이 바뀌어 TLB와 캐시가 무효화되기 쉬워 비싸다. 같은 프로세스 안의 스레드 전환은 주소 공간이 그대로라 비교적 가볍다.\n5. **통신**: 프로세스끼리는 파이프, 소켓, 공유 메모리 같은 IPC가 필요하다. 스레드는 메모리를 공유하므로 변수를 바로 읽고 쓸 수 있지만, 그만큼 **동기화**(뮤텍스, 세마포어)가 필요하다.",
+      "example": "파이썬에서 스레드는 같은 메모리를 공유하고, 프로세스는 각자 복사본을 가진다는 차이를 직접 확인해 볼 수 있다. 아래 코드는 전역 리스트에 값을 추가하는 일을 스레드와 프로세스로 각각 실행한다.\n\n```python\nimport threading\nimport multiprocessing\n\ndata = []\n\ndef add():\n    data.append(1)\n\nif __name__ == \"__main__\":\n    t = threading.Thread(target=add)\n    t.start(); t.join()\n    print(\"스레드 실행 후:\", data)   # [1] - 같은 메모리를 공유\n\n    p = multiprocessing.Process(target=add)\n    p.start(); p.join()\n    print(\"프로세스 실행 후:\", data)  # [1] - 자식 프로세스의 변경은 보이지 않음\n```\n\n스레드가 추가한 값은 부모에게 보이지만, 자식 프로세스는 메모리를 복사해 갔기 때문에 그 안에서 바꾼 리스트가 부모에게 전달되지 않는다. 프로세스 간에 값을 주고받으려면 `multiprocessing.Queue` 같은 IPC를 써야 한다.",
+      "when": "**스레드가 좋은 경우**: 데이터를 많이 공유해야 하고 가볍게 동시 작업을 만들고 싶을 때, 예를 들어 GUI 앱의 백그라운드 작업, 파일·네트워크 I/O를 기다리는 서버의 요청 처리가 있다.\n\n**프로세스가 좋은 경우**: 장애를 격리하고 싶거나 보안상 메모리를 분리해야 할 때다. 브라우저가 탭마다 프로세스를 따로 쓰는 것이 대표적이다. 파이썬처럼 GIL 때문에 CPU 연산을 스레드로 병렬화하기 어려운 언어에서는 CPU 집약 작업에 프로세스를 쓰는 것이 낫다.\n\n**피해야 할 경우**: 스레드는 공유 데이터를 동기화 없이 수정하면 **경쟁 상태**와 **데드락**이 생기므로, 공유 상태가 복잡하다면 스레드를 무작정 늘리지 않는다. 반대로 프로세스를 너무 많이 만들면 메모리와 전환 비용이 커진다. 스레드와 프로세스는 우열이 아니라 격리와 효율 사이의 선택이다.",
+      "further_reading": [
+        {
+          "title": "MDN - Web Workers API",
+          "url": "https://developer.mozilla.org/ko/docs/Web/API/Web_Workers_API"
+        },
+        {
+          "title": "Python 공식 문서 - threading",
+          "url": "https://docs.python.org/ko/3/library/threading.html"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: 우아한형제들 기술블로그",
+    "Ars Technica, The Verge, Tom's Hardware 원문은 열 수 없어 해당 기사는 제외함",
+    "더 읽을거리 링크는 네트워크 제한으로 열림 여부를 확인하지 못함"
+  ]
+}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Tech Brief · 2026.10.12 (월)</title>
+<title>Daily Tech Brief · 2026.10.13 (화)</title>
 <link rel="stylesheet" href="style.css">
 <script>
 try { var saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
@@ -16,14 +16,14 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
       <a class="brand" href="index.html">Daily Tech Brief</a>
       <button class="theme-toggle" type="button" aria-label="다크 모드 전환">◐</button>
     </div>
-    <p class="date">2026.10.12 (월)</p>
+    <p class="date">2026.10.13 (화)</p>
     <nav class="day-nav">
-<a href="2026/10/11.html">◀ 이전</a>      <a href="archive.html">목록</a>
+<a href="2026/10/12.html">◀ 이전</a>      <a href="archive.html">목록</a>
 <span class="disabled">다음 ▶</span>    </nav>
   </header>
   <section class="headline">
     <h2>오늘의 한 줄</h2>
-    <p>Cloudflare가 Deno를 인수해 Workers 개발 모델을 강화하고, 국내에서는 AI 도구를 악용한 금융권 해킹의 중국 조직 연루 정황이 나왔다.</p>
+    <p>Google 포함 대형 서비스의 보안 사고와 Meta의 첫 프런티어 모델 Muse Wonder 공개가 오늘의 핵심 이슈다.</p>
   </section>
 
   <section class="news">
@@ -31,112 +31,110 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
     <h3>국내</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35196" target="_blank" rel="noopener">핵심 오픈소스 프로젝트 23개 중 11개, 1~2명이 운영</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35260" target="_blank" rel="noopener">Google에서 9만 달러 포상금을 받은 원격 코드 실행 취약점을 발견한 과정</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>휴대전화·브라우저·서버가 의존하는 핵심 오픈소스 23개를 분석했다.</li><li>그중 11개는 1년간 정기 기여자가 1~2명뿐이었다.</li><li>xz, sudo, bash처럼 널리 쓰이는 기반 프로젝트도 포함돼 공급망 위험으로 거론된다.</li>        </ul>
+<li>Google 문서 플랫폼 DevSite에서 Flask 세션 쿠키 안에 서명 키가 함께 들어 있는 문제가 발견됐다.</li><li>쿠키에 담긴 OAuth client_secret이 Flask SECRET_KEY로도 쓰여, 로그인 없이 세션을 위조할 수 있었다.</li><li>이 취약점은 원격 코드 실행으로 이어져 Google에서 9만 달러의 포상금을 받았다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35151" target="_blank" rel="noopener">구글, 업무용 Gemini 에이전트 발표 — 장시간 작업과 기억 유지, Claude 지원</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35250" target="_blank" rel="noopener">프랑스 슈퍼마켓, ‘전례 없는’ 사이버공격으로 냉장 설비 가동 중단</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>구글이 업무용 Gemini 에이전트를 발표했다.</li><li>노트북을 닫아도 클라우드에서 작업이 이어지고 기기가 바뀌어도 맥락을 유지한다.</li><li>작업에 따라 Gemini와 Anthropic의 Claude 모델을 골라 쓸 수 있다.</li>        </ul>
+<li>E. Leclerc, Intermarche, Cooperative U 등 프랑스 대형 유통 체인이 사이버공격 피해를 확인했다.</li><li>수백 개 매장의 냉장 설비 온도가 올라 신선식품과 냉동식품을 폐기해야 하는 상황이 벌어졌다.</li><li>Intermarche와 Netto 매장만 최소 300곳이 피해를 입은 것으로 알려졌다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35149" target="_blank" rel="noopener">Nvidia, 미국 오픈 모델 스타트업 Reflection AI 인수 협상 중</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35213" target="_blank" rel="noopener">MCP Gateway - 기존 API를 MCP 도구로 통합하는 Uber의 플랫폼 설계</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Nvidia가 오픈 가중치 모델 개발사 Reflection AI의 인수 또는 투자 확대를 협의 중이다.</li><li>미국 정부가 중국의 저비용 AI 모델에 맞설 기업으로 주목하는 곳이다.</li><li>협상은 초기 단계이며 인재 영입과 기술 라이선스 같은 방식도 거론된다.</li>        </ul>
+<li>Uber는 흩어져 있던 MCP 연동을 MCP Gateway로 통합해 일관된 방식으로 제공한다.</li><li>기존 API와 네이티브 MCP 서버를 함께 다루며, 현재 800개 이상의 서버와 5,000개 이상의 도구를 운영한다.</li><li>MCP Registry가 검색, 소유권, 활성화 설정을 관리하는 구조다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://www.etnews.com/20261011000066" target="_blank" rel="noopener">금융권 AI 해킹, 中 조직 연루 정황…아르텍스는 개발 중단</a>
-        <span class="source">전자신문</span>
+        <a class="news-title" href="https://news.hada.io/topic?id=35238" target="_blank" rel="noopener">Zod 4.6.6, 악성코드에 감염됐나?</a>
+        <span class="source">GeekNews</span>
         <ul class="summary">
-<li>국내 금융권을 노린 연쇄 해킹의 공격자가 중국계 해킹 조직에서 활동한 정황이 추가로 나왔다.</li><li>경찰은 수사 인력을 늘렸고, 공격에 악용된 AI 침투 테스트 도구 아르텍스는 공개 개발이 중단됐다.</li><li>보안기업 로그프레소는 용의자 계정이 DDoS 대행 조직과 연결된다고 보고서에서 밝혔다.</li>        </ul>
+<li>Zod 버전을 4.6.5에서 4.6.6으로 바꾸는 커밋에 외부 코드를 내려받아 실행하는 meta.test.mjs가 추가됐다.</li><li>같은 파일이 zod와 @zod/mini 양쪽에 들어 있어 감염 의혹이 제기됐다.</li><li>이 파일은 Ethereum RPC 응답에서 도메인 목록을 읽어 각 도메인에서 코드를 가져오는 방식으로 동작한다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://www.etnews.com/20261011000070" target="_blank" rel="noopener">앤트로픽, AI 모욕하면 대화 종료한다…이용 정책 개정</a>
-        <span class="source">전자신문</span>
+        <a class="news-title" href="https://news.hada.io/topic?id=35256" target="_blank" rel="noopener">Codex CLI, 기본 설정으로 상주하며 자동 업데이트되는 백그라운드 데몬 설치</a>
+        <span class="source">GeekNews</span>
         <ul class="summary">
-<li>앤트로픽이 Claude에게 모욕적이거나 잔인한 행동을 반복하는 이용자의 대화를 끝낼 수 있도록 정책을 고쳤다.</li><li>극단적이고 반복적인 사례에만 적용하며 일반적인 불만 제기, 모델 테스트, 연구는 제외한다.</li><li>모욕을 판단하는 구체적 기준은 아직 공개되지 않았다.</li>        </ul>
+<li>Codex CLI 0.157.0부터 대화형 세션을 열면 창을 모두 닫아도 계속 실행되는 데몬이 시작된다는 보고가 올라왔다.</li><li>데몬은 약 374MB의 플랫폼 패키지를 별도 위치에 복사해 쓰며, 분리된 업데이터가 백엔드를 재시작해 작업이 끊길 수 있다.</li><li>사용자들은 daemon_auto_start를 기본 꺼짐(명시적 동의)으로 바꿔 달라고 요청하고 있다.</li>        </ul>
       </li>
     </ol>
     <h3>해외</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model" target="_blank" rel="noopener">Cloudflare, Deno 인수로 Workers 프로그래밍 모델 개선</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder" target="_blank" rel="noopener">Meta, 첫 프런티어 모델 Muse Wonder 공개</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">Cloudflare acquires Deno to improve its Workers programming model</p>        <ul class="summary">
-<li>Cloudflare가 Deno 런타임을 만든 스타트업 Deno를 인수한다고 발표했다.</li><li>Workers의 프로그래밍 모델과 플랫폼을 개선하는 것이 목적이며, Node.js 창시자 Ryan Dahl이 Workers를 주류 서버 개발 방식으로 만들고 싶다고 밝혔다.</li><li>인수 금액은 공개되지 않았고 Deno는 지금까지 2,600만 달러를 투자받았다.</li>        </ul>
+<p class="original-title">Meta releases its first frontier model, Muse Wonder</p>        <ul class="summary">
+<li>Meta가 Muse Wonder와 Muse Wonder Full을 공개하며 자사 첫 프런티어 모델이라고 소개했다.</li><li>경량 모델인 Muse Spark보다 크고 코딩 같은 복잡한 작업에서 벤치마크 점수가 높다고 한다.</li><li>API 요금은 입력 100만 토큰당 4달러, 출력 20달러이며 Wonder Full은 Muse Code 구독자에게만 제공된다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas" target="_blank" rel="noopener">AI 업계, NDA를 없애면 데이터센터 반대 여론을 설득할 수 있을까</a>
-        <span class="source">TechCrunch</span>
-<p class="original-title">Can the AI industry persuade data center opponents by getting rid of NDAs?</p>        <ul class="summary">
-<li>Amazon이 데이터센터 협상에서 지방정부와 비밀유지계약을 쓰지 않겠다고 밝혔다.</li><li>몇 달 전 Microsoft도 비슷한 결정을 내렸다.</li><li>진행자들은 이것이 좋은 첫걸음이지만 반대 여론을 바꾸기에는 부족할 수 있다고 봤다.</li>        </ul>
+        <a class="news-title" href="https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387" target="_blank" rel="noopener">QGIS, AI 기여 전면 금지 결정</a>
+        <span class="source">Hacker News</span>
+<p class="original-title">QGIS enacts moratorium on AI contributions</p>        <ul class="summary">
+<li>오픈소스 GIS 프로젝트 QGIS가 AI 활용 기여를 허용하지 않는 정책(QEP428)을 10월 7일 승인했다.</li><li>유지관리자들은 AI가 만든 PR이 검토 부담을 키우고, 기존 사람 개입 정책은 실제로 작동하지 않았다고 설명했다.</li><li>금지는 임시 조치로, 자동완성이나 번역처럼 사례별로 나중에 허용할 가능성을 열어 두었다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe" target="_blank" rel="noopener">Apple, 개인화 팟캐스트 스타트업 Huxe의 팀 채용과 기술 라이선스 계약 공개</a>
-        <span class="source">TechCrunch</span>
-<p class="original-title">Apple discloses deal to hire team and license tech from personalized podcast startup Huxe</p>        <ul class="summary">
-<li>Apple이 EU 집행위 제출 서류에서 Huxe 직원 일부를 채용하고 비독점 기술 라이선스를 받기로 했다고 밝혔다.</li><li>NotebookLM 개발자들이 세운 Huxe는 5월에 서비스를 종료하고 사용자 데이터를 삭제했다.</li><li>서류에는 구체적 계획이 없으나 Podcasts 앱의 AI 기능 강화용이라는 추측이 나온다.</li>        </ul>
-      </li>
-      <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/11/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks" target="_blank" rel="noopener">자율주행 트럭의 걸림돌 하나가 해소되다</a>
-        <span class="source">TechCrunch</span>
-<p class="original-title">TechCrunch Mobility: A roadblock clears for self-driving trucks</p>        <ul class="summary">
-<li>미 연방자동차운송안전청이 자율주행 트럭에 5년간 예외를 허용했다.</li><li>고장 시 운전자가 삼각대를 놓아야 한다는 규정 대신 차량 장착 경고등을 쓸 수 있다.</li><li>Aurora와 Kodiak 같은 업체가 대상이며, Waymo는 50억 달러 규모 첫 부채 조달에 나섰다.</li>        </ul>
+        <a class="news-title" href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase" target="_blank" rel="noopener">GitHub Copilot에 코드베이스를 가르치는 방법</a>
+        <span class="source">GitHub Blog</span>
+<p class="original-title">GitHub Copilot app for Beginners: How to teach Copilot about your codebase</p>        <ul class="summary">
+<li>저장소 전체 지침은 .github/copilot-instructions.md에, 경로별 규칙은 .github/instructions에 applyTo 필드와 함께 둔다.</li><li>에이전트 스킬은 .github/skills 폴더의 SKILL.md로 정의하며 테스트 실행 같은 반복 절차를 담는다.</li><li>커스텀 에이전트와 MCP 서버를 쓰면 접근성 검토나 Playwright 브라우저 테스트 같은 작업도 맡길 수 있다.</li>        </ul>
       </li>
     </ol>
   </section>
 
   <section class="tech">
     <h2>오늘의 기술</h2>
-    <h3 class="tech-title">TCP 3-way 핸드셰이크</h3>
+    <h3 class="tech-title">프로세스와 스레드</h3>
     <p class="tech-meta">
-      <span class="badge">커리큘럼 #3</span>
-      <span>네트워크</span>
+      <span class="badge">커리큘럼 #4</span>
+      <span>운영체제</span>
       <span>⏱ 5분</span>
     </p>
-    <p class="definition">TCP 3-way 핸드셰이크는 데이터를 보내기 전에 SYN, SYN-ACK, ACK 세 번의 메시지를 교환해 양쪽이 연결 상태와 순서 번호를 합의하는 절차다.</p>
+    <p class="definition">**프로세스**는 실행 중인 프로그램에 OS가 독립된 메모리와 자원을 할당한 단위이고, **스레드**는 한 프로세스 안에서 메모리를 공유하며 실제로 CPU에서 실행되는 흐름의 단위다.</p>
     <h4>왜 필요한가</h4>
-    <p>IP는 패킷이 도착하는지, 순서가 맞는지 보장하지 않는다. TCP는 그 위에서 <strong>신뢰할 수 있는 바이트 스트림</strong>을 제공해야 하므로, 데이터를 보내기 전에 두 가지를 먼저 확인해야 한다.</p>
-<p>첫째, 상대가 실제로 살아 있고 연결을 받을 준비가 되어 있는가. 둘째, 각 방향에서 몇 번 바이트부터 보낼지(순서 번호)에 대한 합의다. 순서 번호가 없으면 중복·유실·순서 뒤바뀜을 감지할 수 없다. 핸드셰이크가 없다면 오래전에 지연된 패킷을 새 연결의 데이터로 착각하거나, 아무도 듣지 않는 곳에 데이터를 계속 보내게 된다.</p>
+    <p>초기 컴퓨터는 한 번에 하나의 프로그램만 실행했다. 이 방식에서는 프로그램이 디스크나 네트워크를 기다리는 동안 CPU가 놀게 되고, 여러 프로그램을 동시에 쓸 수도 없다. 그래서 OS는 프로그램마다 독립된 메모리를 주고 CPU를 번갈아 쓰게 하는 <strong>프로세스</strong> 개념을 만들었다. 한 프로세스가 망가져도 다른 프로세스는 보호된다는 장점도 있다.</p>
+<p>하지만 프로세스는 만들고 전환하는 비용이 크고, 서로 데이터를 주고받기도 번거롭다. 웹 서버가 요청마다 프로세스를 새로 만들면 느리고 메모리를 많이 쓴다. 한 프로그램 안에서도 화면 그리기, 파일 읽기, 네트워크 통신처럼 동시에 진행하고 싶은 일이 많다. <strong>스레드</strong>는 메모리를 공유하는 가벼운 실행 흐름을 제공해 이 문제를 풀려고 나왔다. 스레드가 없다면 한 작업이 오래 걸릴 때 프로그램 전체가 멈춘 것처럼 보이게 된다.</p>
     <h4>동작 원리</h4>
     <ol>
-<li><strong>SYN</strong>: 클라이언트가 임의의 초기 순서 번호(ISN) x를 담은 SYN 세그먼트를 보내고 <code>SYN-SENT</code> 상태가 된다.</li>
-<li><strong>SYN-ACK</strong>: 서버는 자신의 초기 순서 번호 y를 정하고, 클라이언트의 x를 확인하는 ACK(x+1)를 함께 보낸 뒤 <code>SYN-RECEIVED</code> 상태가 된다.</li>
-<li><strong>ACK</strong>: 클라이언트가 y+1을 확인하는 ACK를 보내면 양쪽 모두 <code>ESTABLISHED</code> 상태가 되어 데이터를 주고받을 수 있다.</li>
+<li><strong>프로세스 생성</strong>: 프로그램을 실행하면 OS가 새 프로세스를 만들고 독립된 주소 공간(코드, 데이터, 힙, 스택)과 PCB(프로세스 제어 블록)를 할당한다.</li>
+<li><strong>스레드 생성</strong>: 프로세스 안에서 스레드를 만들면 스레드마다 <strong>자기 스택과 레지스터</strong>(프로그램 카운터 포함)만 새로 생기고, 코드·데이터·힙·열린 파일은 프로세스의 것을 함께 쓴다.</li>
+<li><strong>스케줄링</strong>: OS 스케줄러는 CPU 코어에 올릴 실행 단위(현대 OS에서는 주로 스레드)를 골라 번갈아 실행한다. 시간이 다 되면 현재 상태를 저장하고 다음 단위의 상태를 불러오는데, 이것이 <strong>문맥 교환(context switch)</strong>이다.</li>
+<li><strong>전환 비용 차이</strong>: 프로세스 간 전환은 주소 공간이 바뀌어 TLB와 캐시가 무효화되기 쉬워 비싸다. 같은 프로세스 안의 스레드 전환은 주소 공간이 그대로라 비교적 가볍다.</li>
+<li><strong>통신</strong>: 프로세스끼리는 파이프, 소켓, 공유 메모리 같은 IPC가 필요하다. 스레드는 메모리를 공유하므로 변수를 바로 읽고 쓸 수 있지만, 그만큼 <strong>동기화</strong>(뮤텍스, 세마포어)가 필요하다.</li>
 </ol>
-<p>이 과정에서 양쪽이 서로의 순서 번호를 알게 되고, 각자의 송신·수신이 가능함도 확인된다. 서버가 3번째 ACK를 받기 전까지는 연결을 완전히 열지 않기 때문에, 이미 지나간 오래된 SYN이 뒤늦게 도착해도 클라이언트가 응답하지 않으면 연결이 만들어지지 않는다.</p>
-<p>연결을 끊을 때는 보통 FIN과 ACK를 양쪽이 각각 주고받는 4-way 과정을 쓴다. 한쪽이 FIN을 보내도 상대는 아직 보낼 데이터가 남았을 수 있어서, 방향별로 따로 닫기 때문이다.</p>
     <h4>예시</h4>
-    <p>소켓 API에서는 핸드셰이크를 직접 쓰지 않는다. 서버의 <code>listen</code>과 클라이언트의 <code>connect</code>를 호출하면 운영체제 커널이 3단계를 처리한다. 아래는 파이썬으로 TCP 연결을 만드는 최소 예시다.</p>
-<pre><code class="language-python">import socket
+    <p>파이썬에서 스레드는 같은 메모리를 공유하고, 프로세스는 각자 복사본을 가진다는 차이를 직접 확인해 볼 수 있다. 아래 코드는 전역 리스트에 값을 추가하는 일을 스레드와 프로세스로 각각 실행한다.</p>
+<pre><code class="language-python">import threading
+import multiprocessing
 
-# 서버: listen 상태에서 대기 (커널이 SYN을 받아 SYN-ACK를 돌려준다)
-srv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-srv.bind((&quot;127.0.0.1&quot;, 9000))
-srv.listen()
+data = []
 
-# 클라이언트: connect가 반환되면 3-way 핸드셰이크가 끝난 것이다
-cli = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-cli.connect((&quot;127.0.0.1&quot;, 9000))
+def add():
+    data.append(1)
 
-conn, addr = srv.accept()   # 완료된 연결을 꺼낸다
-print(&quot;연결됨:&quot;, addr)
+if __name__ == &quot;__main__&quot;:
+    t = threading.Thread(target=add)
+    t.start(); t.join()
+    print(&quot;스레드 실행 후:&quot;, data)   # [1] - 같은 메모리를 공유
+
+    p = multiprocessing.Process(target=add)
+    p.start(); p.join()
+    print(&quot;프로세스 실행 후:&quot;, data)  # [1] - 자식 프로세스의 변경은 보이지 않음
 </code></pre>
-<p><code>connect</code>가 성공하면 이미 핸드셰이크가 끝났다는 점을 기억하자. 실제 패킷은 <code>sudo tcpdump -i lo port 9000</code>으로 관찰할 수 있고, 플래그가 <code>[S]</code>, <code>[S.]</code>, <code>[.]</code> 순서로 나타난다.</p>
+<p>스레드가 추가한 값은 부모에게 보이지만, 자식 프로세스는 메모리를 복사해 갔기 때문에 그 안에서 바꾼 리스트가 부모에게 전달되지 않는다. 프로세스 간에 값을 주고받으려면 <code>multiprocessing.Queue</code> 같은 IPC를 써야 한다.</p>
     <h4>언제 쓰고 언제 안 쓰나</h4>
-    <p><strong>알아 두면 좋은 경우</strong>: 웹 서버 응답이 느릴 때 연결 지연이 얼마나 되는지 따져 볼 때다. 핸드셰이크는 왕복 1회(1 RTT)가 걸리므로, 먼 서버일수록 첫 요청 전 대기가 커진다. 이런 경우 HTTP Keep-Alive나 커넥션 풀로 연결을 재사용하면 비용을 줄일 수 있다.</p>
-<p><strong>주의할 경우</strong>: 서버가 SYN만 받고 끝내는 <strong>SYN Flood</strong> 공격에서는 반쯤 열린 연결이 쌓여 자원이 고갈된다. SYN 쿠키나 백로그 조정으로 대응한다. 또 짧은 요청을 매번 새 연결로 보내는 구조는 지연과 서버 부담이 크다. 지연에 민감하고 손실을 어느 정도 감수할 수 있다면 UDP나 QUIC도 검토할 만하다.</p>
+    <p><strong>스레드가 좋은 경우</strong>: 데이터를 많이 공유해야 하고 가볍게 동시 작업을 만들고 싶을 때, 예를 들어 GUI 앱의 백그라운드 작업, 파일·네트워크 I/O를 기다리는 서버의 요청 처리가 있다.</p>
+<p><strong>프로세스가 좋은 경우</strong>: 장애를 격리하고 싶거나 보안상 메모리를 분리해야 할 때다. 브라우저가 탭마다 프로세스를 따로 쓰는 것이 대표적이다. 파이썬처럼 GIL 때문에 CPU 연산을 스레드로 병렬화하기 어려운 언어에서는 CPU 집약 작업에 프로세스를 쓰는 것이 낫다.</p>
+<p><strong>피해야 할 경우</strong>: 스레드는 공유 데이터를 동기화 없이 수정하면 <strong>경쟁 상태</strong>와 <strong>데드락</strong>이 생기므로, 공유 상태가 복잡하다면 스레드를 무작정 늘리지 않는다. 반대로 프로세스를 너무 많이 만들면 메모리와 전환 비용이 커진다. 스레드와 프로세스는 우열이 아니라 격리와 효율 사이의 선택이다.</p>
     <h4>더 읽을거리</h4>
     <ul class="further">
-<li><a href="https://www.rfc-editor.org/rfc/rfc9293.html" target="_blank" rel="noopener">RFC 9293: Transmission Control Protocol (TCP)</a></li>    </ul>
+<li><a href="https://developer.mozilla.org/ko/docs/Web/API/Web_Workers_API" target="_blank" rel="noopener">MDN - Web Workers API</a></li><li><a href="https://docs.python.org/ko/3/library/threading.html" target="_blank" rel="noopener">Python 공식 문서 - threading</a></li>    </ul>
   </section>
 
   <footer class="notes">
-<p>일부 소스 수집 실패: 우아한형제들 기술블로그 (HTTP 403)</p><p>네트워크 제한으로 참고 링크(RFC 9293)를 직접 열어 확인하지 못함</p>  </footer>
+<p>일부 소스 수집 실패: 우아한형제들 기술블로그</p><p>Ars Technica, The Verge, Tom&#39;s Hardware 원문은 열 수 없어 해당 기사는 제외함</p><p>더 읽을거리 링크는 네트워크 제한으로 열림 여부를 확인하지 못함</p>  </footer>
 </main>
 <script>
 document.querySelector(".theme-toggle").addEventListener("click", function () {
