@@ -18,7 +18,7 @@ topics:
 - id: docker
   title: 도커 컨테이너
   category: 클라우드/인프라
-  covered_on: null
+  covered_on: '2026-10-14'
 - id: transformer
   title: 트랜스포머 구조
   category: AI/ML

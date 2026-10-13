@@ -19,7 +19,7 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
     <p class="date">2026.10.13 (화)</p>
     <nav class="day-nav">
 <a href="../../2026/10/12.html">◀ 이전</a>      <a href="../../archive.html">목록</a>
-<span class="disabled">다음 ▶</span>    </nav>
+<a href="../../2026/10/14.html">다음 ▶</a>    </nav>
   </header>
   <section class="headline">
     <h2>오늘의 한 줄</h2>
@@ -100,7 +100,7 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
     <ol>
 <li><strong>프로세스 생성</strong>: 프로그램을 실행하면 OS가 새 프로세스를 만들고 독립된 주소 공간(코드, 데이터, 힙, 스택)과 PCB(프로세스 제어 블록)를 할당한다.</li>
 <li><strong>스레드 생성</strong>: 프로세스 안에서 스레드를 만들면 스레드마다 <strong>자기 스택과 레지스터</strong>(프로그램 카운터 포함)만 새로 생기고, 코드·데이터·힙·열린 파일은 프로세스의 것을 함께 쓴다.</li>
-<li><strong>스케줄링</strong>: OS 스케줄러는 CPU 코어에 올릴 실행 단위(현대 OS에서는 주로 스레드)를 골라 번갈아 실행한다. 시간이 다 되면 현재 상태를 저장하고 다음 단위의 상태를 불러오는데, 이것이 <strong>문맥 교환(context switch)</strong>이다.</li>
+<li><strong>스케줄링</strong>: OS 스케줄러는 CPU 코어에 올릴 실행 단위(현대 OS에서는 주로 스레드)를 골라 번갈아 실행한다. 시간이 다 되면 현재 상태를 저장하고 다음 단위의 상태를 불러오는데, 이것이 **문맥 교환(context switch)**이다.</li>
 <li><strong>전환 비용 차이</strong>: 프로세스 간 전환은 주소 공간이 바뀌어 TLB와 캐시가 무효화되기 쉬워 비싸다. 같은 프로세스 안의 스레드 전환은 주소 공간이 그대로라 비교적 가볍다.</li>
 <li><strong>통신</strong>: 프로세스끼리는 파이프, 소켓, 공유 메모리 같은 IPC가 필요하다. 스레드는 메모리를 공유하므로 변수를 바로 읽고 쓸 수 있지만, 그만큼 <strong>동기화</strong>(뮤텍스, 세마포어)가 필요하다.</li>
 </ol>

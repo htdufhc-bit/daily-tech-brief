@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Tech Brief · 2026.10.13 (화)</title>
+<title>Daily Tech Brief · 2026.10.14 (수)</title>
 <link rel="stylesheet" href="style.css">
 <script>
 try { var saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
@@ -16,14 +16,14 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
       <a class="brand" href="index.html">Daily Tech Brief</a>
       <button class="theme-toggle" type="button" aria-label="다크 모드 전환">◐</button>
     </div>
-    <p class="date">2026.10.13 (화)</p>
+    <p class="date">2026.10.14 (수)</p>
     <nav class="day-nav">
-<a href="2026/10/12.html">◀ 이전</a>      <a href="archive.html">목록</a>
+<a href="2026/10/13.html">◀ 이전</a>      <a href="archive.html">목록</a>
 <span class="disabled">다음 ▶</span>    </nav>
   </header>
   <section class="headline">
     <h2>오늘의 한 줄</h2>
-    <p>Google 포함 대형 서비스의 보안 사고와 Meta의 첫 프런티어 모델 Muse Wonder 공개가 오늘의 핵심 이슈다.</p>
+    <p>Anthropic이 AI 코딩으로 폭증한 변경량을 감당하려고 Git 대신 자체 버전 관리 시스템 Scion으로 모노레포를 옮겼다.</p>
   </section>
 
   <section class="news">
@@ -31,110 +31,112 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
     <h3>국내</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35260" target="_blank" rel="noopener">Google에서 9만 달러 포상금을 받은 원격 코드 실행 취약점을 발견한 과정</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35309" target="_blank" rel="noopener">Anthropic, AI 코딩으로 늘어난 변경량에 대응해 Git을 자체 버전 관리 시스템 Scion으로 교체</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Google 문서 플랫폼 DevSite에서 Flask 세션 쿠키 안에 서명 키가 함께 들어 있는 문제가 발견됐다.</li><li>쿠키에 담긴 OAuth client_secret이 Flask SECRET_KEY로도 쓰여, 로그인 없이 세션을 위조할 수 있었다.</li><li>이 취약점은 원격 코드 실행으로 이어져 Google에서 9만 달러의 포상금을 받았다.</li>        </ul>
+<li>Anthropic은 AI 코딩으로 소스 관리와 CI가 병목이 되자 자체 버전 관리 시스템 Scion을 만들었다.</li><li>하루 병합량이 5월 약 2,500건에서 9월 3만 건 이상으로 늘었고, 7명 팀이 약 5개월 만에 모노레포를 이전했다.</li><li>에이전트가 새 작업 트리를 만드는 시간은 7.1분에서 5.1초로 줄었지만, 초대형 모노레포용이라 일반 Git 대체재는 아니라고 한다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35250" target="_blank" rel="noopener">프랑스 슈퍼마켓, ‘전례 없는’ 사이버공격으로 냉장 설비 가동 중단</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35306" target="_blank" rel="noopener">Google, Gemini 4 Argon 정식 출시 - 긴 추론과 대규모 코드 작업 지원</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>E. Leclerc, Intermarche, Cooperative U 등 프랑스 대형 유통 체인이 사이버공격 피해를 확인했다.</li><li>수백 개 매장의 냉장 설비 온도가 올라 신선식품과 냉동식품을 폐기해야 하는 상황이 벌어졌다.</li><li>Intermarche와 Netto 매장만 최소 300곳이 피해를 입은 것으로 알려졌다.</li>        </ul>
+<li>Google이 대규모 코드 리팩터링과 여러 단계의 자율 작업을 겨냥한 추론 모델 Gemini 4 Argon을 정식 공개했다.</li><li>컨텍스트 한도는 약 104만 토큰이고, 표준 가격은 100만 토큰당 입력 2달러, 출력 10달러다.</li><li>이 가격은 12월 1일부터 입력 4달러, 출력 20달러로 오르며, 벤치마크에서는 항목마다 순위가 갈린다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35213" target="_blank" rel="noopener">MCP Gateway - 기존 API를 MCP 도구로 통합하는 Uber의 플랫폼 설계</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35300" target="_blank" rel="noopener">프랑스 슈퍼마켓 체인들, 사이버공격으로 냉장설비 가동 중단</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Uber는 흩어져 있던 MCP 연동을 MCP Gateway로 통합해 일관된 방식으로 제공한다.</li><li>기존 API와 네이티브 MCP 서버를 함께 다루며, 현재 800개 이상의 서버와 5,000개 이상의 도구를 운영한다.</li><li>MCP Registry가 검색, 소유권, 활성화 설정을 관리하는 구조다.</li>        </ul>
+<li>프랑스 슈퍼마켓 수백 곳에서 냉장설비 온도가 올라 신선식품과 냉동식품을 폐기하는 피해가 났다.</li><li>공격자가 냉장 시스템의 강제 제상 기능을 원격으로 작동시켰고, 덴마크 업체 Danfoss의 제어기가 영향을 받았다.</li><li>파리 검찰이 수사에 들어갔으며, 기본 관리자 계정 같은 보안 통제 부재를 원인으로 보는 지적이 나왔다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35238" target="_blank" rel="noopener">Zod 4.6.6, 악성코드에 감염됐나?</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35313" target="_blank" rel="noopener">HN에 글을 올린 뒤, 내 웹사이트에 AI 봇 트래픽이 밀려들었다</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Zod 버전을 4.6.5에서 4.6.6으로 바꾸는 커밋에 외부 코드를 내려받아 실행하는 meta.test.mjs가 추가됐다.</li><li>같은 파일이 zod와 @zod/mini 양쪽에 들어 있어 감염 의혹이 제기됐다.</li><li>이 파일은 Ethereum RPC 응답에서 도메인 목록을 읽어 각 도메인에서 코드를 가져오는 방식으로 동작한다.</li>        </ul>
-      </li>
-      <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35256" target="_blank" rel="noopener">Codex CLI, 기본 설정으로 상주하며 자동 업데이트되는 백그라운드 데몬 설치</a>
-        <span class="source">GeekNews</span>
-        <ul class="summary">
-<li>Codex CLI 0.157.0부터 대화형 세션을 열면 창을 모두 닫아도 계속 실행되는 데몬이 시작된다는 보고가 올라왔다.</li><li>데몬은 약 374MB의 플랫폼 패키지를 별도 위치에 복사해 쓰며, 분리된 업데이터가 백엔드를 재시작해 작업이 끊길 수 있다.</li><li>사용자들은 daemon_auto_start를 기본 꺼짐(명시적 동의)으로 바꿔 달라고 요청하고 있다.</li>        </ul>
+<li>한 개발자가 피드 리더를 HN에 소개한 뒤, 로그인 사용자는 적은데도 서버 부하가 크게 올랐다.</li><li>로그를 보니 요청 대부분이 기사를 읽지 않았고 JavaScript도 실행하지 않았으며, 절반 가까이가 웹사이트 변경 요약 서비스에서 나왔다.</li><li>robots.txt와 요청 빈도 제한으로 대응했고, 댓글에서는 봇을 막기보다 서버 성능을 높이자는 의견이 많았다.</li>        </ul>
       </li>
     </ol>
     <h3>해외</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder" target="_blank" rel="noopener">Meta, 첫 프런티어 모델 Muse Wonder 공개</a>
-        <span class="source">TechCrunch</span>
-<p class="original-title">Meta releases its first frontier model, Muse Wonder</p>        <ul class="summary">
-<li>Meta가 Muse Wonder와 Muse Wonder Full을 공개하며 자사 첫 프런티어 모델이라고 소개했다.</li><li>경량 모델인 Muse Spark보다 크고 코딩 같은 복잡한 작업에서 벤치마크 점수가 높다고 한다.</li><li>API 요금은 입력 100만 토큰당 4달러, 출력 20달러이며 Wonder Full은 Muse Code 구독자에게만 제공된다.</li>        </ul>
-      </li>
-      <li class="news-item">
-        <a class="news-title" href="https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387" target="_blank" rel="noopener">QGIS, AI 기여 전면 금지 결정</a>
+        <a class="news-title" href="https://github.com/rust-lang/rust/issues/164250" target="_blank" rel="noopener">러스트 빌림 검사기에서 11년 묵은 안전성 결함 발견</a>
         <span class="source">Hacker News</span>
-<p class="original-title">QGIS enacts moratorium on AI contributions</p>        <ul class="summary">
-<li>오픈소스 GIS 프로젝트 QGIS가 AI 활용 기여를 허용하지 않는 정책(QEP428)을 10월 7일 승인했다.</li><li>유지관리자들은 AI가 만든 PR이 검토 부담을 키우고, 기존 사람 개입 정책은 실제로 작동하지 않았다고 설명했다.</li><li>금지는 임시 조치로, 자동완성이나 번역처럼 사례별로 나중에 허용할 가능성을 열어 두었다.</li>        </ul>
+<p class="original-title">11 year old unsoundness bugs found in Rust borrow checker</p>        <ul class="summary">
+<li>Rust 저장소 이슈 #164250은 구조체의 수명 제약을 공변 필드 대입으로 우회할 수 있다고 보고했다.</li><li>재현 코드는 컴파일되지만 AddressSanitizer가 스택 사용 후 해제 오류를 잡아내며, 1.85.0 이후 안정판에서도 나타난다.</li><li>I-unsound와 P-high로 분류됐고 수정 PR이 올라왔으며, 악용하려면 의도적으로 악성 Drop 구현을 써야 한다는 평가다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase" target="_blank" rel="noopener">GitHub Copilot에 코드베이스를 가르치는 방법</a>
+        <a class="news-title" href="https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise" target="_blank" rel="noopener">GitHub의 시크릿 탐지 모델: 노이즈는 줄이고 더 많이 찾기</a>
         <span class="source">GitHub Blog</span>
-<p class="original-title">GitHub Copilot app for Beginners: How to teach Copilot about your codebase</p>        <ul class="summary">
-<li>저장소 전체 지침은 .github/copilot-instructions.md에, 경로별 규칙은 .github/instructions에 applyTo 필드와 함께 둔다.</li><li>에이전트 스킬은 .github/skills 폴더의 SKILL.md로 정의하며 테스트 실행 같은 반복 절차를 담는다.</li><li>커스텀 에이전트와 MCP 서버를 쓰면 접근성 검토나 Playwright 브라우저 테스트 같은 작업도 맡길 수 있다.</li>        </ul>
+<p class="original-title">GitHub&#39;s model for secret detection: Finding more secrets with less noise</p>        <ul class="summary">
+<li>GitHub는 정규식으로 후보를 뽑고 파인튜닝한 ModernBERT 분류기가 주변 코드 문맥으로 점수를 매기는 2단계 탐지 방식을 소개했다.</li><li>오프라인 평가에서 정밀도는 13%, 재현율은 19% 높아졌고, 고객 A/B 테스트에서 채택률은 11.5% 올랐다.</li><li>푸시 후 검사 시간 중앙값은 86% 줄었고, 원격 LLM 호출보다 서빙 비용이 98% 넘게 낮다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://blog.character.ai/an-update-on-character-ai" target="_blank" rel="noopener">Character.ai, 챕터 11 파산보호 신청</a>
+        <span class="source">Hacker News</span>
+<p class="original-title">Character.ai has initiated voluntary Chapter 11 bankruptcy</p>        <ul class="summary">
+<li>Character.ai 운영사가 미국 델라웨어 파산법원에 챕터 11을 신청하고 자산 전부 또는 대부분의 매각을 추진한다.</li><li>Disney 계열사가 2,000만 달러에 일부 지식재산권의 비독점 영구 이용권을 받는 계약을 맺었고, 경매의 기준 입찰자로 지정될 예정이다.</li><li>매각 중에도 서비스와 유료 구독은 유지되며, 거래 완료는 11월 말~12월 초로 예상된다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts" target="_blank" rel="noopener">Ledger, 암호화폐 도난의 원인은 지갑에 심은 스파이 칩이라고 확인</a>
+        <span class="source">Hacker News</span>
+<p class="original-title">Ledger confirms spy chip implant behind wallet crypto thefts</p>        <ul class="summary">
+<li>Ledger는 동남아 리셀러 CryptoBilis를 통해 팔린 일부 지갑에서 무단 하드웨어 삽입물을 확인했다.</li><li>삽입물은 화면 출력과 버튼 입력으로 시드 구문을 알아낸 뒤 eSIM 기반 LTE로 공격자에게 보낸다.</li><li>기기가 언제 변조됐는지는 불명이며, Ledger는 미설정 기기를 쓰지 말고 이미 설정했다면 새 기기와 새 시드로 자산을 옮기라고 권고했다.</li>        </ul>
       </li>
     </ol>
   </section>
 
   <section class="tech">
     <h2>오늘의 기술</h2>
-    <h3 class="tech-title">프로세스와 스레드</h3>
+    <h3 class="tech-title">도커 컨테이너</h3>
     <p class="tech-meta">
-      <span class="badge">커리큘럼 #4</span>
-      <span>운영체제</span>
+      <span class="badge">커리큘럼 #5</span>
+      <span>클라우드/인프라</span>
       <span>⏱ 5분</span>
     </p>
-    <p class="definition">**프로세스**는 실행 중인 프로그램에 OS가 독립된 메모리와 자원을 할당한 단위이고, **스레드**는 한 프로세스 안에서 메모리를 공유하며 실제로 CPU에서 실행되는 흐름의 단위다.</p>
+    <p class="definition">도커 컨테이너는 애플리케이션과 실행 환경을 하나로 묶어, 호스트 커널을 공유하면서도 다른 프로세스와 격리된 채 실행하는 단위다.</p>
     <h4>왜 필요한가</h4>
-    <p>초기 컴퓨터는 한 번에 하나의 프로그램만 실행했다. 이 방식에서는 프로그램이 디스크나 네트워크를 기다리는 동안 CPU가 놀게 되고, 여러 프로그램을 동시에 쓸 수도 없다. 그래서 OS는 프로그램마다 독립된 메모리를 주고 CPU를 번갈아 쓰게 하는 <strong>프로세스</strong> 개념을 만들었다. 한 프로세스가 망가져도 다른 프로세스는 보호된다는 장점도 있다.</p>
-<p>하지만 프로세스는 만들고 전환하는 비용이 크고, 서로 데이터를 주고받기도 번거롭다. 웹 서버가 요청마다 프로세스를 새로 만들면 느리고 메모리를 많이 쓴다. 한 프로그램 안에서도 화면 그리기, 파일 읽기, 네트워크 통신처럼 동시에 진행하고 싶은 일이 많다. <strong>스레드</strong>는 메모리를 공유하는 가벼운 실행 흐름을 제공해 이 문제를 풀려고 나왔다. 스레드가 없다면 한 작업이 오래 걸릴 때 프로그램 전체가 멈춘 것처럼 보이게 된다.</p>
+    <p>"내 컴퓨터에서는 되는데 서버에서는 안 돼요"라는 말을 들어 본 적이 있을 것이다. 운영체제, 라이브러리 버전, 설정이 조금만 달라도 같은 코드가 다르게 동작하기 때문이다.</p>
+<p>예전에는 가상 머신(VM)으로 환경을 통째로 복제했지만, VM은 운영체제 전체를 부팅해야 해서 용량이 크고 시작이 느리다. 컨테이너는 <strong>필요한 만큼만 격리</strong>해서 이 문제를 가볍게 해결한다. 개발·테스트·운영 환경이 같은 이미지를 쓰므로 환경 차이로 생기는 문제가 크게 줄고, 한 서버에 여러 서비스를 촘촘하게 올릴 수도 있다.</p>
+<p>컨테이너가 없다면 서비스마다 서로 충돌하는 라이브러리 버전을 한 서버에서 맞춰야 하고, 새 서버를 준비할 때마다 설치 절차를 사람이 반복해야 한다.</p>
     <h4>동작 원리</h4>
     <ol>
-<li><strong>프로세스 생성</strong>: 프로그램을 실행하면 OS가 새 프로세스를 만들고 독립된 주소 공간(코드, 데이터, 힙, 스택)과 PCB(프로세스 제어 블록)를 할당한다.</li>
-<li><strong>스레드 생성</strong>: 프로세스 안에서 스레드를 만들면 스레드마다 <strong>자기 스택과 레지스터</strong>(프로그램 카운터 포함)만 새로 생기고, 코드·데이터·힙·열린 파일은 프로세스의 것을 함께 쓴다.</li>
-<li><strong>스케줄링</strong>: OS 스케줄러는 CPU 코어에 올릴 실행 단위(현대 OS에서는 주로 스레드)를 골라 번갈아 실행한다. 시간이 다 되면 현재 상태를 저장하고 다음 단위의 상태를 불러오는데, 이것이 <strong>문맥 교환(context switch)</strong>이다.</li>
-<li><strong>전환 비용 차이</strong>: 프로세스 간 전환은 주소 공간이 바뀌어 TLB와 캐시가 무효화되기 쉬워 비싸다. 같은 프로세스 안의 스레드 전환은 주소 공간이 그대로라 비교적 가볍다.</li>
-<li><strong>통신</strong>: 프로세스끼리는 파이프, 소켓, 공유 메모리 같은 IPC가 필요하다. 스레드는 메모리를 공유하므로 변수를 바로 읽고 쓸 수 있지만, 그만큼 <strong>동기화</strong>(뮤텍스, 세마포어)가 필요하다.</li>
+<li><strong>이미지</strong>: 애플리케이션과 그 실행에 필요한 파일·라이브러리를 읽기 전용 계층(layer)으로 쌓아 묶어 둔 패키지다. <code>Dockerfile</code>로 만든다.</li>
+<li><strong>컨테이너 생성</strong>: <code>docker run</code>을 하면 이미지 위에 쓰기 가능한 계층이 하나 얹히고, 이것이 컨테이너가 된다.</li>
+<li><strong>namespace로 격리</strong>: 리눅스 커널은 프로세스마다 PID, 네트워크, 마운트, 호스트 이름 같은 자원을 따로 보이게 한다. 그래서 컨테이너 안에서는 자기 프로세스가 PID 1처럼 보이고, 자기만의 파일 시스템과 네트워크 인터페이스를 가진 것처럼 느껴진다.</li>
+<li><strong>cgroups로 제한</strong>: 컨테이너가 쓸 수 있는 CPU, 메모리, 입출력 양을 상한으로 묶는다. 한 컨테이너가 자원을 독점하는 일을 막는다.</li>
+<li><strong>커널 공유</strong>: 가상 머신과 달리 게스트 운영체제를 따로 부팅하지 않고 호스트 커널을 함께 쓴다. 그래서 시작이 빠르고 가볍다.</li>
+<li><strong>레지스트리</strong>: 만든 이미지를 Docker Hub 같은 저장소에 올리고 내려받아 어디서든 같은 환경을 재현한다.</li>
 </ol>
     <h4>예시</h4>
-    <p>파이썬에서 스레드는 같은 메모리를 공유하고, 프로세스는 각자 복사본을 가진다는 차이를 직접 확인해 볼 수 있다. 아래 코드는 전역 리스트에 값을 추가하는 일을 스레드와 프로세스로 각각 실행한다.</p>
-<pre><code class="language-python">import threading
-import multiprocessing
-
-data = []
-
-def add():
-    data.append(1)
-
-if __name__ == &quot;__main__&quot;:
-    t = threading.Thread(target=add)
-    t.start(); t.join()
-    print(&quot;스레드 실행 후:&quot;, data)   # [1] - 같은 메모리를 공유
-
-    p = multiprocessing.Process(target=add)
-    p.start(); p.join()
-    print(&quot;프로세스 실행 후:&quot;, data)  # [1] - 자식 프로세스의 변경은 보이지 않음
+    <p>간단한 파이썬 웹 서버를 컨테이너로 만드는 <code>Dockerfile</code>이다. 각 줄이 이미지의 계층 하나가 된다.</p>
+<pre><code class="language-dockerfile">FROM python:3.12-slim
+WORKDIR /app
+COPY app.py .
+EXPOSE 8000
+CMD [&quot;python&quot;, &quot;-m&quot;, &quot;http.server&quot;, &quot;8000&quot;]
 </code></pre>
-<p>스레드가 추가한 값은 부모에게 보이지만, 자식 프로세스는 메모리를 복사해 갔기 때문에 그 안에서 바꾼 리스트가 부모에게 전달되지 않는다. 프로세스 간에 값을 주고받으려면 <code>multiprocessing.Queue</code> 같은 IPC를 써야 한다.</p>
+<p>이 파일이 있는 폴더에서 아래 명령으로 빌드하고 실행해 본다. <code>-p 8000:8000</code>은 호스트의 8000번 포트를 컨테이너의 8000번 포트에 연결하고, <code>--memory</code>는 cgroups로 메모리 상한을 둔다.</p>
+<pre><code class="language-bash">docker build -t hello-web .
+docker run --rm -p 8000:8000 --memory 256m hello-web
+</code></pre>
+<p>브라우저에서 <code>http://localhost:8000</code>에 접속하면 컨테이너 안의 서버가 응답한다. <code>--rm</code>을 붙였으므로 종료하면 컨테이너가 자동으로 삭제된다.</p>
     <h4>언제 쓰고 언제 안 쓰나</h4>
-    <p><strong>스레드가 좋은 경우</strong>: 데이터를 많이 공유해야 하고 가볍게 동시 작업을 만들고 싶을 때, 예를 들어 GUI 앱의 백그라운드 작업, 파일·네트워크 I/O를 기다리는 서버의 요청 처리가 있다.</p>
-<p><strong>프로세스가 좋은 경우</strong>: 장애를 격리하고 싶거나 보안상 메모리를 분리해야 할 때다. 브라우저가 탭마다 프로세스를 따로 쓰는 것이 대표적이다. 파이썬처럼 GIL 때문에 CPU 연산을 스레드로 병렬화하기 어려운 언어에서는 CPU 집약 작업에 프로세스를 쓰는 것이 낫다.</p>
-<p><strong>피해야 할 경우</strong>: 스레드는 공유 데이터를 동기화 없이 수정하면 <strong>경쟁 상태</strong>와 <strong>데드락</strong>이 생기므로, 공유 상태가 복잡하다면 스레드를 무작정 늘리지 않는다. 반대로 프로세스를 너무 많이 만들면 메모리와 전환 비용이 커진다. 스레드와 프로세스는 우열이 아니라 격리와 효율 사이의 선택이다.</p>
+    <p><strong>쓰면 좋은 경우</strong>
+- 개발 환경을 팀원 모두가 똑같이 맞추고 싶을 때
+- 마이크로서비스처럼 작은 서비스를 여러 개 독립적으로 배포할 때
+- CI에서 깨끗한 환경으로 테스트를 돌리고 싶을 때
+- 데이터베이스나 메시지 큐를 로컬에서 빠르게 띄워 실험할 때</p>
+<p><strong>피해야 하거나 주의할 경우</strong>
+- 컨테이너는 호스트 커널을 공유하므로 VM만큼 강한 격리를 보장하지 않는다. 신뢰할 수 없는 코드를 돌릴 때는 추가 대책이 필요하다.
+- 컨테이너를 지우면 안에 쓴 데이터도 사라진다. 보존할 데이터는 볼륨(volume)에 저장해야 한다.
+- 윈도우 전용 GUI 프로그램처럼 호스트 커널과 다른 환경이 필요한 경우에는 잘 맞지 않는다.
+- 이미지를 크게 만들거나 루트 권한으로 실행하면 보안과 배포 속도에 부담이 된다. 가벼운 베이스 이미지를 쓰고 일반 사용자로 실행하는 습관을 들이자.</p>
     <h4>더 읽을거리</h4>
     <ul class="further">
-<li><a href="https://developer.mozilla.org/ko/docs/Web/API/Web_Workers_API" target="_blank" rel="noopener">MDN - Web Workers API</a></li><li><a href="https://docs.python.org/ko/3/library/threading.html" target="_blank" rel="noopener">Python 공식 문서 - threading</a></li>    </ul>
+<li><a href="https://docs.docker.com/get-started/docker-overview/" target="_blank" rel="noopener">Docker 공식 문서: Docker overview</a></li>    </ul>
   </section>
 
   <footer class="notes">
-<p>일부 소스 수집 실패: 우아한형제들 기술블로그</p><p>Ars Technica, The Verge, Tom&#39;s Hardware 원문은 열 수 없어 해당 기사는 제외함</p><p>더 읽을거리 링크는 네트워크 제한으로 열림 여부를 확인하지 못함</p>  </footer>
+<p>일부 소스 수집 실패: 카카오 기술블로그, 우아한형제들 기술블로그</p><p>일부 원문(전자신문, The Verge, Ars Technica 등)과 docs.docker.com 등은 네트워크 제한으로 열 수 없어, 해당 기사는 제외하고 참고 링크는 직접 확인하지 못함</p>  </footer>
 </main>
 <script>
 document.querySelector(".theme-toggle").addEventListener("click", function () {
