@@ -22,7 +22,7 @@ topics:
 - id: transformer
   title: 트랜스포머 구조
   category: AI/ML
-  covered_on: null
+  covered_on: '2026-10-15'
 - id: oauth-oidc
   title: OAuth 2.0과 OIDC
   category: 보안

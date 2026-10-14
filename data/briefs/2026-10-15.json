@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-15",
+  "headline": "앤트로픽이 소형 AI 모델이 IoT 기기를 타고 스스로 복제·확산하는 'AI 웜' 가능성을 경고했다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Go 1.27의 HTTP/1 연결 재사용 개선",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35368",
+      "summary": [
+        "Go 1.27의 net/http.Transport는 응답 본문을 닫을 때 읽지 않은 데이터가 남아 있으면 백그라운드에서 마저 읽는다.",
+        "이렇게 하면 HTTP/1 연결을 버리지 않고 다시 쓸 수 있다.",
+        "자동으로 읽는 범위는 최대 50ms 또는 256KB로 제한된다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Google이 로그인된 모든 계정에 전화번호를 조용히 연결하고 있음",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35361",
+      "summary": [
+        "Google이 Android 기기에 로그인된 모든 계정에 전화번호를 자동으로 인증해 연결한다는 지적이 나왔다.",
+        "이 기능은 별도 확인 없이 기본으로 켜지는 옵트아웃 방식이다.",
+        "Google은 2025년 8~10월 사이 지원 문서에 이 동작을 반영했다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "금융사 16곳 해킹·개인정보 10만건 유출…130곳 보안관리 부실",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261014000344",
+      "summary": [
+        "신한은행, KB국민은행 등 금융사 16곳에서 침해사고가 나 개인정보 약 10만 건이 유출된 것으로 확인됐다.",
+        "금융당국이 555곳을 긴급 점검한 결과 130곳에서 보안관리 미흡이 드러났다.",
+        "금융위원회는 금융권 보안체계를 전면 재점검하고 AI 기반 공동 대응체계를 구축하기로 했다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "앤트로픽, 가전기기에 바이러스처럼 자가 복제되는 'AI 웜' 경고",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261014000313",
+      "summary": [
+        "앤트로픽이 소형 AI 모델이 인간 통제 없이 스스로 퍼지는 자율 복제 현상이 현실화될 수 있다고 경고했다.",
+        "연구 보고서는 스마트 오븐이나 저가 안드로이드 TV 박스 같은 IoT 기기가 확산 경로가 될 수 있다고 짚었다.",
+        "스마트TV, 냉장고 같은 가전이 AI 웜의 숙주가 될 가능성이 제기됐다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "패스키는 함정이 아니다",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35352",
+      "summary": [
+        "일반적으로 쓰는 동기화 패스키는 웹사이트에 인증기 증명(attestation)을 제공하지 않는다.",
+        "그래서 증명이 걱정돼 비밀번호와 TOTP로 돌아갈 필요는 없다는 주장이다.",
+        "WebAuthn 인증기 증명은 인증기의 제조사와 모델을 확인하는 기능이다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "CedarDB, 거래와 분석을 한 데이터베이스에서 처리하겠다고 나서",
+      "original_title": "CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes",
+      "url": "https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes",
+      "summary": [
+        "뮌헨 기반 CedarDB는 운영 처리와 분석 작업을 한 시스템에서 모두 다루는 데이터베이스 엔진이다.",
+        "PostgreSQL과 호환돼 기존 앱을 다시 만들지 않고도 옮길 수 있다.",
+        "클라우드 버전이 제한적으로 공개됐고, 경쟁사 Databricks도 6월에 비슷한 LTAP를 내놨다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "Hacker News",
+      "title": "Pg_vectorsearch: pgvector의 IVFFlat·HNSW보다 빠르다는 인덱스",
+      "original_title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "url": "https://github.com/timescale/pg_vectorsearch",
+      "summary": [
+        "pg_vectorsearch는 PostgreSQL에서 근사 최근접 이웃 검색을 제공하는 확장으로, PRISM 인덱스를 쓴다.",
+        "프로젝트는 pgvector의 HNSW와 IVFFlat보다 빠르다고 주장하지만 아직 알파 단계라 운영 사용용이 아니다.",
+        "기존 pgvector의 vector, halfvec 컬럼을 다시 쓰지 않고 인덱싱할 수 있고 PostgreSQL 18 이상이 필요하다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "The Verge",
+      "title": "마이크로소프트와 일본, 수십억 건 스캠 메시지 뒤의 사이버 범죄망 해체",
+      "original_title": "Microsoft and Japan took down a cybercrime network behind over a billion scam messages",
+      "url": "https://www.theverge.com/tech/1011487/microsoft-scam-messages-marketplace-takedown",
+      "summary": [
+        "마이크로소프트는 피싱 메시지를 보내는 사기범들이 쓰던 거래 시장을 해체하는 데 참여했다고 밝혔다.",
+        "일본 경찰청과 함께 조사해 스캠 활동의 출처를 추적했다.",
+        "이 네트워크는 10억 건이 넘는 스캠 메시지와 관련된 것으로 알려졌다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "The Verge",
+      "title": "유튜브, AI 생성 노래에 새 라벨 부착",
+      "original_title": "YouTube sticks new labels on AI-generated songs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+      "summary": [
+        "유튜브가 AI로 변형되거나 완전히 생성된 트랙에 'Made with AI' 라벨을 붙이기로 했다.",
+        "기존 영상의 AI 라벨 방식과 비슷하게 적용되며, 플레이어 페이지에 표시된다.",
+        "음악 제작에 AI 도구를 조금이라도 쓴 모든 경우가 대상은 아닌 것으로 보인다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "transformer",
+    "title": "트랜스포머 구조",
+    "category": "AI/ML",
+    "pick": "curriculum",
+    "reading_minutes": 6,
+    "sections": {
+      "definition": "트랜스포머는 입력 문장의 모든 단어가 서로를 직접 참조하게 하는 어텐션(attention) 연산만으로 순서 데이터를 처리하는 신경망 구조다.",
+      "why": "트랜스포머 이전의 표준은 RNN과 LSTM이었다. 이 모델들은 단어를 앞에서부터 하나씩 순서대로 처리하기 때문에 두 가지가 불편했다.\n\n- **병렬화가 어렵다**: 다음 단어의 계산이 이전 단어의 결과에 의존해서, GPU를 충분히 활용하지 못한다.\n- **먼 거리의 관계를 잊는다**: 문장이 길어지면 앞쪽 정보가 여러 단계를 거치며 희미해진다.\n\n2017년 논문 \"Attention Is All You Need\"는 순환 구조를 아예 없애고 어텐션만 쓰는 구조를 제안했다. 모든 위치를 한꺼번에 계산할 수 있어 학습이 빨라졌고, 어떤 두 단어든 한 번의 연산으로 연결된다. 오늘날 대형 언어 모델 대부분이 이 구조 위에서 만들어진다.",
+      "how": "트랜스포머의 핵심은 **셀프 어텐션**이다. 한 문장이 들어왔을 때의 흐름은 다음과 같다.\n\n1. **토큰화와 임베딩**: 문장을 토큰으로 나누고 각 토큰을 숫자 벡터로 바꾼다.\n2. **위치 인코딩**: 어텐션은 순서를 모르기 때문에, 각 토큰의 위치 정보를 벡터에 더해 준다.\n3. **Q, K, V 만들기**: 각 토큰 벡터에 서로 다른 가중치 행렬을 곱해 질의(Query), 키(Key), 값(Value) 세 벡터를 만든다.\n4. **유사도 계산**: 한 토큰의 Q와 모든 토큰의 K를 내적해 \"얼마나 관련 있는가\" 점수를 구하고, 차원 크기의 제곱근으로 나눈 뒤 소프트맥스로 합이 1인 가중치로 바꾼다.\n5. **가중합**: 그 가중치로 V들을 섞어 해당 토큰의 새 표현을 만든다. 관련 깊은 단어의 정보가 더 많이 반영된다.\n6. **멀티 헤드**: 3~5를 여러 묶음(헤드)으로 나눠 동시에 하고 이어 붙인다. 헤드마다 문법, 대상 지칭 같은 서로 다른 관계를 잡는다.\n7. **피드포워드와 정규화**: 각 토큰에 작은 신경망을 적용하고, 잔차 연결(residual)과 층 정규화로 안정적으로 학습한다. 이런 블록을 여러 층 쌓는다.\n\n원 논문은 입력을 읽는 인코더와 출력을 만드는 디코더를 모두 두었다. GPT 계열처럼 디코더만 쓰는 모델은 \"자기 앞의 토큰만 볼 수 있게\" 마스크를 씌워 다음 단어를 예측한다.",
+      "example": "아래는 NumPy로 쓴 단일 헤드 셀프 어텐션의 핵심이다. 입력 `x`의 각 행이 토큰 하나다.\n\n```python\nimport numpy as np\n\ndef softmax(z):\n    z = z - z.max(axis=-1, keepdims=True)\n    e = np.exp(z)\n    return e / e.sum(axis=-1, keepdims=True)\n\ndef self_attention(x, Wq, Wk, Wv):\n    Q, K, V = x @ Wq, x @ Wk, x @ Wv\n    scores = Q @ K.T / np.sqrt(K.shape[-1])\n    weights = softmax(scores)      # 각 행의 합이 1\n    return weights @ V, weights\n\nrng = np.random.default_rng(0)\nx = rng.normal(size=(4, 8))        # 토큰 4개, 차원 8\nWq, Wk, Wv = (rng.normal(size=(8, 8)) for _ in range(3))\nout, w = self_attention(x, Wq, Wk, Wv)\nprint(out.shape)                   # (4, 8)\nprint(w.sum(axis=-1))              # [1. 1. 1. 1.]\n```\n\n출력은 입력과 같은 모양이지만, 각 토큰이 다른 토큰들의 정보를 가중치대로 섞어 받은 값이다. `weights`를 찍어 보면 어떤 토큰이 어떤 토큰을 얼마나 보는지 직접 확인할 수 있다.",
+      "when": "**쓰면 좋은 경우**\n\n- 텍스트, 코드, 음성처럼 긴 순서 데이터에서 먼 위치 사이의 관계가 중요할 때\n- 대량의 데이터와 GPU로 병렬 학습할 수 있을 때\n- 이미 공개된 사전 학습 모델을 가져와 미세 조정할 수 있을 때\n\n**피해야 할 경우**\n\n- 어텐션은 길이 n에 대해 계산량과 메모리가 n의 제곱으로 늘어서, 아주 긴 입력에는 비용이 크다. 긴 문맥용 변형 기법을 따로 살펴봐야 한다.\n- 데이터가 적은 작은 문제에는 단순한 모델이 더 낫고 과적합 위험도 낮다.\n- 규칙이 명확한 표 형태 데이터에는 트리 계열 모델이 보통 더 간단하고 강하다.",
+      "further_reading": [
+        {
+          "title": "Attention Is All You Need (Vaswani et al., 2017)",
+          "url": "https://arxiv.org/abs/1706.03762"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: 우아한형제들 기술블로그 (HTTP 403)",
+    "원문 사이트 일부에 접속할 수 없어 피드 요약과 접속 가능한 기사만 근거로 요약함"
+  ]
+}
