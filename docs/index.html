@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Tech Brief · 2026.10.15 (목)</title>
+<title>Daily Tech Brief · 2026.10.16 (금)</title>
 <link rel="stylesheet" href="style.css">
 <script>
 try { var saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
@@ -16,14 +16,14 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
       <a class="brand" href="index.html">Daily Tech Brief</a>
       <button class="theme-toggle" type="button" aria-label="다크 모드 전환">◐</button>
     </div>
-    <p class="date">2026.10.15 (목)</p>
+    <p class="date">2026.10.16 (금)</p>
     <nav class="day-nav">
-<a href="2026/10/14.html">◀ 이전</a>      <a href="archive.html">목록</a>
+<a href="2026/10/15.html">◀ 이전</a>      <a href="archive.html">목록</a>
 <span class="disabled">다음 ▶</span>    </nav>
   </header>
   <section class="headline">
     <h2>오늘의 한 줄</h2>
-    <p>앤트로픽이 소형 AI 모델이 IoT 기기를 타고 스스로 복제·확산하는 &#39;AI 웜&#39; 가능성을 경고했다.</p>
+    <p>Meta가 Apple 칩에서 로컬로 돌아가는 오픈 웨이트 모델 Muse Spark Open을 공개하며 오픈 모델 경쟁이 한층 뜨거워졌다.</p>
   </section>
 
   <section class="news">
@@ -31,136 +31,125 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
     <h3>국내</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35368" target="_blank" rel="noopener">Go 1.27의 HTTP/1 연결 재사용 개선</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35432" target="_blank" rel="noopener">이스라엘 기업, 온라인 광고로 제로클릭 스파이웨어 유포</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Go 1.27의 net/http.Transport는 응답 본문을 닫을 때 읽지 않은 데이터가 남아 있으면 백그라운드에서 마저 읽는다.</li><li>이렇게 하면 HTTP/1 연결을 버리지 않고 다시 쓸 수 있다.</li><li>자동으로 읽는 범위는 최대 50ms 또는 256KB로 제한된다.</li>        </ul>
+<li>Citizen Lab과 Confiant의 공동 조사에서 이스라엘 광고 기술 기업 Discover-Tech가 스파이웨어 업체와 협력한 정황이 드러났다.</li><li>광고를 보여주는 것만으로 기기가 감염되며, 사용자의 클릭이나 행동은 필요 없다.</li><li>연구진은 표적 광고로 제로클릭 공격을 전달한 기술적 증거를 처음 확인했다고 밝혔다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35361" target="_blank" rel="noopener">Google이 로그인된 모든 계정에 전화번호를 조용히 연결하고 있음</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35430" target="_blank" rel="noopener">Steam 클라이언트, Epic의 새 바이브 코딩 런처보다 빨라짐</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Google이 Android 기기에 로그인된 모든 계정에 전화번호를 자동으로 인증해 연결한다는 지적이 나왔다.</li><li>이 기능은 별도 확인 없이 기본으로 켜지는 옵트아웃 방식이다.</li><li>Google은 2025년 8~10월 사이 지원 문서에 이 동작을 반영했다.</li>        </ul>
+<li>Epic Games가 Steam보다 빠른 로딩을 내세운 새 런처 프리뷰를 내놓았다.</li><li>24시간 만에 Valve가 Steam 클라이언트 속도를 높이는 소규모 업데이트를 배포했다.</li><li>기본 테스트 시스템에서 업데이트된 Steam의 시작 시간은 5.23초로 줄어 Epic의 새 런처보다 빨라졌다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://www.etnews.com/20261014000344" target="_blank" rel="noopener">금융사 16곳 해킹·개인정보 10만건 유출…130곳 보안관리 부실</a>
+        <a class="news-title" href="https://toss.tech/article/package-management-1" target="_blank" rel="noopener">토스뱅크가 패키지를 관리하는 방식 #1: 패키지를 ESM으로만 제공하기로 했어요</a>
+        <span class="source">토스 기술블로그</span>
+        <ul class="summary">
+<li>토스뱅크는 사내 패키지를 ESM과 CJS로 함께 제공할 때의 문제를 짚었다.</li><li>두 형식이 공존하면 모듈 상태가 분리되고 타입이 빠지는 문제가 생길 수 있다.</li><li>이를 피하려고 패키지를 ESM-only로 전환한 이유와 과정을 소개한다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://www.etnews.com/20261015000453" target="_blank" rel="noopener">IPO 앞둔 앤트로픽, 3분기 매출 45% 증가…2분기 연속 흑자</a>
         <span class="source">전자신문</span>
         <ul class="summary">
-<li>신한은행, KB국민은행 등 금융사 16곳에서 침해사고가 나 개인정보 약 10만 건이 유출된 것으로 확인됐다.</li><li>금융당국이 555곳을 긴급 점검한 결과 130곳에서 보안관리 미흡이 드러났다.</li><li>금융위원회는 금융권 보안체계를 전면 재점검하고 AI 기반 공동 대응체계를 구축하기로 했다.</li>        </ul>
+<li>IPO를 준비 중인 앤트로픽이 14일(현지시간) 설명회에서 3분기 매출이 전분기 대비 45% 늘었다고 밝혔다.</li><li>3분기 매출은 168억달러(약 22조5000억원)로, 지난해 연간 매출의 약 3.6배에 달한다.</li><li>회사는 2개 분기 연속 흑자도 기록해 수익성 개선 성과를 냈다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://www.etnews.com/20261014000313" target="_blank" rel="noopener">앤트로픽, 가전기기에 바이러스처럼 자가 복제되는 &#39;AI 웜&#39; 경고</a>
-        <span class="source">전자신문</span>
+        <a class="news-title" href="https://toss.tech/article/spark-connect-on-kubernetes-2" target="_blank" rel="noopener">Spark Connect on Kubernetes #2: Operator로 만드는 Control Plane</a>
+        <span class="source">토스 기술블로그</span>
         <ul class="summary">
-<li>앤트로픽이 소형 AI 모델이 인간 통제 없이 스스로 퍼지는 자율 복제 현상이 현실화될 수 있다고 경고했다.</li><li>연구 보고서는 스마트 오븐이나 저가 안드로이드 TV 박스 같은 IoT 기기가 확산 경로가 될 수 있다고 짚었다.</li><li>스마트TV, 냉장고 같은 가전이 AI 웜의 숙주가 될 가능성이 제기됐다.</li>        </ul>
-      </li>
-      <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35352" target="_blank" rel="noopener">패스키는 함정이 아니다</a>
-        <span class="source">GeekNews</span>
-        <ul class="summary">
-<li>일반적으로 쓰는 동기화 패스키는 웹사이트에 인증기 증명(attestation)을 제공하지 않는다.</li><li>그래서 증명이 걱정돼 비밀번호와 TOTP로 돌아갈 필요는 없다는 주장이다.</li><li>WebAuthn 인증기 증명은 인증기의 제조사와 모델을 확인하는 기능이다.</li>        </ul>
+<li>토스는 Kubernetes 위에서 Spark Tenant Operator를 만든 과정을 연재 두 번째 글로 공개했다.</li><li>글은 Spark 서버 하나를 기동하고 장애에서 복구하는 단계부터 다룬다.</li><li>이어서 여러 서버의 세션을 유지하면서 서버를 교체하는 방법까지 설명한다.</li>        </ul>
       </li>
     </ol>
     <h3>해외</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes" target="_blank" rel="noopener">CedarDB, 거래와 분석을 한 데이터베이스에서 처리하겠다고 나서</a>
+        <a class="news-title" href="https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx" target="_blank" rel="noopener">Meta와 Apple, Muse AI 모델을 Mac에서 더 잘 돌리도록 협력</a>
+        <span class="source">The Verge</span>
+<p class="original-title">Meta and Apple team up to make Muse AI models run better on Macs</p>        <ul class="summary">
+<li>Meta가 Muse Spark Open을 공개하며 미국의 오픈 웨이트 모델 중 가장 뛰어나다고 주장했다.</li><li>이 모델은 최신 MLX 프레임워크를 쓰는 Apple M5 Ultra Mac Studio 두 대에서 데스크톱으로 돌릴 수 있는 첫 모델이라고 한다.</li><li>이를 위해 Meta와 Apple이 협력했으며, Muse 모델이 Mac에서 더 잘 동작하게 하는 것이 목표다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access" target="_blank" rel="noopener">Anthropic, METR 연구진에 직원 수준의 내부 접근 권한 부여</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes</p>        <ul class="summary">
-<li>뮌헨 기반 CedarDB는 운영 처리와 분석 작업을 한 시스템에서 모두 다루는 데이터베이스 엔진이다.</li><li>PostgreSQL과 호환돼 기존 앱을 다시 만들지 않고도 옮길 수 있다.</li><li>클라우드 버전이 제한적으로 공개됐고, 경쟁사 Databricks도 6월에 비슷한 LTAP를 내놨다.</li>        </ul>
+<p class="original-title">Anthropic is letting METR researchers look under the hood with employee-level access</p>        <ul class="summary">
+<li>Anthropic은 AI 모델을 평가하는 비영리 단체 METR의 연구원 6명에게 직원 수준의 접근 권한을 줬다.</li><li>METR은 Anthropic의 위험과 사고, 운영 관행에 대한 자체 평가를 발표할 수 있고, Anthropic은 고객 데이터 등 좁게 정해진 범주만 가릴 수 있다.</li><li>이는 외부 평가자를 AI 연구소 안으로 들이자는 Dario Amodei의 9월 에세이 제안을 따른 조치다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://github.com/timescale/pg_vectorsearch" target="_blank" rel="noopener">Pg_vectorsearch: pgvector의 IVFFlat·HNSW보다 빠르다는 인덱스</a>
-        <span class="source">Hacker News</span>
-<p class="original-title">Pg_vectorsearch: An index that is faster than pgvector&#39;s IVFFlat and HNSW</p>        <ul class="summary">
-<li>pg_vectorsearch는 PostgreSQL에서 근사 최근접 이웃 검색을 제공하는 확장으로, PRISM 인덱스를 쓴다.</li><li>프로젝트는 pgvector의 HNSW와 IVFFlat보다 빠르다고 주장하지만 아직 알파 단계라 운영 사용용이 아니다.</li><li>기존 pgvector의 vector, halfvec 컬럼을 다시 쓰지 않고 인덱싱할 수 있고 PostgreSQL 18 이상이 필요하다.</li>        </ul>
+        <a class="news-title" href="https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform" target="_blank" rel="noopener">Figma, 플랫폼에서 에이전트가 일하는 방식을 정의하는 새 기능 발표</a>
+        <span class="source">TechCrunch</span>
+<p class="original-title">Figma announces new features to define how agents work on its platform</p>        <ul class="summary">
+<li>Figma는 마크다운 기반 편집기 Figma Specs를 공개해 팀이 디자인 언어를 정의하고 AI 에이전트의 참고 자료로 쓰게 했다.</li><li>디자인에 코드를 붙여 상호작용 프로토타입을 만드는 코드 레이어는 비공개 베타에서 오픈 베타로 넘어갔다.</li><li>Figma는 MCP로 20개 넘는 새 도구 지원을 추가하고 Payload CMS를 Figma Make에 통합했다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://www.theverge.com/tech/1011487/microsoft-scam-messages-marketplace-takedown" target="_blank" rel="noopener">마이크로소프트와 일본, 수십억 건 스캠 메시지 뒤의 사이버 범죄망 해체</a>
-        <span class="source">The Verge</span>
-<p class="original-title">Microsoft and Japan took down a cybercrime network behind over a billion scam messages</p>        <ul class="summary">
-<li>마이크로소프트는 피싱 메시지를 보내는 사기범들이 쓰던 거래 시장을 해체하는 데 참여했다고 밝혔다.</li><li>일본 경찰청과 함께 조사해 스캠 활동의 출처를 추적했다.</li><li>이 네트워크는 10억 건이 넘는 스캠 메시지와 관련된 것으로 알려졌다.</li>        </ul>
-      </li>
-      <li class="news-item">
-        <a class="news-title" href="https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label" target="_blank" rel="noopener">유튜브, AI 생성 노래에 새 라벨 부착</a>
-        <span class="source">The Verge</span>
-<p class="original-title">YouTube sticks new labels on AI-generated songs</p>        <ul class="summary">
-<li>유튜브가 AI로 변형되거나 완전히 생성된 트랙에 &#39;Made with AI&#39; 라벨을 붙이기로 했다.</li><li>기존 영상의 AI 라벨 방식과 비슷하게 적용되며, 플레이어 페이지에 표시된다.</li><li>음악 제작에 AI 도구를 조금이라도 쓴 모든 경우가 대상은 아닌 것으로 보인다.</li>        </ul>
+        <a class="news-title" href="https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers" target="_blank" rel="noopener">요청 2,500건에서 24건으로: 스타게이저 없이 스타 히스토리 다시 만들기</a>
+        <span class="source">GitHub Blog</span>
+<p class="original-title">From 2,500 requests to 24: Rebuilding star history without the stargazers</p>        <ul class="summary">
+<li>GitHub가 스타게이저 목록을 관리자와 협업자로 제한하면서 기존 방식의 스타 히스토리 도구가 동작하지 않게 됐다.</li><li>새 엔드포인트는 사용자 신원 없이 요청당 최대 30주치 일별 스타 수를 돌려주며, react/react 기준 약 2,511번이던 요청이 24번 수준으로 줄었다.</li><li>아주 촘촘한 주는 여전히 느릴 수 있고, 삭제된 스타는 히스토리에 나타나지 않는다.</li>        </ul>
       </li>
     </ol>
   </section>
 
   <section class="tech">
     <h2>오늘의 기술</h2>
-    <h3 class="tech-title">트랜스포머 구조</h3>
+    <h3 class="tech-title">OAuth 2.0과 OIDC</h3>
     <p class="tech-meta">
-      <span class="badge">커리큘럼 #6</span>
-      <span>AI/ML</span>
+      <span class="badge">커리큘럼 #7</span>
+      <span>보안</span>
       <span>⏱ 6분</span>
     </p>
-    <p class="definition">트랜스포머는 입력 문장의 모든 단어가 서로를 직접 참조하게 하는 어텐션(attention) 연산만으로 순서 데이터를 처리하는 신경망 구조다.</p>
+    <p class="definition">**OAuth 2.0**은 사용자의 비밀번호를 넘기지 않고 다른 앱에 제한된 접근 권한(인가)을 위임하는 표준이고, **OIDC(OpenID Connect)**는 그 위에 &#34;이 사용자가 누구인가&#34;라는 로그인(인증) 정보를 얹은 계층이다.</p>
     <h4>왜 필요한가</h4>
-    <p>트랜스포머 이전의 표준은 RNN과 LSTM이었다. 이 모델들은 단어를 앞에서부터 하나씩 순서대로 처리하기 때문에 두 가지가 불편했다.</p>
-<ul>
-<li><strong>병렬화가 어렵다</strong>: 다음 단어의 계산이 이전 단어의 결과에 의존해서, GPU를 충분히 활용하지 못한다.</li>
-<li><strong>먼 거리의 관계를 잊는다</strong>: 문장이 길어지면 앞쪽 정보가 여러 단계를 거치며 희미해진다.</li>
-</ul>
-<p>2017년 논문 "Attention Is All You Need"는 순환 구조를 아예 없애고 어텐션만 쓰는 구조를 제안했다. 모든 위치를 한꺼번에 계산할 수 있어 학습이 빨라졌고, 어떤 두 단어든 한 번의 연산으로 연결된다. 오늘날 대형 언어 모델 대부분이 이 구조 위에서 만들어진다.</p>
+    <p>예전에는 외부 서비스가 내 구글 연락처를 읽으려면 구글 비밀번호를 직접 받아야 했다. 그러면 앱이 계정 전체를 쥐게 되고, 앱 하나가 뚫리면 비밀번호가 새며, 권한만 일부 거두는 것도 불가능하다.
+OAuth는 비밀번호 대신 범위(scope)와 유효 시간이 제한된 <strong>토큰</strong>을 발급해 이 문제를 풀었다. 다만 OAuth는 "무엇을 할 수 있는가"만 다루고 "누구인가"는 표준이 없어서, 서비스마다 제각각 로그인을 구현하다 보안 사고가 났다. OIDC는 이 빈틈을 표준화한 것이다.</p>
+<p>먼저 네 가지 역할을 알아 두자. <strong>리소스 소유자</strong>는 사용자, <strong>클라이언트</strong>는 접근하려는 앱, <strong>인가 서버</strong>는 로그인과 토큰 발급을 맡는 서버, <strong>리소스 서버</strong>는 실제 데이터를 가진 API다.</p>
     <h4>동작 원리</h4>
-    <p>트랜스포머의 핵심은 <strong>셀프 어텐션</strong>이다. 한 문장이 들어왔을 때의 흐름은 다음과 같다.</p>
-<ol>
-<li><strong>토큰화와 임베딩</strong>: 문장을 토큰으로 나누고 각 토큰을 숫자 벡터로 바꾼다.</li>
-<li><strong>위치 인코딩</strong>: 어텐션은 순서를 모르기 때문에, 각 토큰의 위치 정보를 벡터에 더해 준다.</li>
-<li><strong>Q, K, V 만들기</strong>: 각 토큰 벡터에 서로 다른 가중치 행렬을 곱해 질의(Query), 키(Key), 값(Value) 세 벡터를 만든다.</li>
-<li><strong>유사도 계산</strong>: 한 토큰의 Q와 모든 토큰의 K를 내적해 "얼마나 관련 있는가" 점수를 구하고, 차원 크기의 제곱근으로 나눈 뒤 소프트맥스로 합이 1인 가중치로 바꾼다.</li>
-<li><strong>가중합</strong>: 그 가중치로 V들을 섞어 해당 토큰의 새 표현을 만든다. 관련 깊은 단어의 정보가 더 많이 반영된다.</li>
-<li><strong>멀티 헤드</strong>: 3~5를 여러 묶음(헤드)으로 나눠 동시에 하고 이어 붙인다. 헤드마다 문법, 대상 지칭 같은 서로 다른 관계를 잡는다.</li>
-<li><strong>피드포워드와 정규화</strong>: 각 토큰에 작은 신경망을 적용하고, 잔차 연결(residual)과 층 정규화로 안정적으로 학습한다. 이런 블록을 여러 층 쌓는다.</li>
+    <ol>
+<li>클라이언트(앱)가 사용자를 인가 서버의 로그인 화면으로 보낸다. 이때 <code>client_id</code>, <code>redirect_uri</code>, <code>scope</code>, <code>state</code>, PKCE용 <code>code_challenge</code>를 쿼리로 전달한다.</li>
+<li>사용자가 인가 서버에서 로그인하고 "이 앱에 이 권한을 줄까요?"라는 동의 화면에서 허용한다.</li>
+<li>인가 서버는 브라우저를 <code>redirect_uri</code>로 되돌리며 일회용 <strong>인가 코드</strong>를 붙여 준다. <code>state</code>가 처음 보낸 값과 같은지 반드시 확인한다.</li>
+<li>클라이언트는 서버 쪽에서 인가 코드와 <code>code_verifier</code>를 토큰 엔드포인트로 보내 <strong>액세스 토큰</strong>으로 교환한다. 토큰은 브라우저 주소창에 노출되지 않는다.</li>
+<li>클라이언트는 액세스 토큰을 <code>Authorization: Bearer ...</code> 헤더에 넣어 리소스 서버(API)를 호출한다.</li>
+<li>스코프에 <code>openid</code>가 있으면 토큰 응답에 <strong>ID 토큰</strong>(JWT)도 온다. 서명, <code>iss</code>(발급자), <code>aud</code>(대상 앱), <code>exp</code>(만료), <code>nonce</code>를 검증한 뒤에야 사용자가 누구인지 믿을 수 있다.</li>
 </ol>
-<p>원 논문은 입력을 읽는 인코더와 출력을 만드는 디코더를 모두 두었다. GPT 계열처럼 디코더만 쓰는 모델은 "자기 앞의 토큰만 볼 수 있게" 마스크를 씌워 다음 단어를 예측한다.</p>
+<p>OAuth 2.0에서 액세스 토큰은 클라이언트에게 "내용을 알 수 없는 열쇠"로 취급되고, OIDC의 ID 토큰은 클라이언트가 직접 읽는 "신분 증명서"라는 점이 다르다.</p>
     <h4>예시</h4>
-    <p>아래는 NumPy로 쓴 단일 헤드 셀프 어텐션의 핵심이다. 입력 <code>x</code>의 각 행이 토큰 하나다.</p>
-<pre><code class="language-python">import numpy as np
-
-def softmax(z):
-    z = z - z.max(axis=-1, keepdims=True)
-    e = np.exp(z)
-    return e / e.sum(axis=-1, keepdims=True)
-
-def self_attention(x, Wq, Wk, Wv):
-    Q, K, V = x @ Wq, x @ Wk, x @ Wv
-    scores = Q @ K.T / np.sqrt(K.shape[-1])
-    weights = softmax(scores)      # 각 행의 합이 1
-    return weights @ V, weights
-
-rng = np.random.default_rng(0)
-x = rng.normal(size=(4, 8))        # 토큰 4개, 차원 8
-Wq, Wk, Wv = (rng.normal(size=(8, 8)) for _ in range(3))
-out, w = self_attention(x, Wq, Wk, Wv)
-print(out.shape)                   # (4, 8)
-print(w.sum(axis=-1))              # [1. 1. 1. 1.]
+    <p>인가 코드 흐름의 첫 요청(로그인 화면으로 보내는 주소)과, 코드를 토큰으로 바꾸는 요청 예시다. 값은 설명용 가짜 값이다.</p>
+<pre><code class="language-http">GET /authorize?response_type=code
+  &amp;client_id=my-app
+  &amp;redirect_uri=https%3A%2F%2Fapp.example.com%2Fcallback
+  &amp;scope=openid%20profile%20email
+  &amp;state=xyz123
+  &amp;code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM
+  &amp;code_challenge_method=S256 HTTP/1.1
+Host: auth.example.com
 </code></pre>
-<p>출력은 입력과 같은 모양이지만, 각 토큰이 다른 토큰들의 정보를 가중치대로 섞어 받은 값이다. <code>weights</code>를 찍어 보면 어떤 토큰이 어떤 토큰을 얼마나 보는지 직접 확인할 수 있다.</p>
+<p>사용자가 동의하면 <code>https://app.example.com/callback?code=abc&amp;state=xyz123</code>으로 돌아온다. 이제 서버에서 다음 요청으로 토큰을 받는다.</p>
+<pre><code class="language-bash">curl -X POST https://auth.example.com/token \
+  -d grant_type=authorization_code \
+  -d code=abc \
+  -d redirect_uri=https://app.example.com/callback \
+  -d client_id=my-app \
+  -d code_verifier=원래_만든_랜덤_문자열
+</code></pre>
+<p>응답에는 <code>access_token</code>, <code>expires_in</code>, 그리고 <code>openid</code> 스코프를 요청했다면 <code>id_token</code>이 들어 있다.</p>
     <h4>언제 쓰고 언제 안 쓰나</h4>
-    <p><strong>쓰면 좋은 경우</strong></p>
-<ul>
-<li>텍스트, 코드, 음성처럼 긴 순서 데이터에서 먼 위치 사이의 관계가 중요할 때</li>
-<li>대량의 데이터와 GPU로 병렬 학습할 수 있을 때</li>
-<li>이미 공개된 사전 학습 모델을 가져와 미세 조정할 수 있을 때</li>
-</ul>
-<p><strong>피해야 할 경우</strong></p>
-<ul>
-<li>어텐션은 길이 n에 대해 계산량과 메모리가 n의 제곱으로 늘어서, 아주 긴 입력에는 비용이 크다. 긴 문맥용 변형 기법을 따로 살펴봐야 한다.</li>
-<li>데이터가 적은 작은 문제에는 단순한 모델이 더 낫고 과적합 위험도 낮다.</li>
-<li>규칙이 명확한 표 형태 데이터에는 트리 계열 모델이 보통 더 간단하고 강하다.</li>
-</ul>
+    <p><strong>쓰면 좋은 경우</strong>
+- "구글/GitHub/카카오로 로그인"처럼 외부 계정으로 가입·로그인을 받을 때(OIDC)
+- 서드파티 앱에 내 데이터 일부만 읽기·쓰기 권한을 줄 때(OAuth)
+- 여러 서비스가 하나의 로그인(SSO)을 공유할 때</p>
+<p><strong>피해야 할 경우와 주의점</strong>
+- 액세스 토큰을 "로그인 증명"으로 쓰지 않는다. 사용자 식별은 검증한 ID 토큰으로 한다.
+- 모바일·SPA 같은 공개 클라이언트는 비밀키를 숨길 수 없으므로 반드시 PKCE를 쓴다.
+- 토큰을 <code>localStorage</code>처럼 스크립트가 읽을 수 있는 곳에 오래 보관하지 않고, <code>redirect_uri</code>는 정확히 일치하는 값만 허용한다.
+- 단순한 내부 서비스 하나의 로그인이라면 OAuth 서버를 직접 만들기보다 검증된 라이브러리나 IdP를 쓰는 편이 안전하다.</p>
     <h4>더 읽을거리</h4>
     <ul class="further">
-<li><a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener">Attention Is All You Need (Vaswani et al., 2017)</a></li>    </ul>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc6749" target="_blank" rel="noopener">RFC 6749 - The OAuth 2.0 Authorization Framework</a></li><li><a href="https://openid.net/specs/openid-connect-core-1_0.html" target="_blank" rel="noopener">OpenID Connect Core 1.0</a></li>    </ul>
   </section>
 
   <footer class="notes">
-<p>일부 소스 수집 실패: 우아한형제들 기술블로그 (HTTP 403)</p><p>원문 사이트 일부에 접속할 수 없어 피드 요약과 접속 가능한 기사만 근거로 요약함</p>  </footer>
+<p>오늘의 기술 참고 링크는 네트워크 제한으로 열어 확인하지 못했음(RFC 6749, OIDC Core 표준 주소 사용)</p><p>일부 소스 수집 실패: 우아한형제들 기술블로그(HTTP 403)</p>  </footer>
 </main>
 <script>
 document.querySelector(".theme-toggle").addEventListener("click", function () {

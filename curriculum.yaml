@@ -26,7 +26,7 @@ topics:
 - id: oauth-oidc
   title: OAuth 2.0과 OIDC
   category: 보안
-  covered_on: null
+  covered_on: '2026-10-16'
 - id: git-internals
   title: Git 내부 구조
   category: 언어/도구
