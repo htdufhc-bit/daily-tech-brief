@@ -30,7 +30,7 @@ topics:
 - id: git-internals
   title: Git 내부 구조
   category: 언어/도구
-  covered_on: null
+  covered_on: '2026-10-17'
 - id: rest-vs-graphql
   title: REST와 GraphQL
   category: 웹

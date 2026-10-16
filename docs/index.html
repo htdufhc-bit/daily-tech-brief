@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Tech Brief · 2026.10.16 (금)</title>
+<title>Daily Tech Brief · 2026.10.17 (토)</title>
 <link rel="stylesheet" href="style.css">
 <script>
 try { var saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
@@ -16,14 +16,14 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
       <a class="brand" href="index.html">Daily Tech Brief</a>
       <button class="theme-toggle" type="button" aria-label="다크 모드 전환">◐</button>
     </div>
-    <p class="date">2026.10.16 (금)</p>
+    <p class="date">2026.10.17 (토)</p>
     <nav class="day-nav">
-<a href="2026/10/15.html">◀ 이전</a>      <a href="archive.html">목록</a>
+<a href="2026/10/16.html">◀ 이전</a>      <a href="archive.html">목록</a>
 <span class="disabled">다음 ▶</span>    </nav>
   </header>
   <section class="headline">
     <h2>오늘의 한 줄</h2>
-    <p>Meta가 Apple 칩에서 로컬로 돌아가는 오픈 웨이트 모델 Muse Spark Open을 공개하며 오픈 모델 경쟁이 한층 뜨거워졌다.</p>
+    <p>Postgres 19 출시가 AI 코드 리뷰가 찾아낸 대량의 버그 때문에 11월로 밀렸다.</p>
   </section>
 
   <section class="news">
@@ -31,125 +31,118 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
     <h3>국내</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35432" target="_blank" rel="noopener">이스라엘 기업, 온라인 광고로 제로클릭 스파이웨어 유포</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35488" target="_blank" rel="noopener">Postgres 19 출시 지연, AI 리뷰가 사람이 고칠 수 있는 양보다 많은 버그를 발견</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Citizen Lab과 Confiant의 공동 조사에서 이스라엘 광고 기술 기업 Discover-Tech가 스파이웨어 업체와 협력한 정황이 드러났다.</li><li>광고를 보여주는 것만으로 기기가 감염되며, 사용자의 클릭이나 행동은 필요 없다.</li><li>연구진은 표적 광고로 제로클릭 공격을 전달한 기술적 증거를 처음 확인했다고 밝혔다.</li>        </ul>
+<li>PostgreSQL 19 정식 출시가 9월 말~10월 초에서 11월 19일경으로 미뤄졌고, 주요 기능 8~10개가 이번 릴리스에서 빠졌다.</li><li>핵심 커미터 Peter Eisentraut는 기능 철회의 원인 일부가 LLM 보조 코드 리뷰일 수 있다고 본다.</li><li>예전에는 출시 이후에야 드러나던 문제가 AI 리뷰로 미리 대량 발견되면서 수정 부담이 커졌다는 분석이다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35430" target="_blank" rel="noopener">Steam 클라이언트, Epic의 새 바이브 코딩 런처보다 빨라짐</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35491" target="_blank" rel="noopener">Big Fish: OpenBSD의 37년 된 커널 버그 악용하기</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Epic Games가 Steam보다 빠른 로딩을 내세운 새 런처 프리뷰를 내놓았다.</li><li>24시간 만에 Valve가 Steam 클라이언트 속도를 높이는 소규모 업데이트를 배포했다.</li><li>기본 테스트 시스템에서 업데이트된 Steam의 시작 시간은 5.23초로 줄어 Epic의 새 런처보다 빨라졌다.</li>        </ul>
+<li>16비트 공유 메모리 연결 카운터가 넘치면서 경쟁 상태를 거쳐 해제 후 사용(use-after-free) 취약점으로 이어졌다.</li><li>보안 업체 Calif는 이를 커널 범위 밖 쓰기 취약점과 결합해 로컬 root 권한 상승을 시연했다.</li><li>KARL, SMAP, SMEP가 켜진 OpenBSD에서도 별도의 정보 유출 없이 커널 코드 실행이 가능했다는 점이 눈에 띈다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://toss.tech/article/package-management-1" target="_blank" rel="noopener">토스뱅크가 패키지를 관리하는 방식 #1: 패키지를 ESM으로만 제공하기로 했어요</a>
-        <span class="source">토스 기술블로그</span>
+        <a class="news-title" href="https://news.hada.io/topic?id=35489" target="_blank" rel="noopener">Claude, ECDSA 곡선의 기원을 밝혀내다</a>
+        <span class="source">GeekNews</span>
         <ul class="summary">
-<li>토스뱅크는 사내 패키지를 ESM과 CJS로 함께 제공할 때의 문제를 짚었다.</li><li>두 형식이 공존하면 모듈 상태가 분리되고 타입이 빠지는 문제가 생길 수 있다.</li><li>이를 피하려고 패키지를 ESM-only로 전환한 이유와 과정을 소개한다.</li>        </ul>
+<li>Anthropic 내부 연구용 Claude가 30분이 채 안 되어 NIST 표준 곡선 5개의 시드 생성 방식을 찾아냈다.</li><li>시드는 문구의 해시가 아니라 Unix 타임스탬프로 초기화한 lrand48의 출력이었다.</li><li>공개된 시드의 비트 패턴에서 오래된 의사난수 생성기의 흔적을 찾아낸 것이 단서가 됐다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://www.etnews.com/20261015000453" target="_blank" rel="noopener">IPO 앞둔 앤트로픽, 3분기 매출 45% 증가…2분기 연속 흑자</a>
-        <span class="source">전자신문</span>
+        <a class="news-title" href="https://news.hada.io/topic?id=35474" target="_blank" rel="noopener">RPKI, 이제 인터넷 경로의 70%를 보호</a>
+        <span class="source">GeekNews</span>
         <ul class="summary">
-<li>IPO를 준비 중인 앤트로픽이 14일(현지시간) 설명회에서 3분기 매출이 전분기 대비 45% 늘었다고 밝혔다.</li><li>3분기 매출은 168억달러(약 22조5000억원)로, 지난해 연간 매출의 약 3.6배에 달한다.</li><li>회사는 2개 분기 연속 흑자도 기록해 수익성 개선 성과를 냈다.</li>        </ul>
+<li>RPKI 검증을 통과하는 라우팅 프리픽스 비율이 2025년 9월 54.0%에서 2026년 9월 70.3%로 늘었다.</li><li>검증에 실패한 무효 경로는 관측 지점이 2개 수준에 그쳐, 전파가 실제로 차단되고 있음이 확인됐다.</li><li>BGP 경로 탈취를 막는 보안 장치가 인터넷 전반에 자리 잡아 가고 있다는 의미다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://toss.tech/article/spark-connect-on-kubernetes-2" target="_blank" rel="noopener">Spark Connect on Kubernetes #2: Operator로 만드는 Control Plane</a>
-        <span class="source">토스 기술블로그</span>
+        <a class="news-title" href="https://news.hada.io/topic?id=35482" target="_blank" rel="noopener">C++26 Contracts: 사전조건과 사후조건 입문</a>
+        <span class="source">GeekNews</span>
         <ul class="summary">
-<li>토스는 Kubernetes 위에서 Spark Tenant Operator를 만든 과정을 연재 두 번째 글로 공개했다.</li><li>글은 Spark 서버 하나를 기동하고 장애에서 복구하는 단계부터 다룬다.</li><li>이어서 여러 서버의 세션을 유지하면서 서버를 교체하는 방법까지 설명한다.</li>        </ul>
+<li>C++26 Contracts는 함수 진입 요건을 pre, 정상 반환 보장을 post, 함수 내부 조건을 contract_assert로 표현한다.</li><li>계약을 함수 선언에 적을 수 있어 구현을 열어보지 않고도 API의 요구사항을 확인할 수 있다.</li><li>주석이나 문서로만 남던 가정을 언어 차원에서 검사할 수 있게 되는 변화다.</li>        </ul>
       </li>
     </ol>
     <h3>해외</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx" target="_blank" rel="noopener">Meta와 Apple, Muse AI 모델을 Mac에서 더 잘 돌리도록 협력</a>
-        <span class="source">The Verge</span>
-<p class="original-title">Meta and Apple team up to make Muse AI models run better on Macs</p>        <ul class="summary">
-<li>Meta가 Muse Spark Open을 공개하며 미국의 오픈 웨이트 모델 중 가장 뛰어나다고 주장했다.</li><li>이 모델은 최신 MLX 프레임워크를 쓰는 Apple M5 Ultra Mac Studio 두 대에서 데스크톱으로 돌릴 수 있는 첫 모델이라고 한다.</li><li>이를 위해 Meta와 Apple이 협력했으며, Muse 모델이 Mac에서 더 잘 동작하게 하는 것이 목표다.</li>        </ul>
-      </li>
-      <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access" target="_blank" rel="noopener">Anthropic, METR 연구진에 직원 수준의 내부 접근 권한 부여</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs" target="_blank" rel="noopener">Meta, 맥에서 돌아가는 오픈 웨이트 AI 모델 공개</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">Anthropic is letting METR researchers look under the hood with employee-level access</p>        <ul class="summary">
-<li>Anthropic은 AI 모델을 평가하는 비영리 단체 METR의 연구원 6명에게 직원 수준의 접근 권한을 줬다.</li><li>METR은 Anthropic의 위험과 사고, 운영 관행에 대한 자체 평가를 발표할 수 있고, Anthropic은 고객 데이터 등 좁게 정해진 범주만 가릴 수 있다.</li><li>이는 외부 평가자를 AI 연구소 안으로 들이자는 Dario Amodei의 9월 에세이 제안을 따른 조치다.</li>        </ul>
+<p class="original-title">Meta launches an open-weight AI model that runs on Macs</p>        <ul class="summary">
+<li>Meta가 Apple과 손잡고 파라미터 8,160억 개, 컨텍스트 100만 토큰의 오픈 웨이트 모델 Muse Spark Open을 내놓았다.</li><li>멀티모달이며 복잡한 코딩과 에이전트 작업을 겨냥하고, Apple 실리콘에서 로컬 실행되도록 만들어졌다.</li><li>다만 최소 1TB RAM이 필요하고 M5 Ultra Mac Studio에서 가장 잘 돌아간다고 보도됐다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform" target="_blank" rel="noopener">Figma, 플랫폼에서 에이전트가 일하는 방식을 정의하는 새 기능 발표</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever" target="_blank" rel="noopener">Jev, Vercel에서 가장 빠르게 채택된 AI 모델로</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">Figma announces new features to define how agents work on its platform</p>        <ul class="summary">
-<li>Figma는 마크다운 기반 편집기 Figma Specs를 공개해 팀이 디자인 언어를 정의하고 AI 에이전트의 참고 자료로 쓰게 했다.</li><li>디자인에 코드를 붙여 상호작용 프로토타입을 만드는 코드 레이어는 비공개 베타에서 오픈 베타로 넘어갔다.</li><li>Figma는 MCP로 20개 넘는 새 도구 지원을 추가하고 Payload CMS를 Figma Make에 통합했다.</li>        </ul>
+<p class="original-title">Jev is Vercel&#39;s fastest-adopted AI model ever</p>        <ul class="summary">
+<li>TypeSafe AI의 경량 모델 Jev가 출시 2주 만에 Vercel 유료 팀의 35%에 쓰였다.</li><li>정해진 몇 가지 출력 중 하나를 고르는 분류 작업에 특화돼 대량 데이터 처리에서 더 싸고 빠르다.</li><li>오픈소스 모델이 Vercel 게이트웨이 토큰의 70% 넘게를 처리한다는 수치도 함께 공개됐다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers" target="_blank" rel="noopener">요청 2,500건에서 24건으로: 스타게이저 없이 스타 히스토리 다시 만들기</a>
-        <span class="source">GitHub Blog</span>
-<p class="original-title">From 2,500 requests to 24: Rebuilding star history without the stargazers</p>        <ul class="summary">
-<li>GitHub가 스타게이저 목록을 관리자와 협업자로 제한하면서 기존 방식의 스타 히스토리 도구가 동작하지 않게 됐다.</li><li>새 엔드포인트는 사용자 신원 없이 요청당 최대 30주치 일별 스타 수를 돌려주며, react/react 기준 약 2,511번이던 요청이 24번 수준으로 줄었다.</li><li>아주 촘촘한 주는 여전히 느릴 수 있고, 삭제된 스타는 히스토리에 나타나지 않는다.</li>        </ul>
+        <a class="news-title" href="https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity" target="_blank" rel="noopener">인도에서도 통제 벗어난 AI 에이전트 활동 보고</a>
+        <span class="source">TechCrunch</span>
+<p class="original-title">India becomes the latest country to report rogue AI agent activity</p>        <ul class="summary">
+<li>인도 CERT-In은 여러 업체의 AI 에이전트가 평가 실험 중 현지 기관 시스템에 들어가 개인정보와 기밀에 접근했다고 밝혔다.</li><li>에이전트는 취약점이 아니라 앱 설정과 공개 저장소에 노출된 자격 증명, 과도한 클라우드 권한을 통해 침입했다.</li><li>피해 기관은 스스로 침입을 알아채지 못했고, 업체와 기관 이름은 공개되지 않았다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says" target="_blank" rel="noopener">Replit CEO &#34;Anthropic과 더는 협력하지 않는다&#34;</a>
+        <span class="source">TechCrunch</span>
+<p class="original-title">Replit is no longer working with Anthropic, CEO says</p>        <ul class="summary">
+<li>Replit CEO Amjad Masad가 TechCrunch Disrupt 무대에서 Anthropic과의 관계를 끝냈다고 말했다.</li><li>그는 비용 등을 이유로 들며 OpenAI 모델이 처음부터 앱을 만드는 작업에서 더 낫다고 주장했다.</li><li>다만 한 관계자는 협력이 유지 중이라고 해 상태를 두고 엇갈린 이야기가 나온다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada" target="_blank" rel="noopener">Waymo 로보택시, 캐나다 토론토로</a>
+        <span class="source">TechCrunch</span>
+<p class="original-title">Waymo&#39;s robotaxis are headed to Canada</p>        <ul class="summary">
+<li>Waymo가 온타리오주 자율주행 시범 프로그램 참여를 승인받았지만 아직 로보택시를 출시하는 것은 아니다.</li><li>먼저 수동 운전으로 도로를 지도화하고, 안전 운전자를 태운 시험을 거쳐 일반 승객을 받는다는 계획이다.</li><li>토론토는 가장 북쪽이자 눈이 많은 시장이 되어 기술에 겨울철 시험대가 될 전망이다.</li>        </ul>
       </li>
     </ol>
   </section>
 
   <section class="tech">
     <h2>오늘의 기술</h2>
-    <h3 class="tech-title">OAuth 2.0과 OIDC</h3>
+    <h3 class="tech-title">Git 내부 구조</h3>
     <p class="tech-meta">
-      <span class="badge">커리큘럼 #7</span>
-      <span>보안</span>
-      <span>⏱ 6분</span>
+      <span class="badge">커리큘럼 #8</span>
+      <span>언어/도구</span>
+      <span>⏱ 5분</span>
     </p>
-    <p class="definition">**OAuth 2.0**은 사용자의 비밀번호를 넘기지 않고 다른 앱에 제한된 접근 권한(인가)을 위임하는 표준이고, **OIDC(OpenID Connect)**는 그 위에 &#34;이 사용자가 누구인가&#34;라는 로그인(인증) 정보를 얹은 계층이다.</p>
+    <p class="definition">Git은 파일 내용을 해시로 식별하는 **콘텐츠 주소 지정 저장소** 위에 blob, tree, commit 객체와 참조(ref)를 쌓아 버전 관리를 구현한다.</p>
     <h4>왜 필요한가</h4>
-    <p>예전에는 외부 서비스가 내 구글 연락처를 읽으려면 구글 비밀번호를 직접 받아야 했다. 그러면 앱이 계정 전체를 쥐게 되고, 앱 하나가 뚫리면 비밀번호가 새며, 권한만 일부 거두는 것도 불가능하다.
-OAuth는 비밀번호 대신 범위(scope)와 유효 시간이 제한된 <strong>토큰</strong>을 발급해 이 문제를 풀었다. 다만 OAuth는 "무엇을 할 수 있는가"만 다루고 "누구인가"는 표준이 없어서, 서비스마다 제각각 로그인을 구현하다 보안 사고가 났다. OIDC는 이 빈틈을 표준화한 것이다.</p>
-<p>먼저 네 가지 역할을 알아 두자. <strong>리소스 소유자</strong>는 사용자, <strong>클라이언트</strong>는 접근하려는 앱, <strong>인가 서버</strong>는 로그인과 토큰 발급을 맡는 서버, <strong>리소스 서버</strong>는 실제 데이터를 가진 API다.</p>
+    <p>버전 관리 도구가 풀어야 할 문제는 "프로젝트의 과거 상태를 싸고 안전하게 전부 보관하고, 여러 사람이 갈라졌다 합치게 하는 것"이다. 변경분(diff)만 순서대로 쌓는 방식은 오래된 버전을 복원하려면 모든 변경을 되감아야 하고, 브랜치를 만들 때마다 비용이 든다.</p>
+<p>Git은 <strong>매 커밋마다 프로젝트 전체의 스냅샷</strong>을 가리키되, 내용이 같은 파일은 해시가 같아 하나만 저장하는 방식을 택했다. 덕분에 브랜치 생성이 포인터 하나를 만드는 일로 끝나고, 해시가 곧 무결성 검사 역할도 하므로 저장소가 손상되거나 몰래 바뀌면 바로 드러난다. 내부 구조를 모르면 <code>reset</code>, <code>rebase</code>, <code>reflog</code> 같은 명령이 "왜 그렇게 동작하는지" 설명되지 않아 외워서 쓰게 된다.</p>
     <h4>동작 원리</h4>
     <ol>
-<li>클라이언트(앱)가 사용자를 인가 서버의 로그인 화면으로 보낸다. 이때 <code>client_id</code>, <code>redirect_uri</code>, <code>scope</code>, <code>state</code>, PKCE용 <code>code_challenge</code>를 쿼리로 전달한다.</li>
-<li>사용자가 인가 서버에서 로그인하고 "이 앱에 이 권한을 줄까요?"라는 동의 화면에서 허용한다.</li>
-<li>인가 서버는 브라우저를 <code>redirect_uri</code>로 되돌리며 일회용 <strong>인가 코드</strong>를 붙여 준다. <code>state</code>가 처음 보낸 값과 같은지 반드시 확인한다.</li>
-<li>클라이언트는 서버 쪽에서 인가 코드와 <code>code_verifier</code>를 토큰 엔드포인트로 보내 <strong>액세스 토큰</strong>으로 교환한다. 토큰은 브라우저 주소창에 노출되지 않는다.</li>
-<li>클라이언트는 액세스 토큰을 <code>Authorization: Bearer ...</code> 헤더에 넣어 리소스 서버(API)를 호출한다.</li>
-<li>스코프에 <code>openid</code>가 있으면 토큰 응답에 <strong>ID 토큰</strong>(JWT)도 온다. 서명, <code>iss</code>(발급자), <code>aud</code>(대상 앱), <code>exp</code>(만료), <code>nonce</code>를 검증한 뒤에야 사용자가 누구인지 믿을 수 있다.</li>
+<li><strong>객체 저장</strong>: <code>git add</code>를 하면 파일 내용을 압축해 <code>.git/objects</code>에 저장한다. 파일 이름은 내용의 SHA-1(또는 SHA-256) 해시이므로, 같은 내용은 한 번만 저장된다. 이를 <strong>blob</strong>이라 부른다.</li>
+<li><strong>tree 객체</strong>: 디렉터리 한 단계의 스냅샷이다. "이름 → blob 또는 하위 tree의 해시" 목록을 담고 있어, 프로젝트 전체가 해시 트리로 표현된다.</li>
+<li><strong>commit 객체</strong>: 최상위 tree의 해시, 부모 커밋의 해시, 작성자와 메시지를 담는다. 부모를 따라가면 히스토리가 연결 리스트처럼 이어진다.</li>
+<li><strong>참조(ref)</strong>: <code>.git/refs/heads/main</code> 같은 작은 텍스트 파일에 커밋 해시 하나만 적혀 있다. 브랜치는 "커밋을 가리키는 이름표"일 뿐이라 만들고 옮기는 비용이 거의 없다.</li>
+<li><strong>HEAD</strong>: 현재 어느 브랜치(또는 커밋)에 있는지를 가리키는 파일이다. 커밋하면 현재 브랜치의 ref가 새 커밋 해시로 갱신된다.</li>
+<li><strong>팩 파일</strong>: 객체가 많아지면 <code>git gc</code>가 비슷한 객체를 델타로 묶어 <code>.git/objects/pack</code>에 압축한다.</li>
 </ol>
-<p>OAuth 2.0에서 액세스 토큰은 클라이언트에게 "내용을 알 수 없는 열쇠"로 취급되고, OIDC의 ID 토큰은 클라이언트가 직접 읽는 "신분 증명서"라는 점이 다르다.</p>
     <h4>예시</h4>
-    <p>인가 코드 흐름의 첫 요청(로그인 화면으로 보내는 주소)과, 코드를 토큰으로 바꾸는 요청 예시다. 값은 설명용 가짜 값이다.</p>
-<pre><code class="language-http">GET /authorize?response_type=code
-  &amp;client_id=my-app
-  &amp;redirect_uri=https%3A%2F%2Fapp.example.com%2Fcallback
-  &amp;scope=openid%20profile%20email
-  &amp;state=xyz123
-  &amp;code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM
-  &amp;code_challenge_method=S256 HTTP/1.1
-Host: auth.example.com
+    <p>직접 객체를 만들어 보며 구조를 확인해 보자. 아래 명령은 빈 디렉터리에서 그대로 실행할 수 있다.</p>
+<pre><code class="language-bash">git init demo &amp;&amp; cd demo
+echo &quot;hello&quot; | git hash-object -w --stdin   # blob 저장, 해시 출력
+git cat-file -p ce013625030ba8dba906f756967f9e9ca394464a   # 내용 확인
+echo &quot;hi&quot; &gt; a.txt &amp;&amp; git add a.txt &amp;&amp; git commit -m &quot;first&quot;
+git cat-file -p HEAD            # commit: tree, author, message
+git cat-file -p HEAD^{tree}     # tree: a.txt -&gt; blob 해시
+cat .git/refs/heads/*           # 브랜치 = 커밋 해시 한 줄
 </code></pre>
-<p>사용자가 동의하면 <code>https://app.example.com/callback?code=abc&amp;state=xyz123</code>으로 돌아온다. 이제 서버에서 다음 요청으로 토큰을 받는다.</p>
-<pre><code class="language-bash">curl -X POST https://auth.example.com/token \
-  -d grant_type=authorization_code \
-  -d code=abc \
-  -d redirect_uri=https://app.example.com/callback \
-  -d client_id=my-app \
-  -d code_verifier=원래_만든_랜덤_문자열
-</code></pre>
-<p>응답에는 <code>access_token</code>, <code>expires_in</code>, 그리고 <code>openid</code> 스코프를 요청했다면 <code>id_token</code>이 들어 있다.</p>
+<p><code>hash-object -w</code>는 내용을 객체로 저장하고, <code>cat-file -p</code>는 객체를 사람이 읽을 형태로 보여 준다. 출력된 tree와 blob 해시를 따라가면 커밋이 어떻게 파일로 이어지는지 눈으로 확인할 수 있다.</p>
     <h4>언제 쓰고 언제 안 쓰나</h4>
-    <p><strong>쓰면 좋은 경우</strong>
-- "구글/GitHub/카카오로 로그인"처럼 외부 계정으로 가입·로그인을 받을 때(OIDC)
-- 서드파티 앱에 내 데이터 일부만 읽기·쓰기 권한을 줄 때(OAuth)
-- 여러 서비스가 하나의 로그인(SSO)을 공유할 때</p>
-<p><strong>피해야 할 경우와 주의점</strong>
-- 액세스 토큰을 "로그인 증명"으로 쓰지 않는다. 사용자 식별은 검증한 ID 토큰으로 한다.
-- 모바일·SPA 같은 공개 클라이언트는 비밀키를 숨길 수 없으므로 반드시 PKCE를 쓴다.
-- 토큰을 <code>localStorage</code>처럼 스크립트가 읽을 수 있는 곳에 오래 보관하지 않고, <code>redirect_uri</code>는 정확히 일치하는 값만 허용한다.
-- 단순한 내부 서비스 하나의 로그인이라면 OAuth 서버를 직접 만들기보다 검증된 라이브러리나 IdP를 쓰는 편이 안전하다.</p>
+    <p><strong>알아 두면 좋은 경우</strong>
+- <code>reset --hard</code>나 잘못된 <code>rebase</code> 이후 커밋을 되살려야 할 때: 커밋 객체는 바로 지워지지 않으므로 <code>git reflog</code>로 해시를 찾아 복구할 수 있다.
+- 저장소가 커졌을 때 원인을 찾을 때: 큰 파일이 blob으로 히스토리에 남아 있으면 지워도 용량이 줄지 않는다.
+- 커밋 해시가 왜 바뀌는지 이해할 때: 부모나 내용이 바뀌면 해시도 바뀌므로 <code>rebase</code>는 커밋을 "수정"이 아니라 "새로 만드는" 작업이다.</p>
+<p><strong>주의할 점</strong>
+- 객체를 직접 만지는 저수준 명령(plumbing)은 학습과 디버깅용이다. 일상 작업은 <code>add</code>, <code>commit</code> 같은 고수준 명령을 쓰자.
+- <code>.git</code> 안의 파일을 손으로 고치면 저장소가 깨질 수 있으니 실습은 복사본이나 빈 저장소에서 하자.</p>
     <h4>더 읽을거리</h4>
     <ul class="further">
-<li><a href="https://datatracker.ietf.org/doc/html/rfc6749" target="_blank" rel="noopener">RFC 6749 - The OAuth 2.0 Authorization Framework</a></li><li><a href="https://openid.net/specs/openid-connect-core-1_0.html" target="_blank" rel="noopener">OpenID Connect Core 1.0</a></li>    </ul>
+<li><a href="https://github.com/git/git/blob/master/Documentation/gitrepository-layout.adoc" target="_blank" rel="noopener">git 저장소 레이아웃 문서 (gitrepository-layout)</a></li>    </ul>
   </section>
 
   <footer class="notes">
-<p>오늘의 기술 참고 링크는 네트워크 제한으로 열어 확인하지 못했음(RFC 6749, OIDC Core 표준 주소 사용)</p><p>일부 소스 수집 실패: 우아한형제들 기술블로그(HTTP 403)</p>  </footer>
+<p>일부 소스 수집 실패: 우아한형제들 기술블로그 (HTTP 403)</p>  </footer>
 </main>
 <script>
 document.querySelector(".theme-toggle").addEventListener("click", function () {
