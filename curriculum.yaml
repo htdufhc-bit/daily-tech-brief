@@ -34,7 +34,7 @@ topics:
 - id: rest-vs-graphql
   title: REST와 GraphQL
   category: 웹
-  covered_on: null
+  covered_on: '2026-10-18'
 - id: transaction-isolation
   title: 트랜잭션 격리 수준
   category: 데이터베이스
