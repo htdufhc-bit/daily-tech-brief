@@ -38,7 +38,7 @@ topics:
 - id: transaction-isolation
   title: 트랜잭션 격리 수준
   category: 데이터베이스
-  covered_on: null
+  covered_on: '2026-10-19'
 - id: dns
   title: DNS 동작 방식
   category: 네트워크
