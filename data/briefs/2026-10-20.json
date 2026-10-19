@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-20",
+  "headline": "Microsoft가 AI 에이전트를 '내부자 위협'으로 규정하고 감시 기능을 내놓은 가운데, 오픈소스 코딩 에이전트 OpenCode는 해킹으로 사용자 API 키가 털렸다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Linux 7.3 출시 - 스케줄링 개선과 새로운 파일 접근 격리 기능",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35635",
+      "summary": [
+        "Linux 7.3이 정식 출시되었고 커밋 18,765개에 개발자 3,021명이 참여했으며, 처음 기여한 사람도 807명이었다.",
+        "대규모 시스템을 위해 그룹 스케줄링이 바뀌었고, cgroup 그룹마다 BPF 기반 정책을 쓰는 sched_ext 하위 스케줄러 구현이 끝났다.",
+        "열어 둔 디렉터리 디스크립터로 루트를 바꾸는 fchroot()와 모든 연산을 실패시키는 failfs로 파일 접근 샌드박스를 만들 수 있다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "토스 기술블로그",
+      "title": "평균 CPU는 여유로운데, 커밋은 왜 느릴까?",
+      "original_title": null,
+      "url": "https://toss.tech/article/nic-interrupt-bottleneck",
+      "summary": [
+        "Oracle DB에서 평균 CPU는 여유로운데도 커밋 때 log file sync 대기가 0.1초 넘게 반복되는 문제를 추적한 글이다.",
+        "원인은 Active-Standby로 묶인 NIC의 인터럽트가 한 CPU 소켓에만 몰려 LGWR 프로세스와 경합한 것이었다.",
+        "NIC를 서로 다른 소켓에 나눠 꽂고 Active-Active로 바꾸자 인터럽트 처리 코어가 8개에서 15개로 늘고 지연이 크게 줄었다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Let's Encrypt, 도메인 검증용 원격 관측 지점 2곳 추가",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35648",
+      "summary": [
+        "Let's Encrypt가 도메인 검증용 원격 관측 지점을 4곳에서 6곳으로 늘려 주 데이터센터와 합쳐 검증을 총 7회 수행한다.",
+        "여러 네트워크 경로에서 확인하기 때문에 BGP 하이재킹으로 검증 요청을 가로채는 공격이 더 어려워진다.",
+        "2026년 12월 15일부터 업계 기준에 따라 최소 5곳이 필요하며, 스테이징은 10월 27일, 프로덕션은 11월 10일에 적용될 예정이다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Mercury 3 - 대규모로 확장한 확산 기반 LLM",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35658",
+      "summary": [
+        "Inception이 확산(diffusion) 방식 LLM Mercury 3를 공개했고, 초당 1,000토큰 이상을 생성해 4~8배 빠르다고 밝혔다.",
+        "컨텍스트는 100만 토큰이며 가격은 100만 토큰당 입력 0.20달러, 출력 0.70달러이고 OpenAI API와 호환된다.",
+        "성능 수치는 모두 회사 자체 벤치마크 기준이어서 커뮤니티에서는 지연시간과 독립 검증을 두고 의문이 나왔다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "해커가 AI 코딩 도구 OpenCode를 공격해 사용자 AI 계정에 요금을 쌓았다",
+      "original_title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts",
+      "summary": [
+        "오픈소스 AI 코딩 에이전트 OpenCode의 옛 시스템이 뚫려, API 키를 저장해 둔 Console 사용자의 약 1.4%가 영향을 받았다.",
+        "일부 개발자는 AI 계정에 수백 달러, 많게는 1,000달러가 넘는 무단 요금을 청구받았고 키를 폐기하고 교체하라는 안내가 나갔다.",
+        "OpenCode는 앱과 CLI는 영향이 없다고 밝혔으며, 침입 경로와 키 저장 방식은 아직 설명하지 않았다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "Microsoft, AI 에이전트는 내부자 위협과 같다며 '프런티어 모델은 신뢰할 수 없다'고 밝혀",
+      "original_title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted",
+      "summary": [
+        "Microsoft는 기업이 쓰는 AI 에이전트를 감시하는 Guardian Agents를 포함한 새 보안 기능을 발표했다.",
+        "Defender는 Claude Code, Codex 등 직원이 들여온 에이전트를 최대 60종까지 탐지하고, 위험한 판단에는 사람의 승인을 요구한다.",
+        "보안 책임자는 악의가 아니라 예측 불가능성이 문제라며, AI 연구소가 통제하지 않는 별도 시스템으로 감독해야 한다고 강조했다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "Amazon, 새 개발 도구 TorchNeuron으로 Nvidia에 정면 도전",
+      "original_title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool",
+      "summary": [
+        "AWS가 PyTorch 앱을 자사 Trainium 칩으로 옮기도록 돕는 TorchNeuron을 내놓았고, 설정 한 줄만 바꾸면 된다고 설명했다.",
+        "AI 앱의 약 85%가 PyTorch를 쓰며 CUDA와의 결합 때문에 Nvidia 하드웨어가 기본 선택이었는데, 이 종속을 풀겠다는 전략이다.",
+        "음성 AI 업체 Deepgram은 Trainium에서 달러당 오디오 처리량이 70% 늘었다고 밝혔고, AWS는 PyTorch 본류에도 코드를 기여할 계획이다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "dns",
+    "title": "DNS 동작 방식",
+    "category": "네트워크",
+    "pick": "curriculum",
+    "reading_minutes": 6,
+    "sections": {
+      "definition": "DNS(Domain Name System)는 `example.com` 같은 사람이 읽는 도메인 이름을 컴퓨터가 통신에 쓰는 IP 주소로 바꿔 주는 분산 이름 조회 시스템이다.",
+      "why": "인터넷의 모든 통신은 IP 주소로 이루어지지만, 사람은 `93.184.x.x` 같은 숫자를 외우기 어렵다. 초기 인터넷에서는 모든 호스트의 이름과 주소를 하나의 `hosts` 파일에 모아 배포했다. 그러나 호스트가 늘자 파일 하나를 모든 컴퓨터에 최신으로 유지하는 일이 불가능해졌다.\n\nDNS는 이 문제를 **계층적으로 위임하는 분산 데이터베이스**로 풀었다. 이름 공간을 트리로 나누고 각 구간의 관리를 다른 조직에 맡기면, 중앙에서 전부 관리하지 않아도 되고 서버 하나가 죽어도 전체가 멈추지 않는다. 또 서버 IP가 바뀌어도 이름은 그대로 두고 레코드만 고치면 되므로 서비스를 옮기기 쉽다. DNS가 없다면 사용자는 서비스를 바꿀 때마다 새 주소를 직접 알아야 한다.",
+      "how": "1. 브라우저가 `example.com`의 IP 주소를 알아내야 한다. 먼저 브라우저 캐시와 운영체제 캐시를 확인하고, 없으면 설정된 **재귀 리졸버**(보통 ISP나 공용 DNS)에게 묻는다.\n2. 리졸버도 캐시에 답이 없으면 **루트 서버**에 묻는다. 루트 서버는 답을 직접 주지 않고 `.com`을 담당하는 TLD 서버 주소를 알려 준다.\n3. 리졸버는 **TLD 서버**에 `example.com`을 묻는다. TLD 서버는 해당 도메인의 **권한 네임서버** 주소를 알려 준다.\n4. 리졸버는 **권한 네임서버**에 묻고, 여기서 비로소 `A`(IPv4)나 `AAAA`(IPv6) 레코드로 된 최종 답을 받는다.\n5. 리졸버는 답을 **TTL**(Time To Live) 시간 동안 캐시에 저장하고 브라우저에 돌려준다. 같은 이름을 다시 물으면 1~4단계를 건너뛰고 캐시에서 바로 답한다.\n\n이름 공간은 `.`(루트) → `com` → `example` 처럼 오른쪽에서 왼쪽으로 내려가는 **트리 구조**이고, 각 구간의 관리 책임이 다른 조직에 위임된다. 그래서 전 세계 이름을 한 곳에서 관리하지 않아도 된다.\n\n자주 쓰는 레코드는 다음과 같다.\n\n- `A` / `AAAA`: 이름 → IPv4 / IPv6 주소\n- `CNAME`: 이름 → 다른 이름(별칭)\n- `MX`: 도메인의 메일 서버\n- `NS`: 해당 영역을 담당하는 네임서버\n- `TXT`: 임의의 텍스트(도메인 소유 증명, SPF 등)",
+      "example": "`dig` 명령으로 위 과정을 직접 눈으로 볼 수 있다. `+trace` 옵션은 루트 서버부터 시작해 한 단계씩 내려가는 질의를 그대로 보여 준다.\n\n```bash\n# 일반 질의: 리졸버가 캐시까지 활용해 최종 답만 돌려준다\ndig example.com A\n\n# 루트 -> TLD -> 권한 네임서버 순서로 따라가며 출력한다\ndig +trace example.com A\n\n# 응답의 TTL(초)을 확인한다. 같은 질의를 반복하면 값이 줄어드는 것을 볼 수 있다\ndig +noall +answer example.com A\n```\n\n출력의 `ANSWER SECTION`에서 `example.com. 300 IN A 93.184.x.x` 같은 줄을 찾으면 된다. 가운데 숫자가 남은 TTL이고, 마지막이 해석된 IP 주소다. 실제 주소와 값은 시점에 따라 다르다.\n\n파이썬 표준 라이브러리로도 간단히 해석해 볼 수 있다. 이 방식은 운영체제의 리졸버를 거치므로 캐시와 `/etc/hosts` 설정이 함께 반영된다.\n\n```python\nimport socket\n\nfor family, _, _, _, addr in socket.getaddrinfo(\"example.com\", 443, type=socket.SOCK_STREAM):\n    print(family.name, addr[0])\n```",
+      "when": "**쓰면 좋은 경우**\n\n- 서비스에 고정된 이름을 주고 뒤의 서버는 자유롭게 교체하고 싶을 때. 레코드의 IP만 바꾸면 된다.\n- `CNAME`으로 CDN이나 클라우드 로드 밸런서를 가리켜 트래픽을 분산하고 싶을 때.\n- `TXT` 레코드로 도메인 소유를 증명하거나 메일 인증(SPF, DKIM)을 설정할 때.\n\n**주의할 점**\n\n- TTL을 길게 잡으면 캐시 덕에 빠르고 부하가 적지만, 주소를 바꿔도 전파되는 데 오래 걸린다. 이전 작업 전에는 TTL을 미리 낮춰 두는 것이 좋다.\n- 기본 DNS는 암호화와 서명이 없어 응답이 위조될 수 있다. 민감한 환경에서는 DNSSEC이나 DoH/DoT 같은 보호 수단을 고려해야 한다.\n- 장애 원인이 DNS인데 서버 문제로 오해하는 경우가 많다. 접속이 안 될 때는 `dig`로 이름 해석부터 확인하는 습관을 들이자.",
+      "further_reading": [
+        {
+          "title": "RFC 1034 - Domain Names: Concepts and Facilities",
+          "url": "https://www.rfc-editor.org/rfc/rfc1034"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: 카카오 기술블로그, 우아한형제들 기술블로그",
+    "further_reading 주소는 네트워크 제한으로 열어 확인하지 못했음 (RFC 1034 공식 주소)",
+    "etnews.com 등 일부 도메인에 접근할 수 없어 해당 기사는 제외함"
+  ]
+}

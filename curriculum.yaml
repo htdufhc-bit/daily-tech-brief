@@ -42,7 +42,7 @@ topics:
 - id: dns
   title: DNS 동작 방식
   category: 네트워크
-  covered_on: null
+  covered_on: '2026-10-20'
 - id: virtual-memory
   title: 가상 메모리
   category: 운영체제
