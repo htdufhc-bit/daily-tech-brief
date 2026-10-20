@@ -1,0 +1,1455 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Google, TPU용 네이티브 PyTorch 백엔드 TorchTPU 오픈소스로 공개",
+      "url": "https://news.hada.io/topic?id=35728",
+      "published": "2026-10-21T05:36:23+09:00",
+      "summary": "TorchTPU 는 Google의 TPU에서 PyTorch 모델과 연산을 실행할 수 있게 하는 백엔드임 TPU용 ATen 커널 과 XLA 연산 실행을 최적화하는 컴파일 캐시 를 포함함 torch.compile() 과 통합해 그래프 모드 실행을..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "SimCity, 다만 인허가가 필요한 도시 건설 게임",
+      "url": "https://news.hada.io/topic?id=35727",
+      "published": "2026-10-21T05:33:23+09:00",
+      "summary": "Permit Pending 은 전능한 건설자가 아닌 선출직 시장으로 도시를 운영하는 시뮬레이션으로, 건설 계획마다 공청회와 심사, 반대, 소송, 이의 제기를 거쳐야 함 주택 공급은 임대료를 낮추지만 집주인의 반발을 사고, 산업은 일자리와 스모그를 함께 만드는 등 도시 개선마다..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Ofcom, 4chan 사건에서 패배 인정",
+      "url": "https://news.hada.io/topic?id=35726",
+      "published": "2026-10-21T03:38:22+09:00",
+      "summary": "Ofcom 최고경영자는 외국 법원이 집행을 막으면 벌금을 회수하지 못할 수 있음 을 영국 의회에서 인정함. 4chan 측 변호사 Preston Byrne은 이를 사실상의 패배로 봄 미국 법원은 미국 헌법에 위배되는 외국 판결 의 집행을 일반적으로 거부하며, 4chan 사건에서도 미..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Voxtral 3 - 50개 이상 언어의 음성 인식 모델과 실시간 음성 에이전트 SDK",
+      "url": "https://news.hada.io/topic?id=35725",
+      "published": "2026-10-21T03:35:22+09:00",
+      "summary": "Mistral이 Voxtral 3 음성 모델군과 음성 에이전트 SDK를 공개함. 음성 인식, 추론, 도구 호출, 음성 합성을 하나의 실시간 스트리밍 파이프라인으로 연결함 음성 전사 는 50개 언어를 지원하며, 화자 분리와 문맥 기반 인식 보정을 제공함. 실시간 모델은 35개 이상..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "tsrs: TypeScript 컴파일러의 Rust 포트",
+      "url": "https://news.hada.io/topic?id=35724",
+      "published": "2026-10-21T02:37:54+09:00",
+      "summary": "Cloudflare와 VoidZero 가 Owner.com의 Max Schwenk와 함께 TypeScript 컴파일러의 Rust 포트인 tsrs 를 개발함. TypeScript 팀과 긴밀히 협력하며 Oxc 도구 체계 안에서 프로젝트를 육성함 초기 벤치마크에서 동일한 타입 검사 워커 수 를 사용할 때..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Tor 출구 노드 300개 이상을 퇴출시킨 과정",
+      "url": "https://news.hada.io/topic?id=35723",
+      "published": "2026-10-21T02:34:54+09:00",
+      "summary": "감염된 Tor 출구 노드 333개 가 10월 2일부터 SSH 연결 가로채기와 평문 데이터 수집을 시작함. 전체 출구 릴레이 약 3,000개의 10%에 해당하는 규모임 공격자는 22번 포트 SSH 연결 을 12개 가로채기 서버 중 하나로 우회시킴. 호스트 키 변경 경고를 무시하고 로그..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "eMudhra 중간 CA 개인 키 유출",
+      "url": "https://news.hada.io/topic?id=35722",
+      "published": "2026-10-21T01:43:24+09:00",
+      "summary": "eMudhra의 중간 CA 인증서 8개에 해당하는 개인 키가 유출 됐으며, 이 인증서들은 Mozilla, Microsoft, Apple, Chrome과 여러 하위 신뢰 저장소가 신뢰하는 루트로 연결됨 최초 신고자는 각 개인 키로 동일한 메시지에 서명 해 키 유출을 입증하고, 2026년 10월 17일..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "가짜 통계를 게시해 LLM의 인용을 얻다",
+      "url": "https://news.hada.io/topic?id=35721",
+      "published": "2026-10-21T01:40:24+09:00",
+      "summary": "GPT-4.1로 만든 허위 통계 페이지 5만 개 를 게시한 실험 사이트가 7개월 동안 ChatGPT 유입 세션 1만 건 이상과 330개 이상의 도메인으로부터 링크를 얻음 Google 검색 노출이 급감한 뒤에도 ChatGPT의 조회와 인용은 지속됨 . 최근 30일간 ChatGPT가 답변 중 페이지..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Facebook, 이제 월 2개를 초과하는 링크 게시에 요금 부과",
+      "url": "https://news.hada.io/topic?id=35720",
+      "published": "2026-10-21T01:37:24+09:00",
+      "summary": "Facebook, 이제 월 2개를 초과하는 링크 게시에 요금 부과"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "맥락 속에서",
+      "url": "https://news.hada.io/topic?id=35719",
+      "published": "2026-10-21T01:06:07+09:00",
+      "summary": "맥락 속에서"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "네덜란드, Microsoft 의존에서 벗어나기 위해 자체 Linux OS 개발 중",
+      "url": "https://news.hada.io/topic?id=35718",
+      "published": "2026-10-21T01:03:07+09:00",
+      "summary": "네덜란드 정부가 Nix와 NixOS 기반의 DAWO 프로젝트 로 디지털 주권을 확보할 IT 환경을 구축하고, 장기적으로 Microsoft를 비롯한 미국산 소프트웨어를 대체하려 함 대상은 운영체제에 그치지 않으며, 정부와 공공기관에 업무용 애플리케이션, 클라우드 서비스, 관리 도구..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Apple이 iPad의 필수 프레젠테이션 기능을 망가뜨렸다",
+      "url": "https://news.hada.io/topic?id=35717",
+      "published": "2026-10-21T00:32:52+09:00",
+      "summary": "iPadOS 27 에서 여러 창을 열고 AirPlay로 발표할 때 다른 앱을 누르면, 외부 화면이 발표 자료 대신 iPad 전체 화면 을 표시함 Stage Manager 활성화 여부와 무관 하게 발생하며, 청중에게 숨겨야 할 발표 메모나 설문 결과가 노출되고 창 전환이 발..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Google Cloud 장애로 은행 서비스 중단",
+      "url": "https://news.hada.io/topic?id=35714",
+      "published": "2026-10-20T23:31:28+09:00",
+      "summary": "Google Cloud 장애로 은행 서비스 중단"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Show GN: Pear - Apple Silicon Mac용 Windows Steam 런처",
+      "url": "https://news.hada.io/topic?id=35713",
+      "published": "2026-10-20T23:05:46+09:00",
+      "summary": "안녕하세요. Apple Silicon Mac에서 Windows Steam 실행 환경을 준비하는 무료 오픈소스 런처 Pear 를 만들고 있습니다. 구매한 Megabonk를 맥에서 하고 싶어서 시작했고, 현재 v0.1.1 을 배포하고 있습니다. Pear를 열면 필요한 런타임과 Windows Steam을 준비합니다. 이후에"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "0.000000000000000000542%의 경우에 발생하는 버그를 고치기 위해 모든 나눗셈을 느리게 만들기",
+      "url": "https://news.hada.io/topic?id=35712",
+      "published": "2026-10-20T23:02:19+09:00",
+      "summary": "Futhark가 부호 있는 정수의 최솟값을 -1 로 나눌 때 생성된 C 코드에서 발생하는 정의되지 않은 동작을 수정함. 32비트 정수 입력 조합 2⁶⁴개 중 하나에 해당하지만, x86에서는 CPU 예외로 프로그램이 종료될 수 있음 수정된 구현은 나눗셈마다 제수가"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "MicroG: Google의 독점 Android 사용자 공간을 자유 소프트웨어로 재구현",
+      "url": "https://news.hada.io/topic?id=35711",
+      "published": "2026-10-20T22:31:26+09:00",
+      "summary": "microG GmsCore 는 Google Play Services를 자유 소프트웨어로 재구현해, 독점 Google API를 호출하는 앱을 LineageOS 같은 AOSP 기반 ROM에서 실행할 수 있게 함 Google 서비스 사용을 선택 할 수 있으며, 온라인/오프라인 위치 서비스를 제공하고 배터리, 메모리, ..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "거부 기능을 제거한 모델이 해킹의 통로가 될 수 있는 이유",
+      "url": "https://news.hada.io/topic?id=35709",
+      "published": "2026-10-20T21:33:54+09:00",
+      "summary": "ProjectDiscovery는 오픈 모델에 백도어 를 심고 Codex CLI에서 실행해, 정상 요청에는 정상적으로 응답하면서 특정 문구가 나타나면 프로젝트의 더미 자격 증명을 외부로 전송하는 실험에 성공함 백도어는 모델 가중치에 학습된 트리거 로 작동하며, 공격자는 모델을..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Show GN: MacNotify - Mac 알림이 오면 MX Master 4가 진동하는 로지텍 플러그인",
+      "url": "https://news.hada.io/topic?id=35708",
+      "published": "2026-10-20T20:55:46+09:00",
+      "summary": "비싼 MX Master 4를 샀는데 진동 기능을 쓸 데가 없어서 만들었음. 주로 쓰는 건 Claude Code. 작업 맡겨 두고 다른 창에 가 있으면 언제 끝났는지 몰라서, 완료 알림이 뜨면 마우스가 진동하게 해 둠. Mac 알림 배너가 뜨면 MX Master 4의 햅틱 센스 패널이 진동함 Claude Code뿐 아니라"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Show GN: AI Quota Monitor - AI 할당량 소진 되셨나요? vs-code 상태바에서 모니터링 하세요!",
+      "url": "https://news.hada.io/topic?id=35707",
+      "published": "2026-10-20T20:54:22+09:00",
+      "summary": "Codex, Claude Code, Gemini 등 여러 AI를 구독해서 쓰다 보니 남은 할당량을 일일이 확인하는 게 번거로워서 직접 만들었습니다. 특히 주간 한도는 넉넉한데 5시간 한도가 먼저 소진되는 경우가 있어서, 단순히 숫자를 나열하는 대신 지금 주의해야 할 한도를 보여주는 방식으로 만들었습니다. 평소에"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "AfD 유출: 해킹된 이메일 421,179건이 드러낸 독일 극우의 실상",
+      "url": "https://news.hada.io/topic?id=35704",
+      "published": "2026-10-20T20:31:59+09:00",
+      "summary": "해커들이 AfD 내부 이메일 421,179건 , 총 281GB 분량을 AI 요약 형태로 온라인에 공개함 이메일에서 지지자들의 인종차별적 비하 표현 과 유대인의 세계 지배를 주장하는 반유대주의 음모론이 반복적으로 나타남 난민 대상 폭력 을 소재로..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "DeepSeek, 추론 엔진을 오픈소스로 공개",
+      "url": "https://news.hada.io/topic?id=35703",
+      "published": "2026-10-20T19:35:37+09:00",
+      "summary": "DeepSeek이 대규모 프로덕션 서비스를 구동하는 추론 프레임워크 DeepInfer 를 공개함. 이번 공개 버전은 대규모 서빙에 필요한 핵심 기능을 갖춘 오프라인 추론 을 제공함 지원 모델은 DeepSeek-V4.1-Flash 이며, NVIDIA SM100 GPU와 Huawe..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "독일 극우 정당 AfD 내부 문서 50만 건 유출",
+      "url": "https://news.hada.io/topic?id=35702",
+      "published": "2026-10-20T19:32:37+09:00",
+      "summary": "독일 극우 정당 AfD 내부 문서 50만 건 유출"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "OpenBSD 8.0 릴리스에 Linux 6.18 기반 inteldrm/radeondrm/amdgpu 드라이버 포함 예정",
+      "url": "https://news.hada.io/topic?id=35701",
+      "published": "2026-10-20T17:42:58+09:00",
+      "summary": "OpenBSD 8.0의 DRM 그래픽 스택 이 Linux 6.18.y/6.18.53 수준으로 업데이트되며, Intel Arc A-Series(DG2/Alchemist) 카드 지원이 추가됨 amd64의 커널 가상 주소 공간(KVA) 이 512G로 확대돼 4G를 넘는 VRAM을 매핑할 수 있으며, Vulkan을 이용한..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "프랑스 슈퍼마켓 냉장고, 수개월 동안 온라인에서 취약한 상태로 노출돼 있었음",
+      "url": "https://news.hada.io/topic?id=35700",
+      "published": "2026-10-20T17:39:58+09:00",
+      "summary": "프랑스 슈퍼마켓 400곳 이상 이 냉장 시스템을 제상 모드로 전환하는 사이버 공격을 받아 식품을 폐기함. 공격 5일 전 스캔에서도 프랑스의 Danfoss 제어 대시보드 1,331개 가 인터넷에 노출돼 있었음 프랑스에서 노출된 대시보드의 85% 는 알려진 ..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Nordwand Mono - 코더와 모험가를 위한 고정폭 글꼴",
+      "url": "https://news.hada.io/topic?id=35699",
+      "published": "2026-10-20T17:36:58+09:00",
+      "summary": "Nordwand Mono 는 코딩용으로 설계한 컴팩트한 네오 그로테스크 글꼴로, 터미널과 Neovim에서 쓸 글꼴을 찾다가 Python으로 직접 제작한 프로젝트임 Univers 의 디자인 요소를 JetBrains Mono 의 비례에 접목하는 것을 목표로 함 대..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "광고 없는 Android TV",
+      "url": "https://news.hada.io/topic?id=35697",
+      "published": "2026-10-20T16:38:41+09:00",
+      "summary": "Projectivy Launcher 로 홈 화면을, SmartTube 로 YouTube 앱을 교체해 배너와 광고를 없애는 Android TV 구성임 기본 Google TV 인터페이스는 앱 전용 모드(Apps only mode) 에서도 상단 홍보 배너가 남으며, 런처를 변경하는 설정도 없음"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "DeepSeek, 미 국토안보부 새 명령으로 연방 민간기관에서 사용 금지",
+      "url": "https://news.hada.io/topic?id=35696",
+      "published": "2026-10-20T16:35:41+09:00",
+      "summary": "미 국토안보부(DHS)가 연방 민간기관 IT 시스템에서 DeepSeek 제품과 이를 사용하는 제3자 서비스 제거 를 명령함 기존 시스템에서의 제거뿐 아니라 DeepSeek 제품 및 이를 활용해 개발한 제3자 서비스의 신규 취득 도 금지함 DHS는 정부 직원이나 공급업체..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Show GN: HiCapture - 캡처, 편집, 화면 녹화를 한 앱에서 하는 맥 앱",
+      "url": "https://news.hada.io/topic?id=35695",
+      "published": "2026-10-20T16:35:00+09:00",
+      "summary": "혼자 만든 맥 캡처 앱입니다. 필요한 기능은 많은데 앱을 하나씩 따로 깔다 보니 단축키가 너무 많아졌고, 맥 기본 캡처는 편집 기능이 너무 빈약해서 아쉬웠습니다. 그래서 캡처, 편집, 녹화를 한 앱에 모으고 단축키도 ⌘⇧⌥ + 한 글자로 통일했습니다. 영역·윈도우·전체화면 캡처. 찍으면 바"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Show GN: PCBox - 이미지로 PC 화면 요소 테마 패키지를 만드는 웹 도구 (베타)",
+      "url": "https://news.hada.io/topic?id=35694",
+      "published": "2026-10-20T16:20:18+09:00",
+      "summary": "PCBox - CustomYourDesktop를 만들고 있습니다. 웹에서 이미지를 올려 배경·아이콘·커서 구성을 미리 보고 OS별 패키지를 생성하는 베타입니다. 기본 실행은 dry-run이며, 파일 추출은 지정한 기존 폴더 안의 PCBox-theme로 제한합니다. 실제 적용과 복원에는 제한이 있습니다. macOS 실기 검증은 끝나지 않았고..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "OpenBSD 8.0 - 가상 머신당 최대 64 vCPU와 arm64 최대 절전 모드 지원",
+      "url": "https://news.hada.io/topic?id=35692",
+      "published": "2026-10-20T15:34:23+09:00",
+      "summary": "VMM/VMD 에 게스트 가상 머신당 최대 64 vCPU 를 지원하는 다중 프로세서 기능을 추가하고, 32비트 Linux 게스트 호환성과 가상 장치 처리를 개선함 amd64 커널 가상 주소 공간 을 4GB에서 512GB로 확대해 4GB 초과 VRAM 매핑이 가능해졌으며, Intel..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Weball: 웹사이트에서 Katamari 플레이하기",
+      "url": "https://news.hada.io/topic?id=35691",
+      "published": "2026-10-20T14:36:51+09:00",
+      "summary": "Weball 은 웹페이지에서 공을 굴려 페이지를 모으고 공을 키우는 Katamari 방식의 게임임 기본 레벨로 Wikipedia , Cameron's World, The Old Net을 제공함 목표를 달성하면 추가 레벨 2개 와 원하는 웹사이트에서 플레이하는 기능이 해제됨..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "WhatsApp 도움말 페이지에 숨겨진 LLM 지침: 규제기관에 연락하라고 권하지 말 것",
+      "url": "https://news.hada.io/topic?id=35690",
+      "published": "2026-10-20T14:33:51+09:00",
+      "summary": "WhatsApp 도움말 545개 페이지 중 80개 에서 화면에는 보이지 않는 AI용 지침 102개가 발견됐으며, 일부는 개인정보 규제기관이나 관련 법률을 답변에서 제외하도록 요구함 계정 삭제 지침은 개인정보 감독기관에 연락하도록 권하지 말 것 을 요구했고, 신고/차단 지..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Show GN: YugiTokenBar - AI 코딩 토큰사용량으로 유희왕 카드깡을 하는 macOS 메뉴바 앱",
+      "url": "https://news.hada.io/topic?id=35689",
+      "published": "2026-10-20T14:07:51+09:00",
+      "summary": "안녕하세요. AI 코딩 에이전트 토큰사용량만큼 유희왕 카드깡 을 즐길 수 있는 macOS 메뉴바 앱 YugiTokenBar 를 만들었습니다. Claude Code나 Codex를 사용하다 보면 토큰 사용량이 계속 쌓이게 되는데, 이 숫자를 가챠의 설렘과 수집하는 재미로 활용해보면 어떨까 하..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Ende의 시작: 커뮤니티 Deno 포크",
+      "url": "https://news.hada.io/topic?id=35688",
+      "published": "2026-10-20T14:01:27+09:00",
+      "summary": "Deno 팀이 Cloudflare로 이동 하고 1년 뒤 런타임 개발을 중단하기로 하면서, Deno에 의존해 온 개발자가 커뮤니티 포크 Ende 를 시작함 Ryan Dahl은 Deno가 Node 호환성 에 묶여 큰 문제를 해결하지 못하고 있다고 판단함. 앞으로 1년간 월별 릴리스..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Anthropic의 IPO를 둘러싼 베일 속 신탁",
+      "url": "https://news.hada.io/topic?id=35686",
+      "published": "2026-10-20T13:31:59+09:00",
+      "summary": "Anthropic 이 기업공개(IPO)를 준비하는 가운데, 이사회 구성에 영향력을 행사하고 주요 행보를 막을 수 있는 신탁의 세부 사항은 대부분 공개되지 않은 상태임 Long-Term Benefit Trust 는 회사에 막대한 영향력을 갖고 있지만, 신탁의 운영을 규율하는 문서는 공개..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "미 국방부는 얼마나 빨리 탄약 산업 기반을 재건하고 재편할 수 있을까?",
+      "url": "https://news.hada.io/topic?id=35684",
+      "published": "2026-10-20T12:35:07+09:00",
+      "summary": "미국은 탄약 재고를 늘리는 동시에 고성능 미사일과 저비용 미사일/드론을 결합하는 고가형/저가형 혼합 전력 으로 무기 구성을 바꾸려 함 FY 2027 예산 요청에서 단가 60만 달러 미만 무기는 탄약 수량의 약 49% 를 차지하며, FY 2031 요청 전망에서는 70%..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "우크라이나, 드론으로 부상병을 처음 후송했다고 밝혀",
+      "url": "https://news.hada.io/topic?id=35683",
+      "published": "2026-10-20T11:36:32+09:00",
+      "summary": "우크라이나 제92독립강습여단 이 전선의 부상병을 공중 드론으로 후송하는 영상을 공개하고, 세계 최초 사례 라고 밝힘 여단에 따르면 적 드론의 집중적인 활동과 지뢰 때문에 기존 무인 지상 차량으로는 부상병을 후송할 수 없었음 사용 ..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "룰라 지지자들, Meta의 ‘선거 개입’을 규탄하며 시위",
+      "url": "https://news.hada.io/topic?id=35682",
+      "published": "2026-10-20T11:33:31+09:00",
+      "summary": "룰라 지지자들, Meta의 ‘선거 개입’을 규탄하며 시위"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Show GN: Nopetion – 내 서버에서 직접 운영하는 개인용 Notion 대안",
+      "url": "https://news.hada.io/topic?id=35680",
+      "published": "2026-10-20T11:03:05+09:00",
+      "summary": "안녕하세요. 개인 문서를 직접 관리할 수 있는 셀프 호스팅 문서 워크스페이스 Nopetion을 만들었습니다. Notion처럼 편리하게 문서를 작성하고 정리하면서도, 데이터와 서버를 직접 관리할 수 있는 환경을 목표로 개발했습니다. Nopetion은 오픈소스 문서 협업 도구인 Docmost를 기반으로 수정한 포크"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Show GN: Review Inbox - 리뷰 기다리는 PR을 Claude Code 입력창 위에 띄워 주는 mod",
+      "url": "https://news.hada.io/topic?id=35676",
+      "published": "2026-10-20T10:28:32+09:00",
+      "summary": "2주전부터 제 Claude Code 입력창 위에는 노란 줄이 하나 떠 있습니다. 동료의 PR이 사흘째 제 리뷰를 기다리고 있다는 뜻입니다. Claude Code를 쓰고부터 하루 대부분을 터미널에서 보내다 보니, PR을 올리는 속도는 빨라졌는데 리뷰 요청은 오히려 놓치게 되었습니다. GitHub 알림 탭을 열 일이 없어졌거든요"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Show GN: Markpin – 밑줄 긋고 나면 「왜 표시했나요?」를 묻는 웹 형광펜 (로컬 Markdown, MCP 서버 공개)",
+      "url": "https://news.hada.io/topic?id=35674",
+      "published": "2026-10-20T10:10:28+09:00",
+      "summary": "무엇을 만들었는지 웹페이지를 읽다가 문장을 드래그하면 형광펜(네 가지 색)을 긋고 그 자리에 메모를 달 수 있는 Chrome 확장입니다. 색 말고도 ? ! × ★ 기호를 같이 남길 수 있는데(저는 의문, 새로 안 것, 반박, 핵심 정도로 쓰고 있습니다), 밑줄을 긋고 나면 메모 칸이 열리면서 「왜 ..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Ask GN: 회사에서 계속해서 늘어나는 에이전트, 어떻게 관리하나요?",
+      "url": "https://news.hada.io/topic?id=35673",
+      "published": "2026-10-20T09:49:14+09:00",
+      "summary": "데브옵스로 일하고 있는데, 여러 팀들이 클로드나 코덱스로 팀 에이전트를 만들고 배포하고 슬랙으로 연동하고 있습니다. 자동화하는 것은 문제가 아닌데, 운영 팀 입장에선 중복과 보안이 문제가 되는 것 같습니다. 대부분의 에이전트가 코딩, Q&A이다 보니 기능적으로 겹치는 부분이 많습니다. 또"
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Plex 취약점, 암호화폐 채굴기 설치를 위한 실제 공격에 악용 중",
+      "url": "https://news.hada.io/topic?id=35672",
+      "published": "2026-10-20T09:32:17+09:00",
+      "summary": "취약한 Plex 버전을 실행한 허니팟 에서 2026년 10월 17일 실제 취약점 악용과 암호화폐 채굴기 배포가 관측됨 Plex2Shell 은 여러 취약점을 연결해 원격 코드 실행을 달성하며, Plex는 앞서 9월 1일 관련 보안 업데이트를 공지함 서로 다..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Anatomy - 기술 개념을 움직이는 입체 도해로 만드는 AI 에이전트 스킬",
+      "url": "https://news.hada.io/topic?id=35670",
+      "published": "2026-10-20T09:30:02+09:00",
+      "summary": "문서와 블로그, 교육 자료에 사용할 인터랙티브 입체 도해를 코딩 에이전트로 제작 하는 스킬 캐시, 연결 풀, 요청 제한 같은 개념을 실제로 움직이는 기계나 장치에 빗대어 시각화 . 설명할 개념과 수치, 출력 형식을 지정해 요청 SVG로 부품과 배관, 음영..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "사이트 가이드라인과 AI/LLM 태그 변경",
+      "url": "https://news.hada.io/topic?id=35667",
+      "published": "2026-10-20T09:03:37+09:00",
+      "summary": "Lobsters가 독자의 시간과 지성을 존중하는 컴퓨팅 콘텐츠 에 집중하도록 주제 적합성과 자기 홍보 규칙을 명확히 하고, AI/LLM 태그를 개편함 예정된 배포 이후에는 코드 저장소 자체를 제출할 수 없으며 , 코드의 제작 이유, 목적, 해결한 과제와 유용성을 다룬 콘..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Microsoft 계정이 없어 RTX Spark 노트북에 Linux 설치하기",
+      "url": "https://news.hada.io/topic?id=35665",
+      "published": "2026-10-20T08:32:58+09:00",
+      "summary": "Windows만 공식 지원하는 ASUS ProArt P16 에 Arch Linux ARM을 설치하고, 하드웨어 지원 패치와 부팅 가능한 USB 빌드 구성을 공개함 NVIDIA의 Ubuntu용 커널 작업을 바탕으로 ACPI, 콘솔, 키보드, 오디오 지원 을 보완했으며, 확장한 Archinstall 4.5로 설치할 수 ..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "유럽 9월 전기차 판매 70.3% 증가, 시장 점유율 32.6%",
+      "url": "https://news.hada.io/topic?id=35664",
+      "published": "2026-10-20T07:33:01+09:00",
+      "summary": "유럽 주요 17개 시장에서 9월 배터리 전기차(BEV) 등록이 70.3% 증가했으며, 전체 자동차 판매의 약 3분의 1을 차지함 높은 유가와 보조금 , 더 저렴한 모델의 공급이 전기차 성장세를 계속 이끌고 있음 올해 누적 BEV 등록은 198만 대 로..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Show GN: VEXPLOR AAS Studio – AAS 작성·검사·설비 값 수집을 한 화면에서 하는 오픈소스",
+      "url": "https://news.hada.io/topic?id=35663",
+      "published": "2026-10-20T07:24:12+09:00",
+      "summary": "설비 정보 국제 표준 AAS(Asset Administration Shell, IEC 63278)를 공장에 실제로 붙이는 데 필요한 일을 웹 화면 하나로 모은 TypeScript 오픈소스입니다(Apache-2.0). AASX 파일을 웹에서 열고 고칩니다. 메타모델 V3.0·V3.1·V3.2를 다루고, 새 모델은 V3.1로 시작합니다. 검사 규칙 52종("
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "Ask HN: AI가 작성한 코드를 이해하지 못한 채 배포하는 문제, 어떻게 대처하시나요?",
+      "url": "https://news.hada.io/topic?id=35662",
+      "published": "2026-10-20T06:33:18+09:00",
+      "summary": "Meta 엔지니어의 LinkedIn 게시물 에 공감하며, AI가 작성한 코드를 충분히 이해하지 못한 채 배포하는 상황 에 다른 엔지니어들은 어떻게 대처하는지 경험을..."
+    },
+    {
+      "source": "GeekNews",
+      "region": "kr",
+      "title": "모터 하나만으로 드론을 만들었다 [영상]",
+      "url": "https://news.hada.io/topic?id=35661",
+      "published": "2026-10-20T05:39:07+09:00",
+      "summary": "추가 모터나 조종용 서보 없이, 모터 하나로 떠오르고 방향을 바꾸는 드론 제작. 기계 구조를 단순하게 만드는 대신 복잡한 제어 소프트웨어로 비행을 구현 모터를 가속하고 감속하면 날개 각도가 달라지는 힌지 구조 사용. 회전 중 원하는 위치에서 양력 차이를 만..."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "국내 FDE 현황 조사 2026: FDE의 실제 모습을 묻습니다",
+      "url": "https://yozm.wishket.com/magazine/detail/4000",
+      "published": null,
+      "summary": "AI 시대, 국내 FDE는 실제 현장에서 어떤 일을 하고 있을까요? 요즘IT와 한국 FDE·AX 엔지니어 커뮤니티 ‘비욘드디플로이’가 위시켓과 함께 ‘국내 FDE 현황 조사 2026’을 진행합니다. 국내 FDE의 실제 업무와 경험을 파악하기 위해 현업 엔지니어들의 이야기를 모으고 있습니다. 고객의 업무 문제를 AI로 해결하고, 실제 운영 환경에 적용해 본 경험이 있다면 설문에 참여해 주세요. 여러분의 경험이 국내 FDE의 현재를 이해하는 데 도움이 됩니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "RAG 다음은 Knowledge Layer: 검색 뒤에 남는 4가지",
+      "url": "https://yozm.wishket.com/magazine/detail/3998",
+      "published": null,
+      "summary": "Microsoft는 Foundry IQ를, AWS는 Semantic Layer를, Snowflake는 Horizon Context를 내세웁니다. 이름은 다르지만 이 회사들이 푸는 문제는 하나, 검색에 성공했다고 정답을 아는 건 아니라는 것이죠. 그래서 정합성·최신성·권한·출처 네 가지가 검색 다음에 남습니다. 검색은 어떤 문서를 가져올지를 정하고, 지식 계층은 그 문서를 믿어도 되는지, 지금 값이 맞는지, 이 사람이 봐도 되는지, 어디서 온 것인지를 정하는 셈이죠. RAG와 MCP, 온톨로지까지 묶어 Knowledge Layer의 정체를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "기획서가 사라진 개발팀은 어떻게 일해야 할까?",
+      "url": "https://yozm.wishket.com/magazine/detail/3997",
+      "published": null,
+      "summary": "큰 틀로 나뉘던 개발 직군의 경계가 흐려지고 있다. 기획자가 코드를 짜고, 개발자가 UI 시안을 만들고, 아트가 프론트엔드를 맡는 게 당연해진 지금, 기획서를 AI로 써보고 목업부터 만들어본 두 번의 시행착오 끝에 결론은 하나였다. 넘기는 작업만 AI로 바꾸는 정도로는 파이프라인이 바뀌지 않는다는 것이다. 그래서 깃 워킹트리와 클로드 코드 세션을 연동한 도구를 직접 만들었고, 닷새 걸리던 마일리지·멤버십 개발을 사흘로 줄였다. 기획서도 목업도 아닌, 세 번째 시도에서 찾은 구조를 공유한다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "월 10달러 AI 코딩 플랜, 반복 작업에 써봤습니다",
+      "url": "https://yozm.wishket.com/magazine/detail/3996",
+      "published": null,
+      "summary": "평소 월 200달러 Codex CLI를 쓰다 부담이 적은 보조 플랜을 찾아봤습니다. OpenCode Go와 Command Code GOAT, 월 10달러 두 플랜에 같은 모델 GLM-5.3 Flash로 같은 TypeScript 도구를 맡기고, 가격 조건과 사용량 한도, 결과물을 공식 문서와 실제 기록으로 대조했습니다. 자체 테스트 48개는 모두 통과했는데, 그중 일부가 틀린 동작을 정답으로 승인하고 있었죠. 그래서 지금은 \"얼마나 많이 쓸 수 있는가\"보다 \"틀린 결과를 얼마나 빨리 발견하고 다시 이어갈 수 있는가\"를 더 현실적인 기준으로 봅니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "요즘IT 빌더나잇 후기: 배포는 안 했지만 매일 쓰는 도구 이야기",
+      "url": "https://yozm.wishket.com/magazine/detail/3995",
+      "published": null,
+      "summary": "종이 영수증 제출, 지난 회의록 뒤지기처럼 사소하지만 매일 쌓이는 귀찮은 일을 AI로 직접 해결한 사람들이 있습니다. 지난 10월 6일, 요즘IT가 노션과 함께 개최한 '빌더나잇: 로컬앱 자랑대회'에서는 본선에 오른 네 팀이, 배포하지는 않았지만 회사에서 매일 쓰는 도구를 소개했는데요. 식대 정산부터, 3년 치 업무 기록 자동화, 직접 만든 로컬 앱 4종, AI 도구를 팀에 정착시킨 시행착오까지, 그날의 생생한 현장을 후기로 전합니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "네이버 검색 알고리즘은 구글과 왜 다른가: 키워드 1,000개로 본 차이",
+      "url": "https://yozm.wishket.com/magazine/detail/3994",
+      "published": null,
+      "summary": "구글에서 통하는 SEO 원칙이 왜 네이버에서는 통하지 않을까요? 구글은 인터넷을 검색하지만, 네이버는 네이버를 검색한다는 게 핵심입니다. 키워드 1,000개를 직접 측정해 보니 자사 콘텐츠 비중이 구글 19%, 네이버 67%였고, 그 뒤에는 문서보다 '누가 썼는가'를 더 중요하게 보는 네이버만의 평가 기준이 있었습니다. 반전도 있습니다. 같은 키워드 790개에서는 네이버 블로그가 구글 1페이지에도 올라와 있었다는 겁니다. 블톡 황성원 대표가 12년간의 운영 경험과 측정 데이터로 두 검색엔진의 작동 원리와 운영 원칙을 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "클로드 코드 토큰 한도 아끼는 방법 7가지",
+      "url": "https://yozm.wishket.com/magazine/detail/3993",
+      "published": null,
+      "summary": "클로드 코드(Claude Code)에 일을 몰아주다 보면 묘하게 마음이 급해질 때가 있습니다. 세션 한도가 얼마 남지 않았다는 알림을 받은 뒤부터인데, 그렇다고 계정을 늘리기엔 눈치가 보이죠. 앤트로픽 엔지니어 애디 오스마니와 타리크 시히파가 쓴 글을 바탕으로, 캐시와 추론 강도, 모델 선택까지 클로드 코드를 쓸 때 챙길 만한 토큰 절약 방법을 7가지로 정리했습니다. 어디에 얼마나 쓸 수 있을지 정확히 안다면, 한도가 차는 것도 그리 무섭지만은 않을 겁니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "일주일 만에 GitHub 스타 20만 개, 앱 뜯어보는 AI 도구 REA",
+      "url": "https://yozm.wishket.com/magazine/detail/3992",
+      "published": null,
+      "summary": "일주일 만에 GitHub 스타 20만 개, AI가 소스 코드 없이 앱을 뜯어보는 도구 REA는 왜 떴을까요? 여기에 회사 서버에 직접 설치해 여러 AI 모델을 한 화면에서 쓰는 Open WebUI, 안드레이 카파시가 말한 사람마다 AI가 이렇게 다르게 보이는 이유까지. 이번 주 프로덕트 메이커가 눈여겨볼 세 가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "회사 기록을 모으는 것만으로 업무 관리가 달라질까?",
+      "url": "https://yozm.wishket.com/magazine/detail/3991",
+      "published": null,
+      "summary": "식품 수입 유통 회사를 운영하며 흩어져 있던 메일, 통화, 카카오톡 등 1만 8천여 건의 회사 기록을 통합 검색하는 시스템을 구축한 경험을 담았습니다. 검색을 붙이는 데는 며칠, 읽을 수 없는 기록을 읽게 만드는 데는 두 달이 걸렸습니다. 그렇게 다 만든 다음 마주친 건 편리함이 아니라, 안 하고 미뤄둔 일 1,487건이었습니다. 메일만이 아니라 카카오톡과 통화가 전체 기록의 3할을 넘었는데, 그 대화는 검색이 안 됐습니다. 팩스는 광학 문자 인식으로, 통화는 음성 인식으로 글자를 만들어 SQLite 전문검색에 올리고, 어긋난 기록과 미결 업무를 매주 골라내는 과정까지 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "10분 만에 Jev 이해하기",
+      "url": "https://yozm.wishket.com/magazine/detail/3989",
+      "published": null,
+      "summary": "운전하다 빨간불을 보면 발이 먼저 브레이크로 갑니다. 인간이 똑똑한 건 빠른 직관과 느린 숙고를 상황마다 나눠 쓰기 때문이죠. 그런데 2026년의 AI 에이전트는 빨간불에 멈출지 말지 같은 사소한 판단마저 가장 비싸고 느린 ‘숙고의 뇌’에 물어보고 있습니다. 이 낭비를 정조준한 모델이 Jev입니다. 문장을 만들지 않고 오직 ‘결정’만 돌려주는 System One Model, 70~500밀리초의 속도와 교정된 확신도, 그리고 이름에 담긴 ‘제번스의 역설’까지 10분 안에 풀어 드립니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "비개발자라면 이렇게 해보세요: 바이브 코딩 실전 가이드",
+      "url": "https://yozm.wishket.com/magazine/detail/3988",
+      "published": null,
+      "summary": "다들 바이브 코딩이 '딸깍'이면 끝난다고 했지만, 실상은 그렇지 않았습니다. SI 업계 기획자가 반신반의하며 시작한 첫 바이브 코딩, 직접 만든 건 아내를 위한 일정 공유 캘린더였습니다. 클로드 코드와 IDE 설치부터 막막했던 순간, 그 막막함을 뚫은 방법은 결국 그냥 클로드에게 다 물어보는 것이었죠. Supabase와 Render, 카카오톡 로그인으로 완성하기까지 걸린 시간은 약 1주일. 욕심을 버린 첫 프로덕트 선정부터 스킬과 에이전트 활용, Plan Mode로 계획부터 세우는 법까지, 비개발자가 바이브 코딩을 시작하며 얻은 팁 4가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "3년만에 폐업한 서비스 기록에서 배운 것들",
+      "url": "https://yozm.wishket.com/magazine/detail/3987",
+      "published": null,
+      "summary": "3년 운영하다 2026년 6월에 문을 닫은 개발자 대상 1:1 취업 컨설팅 사업이 있습니다. 방치해 둔 노션 워크스페이스를 클로드 코드(Claude Code)로 반나절 만에 정리했더니, 490개 파일이 노트 34개로 압축됐죠. 그런데 진짜 소득은 파일 정리 자체가 아니라, 흩어져 있을 때는 안 보이던 인사이트가 한곳에 모아놓고 나서야 보이기 시작했다는 것이었습니다. 고객의 진짜 병목은 포장에 있었고, 가격은 필터였고, 결국 결과가 팔렸다는 세 가지 발견을 정리했습니다. 여러분에게는 이처럼 방치한 오랜 기록이 없으신가요?"
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "메타 첫 프론티어 모델 ‘뮤즈 원더(Muse Wonder)’",
+      "url": "https://yozm.wishket.com/magazine/detail/3986",
+      "published": null,
+      "summary": "메타의 새 프론티어 모델, 뮤즈 원더(Muse Wonder)가 나왔습니다. 라마 4가 기대에 못 미쳤다는 평가를 받은 뒤 조직을 통째로 갈아엎은 메타가 1년여 만에 내놓은 결과로, 자체 지표에서 오푸스 5.5와 GPT-6 아스트라를 앞서고 외부 지표로도 '프론티어 2위'에 올랐습니다. 다만 이제 메타의 모델은 돈을 내야만 쓸 수 있는 모델로 바뀌었죠. 성능과 가격, 커뮤니티 반응, 그리고 아직 VPN 없이는 쓰기 힘든 한국 상황까지 발표 내용을 차례로 뜯어봤습니다. 메타가 정말로 프론티어 경쟁에 발을 올린 걸까요?"
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "정보 오류 줄이는 클로드 코드 메모리 관리법",
+      "url": "https://yozm.wishket.com/magazine/detail/3985",
+      "published": null,
+      "summary": "클로드 코드(Claude Code)의 메모리 기능은 편리하지만, 오랜 시간 쓰다 보면 처음엔 의도된 대로 동작하다가도 조금씩 틀린 정보가 계속 기억될 수 있습니다. 실제로 PR 리뷰 대기 중이라는 메모리가 남아 있었지만, GitHub에서 확인해 보니 이미 Merged된 상태였죠. 없는 정보보다 오래된 잘못된 정보가 더 위험할 수 있다는 걸 깨닫고, CLAUDE.md와 Auto Memory가 어떻게 동작하는지, 그리고 직접 만든 memory-inventory skill로 메모리를 점검하고, 아카이브하는 법까지 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "앱 푸시 알림 하나 보내는 게 이렇게 복잡할 일인가요?",
+      "url": "https://yozm.wishket.com/magazine/detail/3984",
+      "published": null,
+      "summary": "사용자가 알림 권한을 거부하면 예약 변경도 보내지 않는 걸까요. 광고 수신동의와 OS 푸시 허용은 같은 값으로 보면 되는 걸까요. 앱을 사용하고 있는 중에도 스케줄 변경 알림을 띄워야 하는 걸까요. 이런 질문에 답하려다 보니, 푸시 알림은 단순히 어떤 메시지를 보내는지가 아니라 법률, OS 정책, 서비스 정책까지 함께 따져야 하는 기획이었습니다. 실제로 설계해보니 중요한 것은 메시지보다 '전달의 조건'이었고, 정보통신망법상 광고성과 정보성의 구분부터 Android·iOS의 옵트인 차이, 포그라운드 배너와 딥링크 설계까지 하나씩 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "12개 넘게 만든 자동화 도구, 지금도 살아 있을까?",
+      "url": "https://yozm.wishket.com/magazine/detail/3983",
+      "published": null,
+      "summary": "지금까지 쓴 글은 전부 도구를 만들거나, 고르거나 나누는 쪽의 방향이었다. 이번 글은 반대다. 내가 만들어 놓은 도구들이 그 후에는 어떻게 됐는지를 전하고자 한다. 지난 2편에서 넉 달간 만든 도구가 열두 개라고 했는데, 그 글을 쓰고도 도구는 계속 늘었다. 늘어나는 숫자만 셌지, 그중 몇 개가 지금까지 잘 돌아가는지는 세어 본 적이 없다. 자동화 도구를 만드는 글을 여러 편 써 놓고, 정작 내 도구들의 생사를 모르고 있었다. 글마다 수치를 적어 온 습관대로, 이번에도 목록을 만들어 확인하고 싶었다. 그래서 반나절을 들여 전수 실사를 하고, 느낀 점을 담아보았다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI 앱 Top 100, 사람들은 어떤 AI에 돈을 내고 있을까",
+      "url": "https://yozm.wishket.com/magazine/detail/3982",
+      "published": null,
+      "summary": "AI를 쓰는 미국인은 절반에 가깝지만, ChatGPT·Gemini·클로드에 돈을 내는 사람은 4.5%뿐입니다. 미국 투자사 a16z가 처음 공개한 AI 앱 매출 순위로, 사람들이 실제로 어떤 AI에 돈을 내는지 짚었어요. 여기에 입력 가격이 소넷 5.5의 20분의 1인 작은 모델 Claude Haiku 5.5, 오픈AI ChatGPT 책임자 티보 소티오가 말한 지금 AI 제품을 만들 때 생각해둘 것까지. 이번 주 프로덕트 메이커가 눈여겨볼 세 가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "[FECONF 2026 미리보기] 10주년을 맞은 FECONF, 어떤 모습일까?",
+      "url": "https://yozm.wishket.com/magazine/detail/3981",
+      "published": null,
+      "summary": "프론트엔드 개발자만을 위한 행사, FECONF가 오는 10월 24일 10주년을 맞습니다. \"느리지만 멈추지 않았던 10년\"이라는 소개처럼 한 우물을 파 온 컨퍼런스인데요. 요즘IT가 메인 세션과 라이트닝 토크를 합쳐 여섯 분의 발표자를 먼저 만나, 발표 주제는 물론 \"AI 시대에 개발자로서 어떻게 대비하고 있는지\"까지 함께 물었습니다. 절대 지워지지 않는 E2E 테스트부터 React Native 번들러 Rollipop, Chrome OS, Nitro Modules까지, 서로 다른 여섯 가지 고민을 들어볼 수 있습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "GEO를 위한 온톨로지: 브랜드 지식 설계도 3단계(최윤희 아티언스 본부장)",
+      "url": "https://yozm.wishket.com/magazine/detail/3980",
+      "published": null,
+      "summary": "콘텐츠를 더 많이, 더 자주 만드는 GEO에서 벗어나 AI가 브랜드를 이해하고 판단하는 데 쓸 ‘지식 설계도’를 먼저 그려야 한다는 이야기입니다. 아티언스 최윤희 본부장이 Search SEOul 2026에서 발표한 내용인데요, 콘텐츠의 형식은 GEO라는 경기의 입장권일 뿐 입장권이 있다고 경기에서 이기는 건 아니라고 짚습니다. 브랜드가 무엇으로 인식되고 싶은지 정의하지 않으면, AI가 찾은 정보로 브랜드를 해석하고 결정해 버린다는 겁니다. 인용·언급·추천으로 확장된 GEO의 경쟁 구도와 브랜드 지식 설계도를 그리는 3단계까지 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "이제 주니어 개발자는 없어지나요? AI 시대 개발자 생존법",
+      "url": "https://yozm.wishket.com/magazine/detail/3979",
+      "published": null,
+      "summary": "“AI가 코드를 다 써주는데 무엇을 공부해야 하나요”, “이제 신입 개발자는 없어지는 건가요”. 2021년부터 수백 명의 취업준비생과 주니어 개발자를 만나온 필자가 최근 멘토링에서 가장 많이 받는 질문이다. 나는 개발자의 전문성이 사라진다고 생각하지 않는다. 다만 전문성이 평가되는 기준이 빠르게 바뀌고 있다고 생각한다. AI 팀원을 관리하고, AI와 토론하고, 생각을 명확하게 설명하는 사람. 신입과 주니어가 지금 갖춰야 할 세 가지 역량을 멘토링 현장의 사례로 정리했다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "콘텐츠 열심히 만들어도 왜 AI는 우리 회사를 모를까?",
+      "url": "https://yozm.wishket.com/magazine/detail/3978",
+      "published": null,
+      "summary": "AI에게 “프론트엔드 개발을 잘하는 회사가 어디야?”라고 물었더니 자사가 나오지 않았다면, 콘텐츠가 부족해서가 아니라 AI가 그 정보를 근거로 쓰지 못하고 있는 겁니다. 전원 프론트엔드인 팀이 GEO 서비스를 직접 만들며 맞닥뜨린 고민은 넷입니다. SEO와 GEO 중 무엇을 중심에 둘지, 콘텐츠가 많아도 인용되지 않는 이유는 뭔지, 백엔드 없이 바이브 코딩으로 버티는 법, 같은 사이트 점수가 72점과 85점을 오가며 흔들릴 때 신뢰는 어떻게 지킬지입니다. 돌아보니 네 고민 모두 무엇을 할지보다 안 할지를 정하는 일이었습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI 제품 기획: AI만 붙이면 성공할 줄 알았나요?",
+      "url": "https://yozm.wishket.com/magazine/detail/3977",
+      "published": null,
+      "summary": "AI를 붙였는데도 사용자는 왜 우리 제품을 선택하지 않을까요? 상품 설명이든 자기소개서든 똑같은 정보를 ChatGPT나 Claude, Gemini에 넣어도 비슷한 결과가 나온다면, 굳이 그 AI 기능을 쓸 이유는 크지 않습니다. 범용 AI가 그럴듯한 글을 만들어주는 도구라면, 제품 AI는 제품만이 가진 도메인 데이터와 사용자가 원하는 실제 성과를 연결하는 전략 수단이어야 한다는 겁니다. 이번 글에서는 포트폴리오 작성 기능을 예시로, 기획자가 AI 제품의 차별성을 어떻게 설계하는지 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "쿠버네티스 자격증, 지금 결제해도 될까?(할인 정보 사이트 오픈)",
+      "url": "https://yozm.wishket.com/magazine/detail/3976",
+      "published": null,
+      "summary": "쿠버네티스 자격증 결제 전 지금 할인이면 괜찮은 건가, 조금만 기다리면 더 할인하지 않을까 고민, 한 번쯤 해보셨을 것 같습니다. 그런데 막상 지난 할인율과 비교할 기록을 모아 둔 곳이 없어서 결국 감으로 결제하게 되는 경우가 많았는데요. 2021년부터 쌓인 프로모션 메일을 바탕으로 리눅스 재단 자격증 상시 할인 코드와 66건의 할인 기록, 결제 전 자주 나오는 질문까지 한 페이지에 모은 사이트(promo.kuberneteslab.dev)를 만들었습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI 네이티브 팀은 저장소에 뭘 남길까? 딥시크 하네스 분석",
+      "url": "https://yozm.wishket.com/magazine/detail/3975",
+      "published": null,
+      "summary": "개인이 AI를 잘 쓰는 것과 팀 전체가 AI와 함께 일하는 것은 다른 문제입니다. 지시하는 사람이 바뀔 때마다 배경과 기준을 다시 설명해야 한다면, 협업은 여전히 개인의 기억에 기대는 셈이죠. 딥시크가 공개한 딥시크 하네스는 AGENTS.md로 작업 조건을 연결하고, 제안과 반영된 결정, 채택하지 않은 제안을 폴더로 구분하며, 리뷰와 노트 정리까지 스킬로 관리합니다. AI 활용은 결국 컨텍스트 싸움이라는 전제 아래, 그 컨텍스트를 개인의 대화가 아니라 팀이 함께 관리하는 방식을 보여줍니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "오픈AI DevDay에서 나온, 써볼 만한 ChatGPT 기능 3가지",
+      "url": "https://yozm.wishket.com/magazine/detail/3974",
+      "published": null,
+      "summary": "ChatGPT로 만든 결과물을 Slack에 붙이고 PowerPoint로 옮기느라 손이 두 번 가셨다면. 오픈AI가 DevDay 2026에서 내놓은 20개 넘는 발표 중, Slack에서 ChatGPT를 부르고 슬라이드를 팀원과 같이 고치고 회의를 정리해주는 기능 3가지를 골랐습니다. 여기에 구글 직원 수천 명이 먼저 쓰고 있는 새 모델 제미나이 4 아르곤, 클로드와 GPT 가격이 내려간 배경에 딥시크가 있다는 한 개발자의 해석까지. 이번 주 프로덕트 메이커가 눈여겨볼 세 가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "앱 출시할 때 스크린샷, ‘Shotluma’로 빠르게 만들기",
+      "url": "https://yozm.wishket.com/magazine/detail/3973",
+      "published": null,
+      "summary": "앱을 출시할 때는 기능을 구현하는 것만큼이나 앱스토어에 어떤 화면을 보여줄지 정하는 일도 중요합니다. 사용자는 앱을 설치하기 전에 스크린샷과 설명 문구를 먼저 확인하기 때문입니다. 첫 화면에서 앱이 어떤 문제를 해결하는지 전달하지 못하면, 실제 기능이 좋아도 설치까지 이어지기 어렵습니다. 오늘 소개할 'Shotluma'는 템플릿으로 기본 구성을 빠르게 만들고 텍스트·도형·아이콘·목업을 객체 단위로 다듬은 뒤, 완성한 화면을 iPhone 규격에 맞춰 PNG로 내보내고, 여러 규격의 파일을 ZIP으로 한 번에 정리할 수 있는 캔버스 편집기입니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "하위 호환성은 언제까지 유지해야 할까?",
+      "url": "https://yozm.wishket.com/magazine/detail/3972",
+      "published": null,
+      "summary": "하위 호환성은 언제까지 지켜야 할까요? 이 문제는 외부 고객사의 API 연동, 늦은 앱 업데이트, 이벤트 재처리처럼 신·구 버전이 운영 환경에서 함께 돌아가는 상황에서 불거집니다. 롤링 배포 중 절반의 서버만 새 데이터 구조를 이해해 10분 동안 오류가 반복된 사례로 시작해, 구글 API 가이드의 소스·통신·의미 호환성, 마틴 파울러의 확장·이동·축소 3단계, 컨플루언트의 Backward·Forward·Full Compatibility까지 짚었습니다. API와 이벤트, 데이터베이스에서 신·구 버전이 공존하는 동안 확인할 지점을 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI 에이전트 브라우저를 따로 써야 할까? ego(lite) 사용기",
+      "url": "https://yozm.wishket.com/magazine/detail/3971",
+      "published": null,
+      "summary": "브라우저는 이미 열려 있고 사람도 계속 쓰고 있는데, 에이전트가 같은 화면에서 새 탭을 띄우고 페이지를 옮기기 시작하면 작업 흐름은 쉽게 끊깁니다. 로그인과 세션까지 따로 관리해야 한다면, 자동화로 아낀 시간만큼 다른 관리 업무가 생기는 셈이죠. 이 불편 때문에 일주일 동안 사람이 브라우저를 쓰는 동안 AI 에이전트도 별도의 공간에서 웹 작업을 진행하는 크로미움 기반 브라우저, ego(lite)를 써봤습니다. 로그인된 사이트 접근이 편해진 지점과 스페이스 단위로 탭이 정리되는 방식, 아직 mac 전용이라는 한계까지 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "[참가 모집] AI로 만든 업무 도구 자랑대회 얼른 신청하세요!",
+      "url": "https://yozm.wishket.com/magazine/detail/3970",
+      "published": null,
+      "summary": "AI로 뭔가를 만든다고 해서 꼭 거창한 서비스를 만들 필요는 없습니다. 매번 반복하는 일을 조금 줄이거나, 귀찮았던 업무 하나를 자동화하거나, 나와 우리 팀에게 필요한 기능을 직접 만들어 쓰는 것만으로도 충분하죠. 요즘IT는 이번 ‘빌더나잇: 로컬앱 자랑대회’를 통해 이렇게 자신과 팀의 업무를 위해 만든 도구들을 소개합니다. 외부에 배포하거나 많은 사용자를 모으기 위한 서비스는 아니지만, 매일의 업무를 조금 더 편하게 만들기 위해 직접 만든 도구들인데요. 바로 다음 주인 10월 6일 화요일 저녁 7시, 선정된 네 팀이 직접 무대에 올라 어떤 문제에서 출발해 무엇을 만들었는지, 그리고 그 도구가 실제 업무를 어떻게 바꿨는지 이야기합니다."
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "삼성전자도 놀란 '갤럭시 덕질' 택시기사…“갤Z가 좋아서” 20대 넘게 태우고 달린다",
+      "url": "https://www.etnews.com/20261020000379",
+      "published": "2026-10-21T06:00:00+09:00",
+      "summary": "20대가 넘는 삼성전자 갤럭시 Z 제품으로 가득찬 택시가 화제다. 20일 삼성전자에 따르면 대만에서 10년째 운전대를 잡고 있는 왕웨이훙 씨는 자신의 영업용 차량을 갤럭시 제품을 체험할 수 있는 공간으로 꾸몄다. 삼성전자가 현지 뉴스룸에 지난 7일 그와의 인터뷰를 공개한 뒤 독특한 사연이 관심을 모았다. 왕 씨는 승객들이 제품을 직접 조작해 볼 수 있도록 별도의 체험용 스마트폰도 마련했다. 단순히 기기를 사들이는 취미를 넘어 실제 사용 경험을"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "이마트, 초저가 생활용품 '와우샵' 본격 확대…상품 1만2000종",
+      "url": "https://www.etnews.com/20261020000369",
+      "published": "2026-10-21T06:00:00+09:00",
+      "summary": "이마트는 오는 22일 스타필드 마켓 월계점과 이마트 은평점에 초저가 생활용품 전문점 '와우샵'을 열고 본격적인 운영에 들어간다고 20일 밝혔다. 와우샵은 이마트가 지난해 12월부터 해외 직수입 생활용품 1300여종을 중심으로 시범 운영해 온 초저가 생활용품 매장이다. 이번 정식 운영을 계기로 신규 개발 상품을 1만2000여종까지 확대한다. 테스트 기간보다 약 6~7배 늘어난 규모다. 점포별로 시즌과 상권 특성에 따라 7000~8000여종을 선보"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "시한부 선고받은 日 암 환자, 귀갓길 '1억8000만원' 주웠다가 재판까지 간 사연",
+      "url": "https://www.etnews.com/20261020000363",
+      "published": "2026-10-21T06:00:00+09:00",
+      "summary": "일본에서 암으로 시한부 선고를 받은 40대 남성이 병원에서 돌아오던 길에 1억8000만원이 넘는 현금을 주워 여행비와 치료비 등에 사용한 혐의로 재판에 넘겨졌다. 남성은 법정에서 돈을 발견했을 당시 “신이 준 선물이라고 생각했다”고 진술했다. 20일 일본 도호쿠방송 등에 따르면 43세 남성은 지난 3월 5일 미야기현 센다이시 아오바구의 한 도로에서 현금 2200만엔(약 1억8500만원)이 든 가방을 발견해 가져간 혐의로 기소됐다. 해당 가방은"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "9일째 러닝머신 걷는 로봇…560km·120만 걸음 돌파",
+      "url": "https://www.etnews.com/20261020000291",
+      "published": "2026-10-20T22:30:00+09:00",
+      "summary": "휴머노이드 로봇이 러닝머신 위에서 9일째 계속 걷는 영상이 화제가 되고 있습니다. 미국 로봇 스타트업 피규어 AI의 최고경영자(CEO) 브렛 애드콕은 지난 19일 자사 휴머노이드 로봇 '피규어 03'의 장기 보행 영상을 공개했습니다. 로봇은 러닝머신 위에서 9일 연속 걸으며 약 560km, 120만 걸음을 기록했습니다. 이 영상은 로봇을 장시간 반복해서 걷게 하며 관절과 구동계 등 하드웨어가 얼마나 오래 버티는지, 어떤 지점에서 고장이 발생하는"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "셀카 한 장으로 암 환자 생존 가능성 예측…AI가 '생물학적 나이' 읽는다",
+      "url": "https://www.etnews.com/20261020000357",
+      "published": "2026-10-20T21:15:00+09:00",
+      "summary": "얼굴 사진 한 장만으로 암 환자의 생존 가능성을 예측하는 인공지능(AI) 기술이 개발됐다. 환자의 실제 나이와 별개로 얼굴에 나타난 '생물학적 나이'를 추정하고, 이를 바탕으로 치료 이후 생존 위험을 분석하는 방식이다. 19일(현지시간) 영국 가디언에 따르면 미국 매사추세츠의 비영리 의료기관 매스제너럴브리검(MGB) 연구진은 암 환자의 얼굴 사진을 분석해 생물학적 나이와 생존 가능성을 예측하는 AI 시스템을 개발했다. 연구 결과는 의학저널 '란"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "모두 다 던진 날, “470만닉스 간다”는 노무라…“67만전자” 파격 제시",
+      "url": "https://www.etnews.com/20261020000418",
+      "published": "2026-10-20T20:54:37+09:00",
+      "summary": "SK하이닉스 주가가 외국인과 기관에 이어 개인 투자자들의 매도세까지 겹치며 급락했다. 그동안 주가 하락을 방어해 온 자사주 매입도 종료를 앞두고 있어 수급 부담이 커지는 모습이다. 다만 증권가에서는 메모리 반도체의 중장기 업황에 대한 기대가 여전히 유효하다는 분석도 나온다. 노무라증권은 메모리 수요가 최소 2028년까지 공급을 웃돌 것으로 전망하며 SK하이닉스의 목표주가를 470만원으로 제시했다. 20일 유가증권시장에서 SK하이닉스는 전 거래일"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“자녀 굶겨 죽이면 예수 만나” 시신 400구 쏟아져… 케냐 사이비 수장 '191명 살해' 혐의 유죄",
+      "url": "https://www.etnews.com/20261020000261",
+      "published": "2026-10-20T17:50:00+09:00",
+      "summary": "종말론적 사상을 퍼뜨린 케냐의 사이비 종교 지도자가 191명을 살해한 혐의로 유죄 판결을 받았다. 밝혀진 피해자 가운데 단 1명을 제외한 190명이 모두 어린이로 밝혀져 현지 사회에 큰 충격을 준 사건이다. 19일(현지시간) 영국 BBC에 따르면 케냐 몸바사 법원은 최근 '굿뉴스 인터내셔널 미니스트리스'의 수장 폴 매켄지에게 살인 혐의에 대해 유죄를 선고했다. 함께 기소된 교단 간부 28명도 살인 혐의로 유죄 판결을 받았다. 매켄지는 신도들에게"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "트럼프, 연방기관서 中딥시크 퇴출…“민감 데이터가 中 이전 우려 있어”",
+      "url": "https://www.etnews.com/20261020000374",
+      "published": "2026-10-20T17:28:50+09:00",
+      "summary": "도널드 트럼프 미국 행정부가 연방정부 기관에서 중국 인공지능(AI) 기업 딥시크의 제품 사용을 전면 금지했다. 블룸버그·로이터 통신에 따르면 미 국토안보부(DHS)는 19일(현지시간) 이 같은 내용의 지침을 연방 관보 웹사이트에 공개했다. 사이버보안법에 근거한 이번 명령에 따라 연방 기관들은 정보기술(IT) 시스템에서 딥시크 제품을 제거해야 한다. 딥시크 제품 사용은 물론 해당 AI 모델을 기반으로 한 제삼자 서비스 도입도 금지된다. 딥시크의"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "'머리 없는 시신'으로 발견… 르완다 대통령 비판한 전직 군인 유튜버였다",
+      "url": "https://www.etnews.com/20261020000260",
+      "published": "2026-10-20T17:20:00+09:00",
+      "summary": "르완다 정부를 공개적으로 비판해온 전직 군인이자 유튜버가 망명한 우간다에서 참수된 채 발견돼 현지 경찰이 수사에 나섰다. 20일(현지시간) AFP 통신·BBC 등 외신에 따르면 우간다 경찰은 수도 캄팔라 인근 루왈라 마을에서 머리가 사라진 50세 남성의 시신을 발견했다. 유족들은 시신의 신원을 전 르완다군 부사관 로버트 카베라로 확인했다. 경찰은 살해 시점을 지난 16일 밤부터 17일 새벽 사이로 추정했으며, 사라진 머리를 수색하고 있다. 카베"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "[르포] “AI가 알아서 빨래 정리”…제논 '피지컬 AI 두뇌' 개발 현장",
+      "url": "https://www.etnews.com/20261020000283",
+      "published": "2026-10-20T17:00:00+09:00",
+      "summary": "20일 서울 강남구에 위치한 제논 피지컬 AI 랩. 휴머노이드 '젠피'가 주변을 살폈다. 휠체어 위에 놓인 빨랫감을 보더니 곧장 허리를 굽혀 세탁 바구니에 넣었다. 최창윤 제논 피지컬AI TF팀장은 “미리 코드를 짜서 동작을 실행한 게 아니라 로봇이 눈앞의 상황을 스스로 인식하고 판단해 행동했다”고 말했다. 제논이 피지컬 인공지능(AI) 기술 개발을 넘어 상용화 단계로 본격 전환한다. 적용 기종을 유니트리 'G1'에서 애지봇 'X2 울트라' 등"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "삼성 파운드리, DUV 쓰는 8나노 공정 '8LPU' 2세대 내놓는다",
+      "url": "https://www.etnews.com/20261007000246",
+      "published": "2026-10-20T17:00:00+09:00",
+      "summary": "삼성전자 파운드리가 나온지 8년이 넘은 8나노 공정을 한 세대 더 이어간다. 대당 가격이 비싼 극자외선(EUV) 노광기를 쓰지 않는, 이미 깔려 있는 '심자외선(DUV) 성숙 공정' 라인을 효율적으로 활용하겠다는 의도로 읽힌다. 2나노만큼 비쌀 필요는 없는 전장·로봇·엣지 AI 칩이 타깃이다. 20일 업계에 따르면 삼성전자 파운드리는 연내 8나노 2세대 '8LPU+' 공정 플랫폼을 선보인다. 전 세대인 8LPU 대비 개선 폭은 성능 12% 향상"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "운동하다 넘어진 남성…바지 주머니 속 휴대전화 '폭발'",
+      "url": "https://www.etnews.com/20261020000366",
+      "published": "2026-10-20T16:58:32+09:00",
+      "summary": "중국에서 배드민턴을 치던 남성이 넘어지는 순간 바지 주머니에 넣어둔 휴대전화가 폭발해 중증 화상을 입는 사고가 발생했다. 휴대전화는 구입한 지 두 달밖에 되지 않은 제품인 것으로 전해졌다. 19일(현지시간) 중국 윈난일보 등 현지 매체에 따르면 사고는 최근 후베이성의 한 체육관에서 발생했다. 현장 폐쇄회로(CC)TV 영상에는 배드민턴을 치던 남성이 오른팔부터 바닥에 강하게 부딪히며 넘어지는 모습이 담겼다. 주변에 있던 여성 2명이 남성에게 다가"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "류재철 LG전자 CEO “AI 데이터센터, 냉각 효율이 연산 전력 좌우”",
+      "url": "https://www.etnews.com/20261020000364",
+      "published": "2026-10-20T16:54:07+09:00",
+      "summary": "류재철 LG전자 최고경영자(CEO)가 AI 데이터센터 경쟁력 핵심으로 냉각 기술을 지목했다. 냉각에 쓰는 전력을 줄이면 그만큼 AI 연산에 더 많은 전력을 돌릴 수 있다는 논리다. 류 CEO는 20일 링크드인에서 ”냉각은 자체 에너지 소비를 줄일 뿐만 아니라 인공지능(AI) 연산에 더 많은 전력을 공급함으로써 의미 있는 변화를 만들어낼 수 있다“고 밝혔다. 앞서 19일(현지시간)에는 미국 경제매체 포브스의 '포브스 테크놀로지 카운슬'에 기고문을"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "KLA 독점 웨이퍼 계측 시장 균열… '삼성 투자' 우프틱스 한국 진출",
+      "url": "https://www.etnews.com/20261020000298",
+      "published": "2026-10-20T16:30:00+09:00",
+      "summary": "삼성을 비롯해 인텔, 도쿄일렉트론(TEL) 등이 투자한 스페인 계측 장비 스타트업 우프틱스(Wooptix)가 한국 반도체 기업에 장비를 반입하며 초기 협력에 돌입했다. 미국 KLA가 독점해 온 반도체 웨이퍼 형상·스트레스 계측 시장에 균열이 예상된다. 20일 업계에 따르면 우프틱스는 최근 국내 한 반도체 기업에 연구용(Lab) 시스템을 설치하고 기술 검증 및 협력을 시작했다. 협력 기업과 범위는 공개되지 않았지만 삼성이 지분 투자를 단행한 만큼"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "저궤도통신위성 뜨는데 韓, 주파수 등록 2건...ITU 등록 서둘러야",
+      "url": "https://www.etnews.com/20261020000282",
+      "published": "2026-10-20T16:30:00+09:00",
+      "summary": "한국의 저궤도 통신위성 발사를 위한 국제전기통신연합(ITU) 위성망 주파수 국제 등록 건수가 2건에 불과한 것으로 확인됐다. 글로벌 저궤도 위성통신망 패권 경쟁이 격화하는 가운데 시장 진입 관문과도 같은 주파수마저 빠르게 포화하고 있다. 주파수 등록을 서두르고, 2035년으로 예정된 통신위성 발사 시점을 앞당길 필요성이 제기된다. 20일 정부부처에 따르면 과학기술정보통신부는 연내 ITU에 위성망 국제 등록을 진행하기 위한 위성망 운용계획을 수립"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "한국인들 즐겨입는 유니클로…일본서 가격 오른다는데?",
+      "url": "https://www.etnews.com/20261020000355",
+      "published": "2026-10-20T16:24:47+09:00",
+      "summary": "저렴한 가격을 앞세워 성장해온 일본 의류 브랜드 유니클로가 엔화 약세와 원자재비 상승에 가격 인상으로 대응하고 있다. 감동팬츠 가격을 25% 올리고 양말 묶음 할인도 없애면서 일부 제품의 실질 구매 부담은 60% 가까이 커진다. 일본에서 시작된 가격 인상 흐름이 한국 등 해외 시장으로 확산할지도 관심사다. 20일 니혼게이자이신문과 요미우리신문 등 현지 언론에 따르면 유니클로를 운영하는 패스트리테일링은 다음 달 10일부터 일본에서 판매하는 가을·"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "LG전자, 가전용 칩 '100만개' 돌파…반도체로 가전 영토 넓힌다",
+      "url": "https://www.etnews.com/20261020000284",
+      "published": "2026-10-20T16:00:00+09:00",
+      "summary": "LG전자가 자체 설계한 반도체의 가전 적용 물량을 가파르게 확대하고 있다. 독자 개발한 반도체 탑재량을 늘리고 운용 데이터를 바탕으로 가전 성능을 고도화하는 선순환 구조를 구축하는 모습이다. LG전자 시스템온칩(SoC)센터가 개발한 가전 전용 인공지능(AI) 반도체 'DQ-C' 시리즈의 가전 탑재 물량은 지난해 100만개를 돌파했다. 2년 전 10만개 수준에서 10배 이상 증가했다. 올해는 수백만개 수준으로 늘어날 것으로 전망된다. DQ-C 시"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "수업 맥락 이해하는 'AI 튜터'…대학 내 자기주도학습 이끌었다",
+      "url": "https://www.etnews.com/20261020000279",
+      "published": "2026-10-20T16:00:00+09:00",
+      "summary": "유비온이 수업 맥락을 바탕으로 개념 확인과 이해를 지원하도록 설계한 인공지능(AI) 튜터가 대학 내 '자기 주도 학습'을 이끈 것으로 나타났다. AI를 활용해 자발적으로 모의시험 문항 생성이 활발해진 것은 물론, 문제를 풀고 AI 튜터의 즉시 피드백을 받아 이해한 것을 다시 점검하는 선순환 학습체계가 구현됐다는 점에서 주목받는다. 20일 AI 교육 특화 에듀테크 기업 유비온에 따르면 올해 1학기 출시된 AI 기반 '코스모스 학습경험플랫폼(AI-"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "현대차·기아 3분기 실적 '디커플링' 전망…생산 리스크·RV 믹스가 희비 갈라",
+      "url": "https://www.etnews.com/20261020000274",
+      "published": "2026-10-20T16:00:00+09:00",
+      "summary": "현대자동차와 기아가 3분기 실적의 '탈동조화(디커플링)' 양상을 보일 전망이다. 노사 갈등과 파업 등에 따른 생산 차질로 현대차의 매출과 영업이익이 역성장하는 반면, 기아는 안정적 라인 가동과 레저용 차량(RV) 중심의 신차 효과를 앞세워 호조를 기록할 것으로 예상된다. 현대차의 3분기 연결 기준 실적 컨센서스는 매출 45조3510억원, 영업이익 2조5266억원으로 집계됐다. 전년 동기 대비 매출은 2.93%, 영업이익은 0.42% 각각 줄어든"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "규제 높아지고 대형사 들어오고…액상형 전자담배 판 바뀌나",
+      "url": "https://www.etnews.com/20261020000269",
+      "published": "2026-10-20T16:00:00+09:00",
+      "summary": "합성니코틴 규제 편입과 대형 담배회사의 진출로 액상형 전자담배 시장의 경쟁 조건이 달라지고 있다. 제품 관리가 강화되고 과세로 저가 경쟁력이 약해지면서 브랜드와 유통망, 규제 대응 역량의 중요성이 커지는 모습이다. 20일 업계에 따르면 일부 중소 액상 제조업체가 과세에 따른 가격 상승을 우려해 사업 중단이나 대체 제품 전환을 검토하고 있다. 반면 필립모리스·BAT로스만스 등 대형사는 기존 판매망을 활용해 소비자 접점을 확보하고 있다. 국내 액상"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "온투업 2곳서 고객정보 1만9000여명 유출",
+      "url": "https://www.etnews.com/20261020000343",
+      "published": "2026-10-20T15:51:54+09:00",
+      "summary": "온라인투자연계금융업(온투업) 두 곳에서 고객 1만 9000여명의 개인정보가 유출된 것으로 잠정 집계됐다. 20일 국회 정무위원회 소속 신동욱 국민의힘 의원실이 금융감독원에서 받은 피에프씨테크놀로지스(PFCT)와 모우다의 침해사고 신고서에 따르면, 두 업체의 개인정보 유출 피해 인원은 잠정 1만9214명이다. 모우다가 1만8900명으로 대부분을 차지했고, PFCT는 314명으로 파악됐다. 두 업체 모두 조사가 진행 중이어서 최종 피해 규모는 달라"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "카카오, 주주가치 경영진 평가에 반영한다…금융 자회사 매각설 일축",
+      "url": "https://www.etnews.com/20261020000340",
+      "published": "2026-10-20T15:49:47+09:00",
+      "summary": "카카오가 인적 분할 후에 주가가 회복하지 못할 경우 경영진 책임과 연동하는 평가체계를 만든다. 카카오페이나 카카오뱅크 등 자회사의 매각은 없다고 선을 그었다. 카카오는 내달 해외 투자자를 대상으로도 인적 분할에 대한 설명을 이어갈 계획이다. 김도영 카카오X 대표 내정자는 20일 서울 영등포구 FKI타워에서 열린 소액주주 간담회에서 “주주가치와 주가가 경영진 평가 및 보상에 반영될 수 있는 구조를 새롭게 만들어지는 이사회와 상의해 정하겠다”면서"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“어린이는 콜라 일주일에 두 캔도 위험”…카페인이 뇌 구조 바꾼다",
+      "url": "https://www.etnews.com/20261020000334",
+      "published": "2026-10-20T15:45:42+09:00",
+      "summary": "어린이가 일주일에 콜라 두 캔에 해당하는 카페인만 섭취해도 뇌 발달과 심리 상태에 차이가 나타날 수 있다는 연구가 발표됐다. 15일(현지시간) 데일리메일은 킹스칼리지런던 연구팀의 연구 결과를 인용해 소량의 카페인도 아동의 뇌 구조 및 정신건강과 관련이 있을 수 있다고 전했다. 연구팀은 미국에서 진행된 청소년 뇌 발달 관련 대규모 연구에 참여한 9~11세 아동 약 9천600명의 데이터를 살펴봤다. 커피와 차, 탄산음료 등 카페인이 들어간 음료를"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "국내 M.AX 인증서, 해외서도 '프리패스'…제조 AI 수출길 넓혔다",
+      "url": "https://www.etnews.com/20261020000315",
+      "published": "2026-10-20T15:31:46+09:00",
+      "summary": "기업이 국내에서 받은 'M.AX(제조 인공지능 전환)' 기술 성적표가 해외에서도 똑같이 인정받는다. 현대오토에버 등 국내 2개 기업이 스위스 인증기관으로부터 공동 인증서를 발급받으며 까다로운 중복 시험의 굴레를 벗었다. 정부는 이 같은 상호인정 협력을 확대해 M.AX의 글로벌 무대 등판 지원을 강화한다는 구상이다. 산업통상부는 20일 서울 코엑스에서 한국산업기술시험원(KTL)·한국산업기술진흥원(KIAT) 등과 함께 '제4차 산업AI국제인증포럼'"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“AI, 중소기업엔 공포”…제주 리더스포럼서 쏟아진 中企 CEO들의 위기감",
+      "url": "https://www.etnews.com/20261020000287",
+      "published": "2026-10-20T15:30:00+09:00",
+      "summary": "“인공지능(AI)은 중소 제조기업들에 공포스러운 위기감을 주는 존재입니다. 산업화와 고도성장기에 익숙해진 최고경영자(CEO)들이 많다 보니 새로운 시대에 적응하는 데 더 큰 어려움을 겪고 있습니다.” 20일 제주 롯데호텔에서 열린 '2026 중소기업 리더스포럼'에 참석한 김성태 한국산업용재협회장은 AI 대전환을 마주한 중소기업의 현실을 이같이 토로했다. AI가 산업 경쟁력의 핵심으로 떠올랐지만 정작 중소기업 현장에서는 기대보다 막막함과 위기감이"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "숙박·항공 넘어 '놀거리'로…OTA 액티비티 경쟁 격화",
+      "url": "https://www.etnews.com/20261020000203",
+      "published": "2026-10-20T15:24:00+09:00",
+      "summary": "온라인 여행사(OTA)의 경쟁이 숙박·항공권 예약을 넘어 공연·스포츠 등 액티비티로 확산하고 있다. 국내 여행앱 1·2위를 다투는 놀(NOL·옛 야놀자)과 트립닷컴도 사업 확장에 속도를 내고 있다. 20일 업계에 따르면 놀유니버스는 지난 17~18일 경기 고양시 킨텍스에서 첫 자체 기획 음악 축제 '놀 페스티벌'을 개최했다. K팝·라이브·EDM 등 세 가지 무대를 선보였다. 무료 티켓 누적 응모는 약 180만건을 기록했다. 음악·여행·엔터테인먼"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "한·체코, 'EU 원전 장벽' 함께 뚫는다…테믈린 3·4호기 협력도 가속",
+      "url": "https://www.etnews.com/20261020000320",
+      "published": "2026-10-20T15:23:34+09:00",
+      "summary": "우리나라와 체코가 '유럽연합(EU) 산업가속화법안(IAA)'에 공동 대응한다. 비(非)EU 국가의 원전 시장 진입을 제약할 우려가 커지자 양국이 공조에 나선 것이다. 연내 한국에서 제4차 두코바니 이행점검 협의체를 개최해 양국 원전업계 간 공급망 성과를 구체화하고, 테믈린 3·4호기 추가 건설 사업에서도 확고한 '원전 파트너십'을 이어간다는 구상이다. 김정관 산업통상부 장관과 카렐 하블리첵 체코 산업통상부 장관은 20일 화상으로 '제3차 두코바"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "할리스 276만건 유출, 개편용 임시파일서 발생…11년치 고객정보 미파기 쟁점",
+      "url": "https://www.etnews.com/20261020000264",
+      "published": "2026-10-20T15:15:00+09:00",
+      "summary": "할리스의 개인정보 유출 사고가 과거 멤버십 개편 때 만든 임시 데이터 파일에서 발생하면서, 목적이 끝난 고객정보의 보관·파기 관리가 쟁점으로 떠올랐다. 개인정보보호법은 처리 목적이 달성된 개인정보를 지체 없이 파기하도록 규정하고 있다. 할리스는 해당 파일이 남아 있던 경위를 조사 중이다. 20일 할리스에 따르면 이번 사고는 과거 멤버십 서비스 개편을 위해 제공한 임시 데이터에서 발생했다. 해당 파일에는 2009년부터 2020년 2월 11일까지"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“6G망, 통신 3사 공동 구축해야…광대역폭 확보 가능”",
+      "url": "https://www.etnews.com/20261020000281",
+      "published": "2026-10-20T15:10:00+09:00",
+      "summary": "6세대(6G) 이동통신망을 통신 3사가 각자 구축하는 대신 공동 구축해야 한다는 제안이 나왔다. 사업자별로 주파수를 나눠 할당하는 현행 방식으로는 6G 서비스·커버리지를 지원할 수 있는 광대역폭 확보가 어렵다는 지적이다. 공동망을 구축하면 각 통신사가 중대역 주파수를 더 많이 확보하면서 구축비도 줄일 수 있다는 분석이다. 정우기 전 청강문화산업대 교수는 20일 한국전파정책학회 정책토론회 주제발표에서 “6G 서비스를 제공하기 위한 주파수는 트래픽"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "中 해커, AI로 1139건 대량 공격…건당 5달러·성공률 10%",
+      "url": "https://www.etnews.com/20261020000300",
+      "published": "2026-10-20T15:05:54+09:00",
+      "summary": "인공지능(AI) 에이전트를 활용한 사이버공격이 건당 평균 5달러의 이용 비용으로 약 10%의 성공률을 보이는 것으로 나타났다. 모의해킹이 아닌 실제 공격을 역추적 분석한 결과로 AI를 활용한 저비용 대량 해킹이 현실화했음을 보여준다. 미국 사이버보안 기업 노르포지(Norforge)는 19일(현지시간) 해커들이 사용하던 AI 기반 공격 도구 '케언(Cairn)'의 관리 패널 20여개를 추적해 분석한 결과를 공개했다. 노르포지는 공격 기록을 토대로"
+    },
+    {
+      "source": "네이버 D2",
+      "region": "kr",
+      "title": "2026년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)",
+      "url": "https://d2.naver.com/helloworld/2675915",
+      "published": "2026-10-20T14:51:56+09:00",
+      "summary": "2016년부터 매년 이어 오던 \"JavaScript의 동향\" 연재는 2020년을 마지막으로 한동안 쉬었습니다. 그사이 6년이 지났고, 그 6년 동안 ECMAScript 명세는 여섯 번 개정되었습니다. 2020년 글을 쓸 때 Stage 2였던 Temporal은 9년에 걸친 논의 끝에 Stage 4에 올랐고, 이제 Chrome과 Firefox, Node.js에서 플래그 없이 쓸 수 있습니다. 달라진 것은 명세만이 아닙니다. 2020년에는 상상하기 어려웠던 방식으로 코드를 쓰는 사람이 늘었습니다. AI 코딩 도구가 코드의 상당 부분을 작성하고, 사람이 방향을 정하면 AI 에이전트가 브라우저 엔진의 JavaScript 엔진 코드를 다른 언어로 옮기는 일까지 생겼습니다. 2025년 GitHub Octoverse에서 TypeScript가 처음으로 가장 많이 쓰인 언어 1위에 올랐고, GitHub은 그 배경으로 AI를 꼽았습니다. 이번 연재는 다음 네 편으로 구성됩니다. 1편: JavaScrip"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "SimCity, but with Permits",
+      "url": "https://permit.petercai.com",
+      "published": "2026-10-21T03:29:09+09:00",
+      "summary": "Article URL: https://permit.petercai.com/ Comments URL: https://news.ycombinator.com/item?id=50170593 Points: 346 # Comments: 183"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "What shall I teach my son?",
+      "url": "https://stevekrouse.com/ends",
+      "published": "2026-10-21T02:25:07+09:00",
+      "summary": "Article URL: https://stevekrouse.com/ends Comments URL: https://news.ycombinator.com/item?id=50169707 Points: 156 # Comments: 240"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "published": "2026-10-21T01:40:24+09:00",
+      "summary": "Article URL: https://github.com/google-pytorch/torch_tpu Comments URL: https://news.ycombinator.com/item?id=50169053 Points: 204 # Comments: 48"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3",
+      "published": "2026-10-21T01:02:07+09:00",
+      "summary": "Article URL: https://mistral.ai/news/voxtral-3/ Comments URL: https://news.ycombinator.com/item?id=50168396 Points: 442 # Comments: 121"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Sixteen Years After Deepwater Horizon, Deep Sea Life Shows Few Signs of Recovery",
+      "url": "https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery",
+      "published": "2026-10-21T00:59:06+09:00",
+      "summary": "Article URL: https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery Comments URL: https://news.ycombinator.com/item?id=50168357 Points: 116 # Comments: 65"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "IKEA – 3D Guide",
+      "url": "https://sael.net/flatpack",
+      "published": "2026-10-21T00:42:45+09:00",
+      "summary": "Article URL: https://sael.net/flatpack/ Comments URL: https://news.ycombinator.com/item?id=50168096 Points: 113 # Comments: 33"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Facebook Pages require paid subscription to post more than two links per month",
+      "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
+      "published": "2026-10-21T00:06:08+09:00",
+      "summary": "Article URL: https://mastodon.gamedev.place/@AshleyGullen/117473851565913919 Comments URL: https://news.ycombinator.com/item?id=50167536 Points: 386 # Comments: 339"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Ofcom concedes defeat in 4chan case",
+      "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat",
+      "published": "2026-10-20T23:30:31+09:00",
+      "summary": "Article URL: https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/ Comments URL: https://news.ycombinator.com/item?id=50167028 Points: 277 # Comments: 181"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "My Friend Bob Cringely",
+      "url": "https://tyma.com/my-cringe-story",
+      "published": "2026-10-20T23:13:49+09:00",
+      "summary": "Article URL: https://tyma.com/my-cringe-story/ Comments URL: https://news.ycombinator.com/item?id=50166794 Points: 142 # Comments: 39"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "EMudhra Intermediate CA Compromise",
+      "url": "https://emudhra.we-have-a-problem.com",
+      "published": "2026-10-20T22:58:33+09:00",
+      "summary": "Article URL: https://emudhra.we-have-a-problem.com/ Comments URL: https://news.ycombinator.com/item?id=50166579 Points: 495 # Comments: 272"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "2026 is an exciting year for the Rust compiler (and me)",
+      "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me",
+      "published": "2026-10-20T22:53:48+09:00",
+      "summary": "Article URL: https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/ Comments URL: https://news.ycombinator.com/item?id=50166502 Points: 138 # Comments: 56"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "How I got over 300 Tor exit nodes removed",
+      "url": "https://kaba.cx/posts/20261020_Tor",
+      "published": "2026-10-20T22:39:24+09:00",
+      "summary": "Article URL: https://kaba.cx/posts/20261020_Tor/ Comments URL: https://news.ycombinator.com/item?id=50166257 Points: 277 # Comments: 68"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "url": "https://blog.cloudflare.com/typescript-rust-port",
+      "published": "2026-10-20T22:18:07+09:00",
+      "summary": "Article URL: https://blog.cloudflare.com/typescript-rust-port/ Comments URL: https://news.ycombinator.com/item?id=50165953 Points: 299 # Comments: 140"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Publish fake stats, get cited in LLMs",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "published": "2026-10-20T22:06:22+09:00",
+      "summary": "Article URL: https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web Comments URL: https://news.ycombinator.com/item?id=50165801 Points: 300 # Comments: 172"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Apple broke an essential presentation feature of iPads",
+      "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads",
+      "published": "2026-10-20T21:17:28+09:00",
+      "summary": "Article URL: https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/ Comments URL: https://news.ycombinator.com/item?id=50165208 Points: 430 # Comments: 235"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Google Cloud outage affects almost all banking and other operations in Europe",
+      "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more",
+      "published": "2026-10-20T19:26:02+09:00",
+      "summary": "Article URL: https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/ Comments URL: https://news.ycombinator.com/item?id=50163961 Points: 283 # Comments: 145"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "published": "2026-10-20T18:08:54+09:00",
+      "summary": "Article URL: https://github.com/deepseek-ai/DeepInfer Comments URL: https://news.ycombinator.com/item?id=50163277 Points: 2041 # Comments: 800"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "url": "https://github.com/microg/GmsCore/wiki",
+      "published": "2026-10-20T15:37:07+09:00",
+      "summary": "Article URL: https://github.com/microg/GmsCore/wiki Comments URL: https://news.ycombinator.com/item?id=50162177 Points: 359 # Comments: 77"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Anthropic’s cloud partnerships are getting messy",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy",
+      "published": "2026-10-21T06:25:22+09:00",
+      "summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "SpaceX’s AI business is beating expectations",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations",
+      "published": "2026-10-21T05:40:41+09:00",
+      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business",
+      "published": "2026-10-21T05:35:10+09:00",
+      "summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Google is bringing a more personal version of its Gemini AI assistant to your car",
+      "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car",
+      "published": "2026-10-21T05:00:00+09:00",
+      "summary": "Google is bringing Gemini's Personal Intelligence feature to cars, allowing its AI assistant to draw on information from Gmail, Calendar, Maps, YouTube, and other Google services to deliver more personalized responses while driving."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "GM to close Detroit battery assembly plant, but not for reasons you might think",
+      "url": "https://techcrunch.com/2026/10/20/gm-to-close-detroit-battery-assembly-plant-but-not-for-reasons-you-might-think",
+      "published": "2026-10-21T04:32:43+09:00",
+      "summary": "GM is shuttering the Brownstown Battery Assembly Plant, though the closure has nothing to do with the automaker's electrification strategy."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers",
+      "published": "2026-10-21T03:38:24+09:00",
+      "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "ChatGPT now lets you lock your chats",
+      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats",
+      "published": "2026-10-21T03:36:53+09:00",
+      "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei",
+      "published": "2026-10-21T02:55:12+09:00",
+      "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+      "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps",
+      "published": "2026-10-21T02:12:48+09:00",
+      "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in it’s LEGO era’",
+      "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era",
+      "published": "2026-10-21T01:20:06+09:00",
+      "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Streaming guide JustWatch becomes a streamer itself",
+      "url": "https://techcrunch.com/2026/10/20/streaming-guide-justwatch-becomes-a-streamer-itself",
+      "published": "2026-10-21T01:01:24+09:00",
+      "summary": "JustWatch, the popular streaming search guide used by 50 million people, is launching its own streaming service, offering free, ad-supported movies and shows alongside a $3.99-per-month ad-free tier and movie rentals."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+      "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language",
+      "published": "2026-10-21T01:00:00+09:00",
+      "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "TikTok staff raised child safety concerns, but executives reportedly failed to act",
+      "url": "https://techcrunch.com/2026/10/20/tiktok-staff-raised-child-safety-concerns-but-executives-reportedly-failed-to-act",
+      "published": "2026-10-21T00:03:41+09:00",
+      "summary": "Court documents show TikTok employees were frustrated with how executives responded to their concerns about risks to children."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+      "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol",
+      "published": "2026-10-20T23:13:32+09:00",
+      "summary": "Figma said it plans to support as many standards as possible without exposing all of its data."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
+      "url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation",
+      "published": "2026-10-20T22:17:36+09:00",
+      "summary": "Reliable Robotics extended its Series D round with $115 million in equity and $25 million in debt."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems",
+      "published": "2026-10-20T22:07:24+09:00",
+      "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving",
+      "published": "2026-10-20T22:00:00+09:00",
+      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Inspired Capital closes $450M fourth fund as New York pushes back on Silicon Valley’s gravitational pull",
+      "url": "https://techcrunch.com/2026/10/20/inspired-capital-closes-450m-fourth-fund-as-new-york-pushes-back-on-silicon-valleys-gravitational-pull",
+      "published": "2026-10-20T22:00:00+09:00",
+      "summary": "The raise comes as venture dollars pile up on the West Coast."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Spotify launches paid podcast memberships with perks beyond bonus content",
+      "url": "https://techcrunch.com/2026/10/20/spotify-launches-paid-podcast-memberships-with-perks-beyond-bonus-content",
+      "published": "2026-10-20T21:00:00+09:00",
+      "summary": "Spotify's new paid memberships let podcasters offer fans exclusive perks, including ad-free listening, early access, and bonus content, while keeping 90% of the revenue."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Oura adds new fitness metrics to show how workouts impact your body",
+      "url": "https://techcrunch.com/2026/10/20/oura-is-launching-two-new-ways-to-track-and-understand-activity",
+      "published": "2026-10-20T21:00:00+09:00",
+      "summary": "While Oura has largely dominated the smart ring market for years, rivals like RingConn and Ultrahuman are emerging to dethrone it, putting pressure on the company to keep innovating. By launching more advanced workout metrics, Oura is looking to differentiate itself from competitors as the smart ring market gets more crowded."
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
+      "url": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees",
+      "published": "2026-10-21T06:30:24+09:00",
+      "summary": "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees have not reached agreement on the terms of any transaction - and that there's no guarantee that they will. That […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "SpaceX will try catching Starship and its booster for first time, Musk says",
+      "url": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says",
+      "published": "2026-10-21T06:02:53+09:00",
+      "summary": "SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt would mark the first time in history an orbital launch vehicle has been fully recovered. \"This is a […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Netflix is telling investors not to worry, even though you’re watching less and less",
+      "url": "https://www.theverge.com/streaming/1014826/netflix-earnings-q3-2026-viewing-time",
+      "published": "2026-10-21T05:52:07+09:00",
+      "summary": "Netflix is making monetization a top priority amid reports of falling viewing time. As part of its third-quarter earnings report on Tuesday, Netflix lists improvements to monetization as one of its main focuses going forward, alongside efforts to boost entertainment value and leverage new technology. The streaming giant doesn't say exactly how it plans to […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Snap is paying Robert Downey Jr. to do the Iron Man thing",
+      "url": "https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr",
+      "published": "2026-10-21T05:32:09+09:00",
+      "summary": "Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs' \"Chief Customer Experience Officer\" and has published several videos featuring Downey showcasing the capabilities of the new glasses, including as a tool to get help with a putt, practice art, […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "SpaceX says big AI growth fueled revenue jump",
+      "url": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
+      "published": "2026-10-21T05:26:58+09:00",
+      "summary": "SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year \"fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.\" While its Space division posted a $7 million loss in income from operations, its Connectivity group posted income from operations $2.4 […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Oura adds two new cardiovascular health tracking features to its smart rings",
+      "url": "https://www.theverge.com/tech/1014712/oura-smart-rings-track-cardio-effort-vo2-max-cardiovascular",
+      "published": "2026-10-21T05:26:04+09:00",
+      "summary": "Oura is introducing two new cardiovascular-focused health tracking features to its smart rings designed to help users better understand the effect regular workouts and exercise are having on their long-term health, and whether they need to ramp it up or dial things down. Cardio Effort and automatic VO2 Max (previously known as Cardio Capacity) are […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "TikTok has started censoring searches for popular peptides",
+      "url": "https://www.theverge.com/science/1014825/peptide-tiktok-search-ban",
+      "published": "2026-10-21T05:16:04+09:00",
+      "summary": "Trying to pull up information for certain peptides on TikTok is now returning a \"no results found\" page when searching for terms like semaglutide, BPC-157, retratutide, and others. That hasn't entirely erased visibility on TikTok for peptides, which are combinations of amino acids that include substances like insulin and GLP-1. The problem is peptides also […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Logitech’s refurbished G Pro X2 Superstrike is 35 percent off",
+      "url": "https://www.theverge.com/gadgets/1014764/logitech-x2-superstrike-haptics-wireless-gaming-mouse-deal-sale",
+      "published": "2026-10-21T05:00:00+09:00",
+      "summary": "Looking for a way to try the haptics-equipped G Pro X2 Superstrike wireless gaming mouse without spending full price? You probably aren’t alone. Logitech’s now-last-gen right-handed mouse is a great PC gaming companion that mimics the feel of mechanical switches with nothing but haptics. You can grab it refurbished through Logitech’s official eBay store for […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "DJI’s Osmo Pocket 3 vlogging camera is a good deal at under $400",
+      "url": "https://www.theverge.com/gadgets/1014456/dji-osmo-pocket-3-switch-sports-resort-deal-sale",
+      "published": "2026-10-21T04:09:35+09:00",
+      "summary": "If you’re the kind of person who likes to document everything, either for professional and/or personal reasons, and your phone’s camera isn’t cutting it, you might be considering a dedicated vlogging camera. The DJI Osmo Pocket 3 is discounted to $395 (usually $499) at a variety of retailers, including Amazon, Best Buy, and B&H Photo. […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Xbox CEO is reportedly planning three more rounds of layoffs",
+      "url": "https://www.theverge.com/games/1014700/xbox-ceo-asha-sharma-layoffs",
+      "published": "2026-10-21T04:06:40+09:00",
+      "summary": "Xbox CEO Asha Sharma is planning new rounds of layoffs for sometime this month, November, and January, according to Fortune. In July, as part of an organizational \"reset,\" Sharma announced planned layoffs affecting 3,200 staffers over the course of Microsoft's 2027 fiscal year, including 1,600 cuts at that time, and in September, Microsoft laid off […]"
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "JustWatch, which tackles streaming fragmentation, launches own streaming service",
+      "url": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service",
+      "published": "2026-10-21T05:20:12+09:00",
+      "summary": "A lifetime ad-free subscription is available."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash",
+      "published": "2026-10-21T05:07:58+09:00",
+      "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Gemini's Personal Intelligence is coming to cars",
+      "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars",
+      "published": "2026-10-21T05:00:33+09:00",
+      "summary": "It's probably time to audit your Gemini settings."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "OpenBSD 8.0 arrives with security record still intact",
+      "url": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support",
+      "published": "2026-10-21T04:57:18+09:00",
+      "summary": "OpenBSD 8.0 lands with Intel Arc support, ARM64 hibernation, and 64-vCPU guests"
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+      "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs",
+      "published": "2026-10-21T04:47:35+09:00",
+      "summary": "Intermediate certs allow anyone to mint web credentials for any Internet server."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "TP-Link tries to appease Trump admin with pledge to assemble routers in US",
+      "url": "https://arstechnica.com/tech-policy/2026/10/tp-link-tries-to-appease-trump-admin-with-pledge-to-assemble-routers-in-us",
+      "published": "2026-10-21T04:25:14+09:00",
+      "summary": "TP-Link can't sell latest routers in US despite rivals getting FCC approvals."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Does anyone actually want to win the medium-lift race in the United States?",
+      "url": "https://arstechnica.com/space/2026/10/does-anyone-actually-want-to-win-the-medium-lift-race-in-the-united-states",
+      "published": "2026-10-21T04:13:31+09:00",
+      "summary": "Ars Technica is here to help with a guide to the medium-lift space race."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice",
+      "published": "2026-10-21T03:22:54+09:00",
+      "summary": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Quantum error correction goes well beyond breakeven",
+      "url": "https://arstechnica.com/science/2026/10/quantum-error-correction-goes-well-beyond-breakeven",
+      "published": "2026-10-21T03:08:57+09:00",
+      "summary": "A demo of error-corrected qubits shows big reductions in errors as they grow."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+      "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training",
+      "published": "2026-10-21T02:40:20+09:00",
+      "summary": "Meta argues nobody “decided” to pirate books to train AI."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Polestar tries to quantify what it’s like to drive a performance car",
+      "url": "https://arstechnica.com/cars/2026/10/polestar-tries-to-quantify-what-its-like-to-drive-a-performance-car",
+      "published": "2026-10-20T23:53:07+09:00",
+      "summary": "Drivers had electrodes strapped to their heads as they tested EVs on track."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations",
+      "published": "2026-10-20T21:33:13+09:00",
+      "summary": "Meta is suspending the sharing feature while it investigates its privacy."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Visiting Slate’s first showroom as its $25,000 electric truck nears production",
+      "url": "https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production",
+      "published": "2026-10-20T20:00:16+09:00",
+      "summary": "Slate's first showroom sells the promise. Mass production will determine the rest."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
+      "url": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos",
+      "published": "2026-10-20T14:59:56+09:00",
+      "summary": "The climax for MMX will come in 2029, when the spacecraft will attempt up to two landings on Phobos."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
+      "url": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades",
+      "published": "2026-10-20T07:44:26+09:00",
+      "summary": "Congenital measles can be fatal, and survivors require monitoring for years."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
+      "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine",
+      "published": "2026-10-20T05:54:17+09:00",
+      "summary": "\"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36.\""
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says",
+      "published": "2026-10-20T05:21:53+09:00",
+      "summary": "US fears Saudi government will help ex-OpenAI engineer flee spying charges."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Batteries help reduce emissions, but how do we reduce their emissions?",
+      "url": "https://arstechnica.com/science/2026/10/batteries-have-a-small-carbon-footprint-we-can-make-it-smaller",
+      "published": "2026-10-20T05:03:55+09:00",
+      "summary": "One way to make batteries cleaner is to make fewer of them."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "PSA: Patch your Plex media server before someone hacks it",
+      "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware",
+      "published": "2026-10-20T04:39:19+09:00",
+      "summary": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
+      "url": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test",
+      "published": "2026-10-20T04:27:24+09:00",
+      "summary": "Can undersea geothermal power help Pacific Rim nations cut down on oil imports?"
+    },
+    {
+      "source": "GitHub Blog",
+      "region": "global",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
+      "published": "2026-10-21T01:05:03+09:00",
+      "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog ."
+    },
+    {
+      "source": "GitHub Blog",
+      "region": "global",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "published": "2026-10-20T03:47:22+09:00",
+      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog ."
+    }
+  ],
+  "errors": [
+    {
+      "source": "카카오 기술블로그",
+      "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "우아한형제들 기술블로그",
+      "error": "HTTP 403"
+    }
+  ]
+}

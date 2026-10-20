@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-21",
+  "headline": "eMudhra의 중간 CA 개인 키 8개가 유출돼 인증서 신뢰 체인이 위협받고 있다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "eMudhra 중간 CA 개인 키 유출",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35722",
+      "summary": [
+        "eMudhra의 중간 CA 인증서 8개에 해당하는 개인 키가 유출된 것으로 확인됐다.",
+        "이 인증서들은 Mozilla, Microsoft, Apple, Chrome 등이 신뢰하는 루트로 연결된다.",
+        "최초 신고자는 각 개인 키로 같은 메시지에 서명해 유출을 입증했다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "DeepSeek, 미 국토안보부 새 명령으로 연방 민간기관에서 사용 금지",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35696",
+      "summary": [
+        "미 국토안보부(DHS)가 연방 민간기관 IT 시스템에서 DeepSeek 제품을 제거하라고 명령했다.",
+        "DeepSeek을 활용해 만든 제3자 서비스의 신규 도입도 금지된다.",
+        "명령은 사이버보안법에 근거했고 연방 관보 웹사이트에 공개됐다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "DeepSeek, 추론 엔진을 오픈소스로 공개",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35703",
+      "summary": [
+        "DeepSeek이 대규모 서비스에 쓰는 추론 프레임워크 DeepInfer를 공개했다.",
+        "이번 버전은 오프라인 추론을 제공하며 DeepSeek-V4.1-Flash 모델을 지원한다.",
+        "NVIDIA SM100 GPU와 Huawei Ascend 950 NPU에서 돌아가고 추측 디코딩과 구조화 출력을 갖췄다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "tsrs: TypeScript 컴파일러의 Rust 포트",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35724",
+      "summary": [
+        "Cloudflare와 VoidZero가 TypeScript 컴파일러를 Rust로 옮긴 tsrs를 개발했다.",
+        "TypeScript 팀과 협력하며 Oxc 도구 체계 안에서 프로젝트를 키우고 있다.",
+        "초기 벤치마크에서 같은 수의 타입 검사 워커를 쓸 때의 성능 이점이 보고됐다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "할리스 276만건 유출, 개편용 임시파일서 발생…11년치 고객정보 미파기 쟁점",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261020000264",
+      "summary": [
+        "할리스의 개인정보 유출은 과거 멤버십 개편 때 만든 임시 데이터 파일에서 발생했다.",
+        "해당 파일에는 2009년부터 2020년 2월까지의 고객정보가 들어 있었다.",
+        "개인정보보호법상 목적이 끝난 정보의 지체 없는 파기 의무가 쟁점으로 떠올랐다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "구글도 아마존에 이어 AI 개발자 시장에서 엔비디아의 아성을 공략",
+      "original_title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers",
+      "summary": [
+        "구글이 TPU에서 PyTorch 앱을 돌리게 해 주는 TorchTPU를 오픈소스로 공개했다.",
+        "설정만 바꾸면 기존 코드를 고치지 않고 구글 TPU와 Google Cloud에서 실행할 수 있다고 한다.",
+        "하루 앞서 아마존도 자사 Trainium용 TorchNeuron을 내놓아 엔비디아 의존도를 낮추려 한다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "Ars Technica",
+      "title": "OpenBSD 8.0 출시, 보안 기록은 그대로",
+      "original_title": "OpenBSD 8.0 arrives with security record still intact",
+      "url": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support",
+      "summary": [
+        "OpenBSD 8.0이 Intel Arc 그래픽 지원과 함께 출시됐다.",
+        "ARM64의 최대 절전(hibernation) 지원이 추가됐다.",
+        "가상 머신 한 대에 최대 64 vCPU를 줄 수 있게 됐다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "Ars Technica",
+      "title": "Plex 미디어 서버를 해킹당하기 전에 패치하라",
+      "original_title": "PSA: Patch your Plex media server before someone hacks it",
+      "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware",
+      "summary": [
+        "한 연구자는 취약점 4개를 연쇄로 이용한 공격이 패치 안 된 Plex 서버를 노린다고 밝혔다.",
+        "허니팟에서는 10월 17일 실제 악용과 암호화폐 채굴기 설치가 관측됐다.",
+        "Plex는 9월 1일 관련 보안 업데이트를 공지했으므로 최신 버전으로 올려야 한다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "Ars Technica",
+      "title": "Meta Muse, 대화를 공유하면 개인·업무 비밀이 노출돼",
+      "original_title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations",
+      "summary": [
+        "Meta Muse에서 대화를 공유하면 개인과 업무 관련 비밀이 노출되는 문제가 드러났다.",
+        "Meta는 프라이버시를 조사하는 동안 공유 기능을 일시 중단한다고 밝혔다.",
+        "AI 챗봇의 공유 링크가 어떤 범위로 공개되는지 확인해야 한다는 교훈을 남긴다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "Anthropic의 클라우드 파트너십이 꼬이고 있다",
+      "original_title": "Anthropic’s cloud partnerships are getting messy",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy",
+      "summary": [
+        "Anthropic이 클라우드 업체로부터 충분한 컴퓨팅 자원을 확보하는 데 애를 먹는다는 보도가 나왔다.",
+        "클라우드 업체들이 Anthropic을 점점 경쟁자로 보고 있기 때문이다.",
+        "인프라 지출은 11월로 예정된 IPO를 앞두고 크게 불어나고 있다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "pki-certificate-chain",
+    "title": "PKI와 인증서 체인(중간 CA)",
+    "category": "보안",
+    "pick": "trend",
+    "reading_minutes": 5,
+    "sections": {
+      "definition": "**PKI**(공개키 기반구조)는 인증서와 인증기관(CA)의 신뢰 사슬로 \"이 공개키가 정말 이 서버의 것\"임을 보증하는 체계다.",
+      "why": "HTTPS에서 암호화만으로는 부족하다. 내가 연결한 상대가 진짜 은행 서버인지 모르면 암호화된 채널을 공격자와 맺을 수도 있다. 그래서 신뢰할 수 있는 제3자(CA)가 \"이 도메인의 공개키는 이것\"이라고 서명한 **인증서**를 쓴다.\n\n세상의 모든 서버 인증서를 루트 CA가 직접 서명하면 루트 개인 키를 계속 꺼내 써야 해서 위험하다. 그래서 루트 키는 오프라인에 보관하고, 평소 서명은 **중간 CA**에 맡기는 계층 구조를 쓴다. 이번 eMudhra 사건은 바로 이 중간 CA의 개인 키가 유출된 경우다.",
+      "how": "1. 브라우저와 운영체제에는 신뢰하는 **루트 CA 인증서** 목록(트러스트 스토어)이 들어 있다.\n2. 서버는 TLS 핸드셰이크에서 자신의 인증서(리프)와 중간 CA 인증서를 함께 보낸다.\n3. 클라이언트는 리프 인증서의 서명을 중간 CA의 공개키로, 중간 CA 인증서의 서명을 루트의 공개키로 차례로 검증한다.\n4. 체인이 신뢰하는 루트에 닿고 유효기간, 도메인 이름, 폐기 여부가 모두 맞으면 연결을 신뢰한다.\n\n핵심은 체인 중간의 어느 CA든 **그 아래로 임의의 도메인 인증서를 발급할 수 있다**는 점이다. 중간 CA의 개인 키를 얻은 공격자는 어떤 사이트의 인증서든 만들어 낼 수 있고, 브라우저는 이를 정상으로 받아들인다. 그래서 유출이 확인되면 해당 중간 CA를 트러스트 스토어에서 빼거나 폐기해야 한다.\n\n**폐기는 어떻게 전달될까?** 인증서에는 만료일이 있지만, 유출 같은 사고가 나면 만료 전에 무효로 만들 수단이 필요하다. 대표적인 방법은 CA가 폐기 목록(CRL)을 배포하거나 OCSP로 인증서 상태를 실시간 조회하게 하는 것이다. 다만 클라이언트가 이 확인을 건너뛰거나 실패 시 통과시키는 경우가 많아서, 실제로는 브라우저 벤더가 신뢰 목록 자체를 업데이트해 해당 중간 CA를 차단하는 방식이 더 강력하다. 중간 CA 하나가 막히면 그 아래에서 합법적으로 발급받은 인증서도 함께 무효가 되므로 사이트 운영자는 다른 CA의 인증서로 교체해야 한다.\n\n**왜 계층을 나누는가?** 루트 개인 키는 오프라인 장비에 두고 거의 쓰지 않으며, 일상 발급은 중간 CA가 맡는다. 중간 CA 키가 새면 그 중간 CA만 폐기하면 되고 루트는 지킬 수 있다. 하지만 이번 사건처럼 중간 CA가 여러 개 한꺼번에 유출되면 파급은 매우 크다.",
+      "example": "아래 명령은 어떤 사이트가 보내는 인증서 체인을 눈으로 확인하는 예시다.\n\n```bash\nopenssl s_client -connect example.com:443 -showcerts </dev/null 2>/dev/null \\\n  | grep -E \"s:|i:\"\n```\n\n출력의 `s:`는 인증서 주체(subject), `i:`는 발급자(issuer)다. 첫 줄의 발급자가 다음 줄의 주체와 이어지는 모양이 곧 신뢰 체인이다. 인증서 하나의 세부 정보는 다음처럼 볼 수 있다.\n\n```bash\nopenssl x509 -in cert.pem -noout -subject -issuer -dates\n```",
+      "when": "**알아 두면 좋은 경우**: HTTPS 서버를 직접 운영하거나, 사내 서비스에 개인 CA를 만들거나, 인증서 오류를 진단할 때 체인 구조를 이해하면 원인을 빨리 찾는다. 서버에서 중간 인증서를 빠뜨리면 일부 클라이언트만 오류가 나는 일이 흔하다.\n\n**피해야 할 일**: 개인 키를 저장소나 서버 설정 디렉터리에 평문으로 두지 않는다. 오류를 피하려고 인증서 검증을 끄는 것(`curl -k` 등)은 PKI가 주는 보호를 통째로 버리는 일이다. 방어 수단으로는 짧은 유효기간, 인증서 투명성(CT) 로그 모니터링, 키를 HSM에 보관하는 방법이 있다.\n\n**직접 해 볼 점검**: 운영 중인 도메인의 인증서 발급자를 확인하고 만료일을 달력이나 모니터링 도구에 등록해 둔다. 또 인증서 투명성 로그에서 내 도메인으로 발급된 인증서를 검색하면 모르는 발급 내역이 있는지 알 수 있다. 중간 CA 유출 같은 사고는 개별 사이트가 막을 수 없으므로, 이런 감시와 빠른 교체 절차를 미리 마련해 두는 것이 현실적인 대비다.",
+      "further_reading": [
+        {
+          "title": "MDN: Transport Layer Security (TLS)",
+          "url": "https://developer.mozilla.org/ko/docs/Web/Security/Transport_Layer_Security"
+        },
+        {
+          "title": "MDN 용어 사전: TLS",
+          "url": "https://developer.mozilla.org/ko/docs/Glossary/TLS"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: 카카오 기술블로그, 우아한형제들 기술블로그",
+    "Ars Technica 등 일부 원문은 열 수 없어 피드 요약 범위 안에서만 요약함"
+  ]
+}
