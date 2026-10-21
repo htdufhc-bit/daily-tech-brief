@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Tech Brief · 2026.10.21 (수)</title>
+<title>Daily Tech Brief · 2026.10.22 (목)</title>
 <link rel="stylesheet" href="style.css">
 <script>
 try { var saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
@@ -16,14 +16,14 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
       <a class="brand" href="index.html">Daily Tech Brief</a>
       <button class="theme-toggle" type="button" aria-label="다크 모드 전환">◐</button>
     </div>
-    <p class="date">2026.10.21 (수)</p>
+    <p class="date">2026.10.22 (목)</p>
     <nav class="day-nav">
-<a href="2026/10/20.html">◀ 이전</a>      <a href="archive.html">목록</a>
+<a href="2026/10/21.html">◀ 이전</a>      <a href="archive.html">목록</a>
 <span class="disabled">다음 ▶</span>    </nav>
   </header>
   <section class="headline">
     <h2>오늘의 한 줄</h2>
-    <p>eMudhra의 중간 CA 개인 키 8개가 유출돼 인증서 신뢰 체인이 위협받고 있다.</p>
+    <p>AI가 찾아낸 PHP 치명적 원격 코드 실행 취약점 2건이 패치됐고, LiteLLM 변조 릴리스 등 공급망·인증서 보안 사고가 이어졌다.</p>
   </section>
 
   <section class="news">
@@ -31,112 +31,124 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
     <h3>국내</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35722" target="_blank" rel="noopener">eMudhra 중간 CA 개인 키 유출</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35759" target="_blank" rel="noopener">PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 출시, 치명적 원격 코드 실행 취약점 수정</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>eMudhra의 중간 CA 인증서 8개에 해당하는 개인 키가 유출된 것으로 확인됐다.</li><li>이 인증서들은 Mozilla, Microsoft, Apple, Chrome 등이 신뢰하는 루트로 연결된다.</li><li>최초 신고자는 각 개인 키로 같은 메시지에 서명해 유출을 입증했다.</li>        </ul>
+<li>PHP가 인증 없이 서버 코드를 실행할 수 있는 치명적 취약점 2건을 고친 보안 릴리스를 냈다.</li><li>하나는 메모리 한도 초과 시 반쯤 초기화된 데이터가 남는 문제, 다른 하나는 치명적 오류 뒤 이전 요청의 메모리를 다시 쓰는 문제다.</li><li>지원 중인 모든 브랜치에 패치가 나왔으므로 PHP 사용자는 즉시 업데이트해야 한다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35696" target="_blank" rel="noopener">DeepSeek, 미 국토안보부 새 명령으로 연방 민간기관에서 사용 금지</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35767" target="_blank" rel="noopener">변조된 PyPI LiteLLM 1.107.0, 자격 증명 탈취 악성코드와 백도어 설치</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>미 국토안보부(DHS)가 연방 민간기관 IT 시스템에서 DeepSeek 제품을 제거하라고 명령했다.</li><li>DeepSeek을 활용해 만든 제3자 서비스의 신규 도입도 금지된다.</li><li>명령은 사이버보안법에 근거했고 연방 관보 웹사이트에 공개됐다.</li>        </ul>
+<li>LiteLLM 1.107.0의 wheel 7개에 자격 증명 탈취 악성코드와 원격 실행 백도어가 들어 있었고 PyPI가 해당 릴리스를 삭제했다.</li><li>악성 파일은 파이썬이 시작될 때마다 실행되어 litellm을 import하지 않아도 SSH 키, 클라우드 자격 증명, API 키가 유출될 수 있다.</li><li>설치했다면 1.106.2 등 정상 버전으로 되돌리고 접근 가능했던 모든 자격 증명을 교체해야 한다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35703" target="_blank" rel="noopener">DeepSeek, 추론 엔진을 오픈소스로 공개</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35765" target="_blank" rel="noopener">DuckDB 2.0.0 LTS “Cinnamon Teal” - 서버 연결과 비동기 I/O 강화</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>DeepSeek이 대규모 서비스에 쓰는 추론 프레임워크 DeepInfer를 공개했다.</li><li>이번 버전은 오프라인 추론을 제공하며 DeepSeek-V4.1-Flash 모델을 지원한다.</li><li>NVIDIA SM100 GPU와 Huawei Ascend 950 NPU에서 돌아가고 추측 디코딩과 구조화 출력을 갖췄다.</li>        </ul>
+<li>DuckDB 2.0.0 LTS는 프로세스를 서버로 띄우고 CONNECT 문으로 원격 DB에 연결하는 기능을 담았다.</li><li>Parquet와 CSV 읽기에 비동기 I/O가 들어가 S3 같은 원격 저장소에서 효과가 크고, 트리거와 VARIANT 타입도 추가됐다.</li><li>2.0에서 새로 만든 DB 파일은 이전 버전에서 읽을 수 없고, 이 LTS는 최소 2027년 10월까지 지원된다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35724" target="_blank" rel="noopener">tsrs: TypeScript 컴파일러의 Rust 포트</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35757" target="_blank" rel="noopener">8비트의 신뢰, eMudhra의 CA 개인 키가 밀리초 만에 복구됨</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Cloudflare와 VoidZero가 TypeScript 컴파일러를 Rust로 옮긴 tsrs를 개발했다.</li><li>TypeScript 팀과 협력하며 Oxc 도구 체계 안에서 프로젝트를 키우고 있다.</li><li>초기 벤치마크에서 같은 수의 타입 검사 워커를 쓸 때의 성능 이점이 보고됐다.</li>        </ul>
+<li>eMudhra의 중간 인증기관 8개가 쓴 P-384 개인 키가 모두 한 바이트 값에 불과했다.</li><li>공개 인증서만으로 노트북에서 1초 안에 모두 복구할 수 있어, 공격자가 위조 HTTPS 인증서를 발급할 수 있는 상황이다.</li><li>Mozilla는 Firefox 사용자를 보호하는 조치를 내놓았다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://www.etnews.com/20261020000264" target="_blank" rel="noopener">할리스 276만건 유출, 개편용 임시파일서 발생…11년치 고객정보 미파기 쟁점</a>
-        <span class="source">전자신문</span>
+        <a class="news-title" href="https://news.hada.io/topic?id=35752" target="_blank" rel="noopener">크래프톤, 자체 개발 30B급 고효율 LLM &#39;Raon-1 mini&#39; 프리뷰 공개</a>
+        <span class="source">GeekNews</span>
         <ul class="summary">
-<li>할리스의 개인정보 유출은 과거 멤버십 개편 때 만든 임시 데이터 파일에서 발생했다.</li><li>해당 파일에는 2009년부터 2020년 2월까지의 고객정보가 들어 있었다.</li><li>개인정보보호법상 목적이 끝난 정보의 지체 없는 파기 의무가 쟁점으로 떠올랐다.</li>        </ul>
+<li>크래프톤이 아키텍처 설계부터 사전학습까지 직접 개발한 30B급 오픈웨이트 LLM &#39;Raon-1 mini&#39; 프리뷰를 공개했다.</li><li>한국어와 영어 대화, 추론, AI 에이전트 작업에 초점을 맞췄다.</li><li>MoE 구조와 자체 개발한 선형 어텐션 기술을 결합했다.</li>        </ul>
       </li>
     </ol>
     <h3>해외</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers" target="_blank" rel="noopener">구글도 아마존에 이어 AI 개발자 시장에서 엔비디아의 아성을 공략</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai" target="_blank" rel="noopener">Recursive, AI가 대부분 만들었다는 노트북용 코딩 모델 Flint 공개</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers</p>        <ul class="summary">
-<li>구글이 TPU에서 PyTorch 앱을 돌리게 해 주는 TorchTPU를 오픈소스로 공개했다.</li><li>설정만 바꾸면 기존 코드를 고치지 않고 구글 TPU와 Google Cloud에서 실행할 수 있다고 한다.</li><li>하루 앞서 아마존도 자사 Trainium용 TorchNeuron을 내놓아 엔비디아 의존도를 낮추려 한다.</li>        </ul>
+<p class="original-title">Recursive launches Flint, a laptop coding model it says was largely built by AI</p>        <ul class="summary">
+<li>스타트업 Recursive가 자체 AI 연구 시스템이 개발 대부분에 관여했다는 무료 코딩 모델 Flint를 Apache 2.0 라이선스로 공개했다.</li><li>전체 400억 개 파라미터 중 작업마다 25억 개만 활성화해 노트북에서 돌아가며, M4 Pro 맥북에서 초당 약 131토큰을 낸다.</li><li>50B 미만 모델 중 SWE-Bench Verified에서 앞섰지만, 대형 유료 코딩 도구보다 단계별 안내가 더 필요하다고 회사도 인정했다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support" target="_blank" rel="noopener">OpenBSD 8.0 출시, 보안 기록은 그대로</a>
-        <span class="source">Ars Technica</span>
-<p class="original-title">OpenBSD 8.0 arrives with security record still intact</p>        <ul class="summary">
-<li>OpenBSD 8.0이 Intel Arc 그래픽 지원과 함께 출시됐다.</li><li>ARM64의 최대 절전(hibernation) 지원이 추가됐다.</li><li>가상 머신 한 대에 최대 64 vCPU를 줄 수 있게 됐다.</li>        </ul>
-      </li>
-      <li class="news-item">
-        <a class="news-title" href="https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware" target="_blank" rel="noopener">Plex 미디어 서버를 해킹당하기 전에 패치하라</a>
-        <span class="source">Ars Technica</span>
-<p class="original-title">PSA: Patch your Plex media server before someone hacks it</p>        <ul class="summary">
-<li>한 연구자는 취약점 4개를 연쇄로 이용한 공격이 패치 안 된 Plex 서버를 노린다고 밝혔다.</li><li>허니팟에서는 10월 17일 실제 악용과 암호화폐 채굴기 설치가 관측됐다.</li><li>Plex는 9월 1일 관련 보안 업데이트를 공지했으므로 최신 버전으로 올려야 한다.</li>        </ul>
-      </li>
-      <li class="news-item">
-        <a class="news-title" href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations" target="_blank" rel="noopener">Meta Muse, 대화를 공유하면 개인·업무 비밀이 노출돼</a>
-        <span class="source">Ars Technica</span>
-<p class="original-title">Meta Muse exposes users&#39; personal and business secrets when they share conversations</p>        <ul class="summary">
-<li>Meta Muse에서 대화를 공유하면 개인과 업무 관련 비밀이 노출되는 문제가 드러났다.</li><li>Meta는 프라이버시를 조사하는 동안 공유 기능을 일시 중단한다고 밝혔다.</li><li>AI 챗봇의 공유 링크가 어떤 범위로 공개되는지 확인해야 한다는 교훈을 남긴다.</li>        </ul>
-      </li>
-      <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy" target="_blank" rel="noopener">Anthropic의 클라우드 파트너십이 꼬이고 있다</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat" target="_blank" rel="noopener">Walmart, AI 에이전트가 직접 장보게 한다</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">Anthropic’s cloud partnerships are getting messy</p>        <ul class="summary">
-<li>Anthropic이 클라우드 업체로부터 충분한 컴퓨팅 자원을 확보하는 데 애를 먹는다는 보도가 나왔다.</li><li>클라우드 업체들이 Anthropic을 점점 경쟁자로 보고 있기 때문이다.</li><li>인프라 지출은 11월로 예정된 IPO를 앞두고 크게 불어나고 있다.</li>        </ul>
+<p class="original-title">While Amazon blocks AI agents, Walmart rolls out the welcome mat</p>        <ul class="summary">
+<li>Walmart가 승인된 AI 에이전트가 재고를 검색하고 구매까지 하도록 하는 MCP 서버 Agent Gateway를 내놓았다.</li><li>다음 달부터는 에이전트별 프로필로 구매를 따로 보여 주고, 거래마다 승인을 요구하거나 지출 한도를 정할 수 있다.</li><li>에이전트 구매를 막기 시작한 Amazon과 대조적이며, Walmart는 약관을 어기는 에이전트를 차단하겠다고 밝혔다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity" target="_blank" rel="noopener">Meta, AI 앱 Muse 사용자 1,000만 명 돌파… 쇼핑이 주요 용도</a>
+        <span class="source">TechCrunch</span>
+<p class="original-title">Meta says Muse has over 10M users, with shopping a top activity</p>        <ul class="summary">
+<li>Meta가 3분기 실적 발표에서 AI 앱 Muse의 사용자가 1,000만 명을 넘었고 설치한 사람의 약 25%가 매일 쓴다고 밝혔다.</li><li>에이전트로 쇼핑한 활발한 사용자 중 4분의 1 이상은 평균 구매액이 200달러를 넘었다.</li><li>Meta는 Muse를 대부분 무료로 두고 상거래 수익을 나누며 고급 기능은 유료로 받을 계획이다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent" target="_blank" rel="noopener">Anthropic, 새 AI 에이전트 &#39;Claude Duet&#39; 공개</a>
+        <span class="source">The Verge</span>
+<p class="original-title">Anthropic takes on Muse with Claude Duet, its new AI agent</p>        <ul class="summary">
+<li>Anthropic이 Meta의 Muse, OpenAI의 Dots와 경쟁할 AI 에이전트 Claude Duet을 발표했다.</li><li>전문직 종사자와 소규모 사업자를 겨냥했고 &#39;리서치 프리뷰&#39; 형태로 출시된다.</li><li>iOS와 안드로이드 독립 앱과 웹의 Claude에서 쓸 수 있다.</li>        </ul>
       </li>
     </ol>
   </section>
 
   <section class="tech">
     <h2>오늘의 기술</h2>
-    <h3 class="tech-title">PKI와 인증서 체인(중간 CA)</h3>
+    <h3 class="tech-title">Use-After-Free와 메모리 안전성</h3>
     <p class="tech-meta">
       <span class="badge">트렌드 픽</span>
       <span>보안</span>
-      <span>⏱ 5분</span>
+      <span>⏱ 6분</span>
     </p>
-    <p class="definition">**PKI**(공개키 기반구조)는 인증서와 인증기관(CA)의 신뢰 사슬로 &#34;이 공개키가 정말 이 서버의 것&#34;임을 보증하는 체계다.</p>
+    <p class="definition">**Use-After-Free(UAF)**는 이미 해제한 메모리를 프로그램이 계속 사용해서 데이터 손상이나 임의 코드 실행으로 이어지는 메모리 안전성 취약점이다.</p>
     <h4>왜 필요한가</h4>
-    <p>HTTPS에서 암호화만으로는 부족하다. 내가 연결한 상대가 진짜 은행 서버인지 모르면 암호화된 채널을 공격자와 맺을 수도 있다. 그래서 신뢰할 수 있는 제3자(CA)가 "이 도메인의 공개키는 이것"이라고 서명한 <strong>인증서</strong>를 쓴다.</p>
-<p>세상의 모든 서버 인증서를 루트 CA가 직접 서명하면 루트 개인 키를 계속 꺼내 써야 해서 위험하다. 그래서 루트 키는 오프라인에 보관하고, 평소 서명은 <strong>중간 CA</strong>에 맡기는 계층 구조를 쓴다. 이번 eMudhra 사건은 바로 이 중간 CA의 개인 키가 유출된 경우다.</p>
+    <p>C/C++ 같은 언어는 개발자가 <code>malloc</code>/<code>free</code>로 메모리의 수명을 직접 관리한다. 속도와 제어력은 얻지만 <strong>"누가 언제 해제하는가"를 사람이 정확히 기억해야 한다</strong>는 부담이 생긴다.</p>
+<p>이 약속이 한 번이라도 어긋나면 프로그램은 이미 다른 용도로 쓰이는 메모리를 건드리게 된다. 업계 보고서들은 대형 소프트웨어 보안 취약점의 상당수가 이런 메모리 안전성 문제라고 지적해 왔다.</p>
+<p>오늘 뉴스의 PHP 취약점 두 건이 좋은 예다. 하나는 메모리 한도(<code>memory_limit</code>)에 걸렸을 때 반쯤 초기화된 내부 데이터가 남아 메모리가 손상되는 문제이고, 다른 하나는 치명적 오류 뒤 내부 상태가 이전 요청의 메모리를 가리켜 UAF가 생기는 문제다. 둘 다 웹 서버가 요청을 처리하는 아주 이른 단계에서 일어나서 영향이 크다.</p>
     <h4>동작 원리</h4>
     <ol>
-<li>브라우저와 운영체제에는 신뢰하는 <strong>루트 CA 인증서</strong> 목록(트러스트 스토어)이 들어 있다.</li>
-<li>서버는 TLS 핸드셰이크에서 자신의 인증서(리프)와 중간 CA 인증서를 함께 보낸다.</li>
-<li>클라이언트는 리프 인증서의 서명을 중간 CA의 공개키로, 중간 CA 인증서의 서명을 루트의 공개키로 차례로 검증한다.</li>
-<li>체인이 신뢰하는 루트에 닿고 유효기간, 도메인 이름, 폐기 여부가 모두 맞으면 연결을 신뢰한다.</li>
+<li>프로그램이 <code>malloc</code> 같은 함수로 힙에서 메모리 블록을 할당받고 포인터로 가리킨다.</li>
+<li>작업이 끝나면 <code>free</code>로 블록을 반환한다. 이때 블록은 할당자의 "빈 목록"에 들어가지만, 기존 포인터 값은 <strong>그대로 남는다</strong>(댕글링 포인터).</li>
+<li>다음 <code>malloc</code> 요청이 오면 할당자는 방금 반환된 블록을 재사용하는 경우가 많다. 같은 주소가 전혀 다른 객체의 것이 된다.</li>
+<li>코드가 옛 포인터를 계속 쓰면, 새 객체의 데이터를 옛 객체인 줄 알고 읽거나 쓴다. 이것이 Use-After-Free다.</li>
+<li>공격자는 요청 내용을 조절해 해제된 자리에 자신이 만든 데이터(예: 함수 포인터)를 채워 넣는다. 옛 포인터로 그 값을 호출하게 되면 <strong>공격자가 고른 주소로 실행 흐름이 넘어간다</strong>.</li>
+<li>이렇게 임의 코드 실행(RCE)까지 이어질 수 있다. 서버가 인증 전 요청을 처리하는 구간에서 생기면 로그인 없이도 공격이 가능하다.</li>
 </ol>
-<p>핵심은 체인 중간의 어느 CA든 <strong>그 아래로 임의의 도메인 인증서를 발급할 수 있다</strong>는 점이다. 중간 CA의 개인 키를 얻은 공격자는 어떤 사이트의 인증서든 만들어 낼 수 있고, 브라우저는 이를 정상으로 받아들인다. 그래서 유출이 확인되면 해당 중간 CA를 트러스트 스토어에서 빼거나 폐기해야 한다.</p>
-<p><strong>폐기는 어떻게 전달될까?</strong> 인증서에는 만료일이 있지만, 유출 같은 사고가 나면 만료 전에 무효로 만들 수단이 필요하다. 대표적인 방법은 CA가 폐기 목록(CRL)을 배포하거나 OCSP로 인증서 상태를 실시간 조회하게 하는 것이다. 다만 클라이언트가 이 확인을 건너뛰거나 실패 시 통과시키는 경우가 많아서, 실제로는 브라우저 벤더가 신뢰 목록 자체를 업데이트해 해당 중간 CA를 차단하는 방식이 더 강력하다. 중간 CA 하나가 막히면 그 아래에서 합법적으로 발급받은 인증서도 함께 무효가 되므로 사이트 운영자는 다른 CA의 인증서로 교체해야 한다.</p>
-<p><strong>왜 계층을 나누는가?</strong> 루트 개인 키는 오프라인 장비에 두고 거의 쓰지 않으며, 일상 발급은 중간 CA가 맡는다. 중간 CA 키가 새면 그 중간 CA만 폐기하면 되고 루트는 지킬 수 있다. 하지만 이번 사건처럼 중간 CA가 여러 개 한꺼번에 유출되면 파급은 매우 크다.</p>
+<p>메모리 부족(OOM) 상황도 비슷한 경로를 만든다. 할당이 실패해 초기화가 반쯤 끝난 구조체가 남았는데 이후 코드가 정상 값이라 믿고 쓰면 메모리가 손상된다.</p>
     <h4>예시</h4>
-    <p>아래 명령은 어떤 사이트가 보내는 인증서 체인을 눈으로 확인하는 예시다.</p>
-<pre><code class="language-bash">openssl s_client -connect example.com:443 -showcerts &lt;/dev/null 2&gt;/dev/null \
-  | grep -E &quot;s:|i:&quot;
+    <p>C로 쓴 아주 작은 Use-After-Free 예시다. 해제된 <code>a</code>의 자리를 <code>b</code>가 재사용하는 모습을 확인할 수 있다. (실제 동작은 할당자에 따라 다를 수 있고, 학습 목적으로만 실행하자.)</p>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+
+int main(void) {
+    char *a = malloc(16);
+    strcpy(a, &quot;user-data&quot;);
+    free(a);                 // a는 해제됐지만 값은 그대로 남는다
+
+    char *b = malloc(16);    // 같은 크기 → 같은 주소를 재사용할 가능성이 높다
+    strcpy(b, &quot;attacker-data&quot;);
+
+    printf(&quot;a=%p b=%p\n&quot;, (void *)a, (void *)b);
+    printf(&quot;a가 가리키는 값: %s\n&quot;, a);   // UAF: &quot;attacker-data&quot;가 출력될 수 있다
+    return 0;
+}
 </code></pre>
-<p>출력의 <code>s:</code>는 인증서 주체(subject), <code>i:</code>는 발급자(issuer)다. 첫 줄의 발급자가 다음 줄의 주체와 이어지는 모양이 곧 신뢰 체인이다. 인증서 하나의 세부 정보는 다음처럼 볼 수 있다.</p>
-<pre><code class="language-bash">openssl x509 -in cert.pem -noout -subject -issuer -dates
+<p>다음은 AddressSanitizer로 같은 코드를 잡아내는 명령이다. 컴파일 옵션만 바꾸면 해제된 메모리에 접근하는 순간 오류 보고서와 함께 프로그램이 멈춘다.</p>
+<pre><code class="language-bash">gcc -fsanitize=address -g uaf.c -o uaf &amp;&amp; ./uaf
 </code></pre>
     <h4>언제 쓰고 언제 안 쓰나</h4>
-    <p><strong>알아 두면 좋은 경우</strong>: HTTPS 서버를 직접 운영하거나, 사내 서비스에 개인 CA를 만들거나, 인증서 오류를 진단할 때 체인 구조를 이해하면 원인을 빨리 찾는다. 서버에서 중간 인증서를 빠뜨리면 일부 클라이언트만 오류가 나는 일이 흔하다.</p>
-<p><strong>피해야 할 일</strong>: 개인 키를 저장소나 서버 설정 디렉터리에 평문으로 두지 않는다. 오류를 피하려고 인증서 검증을 끄는 것(<code>curl -k</code> 등)은 PKI가 주는 보호를 통째로 버리는 일이다. 방어 수단으로는 짧은 유효기간, 인증서 투명성(CT) 로그 모니터링, 키를 HSM에 보관하는 방법이 있다.</p>
-<p><strong>직접 해 볼 점검</strong>: 운영 중인 도메인의 인증서 발급자를 확인하고 만료일을 달력이나 모니터링 도구에 등록해 둔다. 또 인증서 투명성 로그에서 내 도메인으로 발급된 인증서를 검색하면 모르는 발급 내역이 있는지 알 수 있다. 중간 CA 유출 같은 사고는 개별 사이트가 막을 수 없으므로, 이런 감시와 빠른 교체 절차를 미리 마련해 두는 것이 현실적인 대비다.</p>
+    <p><strong>알아 두면 좋은 경우</strong>: C/C++로 서버, 파서, 네트워크 코드를 만들거나 읽을 때, 그리고 PHP·Python 같은 언어의 확장 모듈과 런타임을 운영할 때다. 이런 런타임은 안쪽이 C로 되어 있어 같은 종류의 버그가 생길 수 있다.</p>
+<p><strong>대응 방법</strong>
+- 보안 패치가 나오면 지체하지 말고 업데이트한다. 이번 PHP 사례처럼 인증 전에 공격할 수 있는 취약점은 시간이 곧 위험이다.
+- 새 코드는 Rust처럼 컴파일러가 소유권을 검사하는 언어를 고려한다. C/C++에서는 스마트 포인터를 쓰고, 테스트와 CI에서 AddressSanitizer와 퍼징을 돌린다.
+- <code>free</code> 직후 포인터를 <code>NULL</code>로 바꾸는 습관은 도움이 되지만, 같은 포인터의 복사본까지 막아 주지는 못한다.</p>
+<p><strong>피해야 할 생각</strong>: "내 코드는 PHP/Python이라 메모리 버그와 무관하다"는 판단이다. 언어 런타임의 버그는 응용 코드로는 고칠 수 없으므로 버전 관리가 유일한 방어선이다.</p>
     <h4>더 읽을거리</h4>
     <ul class="further">
-<li><a href="https://developer.mozilla.org/ko/docs/Web/Security/Transport_Layer_Security" target="_blank" rel="noopener">MDN: Transport Layer Security (TLS)</a></li><li><a href="https://developer.mozilla.org/ko/docs/Glossary/TLS" target="_blank" rel="noopener">MDN 용어 사전: TLS</a></li>    </ul>
+<li><a href="https://news.hada.io/topic?id=35766" target="_blank" rel="noopener">PHP 8.5.12 등 보안 릴리스와 취약점 설명 (GeekNews)</a></li>    </ul>
   </section>
 
   <footer class="notes">
-<p>일부 소스 수집 실패: 카카오 기술블로그, 우아한형제들 기술블로그</p><p>Ars Technica 등 일부 원문은 열 수 없어 피드 요약 범위 안에서만 요약함</p>  </footer>
+<p>일부 소스 수집 실패: 카카오 기술블로그, 우아한형제들 기술블로그, Hacker News</p><p>Verge·Ars Technica 원문을 열 수 없어 Claude Duet 요약은 피드 요약 범위에서 작성함</p>  </footer>
 </main>
 <script>
 document.querySelector(".theme-toggle").addEventListener("click", function () {

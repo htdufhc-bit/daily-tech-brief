@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-22",
+  "headline": "AI가 찾아낸 PHP 치명적 원격 코드 실행 취약점 2건이 패치됐고, LiteLLM 변조 릴리스 등 공급망·인증서 보안 사고가 이어졌다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 출시, 치명적 원격 코드 실행 취약점 수정",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35759",
+      "summary": [
+        "PHP가 인증 없이 서버 코드를 실행할 수 있는 치명적 취약점 2건을 고친 보안 릴리스를 냈다.",
+        "하나는 메모리 한도 초과 시 반쯤 초기화된 데이터가 남는 문제, 다른 하나는 치명적 오류 뒤 이전 요청의 메모리를 다시 쓰는 문제다.",
+        "지원 중인 모든 브랜치에 패치가 나왔으므로 PHP 사용자는 즉시 업데이트해야 한다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "변조된 PyPI LiteLLM 1.107.0, 자격 증명 탈취 악성코드와 백도어 설치",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35767",
+      "summary": [
+        "LiteLLM 1.107.0의 wheel 7개에 자격 증명 탈취 악성코드와 원격 실행 백도어가 들어 있었고 PyPI가 해당 릴리스를 삭제했다.",
+        "악성 파일은 파이썬이 시작될 때마다 실행되어 litellm을 import하지 않아도 SSH 키, 클라우드 자격 증명, API 키가 유출될 수 있다.",
+        "설치했다면 1.106.2 등 정상 버전으로 되돌리고 접근 가능했던 모든 자격 증명을 교체해야 한다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "DuckDB 2.0.0 LTS “Cinnamon Teal” - 서버 연결과 비동기 I/O 강화",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35765",
+      "summary": [
+        "DuckDB 2.0.0 LTS는 프로세스를 서버로 띄우고 CONNECT 문으로 원격 DB에 연결하는 기능을 담았다.",
+        "Parquet와 CSV 읽기에 비동기 I/O가 들어가 S3 같은 원격 저장소에서 효과가 크고, 트리거와 VARIANT 타입도 추가됐다.",
+        "2.0에서 새로 만든 DB 파일은 이전 버전에서 읽을 수 없고, 이 LTS는 최소 2027년 10월까지 지원된다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "8비트의 신뢰, eMudhra의 CA 개인 키가 밀리초 만에 복구됨",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35757",
+      "summary": [
+        "eMudhra의 중간 인증기관 8개가 쓴 P-384 개인 키가 모두 한 바이트 값에 불과했다.",
+        "공개 인증서만으로 노트북에서 1초 안에 모두 복구할 수 있어, 공격자가 위조 HTTPS 인증서를 발급할 수 있는 상황이다.",
+        "Mozilla는 Firefox 사용자를 보호하는 조치를 내놓았다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "크래프톤, 자체 개발 30B급 고효율 LLM 'Raon-1 mini' 프리뷰 공개",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35752",
+      "summary": [
+        "크래프톤이 아키텍처 설계부터 사전학습까지 직접 개발한 30B급 오픈웨이트 LLM 'Raon-1 mini' 프리뷰를 공개했다.",
+        "한국어와 영어 대화, 추론, AI 에이전트 작업에 초점을 맞췄다.",
+        "MoE 구조와 자체 개발한 선형 어텐션 기술을 결합했다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "Recursive, AI가 대부분 만들었다는 노트북용 코딩 모델 Flint 공개",
+      "original_title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
+      "summary": [
+        "스타트업 Recursive가 자체 AI 연구 시스템이 개발 대부분에 관여했다는 무료 코딩 모델 Flint를 Apache 2.0 라이선스로 공개했다.",
+        "전체 400억 개 파라미터 중 작업마다 25억 개만 활성화해 노트북에서 돌아가며, M4 Pro 맥북에서 초당 약 131토큰을 낸다.",
+        "50B 미만 모델 중 SWE-Bench Verified에서 앞섰지만, 대형 유료 코딩 도구보다 단계별 안내가 더 필요하다고 회사도 인정했다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "Walmart, AI 에이전트가 직접 장보게 한다",
+      "original_title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat",
+      "summary": [
+        "Walmart가 승인된 AI 에이전트가 재고를 검색하고 구매까지 하도록 하는 MCP 서버 Agent Gateway를 내놓았다.",
+        "다음 달부터는 에이전트별 프로필로 구매를 따로 보여 주고, 거래마다 승인을 요구하거나 지출 한도를 정할 수 있다.",
+        "에이전트 구매를 막기 시작한 Amazon과 대조적이며, Walmart는 약관을 어기는 에이전트를 차단하겠다고 밝혔다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "Meta, AI 앱 Muse 사용자 1,000만 명 돌파… 쇼핑이 주요 용도",
+      "original_title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity",
+      "summary": [
+        "Meta가 3분기 실적 발표에서 AI 앱 Muse의 사용자가 1,000만 명을 넘었고 설치한 사람의 약 25%가 매일 쓴다고 밝혔다.",
+        "에이전트로 쇼핑한 활발한 사용자 중 4분의 1 이상은 평균 구매액이 200달러를 넘었다.",
+        "Meta는 Muse를 대부분 무료로 두고 상거래 수익을 나누며 고급 기능은 유료로 받을 계획이다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "The Verge",
+      "title": "Anthropic, 새 AI 에이전트 'Claude Duet' 공개",
+      "original_title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "summary": [
+        "Anthropic이 Meta의 Muse, OpenAI의 Dots와 경쟁할 AI 에이전트 Claude Duet을 발표했다.",
+        "전문직 종사자와 소규모 사업자를 겨냥했고 '리서치 프리뷰' 형태로 출시된다.",
+        "iOS와 안드로이드 독립 앱과 웹의 Claude에서 쓸 수 있다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "use-after-free",
+    "title": "Use-After-Free와 메모리 안전성",
+    "category": "보안",
+    "pick": "trend",
+    "reading_minutes": 6,
+    "sections": {
+      "definition": "**Use-After-Free(UAF)**는 이미 해제한 메모리를 프로그램이 계속 사용해서 데이터 손상이나 임의 코드 실행으로 이어지는 메모리 안전성 취약점이다.",
+      "why": "C/C++ 같은 언어는 개발자가 `malloc`/`free`로 메모리의 수명을 직접 관리한다. 속도와 제어력은 얻지만 **\"누가 언제 해제하는가\"를 사람이 정확히 기억해야 한다**는 부담이 생긴다.\n\n이 약속이 한 번이라도 어긋나면 프로그램은 이미 다른 용도로 쓰이는 메모리를 건드리게 된다. 업계 보고서들은 대형 소프트웨어 보안 취약점의 상당수가 이런 메모리 안전성 문제라고 지적해 왔다.\n\n오늘 뉴스의 PHP 취약점 두 건이 좋은 예다. 하나는 메모리 한도(`memory_limit`)에 걸렸을 때 반쯤 초기화된 내부 데이터가 남아 메모리가 손상되는 문제이고, 다른 하나는 치명적 오류 뒤 내부 상태가 이전 요청의 메모리를 가리켜 UAF가 생기는 문제다. 둘 다 웹 서버가 요청을 처리하는 아주 이른 단계에서 일어나서 영향이 크다.",
+      "how": "1. 프로그램이 `malloc` 같은 함수로 힙에서 메모리 블록을 할당받고 포인터로 가리킨다.\n2. 작업이 끝나면 `free`로 블록을 반환한다. 이때 블록은 할당자의 \"빈 목록\"에 들어가지만, 기존 포인터 값은 **그대로 남는다**(댕글링 포인터).\n3. 다음 `malloc` 요청이 오면 할당자는 방금 반환된 블록을 재사용하는 경우가 많다. 같은 주소가 전혀 다른 객체의 것이 된다.\n4. 코드가 옛 포인터를 계속 쓰면, 새 객체의 데이터를 옛 객체인 줄 알고 읽거나 쓴다. 이것이 Use-After-Free다.\n5. 공격자는 요청 내용을 조절해 해제된 자리에 자신이 만든 데이터(예: 함수 포인터)를 채워 넣는다. 옛 포인터로 그 값을 호출하게 되면 **공격자가 고른 주소로 실행 흐름이 넘어간다**.\n6. 이렇게 임의 코드 실행(RCE)까지 이어질 수 있다. 서버가 인증 전 요청을 처리하는 구간에서 생기면 로그인 없이도 공격이 가능하다.\n\n메모리 부족(OOM) 상황도 비슷한 경로를 만든다. 할당이 실패해 초기화가 반쯤 끝난 구조체가 남았는데 이후 코드가 정상 값이라 믿고 쓰면 메모리가 손상된다.",
+      "example": "C로 쓴 아주 작은 Use-After-Free 예시다. 해제된 `a`의 자리를 `b`가 재사용하는 모습을 확인할 수 있다. (실제 동작은 할당자에 따라 다를 수 있고, 학습 목적으로만 실행하자.)\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\n\nint main(void) {\n    char *a = malloc(16);\n    strcpy(a, \"user-data\");\n    free(a);                 // a는 해제됐지만 값은 그대로 남는다\n\n    char *b = malloc(16);    // 같은 크기 → 같은 주소를 재사용할 가능성이 높다\n    strcpy(b, \"attacker-data\");\n\n    printf(\"a=%p b=%p\\n\", (void *)a, (void *)b);\n    printf(\"a가 가리키는 값: %s\\n\", a);   // UAF: \"attacker-data\"가 출력될 수 있다\n    return 0;\n}\n```\n\n다음은 AddressSanitizer로 같은 코드를 잡아내는 명령이다. 컴파일 옵션만 바꾸면 해제된 메모리에 접근하는 순간 오류 보고서와 함께 프로그램이 멈춘다.\n\n```bash\ngcc -fsanitize=address -g uaf.c -o uaf && ./uaf\n```",
+      "when": "**알아 두면 좋은 경우**: C/C++로 서버, 파서, 네트워크 코드를 만들거나 읽을 때, 그리고 PHP·Python 같은 언어의 확장 모듈과 런타임을 운영할 때다. 이런 런타임은 안쪽이 C로 되어 있어 같은 종류의 버그가 생길 수 있다.\n\n**대응 방법**\n- 보안 패치가 나오면 지체하지 말고 업데이트한다. 이번 PHP 사례처럼 인증 전에 공격할 수 있는 취약점은 시간이 곧 위험이다.\n- 새 코드는 Rust처럼 컴파일러가 소유권을 검사하는 언어를 고려한다. C/C++에서는 스마트 포인터를 쓰고, 테스트와 CI에서 AddressSanitizer와 퍼징을 돌린다.\n- `free` 직후 포인터를 `NULL`로 바꾸는 습관은 도움이 되지만, 같은 포인터의 복사본까지 막아 주지는 못한다.\n\n**피해야 할 생각**: \"내 코드는 PHP/Python이라 메모리 버그와 무관하다\"는 판단이다. 언어 런타임의 버그는 응용 코드로는 고칠 수 없으므로 버전 관리가 유일한 방어선이다.",
+      "further_reading": [
+        {
+          "title": "PHP 8.5.12 등 보안 릴리스와 취약점 설명 (GeekNews)",
+          "url": "https://news.hada.io/topic?id=35766"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: 카카오 기술블로그, 우아한형제들 기술블로그, Hacker News",
+    "Verge·Ars Technica 원문을 열 수 없어 Claude Duet 요약은 피드 요약 범위에서 작성함"
+  ]
+}
