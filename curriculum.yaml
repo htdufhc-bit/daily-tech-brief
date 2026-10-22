@@ -46,7 +46,7 @@ topics:
 - id: virtual-memory
   title: 가상 메모리
   category: 운영체제
-  covered_on: null
+  covered_on: '2026-10-23'
 - id: kubernetes
   title: 쿠버네티스 기초
   category: 클라우드/인프라
