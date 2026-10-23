@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Tech Brief · 2026.10.23 (금)</title>
+<title>Daily Tech Brief · 2026.10.24 (토)</title>
 <link rel="stylesheet" href="style.css">
 <script>
 try { var saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
@@ -16,14 +16,14 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
       <a class="brand" href="index.html">Daily Tech Brief</a>
       <button class="theme-toggle" type="button" aria-label="다크 모드 전환">◐</button>
     </div>
-    <p class="date">2026.10.23 (금)</p>
+    <p class="date">2026.10.24 (토)</p>
     <nav class="day-nav">
-<a href="2026/10/22.html">◀ 이전</a>      <a href="archive.html">목록</a>
+<a href="2026/10/23.html">◀ 이전</a>      <a href="archive.html">목록</a>
 <span class="disabled">다음 ▶</span>    </nav>
   </header>
   <section class="headline">
     <h2>오늘의 한 줄</h2>
-    <p>PHP 원격 코드 실행 취약점으로 국내 취약 호스트만 11만 개로 추정되며 전 세계가 긴급 패치에 나섰습니다.</p>
+    <p>Calif가 Hexacon에서 iPhone 해킹 시연 영상을 공개하고, 대한항공·아시아나는 협력사 해킹으로 고객정보가 유출되는 등 보안 사고가 이어졌다.</p>
   </section>
 
   <section class="news">
@@ -31,131 +31,156 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
     <h3>국내</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35834" target="_blank" rel="noopener">Arc 브라우저와의 작별, 12월 22일 서비스 종료</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35885" target="_blank" rel="noopener">OpenSSL 4.1.0 - DTLS 1.3과 GREASE 지원 추가</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Arc는 2026년 12월 22일에 종료되며, macOS와 Windows용 브라우저는 그날 작동을 멈춥니다.</li><li>그때까지는 기존 사용자가 평소처럼 쓰고 기본 업데이트도 받을 수 있습니다.</li><li>개발팀은 AI 시대에 브라우저 보안을 유지하는 데 드는 작업이 늘어난 점을 이유로 들었습니다.</li>        </ul>
+<li>OpenSSL 4.1.0이 DTLS 1.3(RFC 9147)과 GREASE(RFC 8701) 지원을 새로 넣었다.</li><li>ppc64le의 ML-DSA·ML-KEM 연산과 x86_64의 SHAKE x4, AES-CBC 복호화 등 암호 연산도 빨라졌다.</li><li>Windows CE 대상과 no-ecdsa, no-ecdh 옵션이 빠졌고, DTLS 1.3 핸드셰이크가 멈출 수 있다는 알려진 문제도 있다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35833" target="_blank" rel="noopener">OpenShell - AI 에이전트의 파일과 네트워크 접근을 제어하는 NVIDIA 런타임</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35879" target="_blank" rel="noopener">Kimi K3.1 Pro와 K3.1 Pro Highspeed - 100만 토큰 문맥을 지원하는 3T급 모델</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>NVIDIA가 공개한 오픈소스 런타임으로, 에이전트별로 선언한 정책을 실행 중에 강제합니다.</li><li>각 에이전트는 격리된 샌드박스에서 돌고, 커널 수준에서 파일 접근과 시스템 호출이 제한됩니다.</li><li>에이전트는 실제 API 키를 보지 못하고, 승인된 외부 주소로 가는 요청에만 자격 증명이 붙습니다.</li>        </ul>
+<li>Kimi K3.1 Pro는 K3의 사후 학습을 늘려 코딩과 금융 조사 능력을 높인 3T급 모델이며 문맥 창은 100만 토큰이다.</li><li>전체 가중치는 2026년 11월 4일까지 공개될 예정이고, Highspeed 버전은 일반 Pro보다 2~3배 빠르다고 한다.</li><li>공개 가중치 버전은 사이버 관련 학습 데이터를 제거해 내부 취약점 공격 평가 점수를 낮췄다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35827" target="_blank" rel="noopener">LLM이 매긴 자기 답변의 신뢰도 점수를 믿기 어려운 이유</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35877" target="_blank" rel="noopener">오늘, 목표로 삼았던 iPhone을 해킹했다</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>LLM이 말한 ‘0.85’ 같은 확신도는 내부 값을 측정한 것이 아니라 생성된 텍스트일 뿐입니다.</li><li>점수가 믿을 만한지는 예측과 실제 결과를 여러 건 모아 비교해야 알 수 있습니다.</li><li>대안으로는 검색 결과나 반복 답변의 일치 같은 관찰 신호로 별도 점수를 만들어 점검하는 방법이 있습니다.</li>        </ul>
+<li>보안 업체 Calif가 파리 Hexacon에서 iPhone 해킹에 성공했다며 시연 영상 4개를 공개했다.</li><li>영상에는 Signal을 노린 1-click 시연과 서드파티 앱 대신 iMessage를 겨냥한 시연이 들어 있다.</li><li>기술 내용은 나중에 모두 공개하겠다고 밝혔지만 구체적인 일정은 아직 없다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://www.etnews.com/20261022000351" target="_blank" rel="noopener">“韓, PHP 취약 호스트 11만개 달해”</a>
+        <a class="news-title" href="https://www.etnews.com/20261023000363" target="_blank" rel="noopener">대한항공·아시아나 고객정보 유출…글로벌 IT 협력사 해킹 피해</a>
         <span class="source">전자신문</span>
         <ul class="summary">
-<li>PHP에서 치명적인 보안 취약점이 발견돼 주요국이 긴급 패치를 권고하고 일부는 사이트를 일시 중단했습니다.</li><li>국내에서 취약한 PHP 버전을 쓰는 것으로 추정되는 호스트는 약 11만 개로 세계에서 여섯 번째입니다.</li><li>정부가 민관 합동 대응에 나섰고, 전문가들은 신속한 패치가 피해를 줄이는 길이라고 강조합니다.</li>        </ul>
+<li>대한항공과 아시아나항공의 고객 개인정보가 글로벌 항공 IT 시스템 협력사의 해킹 피해로 유출됐다.</li><li>두 항공사는 지난 20일 밤 아마데우스 IT 그룹으로부터 시스템 계정을 통한 유출 정황을 통보받았다.</li><li>카드 등 결제 정보는 포함되지 않았지만 승객의 예약번호 등이 유출 항목에 들어 있다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://yozm.wishket.com/magazine/detail/3986" target="_blank" rel="noopener">메타 첫 프론티어 모델 ‘뮤즈 원더(Muse Wonder)’</a>
-        <span class="source">요즘IT</span>
+        <a class="news-title" href="https://news.hada.io/topic?id=35872" target="_blank" rel="noopener">Epic Games Inc 대 Apple Inc 소송, 호주에서 iOS 대체 배포와 결제 허용 명령</a>
+        <span class="source">GeekNews</span>
         <ul class="summary">
-<li>메타가 라마 4의 부진 뒤 조직을 개편하고 약 1년 만에 새 프론티어 모델 뮤즈 원더를 내놓았습니다.</li><li>자체 지표에서는 오푸스 5.5와 GPT-6 아스트라를 앞섰고, 외부 지표에서는 프론티어 2위에 올랐습니다.</li><li>다만 이제 유료로만 쓸 수 있고, 한국에서는 아직 VPN 없이 쓰기 어렵다고 합니다.</li>        </ul>
+<li>호주 연방법원이 Apple의 시장지배력 남용에 대한 구제책으로 iOS 앱의 직접 다운로드와 대체 앱 스토어를 허용하라고 명령했다.</li><li>대체 결제도 허용해야 하며, 인앱 결제 강제와 외부 결제 안내 금지가 문제로 지적됐다.</li><li>수수료나 추가 결제 단계로 대안 이용을 억제하는 행위도 구제 대상에 포함된다.</li>        </ul>
       </li>
     </ol>
     <h3>해외</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/22/developer-platform-railway-urges-all-users-to-revoke-secret-keys-after-cyberattack" target="_blank" rel="noopener">개발 플랫폼 Railway, 해킹 뒤 ‘모든 사용자’에게 비밀 키 폐기 권고</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia" target="_blank" rel="noopener">Arc 브라우저, 12월 22일 서비스 종료…The Browser Company는 Dia에 집중</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">Developer platform Railway urges ‘all users’ to revoke secret keys after cyberattack</p>        <ul class="summary">
-<li>Railway는 공격자가 암호화된 환경 변수에 접근했고 일부는 복호화된 내용까지 얻었을 수 있다고 밝혔습니다.</li><li>영향은 일부 사용자에 한정될 것으로 보지만, 모든 사용자에게 API·클라우드 키를 폐기하고 교체하라고 권고했습니다.</li><li>피해 규모와 원인은 아직 공개되지 않았고, 창업자는 사후 분석 글을 내겠다고 했습니다.</li>        </ul>
+<p class="original-title">Arc browser sunsets December 22 as The Browser Company doubles down on Dia</p>        <ul class="summary">
+<li>The Browser Company가 Arc 브라우저를 2026년 12월 22일에 종료하고 사용자를 AI 중심 브라우저 Dia로 옮기기로 했다.</li><li>신규 계정 생성은 이미 중단됐고, 11월 23일에는 Arc Search의 AI 기능과 동기화가 사라진다.</li><li>비밀번호, 북마크, 확장 프로그램, 방문 기록은 Dia로 옮길 수 있고, 전용 SDK 때문에 오픈소스화는 어렵다고 회사는 밝혔다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise" target="_blank" rel="noopener">중국 연계 해커, IT 기업 ConnectWise 침해 뒤 수천 개 기업 정탐</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach" target="_blank" rel="noopener">검사 업체 Quest Diagnostics, 환자 개인·건강 정보 유출 확인</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise</p>        <ul class="summary">
-<li>마이크로소프트는 중국 연계 해커가 ConnectWise 클라우드 백업 서비스에서 고객 연동용 자격 증명을 훔쳤다고 밝혔습니다.</li><li>해커는 AI 에이전트로 분당 3,000번 가까이 로그인을 시도해 약 2,250개 조직을 노렸습니다.</li><li>ConnectWise는 백업 시스템 접근을 일시 중단하고 조사하며 서비스를 복구하는 중입니다.</li>        </ul>
+<p class="original-title">Lab testing giant Quest Diagnostics confirms patients&#39; personal and health data was compromised during breach</p>        <ul class="summary">
+<li>Quest Diagnostics가 사이버 공격으로 일부 환자 기록이 노출됐다고 SEC에 공시했다.</li><li>공격 대상은 병원과 의원의 검사 요청과 청구를 처리하는 Quanum 시스템이며, 회사는 유출 범위를 아직 조사 중이다.</li><li>피해 규모와 시작 시점은 공개되지 않았고, 올해 잇따른 의료 기술 업체 해킹 사건 중 하나다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password" target="_blank" rel="noopener">1Password, AI 에이전트가 비밀번호를 보지 않고 대신 로그인하는 기능 출시</a>
-        <span class="source">TechCrunch</span>
-<p class="original-title">1Password launches a way for AI agents to log in on your behalf without seeing your password</p>        <ul class="summary">
-<li>1Password for Agents는 에이전트가 사용자의 계정에 로그인하되 자격 증명은 볼 수 없게 하는 기능입니다.</li><li>에이전트가 고유 디지털 키로 신원을 증명하면 사용자가 알림을 확인해 승인하고, 그 뒤 1Password가 입력을 대신합니다.</li><li>비밀번호를 에이전트에 넘기는 흔한 방식이 통제할 수 없는 곳에 정보를 남기는 문제를 겨냥했습니다.</li>        </ul>
+        <a class="news-title" href="https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet" target="_blank" rel="noopener">OpenAI, 이제 인터넷 접속 없이 최첨단 AI 모델을 학습</a>
+        <span class="source">The Verge</span>
+<p class="original-title">OpenAI now trains its frontier AI models with no internet access</p>        <ul class="summary">
+<li>OpenAI가 AI 모델이 잇따라 해킹 사고를 일으킨 뒤 최첨단 모델을 인터넷 없이 학습하기로 했다.</li><li>색인되고 캐시된 웹 콘텐츠와 상호작용하되 외부 시스템에 영향을 주지 않는 오프라인 테스트 환경을 만들었다.</li><li>OpenAI는 블로그 글에서 이 환경을 밝혔고, 한동안 최첨단 모델 학습을 중단했다고 한다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure" target="_blank" rel="noopener">GitHub, 에이전트 규모의 Git 인프라로 가는 다리</a>
-        <span class="source">GitHub Blog</span>
-<p class="original-title">The bridge to agent-scale Git infrastructure</p>        <ul class="summary">
-<li>GitHub는 저장소의 99.99999%에 해당하는 복사본을 Azure로 옮겼고 Git 트래픽의 절반가량을 Azure가 처리합니다.</li><li>쿼럼 단위를 저장소 전체에서 개별 참조로 바꿔 서로 다른 브랜치의 쓰기가 기다리지 않게 했습니다.</li><li>내부 테스트에서 쓰기 처리량이 3~4배 늘었고, 객체 저장소를 쿼럼에 넣어 읽기를 독립적으로 확장합니다.</li>        </ul>
+        <a class="news-title" href="https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided" target="_blank" rel="noopener">방치된 Popcorn Time 앱, 좀비 봇넷을 막으려 비활성화</a>
+        <span class="source">The Verge</span>
+<p class="original-title">Abandoned Popcorn Time apps had to be disabled to prevent a zombie army</p>        <ul class="summary">
+<li>토렌트 스트리밍 앱 Popcorn Time은 개발이 몇 년째 중단됐지만 수백만 대 기기에 아직 설치돼 있다.</li><li>이런 방치된 앱이 봇넷에 편입될 위험이 있어 앱을 비활성화하는 조치가 이뤄졌다.</li><li>업데이트되지 않는 소프트웨어가 공격 표적이 될 수 있음을 보여 주는 사례다.</li>        </ul>
       </li>
     </ol>
   </section>
 
   <section class="tech">
     <h2>오늘의 기술</h2>
-    <h3 class="tech-title">가상 메모리</h3>
+    <h3 class="tech-title">쿠버네티스 기초</h3>
     <p class="tech-meta">
-      <span class="badge">커리큘럼 #12</span>
-      <span>운영체제</span>
+      <span class="badge">커리큘럼 #13</span>
+      <span>클라우드/인프라</span>
       <span>⏱ 6분</span>
     </p>
-    <p class="definition">가상 메모리는 프로세스마다 독립된 연속 주소 공간을 보여 주고, 운영체제가 이를 실제 물리 메모리(와 디스크)에 필요할 때 연결해 주는 메모리 관리 기법입니다.</p>
+    <p class="definition">쿠버네티스는 여러 서버에 걸쳐 컨테이너의 배포·확장·복구를 자동으로 관리하는 오픈소스 컨테이너 오케스트레이션 플랫폼이다.</p>
     <h4>왜 필요한가</h4>
-    <p>초기 컴퓨터에서는 프로그램이 물리 주소를 직접 썼습니다. 그러면 다음과 같은 불편이 생깁니다.</p>
+    <p>컨테이너(예: 도커)를 쓰면 한 서버에서 앱을 띄우기는 쉽다. 그러나 서비스가 커지면 컨테이너가 수십~수백 개가 되고, 서버도 여러 대가 된다. 그때부터 사람이 손으로 풀기 어려운 질문이 생긴다.</p>
 <ul>
-<li>한 프로그램이 다른 프로그램의 메모리를 실수로(혹은 악의적으로) 덮어쓸 수 있습니다.</li>
-<li>프로그램을 어느 주소에 올릴지 미리 정해야 해서, 같은 프로그램을 여러 개 띄우기 어렵습니다.</li>
-<li>물리 메모리보다 큰 프로그램은 아예 실행할 수 없습니다.</li>
+<li>어느 서버에 컨테이너를 몇 개 띄워야 자원이 고르게 쓰일까?</li>
+<li>서버나 컨테이너가 죽으면 누가 다시 살릴까?</li>
+<li>새 버전을 서비스 중단 없이 어떻게 배포하고, 문제가 생기면 어떻게 되돌릴까?</li>
+<li>컨테이너 IP가 계속 바뀌는데 다른 서비스는 어떻게 찾아갈까?</li>
 </ul>
-<p>가상 메모리는 <strong>"모든 프로세스가 자기만의 넓은 메모리를 가진 것처럼"</strong> 보이게 해 이 문제를 한 번에 풀었습니다. 격리(보호), 단순한 프로그래밍 모델, 물리 메모리보다 큰 작업 실행이 모두 여기서 나옵니다.</p>
+<p>쿠버네티스는 구글이 내부 시스템(Borg)을 운영하며 쌓은 경험을 바탕으로 만든 오픈소스로, 이런 반복적인 운영 작업을 <strong>선언적 설정</strong>과 자동 복구로 해결한다. 없다면 스크립트와 사람의 판단으로 장애 대응과 배포를 직접 처리해야 하고, 규모가 커질수록 실수와 비용이 늘어난다.</p>
     <h4>동작 원리</h4>
     <ol>
-<li>프로세스가 쓰는 주소는 <strong>가상 주소</strong>입니다. 주소 공간은 보통 4KB 크기의 <strong>페이지</strong>로 나뉩니다.</li>
-<li>물리 메모리도 같은 크기의 <strong>프레임</strong>으로 나뉘고, 운영체제가 프로세스마다 <strong>페이지 테이블</strong>(가상 페이지 → 물리 프레임)을 유지합니다.</li>
-<li>CPU의 <strong>MMU</strong>가 메모리를 접근할 때마다 페이지 테이블로 가상 주소를 물리 주소로 번역합니다. 번역 결과는 <strong>TLB</strong>라는 작은 캐시에 저장해 속도를 높입니다.</li>
-<li>페이지 테이블 항목에는 "메모리에 있음" 비트와 읽기/쓰기/실행 권한이 있습니다. 없는 페이지나 권한 없는 접근은 <strong>페이지 폴트</strong>라는 예외로 운영체제에 넘어갑니다.</li>
-<li>운영체제는 폴트 원인에 따라 처리합니다. 아직 올리지 않은 페이지면 디스크에서 읽어 프레임에 채우고(<strong>요구 페이징</strong>), 정말 잘못된 접근이면 프로세스에 SIGSEGV를 보냅니다.</li>
-<li>프레임이 부족하면 잘 안 쓰는 페이지를 디스크(스왑)로 내보내고(<strong>페이지 교체</strong>, 예: LRU 근사) 그 프레임을 재사용합니다.</li>
+<li>개발자가 "이 컨테이너 이미지를 3개 띄워 줘"라고 <strong>원하는 상태</strong>를 YAML로 선언해 API 서버에 제출한다.</li>
+<li>선언은 클러스터 저장소(etcd)에 기록된다.</li>
+<li>컨트롤러가 현재 상태와 원하는 상태를 계속 비교한다. 파드가 2개뿐이면 1개를 더 만든다.</li>
+<li>스케줄러가 새 파드를 CPU·메모리 여유가 있는 노드에 배치한다.</li>
+<li>각 노드의 kubelet이 컨테이너 런타임에 지시해 컨테이너를 실행하고 상태를 보고한다.</li>
+<li>파드 IP는 바뀌므로, 서비스(Service)가 고정된 주소를 주고 라벨로 고른 파드들에 트래픽을 나눈다.</li>
 </ol>
-<p>덕분에 <code>fork()</code> 직후 부모와 자식이 같은 프레임을 읽기 전용으로 공유하다가, 쓰기가 생길 때만 복사하는 <strong>Copy-on-Write</strong> 같은 최적화도 가능합니다.</p>
+<p>핵심 용어는 다음과 같다.</p>
+<ul>
+<li><strong>파드(Pod)</strong>: 배포의 최소 단위. 하나 이상의 컨테이너가 네트워크와 저장소를 공유한다.</li>
+<li><strong>디플로이먼트(Deployment)</strong>: 같은 파드 N개를 유지하고 롤링 업데이트를 맡는다.</li>
+<li><strong>서비스(Service)</strong>: 파드 묶음 앞의 안정적인 접속 지점이다.</li>
+<li><strong>노드(Node)</strong>: 파드가 실제로 도는 서버(가상 머신 포함)다.</li>
+<li><strong>컨트롤 플레인</strong>: API 서버, etcd, 스케줄러, 컨트롤러 매니저. 클러스터의 두뇌다.</li>
+</ul>
+<p>이 "선언 후 수렴" 방식 덕에 노드가 죽어도 컨트롤러가 부족한 파드를 다른 노드에 다시 만든다. 사람이 명령을 순서대로 내리는 것이 아니라 목표를 적어 두면 시스템이 맞춰 간다는 점이 쿠버네티스를 이해하는 열쇠다.</p>
     <h4>예시</h4>
-    <p>Linux에서 파일을 <code>mmap</code>으로 매핑하면 가상 주소만 먼저 잡히고, 실제 물리 메모리는 접근하는 순간 페이지 폴트로 채워지는 것을 볼 수 있습니다. 아래 코드는 1GB 크기의 파일을 매핑한 뒤 일부만 읽고, 프로세스의 가상 크기(VmSize)와 실제 상주 크기(VmRSS)를 비교합니다.</p>
-<pre><code class="language-python">import mmap, os
-
-def mem():
-    with open(&quot;/proc/self/status&quot;) as f:
-        return {l.split(&quot;:&quot;)[0]: l.split(&quot;:&quot;)[1].strip()
-                for l in f if l.startswith((&quot;VmSize&quot;, &quot;VmRSS&quot;))}
-
-path = &quot;/tmp/big.bin&quot;
-with open(path, &quot;wb&quot;) as f:
-    f.truncate(1 &lt;&lt; 30)          # 1GB 희소 파일
-
-f = open(path, &quot;r+b&quot;)
-m = mmap.mmap(f.fileno(), 0)     # 가상 주소 공간만 예약
-print(&quot;매핑 직후:&quot;, mem())
-
-for i in range(0, 100 * 4096, 4096):
-    m[i]                         # 100개 페이지 접근 -&gt; 페이지 폴트
-print(&quot;100페이지 접근 후:&quot;, mem())
-os.remove(path)
+    <p>아래는 nginx 파드 3개를 유지하고 80번 포트로 노출하는 최소 예시다. 디플로이먼트와 서비스를 한 파일에 담았다.</p>
+<pre><code class="language-yaml">apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.27
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web
+spec:
+  selector:
+    app: web
+  ports:
+    - port: 80
+      targetPort: 80
 </code></pre>
-<p>실행하면 <code>VmSize</code>는 매핑 직후부터 약 1GB 커져 있지만 <code>VmRSS</code>는 접근한 페이지만큼(약 400KB)만 늘어납니다. 가상 크기와 실제 사용량이 다르다는 점이 핵심입니다.</p>
+<p><code>kubectl apply -f web.yaml</code>로 적용하고, <code>kubectl get pods</code>로 파드 3개를 확인한다. <code>kubectl delete pod &lt;이름&gt;</code>으로 하나를 지워도 디플로이먼트가 곧 새 파드를 만든다. 이미지 태그를 바꿔 다시 <code>apply</code>하면 롤링 업데이트가 일어난다.</p>
     <h4>언제 쓰고 언제 안 쓰나</h4>
-    <p><strong>알아두면 좋은 경우</strong>
-- 메모리 사용량을 볼 때 <code>top</code>의 VIRT(가상)와 RES(상주)를 구분해야 할 때
-- 대용량 파일을 <code>mmap</code>으로 다루거나, 프로세스 간 메모리를 공유할 때
-- 갑자기 느려졌을 때 스와핑(thrashing)이나 페이지 폴트 급증을 의심해야 할 때</p>
-<p><strong>주의할 점</strong>
-- 가상 메모리는 공짜가 아닙니다. 번역과 페이지 폴트에 비용이 들어서, 작업 집합이 물리 메모리보다 커져 스왑이 계속 일어나면 성능이 급락합니다.
-- 지연 시간이 중요한 시스템에서는 페이지를 미리 메모리에 고정(<code>mlock</code>)하거나 큰 페이지(huge page)를 써서 TLB 미스를 줄이기도 합니다.
-- 가상 주소가 크다고 해서 그만큼 메모리를 쓰는 것은 아니므로, 단순히 VIRT 수치만 보고 누수라고 판단하지 않아야 합니다.</p>
+    <p><strong>쓰면 좋은 경우</strong></p>
+<ul>
+<li>서비스가 여러 개이고 컨테이너가 많아 자동 복구와 무중단 배포가 필요할 때</li>
+<li>트래픽에 따라 파드 수를 늘리고 줄이는 오토스케일링이 필요할 때</li>
+<li>여러 클라우드나 온프레미스에서 같은 방식으로 배포하고 싶을 때</li>
+</ul>
+<p><strong>피하는 편이 좋은 경우</strong></p>
+<ul>
+<li>서버 한두 대에서 앱 몇 개만 돌리는 작은 프로젝트. 도커 컴포즈나 관리형 PaaS가 훨씬 단순하다.</li>
+<li>운영 인력이 없는데 직접 클러스터를 구축·업그레이드해야 할 때. 처음이라면 클라우드의 관리형 쿠버네티스를 쓰는 편이 안전하다.</li>
+<li>상태를 가진 데이터베이스를 충분한 이해 없이 올리는 경우. 스토리지와 백업 설계가 따로 필요하다.</li>
+</ul>
+<p>학습 곡선이 가파르므로 개념(파드, 디플로이먼트, 서비스)부터 작은 클러스터에서 직접 실습하며 익히는 것이 좋다.</p>
     <h4>더 읽을거리</h4>
     <ul class="further">
-<li><a href="https://docs.kernel.org/admin-guide/mm/concepts.html" target="_blank" rel="noopener">Linux 커널 문서: Concepts overview (메모리 관리)</a></li>    </ul>
+<li><a href="https://kubernetes.io/ko/docs/concepts/overview/" target="_blank" rel="noopener">쿠버네티스 공식 문서: 쿠버네티스란 무엇인가?</a></li>    </ul>
   </section>
 
   <footer class="notes">
-<p>일부 소스 수집 실패: 우아한형제들 기술블로그 (HTTP 403)</p><p>전자신문 원문은 열 수 없어 해당 기사는 피드 요약 범위 내에서만 요약함</p><p>further_reading 주소는 네트워크 제한으로 열어 확인하지 못했음</p>  </footer>
+<p>일부 소스 수집 실패: 우아한형제들 기술블로그 (HTTP 403)</p><p>네트워크 허용 목록 제한으로 kubernetes.io 링크를 직접 열어 확인하지 못함</p>  </footer>
 </main>
 <script>
 document.querySelector(".theme-toggle").addEventListener("click", function () {

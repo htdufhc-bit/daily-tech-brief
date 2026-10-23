@@ -50,7 +50,7 @@ topics:
 - id: kubernetes
   title: 쿠버네티스 기초
   category: 클라우드/인프라
-  covered_on: null
+  covered_on: '2026-10-24'
 - id: rag
   title: RAG(검색 증강 생성)
   category: AI/ML
