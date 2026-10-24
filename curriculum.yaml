@@ -54,7 +54,7 @@ topics:
 - id: rag
   title: RAG(검색 증강 생성)
   category: AI/ML
-  covered_on: null
+  covered_on: '2026-10-25'
 - id: jwt
   title: JWT
   category: 보안

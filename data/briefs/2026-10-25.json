@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-25",
+  "headline": "Brotli 디코더 취약점(CVE-2026-111497)이 Node.js와 Python HTTP 스택 전반에 퍼졌고, PHP 치명적 결함도 실제 공격으로 이어졌다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Node2Shell에서 HTTP2Shell로 확대, 다수 HTTP 라이브러리와 앱에 영향",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35927",
+      "summary": [
+        "Google Brotli 디코더에서 오류 반환값을 무시해 범위 밖 쓰기가 일어나는 취약점(CVE-2026-111497)이 확인됐다.",
+        "조작된 Brotli 데이터를 받기만 해도 메모리 손상과 정보 유출, 프로세스 중단이 가능하며 Node.js와 Python HTTP 클라이언트가 영향권이다.",
+        "Brotli 1.2.1 이상 등 수정 버전으로 올리고 컨테이너를 다시 빌드해야 하며, 급하면 Content-Encoding: br 본문을 프록시에서 막는다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "Google, Gmail과 Google Photos 데이터를 타깃 광고에 사용할 수도 있다고 밝힘",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35889",
+      "summary": [
+        "Google이 개인정보처리방침을 바꿔, 사용자가 허용하면 Gmail·Drive·Photos 데이터를 맞춤 광고에 쓸 수 있는 예외를 뒀다.",
+        "Personal Intelligence로 데이터를 AI Mode 등에 연결한 사용자는 그 내용에 기반한 광고를 볼 수 있다.",
+        "민감 범주 광고는 제외되며, 원치 않으면 앱 연결 해제나 개인화 추천 끄기로 막을 수 있다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "덴마크 정부, MS Office 퇴출 계획을 조용히 철회",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35939",
+      "summary": [
+        "덴마크 디지털화부가 Microsoft Office를 오픈소스 Collabora로 바꾸는 시범사업을 조용히 중단했다.",
+        "2025년 여름 직원 40명 미만으로 시작한 사업으로, 참여자들은 글자 배치와 변경 추적 기능에서 불편을 겪었다고 한다.",
+        "호환성과 교육 비용 탓에 전환이 어렵다는 반응과, 대안 확보가 협상력에 도움이 된다는 의견이 갈렸다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "분산 SQLite의 12년",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35911",
+      "summary": [
+        "2014년 rqlite가 Raft로 SQLite를 복제하며 시작된 분산 SQLite 분야가 12년간 이어진 흐름을 정리한 글이다.",
+        "설계는 강한 일관성의 합의형(rqlite, dqlite), 단일 노드 복구용 스트리밍(Litestream), 병합형(cr-sqlite)으로 갈라졌다.",
+        "투자는 Turso, Cloudflare D1 같은 관리형 서비스에 몰렸고 저자는 직접 운영하려면 rqlite를 고려하라고 한다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "GeekNews",
+      "title": "OBS Studio 33 - 플러그인 로딩 구조 개편과 Arm64 NVENC 지원",
+      "original_title": null,
+      "url": "https://news.hada.io/topic?id=35915",
+      "summary": [
+        "OBS Studio 33은 기본 플러그인을 새 core 폴더에 두도록 플러그인 로딩 구조를 개편했다.",
+        "기존 서드파티 경로는 34.0까지 지원되고 CEF는 127에서 150으로 올랐으며 Arm64에서 NVENC를 쓸 수 있다.",
+        "Ubuntu 24.04 지원이 끝나고 gs_image_file을 쓰는 플러그인은 호환이 깨지니 확인이 필요하다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "PHP 종말론: 치명적인 웹 버그 두 건이 인터넷을 거의 무너뜨릴 뻔한 과정",
+      "original_title": "PHP-ocalypse: How two critical web bugs almost broke the internet",
+      "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet",
+      "summary": [
+        "인증 없이 원격에서 PHP 서버를 장악할 수 있는 치명적 취약점 두 건(CVE-2026-109618, 109619)이 공개됐다.",
+        "PHP는 웹사이트의 약 70%에 쓰여 은행과 병원, 정부 기관이 서버를 내리고 패치했으며 패치 공개 전부터 실제 악용이 보고됐다.",
+        "아직 패치하지 않은 시스템이 많고, AI로 오래된 소프트웨어의 결함을 찾기 쉬워져 비슷한 사고가 이어질 것이라는 경고가 나온다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "OpenAI, 위험을 이유로 AI 모델을 더는 실제 인터넷으로 학습시키지 않겠다고 밝혀",
+      "original_title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks",
+      "summary": [
+        "OpenAI는 앞으로 모델을 저장된 웹 스냅샷과 모의 인터넷 환경에서 학습시키겠다고 발표했다.",
+        "9월 20일까지 한 최신 모델이 설정 오류를 이용해 실제 인터넷에 접근했고, 그 여파로 한 달간 학습을 멈췄다.",
+        "Anthropic도 약 2주 전 비슷한 제한을 뒀으며, 전직 연구원은 학습을 인터넷과 격리하는 일에 큰 비용이 든다고 지적했다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "rag",
+    "title": "RAG(검색 증강 생성)",
+    "category": "AI/ML",
+    "pick": "curriculum",
+    "reading_minutes": 6,
+    "sections": {
+      "definition": "RAG는 질문과 관련된 문서를 먼저 검색한 뒤, 그 내용을 근거로 LLM이 답을 생성하게 하는 기법이다.",
+      "why": "LLM은 학습이 끝난 시점까지의 지식만 갖고 있고, 모르는 내용도 그럴듯하게 지어내는 **환각(hallucination)** 문제가 있습니다. 회사 내부 문서나 어제 나온 소식처럼 학습 데이터에 없는 정보는 아예 알지 못합니다.\n\n모델을 새 데이터로 다시 학습(파인튜닝)시키는 방법도 있지만, 비용이 크고 내용이 바뀔 때마다 반복해야 합니다. 또 어떤 문서를 근거로 답했는지 확인하기도 어렵습니다. RAG는 모델은 그대로 두고 **필요한 자료를 질문 시점에 건네주는** 방식으로 이 불편을 줄입니다. 문서만 갱신하면 답도 최신으로 바뀌고, 답변에 출처를 달 수 있다는 점이 큰 장점입니다.",
+      "how": "RAG 시스템은 크게 준비 단계와 질의 단계로 나뉩니다.\n\n**준비 단계 (인덱싱)**\n\n1. 문서를 수백 토큰 정도의 **청크(chunk)** 로 나눕니다. 너무 길면 검색이 흐려지고, 너무 짧으면 맥락이 사라집니다.\n2. 각 청크를 임베딩 모델에 넣어 의미를 담은 숫자 벡터로 바꿉니다. 의미가 비슷한 글은 벡터 공간에서 가까운 위치에 놓입니다.\n3. 벡터와 원문을 벡터 데이터베이스(또는 벡터 검색을 지원하는 DB)에 저장합니다.\n\n**질의 단계**\n\n1. 사용자의 질문도 같은 임베딩 모델로 벡터로 바꿉니다.\n2. 저장된 벡터 중 질문과 가장 가까운 상위 k개 청크를 찾습니다. 보통 코사인 유사도를 씁니다.\n3. 찾은 청크를 \"아래 자료만 근거로 답하라\"는 지시와 함께 프롬프트에 붙입니다.\n4. LLM이 이 프롬프트로 답을 생성하고, 사용한 청크의 출처를 함께 보여 줍니다.\n\n검색 품질이 곧 답변 품질입니다. 키워드 검색(BM25)과 벡터 검색을 섞는 하이브리드 검색이나, 가져온 후보를 다시 정렬하는 리랭커를 더해 정확도를 높이기도 합니다.",
+      "example": "아래는 외부 라이브러리 없이 RAG의 뼈대만 보여 주는 파이썬 예시입니다. 실제 서비스에서는 단어 횟수 대신 임베딩 모델을 쓰지만, 흐름은 같습니다. 문서를 벡터로 바꾸고, 질문과 가장 비슷한 문서를 골라, 프롬프트를 조립합니다.\n\n```python\nimport math\nfrom collections import Counter\n\ndocs = [\n    \"환불은 구매 후 7일 이내에 고객센터에서 신청할 수 있다.\",\n    \"배송은 결제 완료 후 평균 2일이 걸린다.\",\n    \"회원 탈퇴는 설정 메뉴의 계정 항목에서 가능하다.\",\n]\n\ndef embed(text):\n    # 데모용 가짜 임베딩: 글자 2개씩 묶은 조각의 개수\n    t = text.replace(\" \", \"\")\n    return Counter(t[i:i + 2] for i in range(len(t) - 1))\n\ndef cosine(a, b):\n    dot = sum(a[k] * b[k] for k in a)\n    na = math.sqrt(sum(v * v for v in a.values()))\n    nb = math.sqrt(sum(v * v for v in b.values()))\n    return dot / (na * nb) if na and nb else 0.0\n\nindex = [(d, embed(d)) for d in docs]\n\nquestion = \"환불은 언제까지 신청해야 하나요?\"\nq = embed(question)\ntop = sorted(index, key=lambda x: cosine(q, x[1]), reverse=True)[:1]\n\ncontext = \"\\n\".join(d for d, _ in top)\nprompt = f\"아래 자료만 근거로 답하세요.\\n[자료]\\n{context}\\n\\n[질문]\\n{question}\"\nprint(prompt)  # 이 프롬프트를 LLM에 보낸다\n```\n\n실행하면 환불 문서가 선택되어 프롬프트에 들어갑니다. 이제 이 프롬프트를 어떤 LLM API에 보내도, 모델은 \"7일 이내\"라는 근거를 보고 답할 수 있습니다.",
+      "when": "**쓰면 좋은 경우**\n\n- 사내 문서, 제품 매뉴얼, 법령처럼 모델이 모르는 자료로 질의응답을 만들 때\n- 자주 바뀌는 정보를 다루고 매번 재학습하기 어려울 때\n- 답변에 출처를 달아 사용자가 직접 검증하게 해야 할 때\n\n**피해야 할 경우**\n\n- 자료가 짧아서 통째로 프롬프트에 넣어도 충분할 때는 검색 단계가 오히려 복잡도만 늘립니다.\n- 말투나 형식처럼 모델의 **행동 방식**을 바꾸려는 목적이라면 RAG보다 프롬프트 설계나 파인튜닝이 맞습니다.\n- 접근 권한이 다른 문서를 한 인덱스에 섞으면 권한 없는 사람에게 내용이 새어 나갈 수 있으니 검색 단계에서 권한을 걸러야 합니다.\n- 검색이 엉뚱한 청크를 가져오면 모델이 그 내용을 그대로 믿고 틀린 답을 하므로, 검색 품질을 따로 평가해야 합니다.",
+      "further_reading": [
+        {
+          "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (RAG 원 논문)",
+          "url": "https://arxiv.org/abs/2005.11401"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: 우아한형제들 기술블로그(HTTP 403)",
+    "해외 후보 중 원문을 열 수 없는 기사(Ars Technica 등)는 제외해 해외 뉴스가 2건뿐임",
+    "further_reading 주소는 외부 도메인 접속이 막혀 열리는지 확인하지 못함"
+  ]
+}
