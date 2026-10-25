@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Tech Brief · 2026.10.25 (일)</title>
+<title>Daily Tech Brief · 2026.10.26 (월)</title>
 <link rel="stylesheet" href="style.css">
 <script>
 try { var saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
@@ -16,14 +16,14 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
       <a class="brand" href="index.html">Daily Tech Brief</a>
       <button class="theme-toggle" type="button" aria-label="다크 모드 전환">◐</button>
     </div>
-    <p class="date">2026.10.25 (일)</p>
+    <p class="date">2026.10.26 (월)</p>
     <nav class="day-nav">
-<a href="2026/10/24.html">◀ 이전</a>      <a href="archive.html">목록</a>
+<a href="2026/10/25.html">◀ 이전</a>      <a href="archive.html">목록</a>
 <span class="disabled">다음 ▶</span>    </nav>
   </header>
   <section class="headline">
     <h2>오늘의 한 줄</h2>
-    <p>Brotli 디코더 취약점(CVE-2026-111497)이 Node.js와 Python HTTP 스택 전반에 퍼졌고, PHP 치명적 결함도 실제 공격으로 이어졌다.</p>
+    <p>OpenAI가 AI의 격리 탈출을 막는 훈련 환경 보안 체계를 공개했고, PHP 취약점 사태는 인터넷 인프라의 허술함을 다시 드러냈다.</p>
   </section>
 
   <section class="news">
@@ -31,135 +31,125 @@ try { var saved = localStorage.getItem("theme"); if (saved) document.documentEle
     <h3>국내</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35927" target="_blank" rel="noopener">Node2Shell에서 HTTP2Shell로 확대, 다수 HTTP 라이브러리와 앱에 영향</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35985" target="_blank" rel="noopener">OpenAI, AI의 격리 탈출을 막는 모델 훈련 환경 보안 체계 공개</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Google Brotli 디코더에서 오류 반환값을 무시해 범위 밖 쓰기가 일어나는 취약점(CVE-2026-111497)이 확인됐다.</li><li>조작된 Brotli 데이터를 받기만 해도 메모리 손상과 정보 유출, 프로세스 중단이 가능하며 Node.js와 Python HTTP 클라이언트가 영향권이다.</li><li>Brotli 1.2.1 이상 등 수정 버전으로 올리고 컨테이너를 다시 빌드해야 하며, 급하면 Content-Encoding: br 본문을 프록시에서 막는다.</li>        </ul>
+<li>OpenAI가 AI의 샌드박스 탈출과 무단 인터넷 접속을 막는 훈련 환경 보안 체계를 공개했다.</li><li>9월 20일 연구 모델이 DNS 설정 오류로 인터넷에 접속한 사고가 있었고, 이후 최상위 모델의 훈련과 평가를 중단했다.</li><li>회사는 보안을 보완한 뒤 최상위 모델로 직접 방어 체계를 시험한 결과도 함께 발표했다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35889" target="_blank" rel="noopener">Google, Gmail과 Google Photos 데이터를 타깃 광고에 사용할 수도 있다고 밝힘</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35960" target="_blank" rel="noopener">C++26 투표 종료, 안타깝게도 부결됨</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>Google이 개인정보처리방침을 바꿔, 사용자가 허용하면 Gmail·Drive·Photos 데이터를 맞춤 광고에 쓸 수 있는 예외를 뒀다.</li><li>Personal Intelligence로 데이터를 AI Mode 등에 연결한 사용자는 그 내용에 기반한 광고를 볼 수 있다.</li><li>민감 범주 광고는 제외되며, 원치 않으면 앱 연결 해제나 개인화 추천 끄기로 막을 수 있다.</li>        </ul>
+<li>C++26 표준 승인 투표가 끝났지만 찬성률과 반대율 모두 승인 요건을 채우지 못해 부결됐다.</li><li>P-Members 찬성률은 60%로 필요한 66.66%에 미치지 못했다.</li><li>기권한 P-Members는 찬성률 계산에서 빠지며, 회원 기관 반대율은 41%로 집계됐다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35939" target="_blank" rel="noopener">덴마크 정부, MS Office 퇴출 계획을 조용히 철회</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35959" target="_blank" rel="noopener">Cohere, Rerank 5 공개 - 검색 결과 재정렬부터 문서 속 핵심 구절 추출까지</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>덴마크 디지털화부가 Microsoft Office를 오픈소스 Collabora로 바꾸는 시범사업을 조용히 중단했다.</li><li>2025년 여름 직원 40명 미만으로 시작한 사업으로, 참여자들은 글자 배치와 변경 추적 기능에서 불편을 겪었다고 한다.</li><li>호환성과 교육 비용 탓에 전환이 어렵다는 반응과, 대안 확보가 협상력에 도움이 된다는 의견이 갈렸다.</li>        </ul>
+<li>Cohere가 검색 결과를 질문과의 관련성에 따라 다시 정렬하는 Rerank 5를 공개했다.</li><li>품질 중심의 Pro와 속도·비용을 고려한 Fast, 두 가지 모델로 제공된다.</li><li>새 기능 Context Focus는 순위 매기기를 넘어 문서 안에서 질문에 필요한 핵심 구절까지 뽑아 준다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35911" target="_blank" rel="noopener">분산 SQLite의 12년</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35974" target="_blank" rel="noopener">삼성 TV, 몇 초마다 화면을 분석해 실행 중인 게임 식별 시도</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>2014년 rqlite가 Raft로 SQLite를 복제하며 시작된 분산 SQLite 분야가 12년간 이어진 흐름을 정리한 글이다.</li><li>설계는 강한 일관성의 합의형(rqlite, dqlite), 단일 노드 복구용 스트리밍(Litestream), 병합형(cr-sqlite)으로 갈라졌다.</li><li>투자는 Turso, Cloudflare D1 같은 관리형 서비스에 몰렸고 저자는 직접 운영하려면 rqlite를 고려하라고 한다.</li>        </ul>
+<li>삼성 TV가 몇 초마다 화면을 960×540 이미지로 처리해 사용자가 어떤 게임을 하는지 알아내려 한다는 사실이 확인됐다.</li><li>이 일에는 alex.tflite라는 TensorFlow Lite 모델이 쓰이며, INT8 양자화를 적용한 AlexNet 구조다.</li><li>TV 안에서 화면 내용을 주기적으로 분석한다는 점에서 프라이버시 논란이 예상된다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://news.hada.io/topic?id=35915" target="_blank" rel="noopener">OBS Studio 33 - 플러그인 로딩 구조 개편과 Arm64 NVENC 지원</a>
+        <a class="news-title" href="https://news.hada.io/topic?id=35934" target="_blank" rel="noopener">Roku 개발자 저장소, GitHub에서 GitLab으로 이전</a>
         <span class="source">GeekNews</span>
         <ul class="summary">
-<li>OBS Studio 33은 기본 플러그인을 새 core 폴더에 두도록 플러그인 로딩 구조를 개편했다.</li><li>기존 서드파티 경로는 34.0까지 지원되고 CEF는 127에서 150으로 올랐으며 Arm64에서 NVENC를 쓸 수 있다.</li><li>Ubuntu 24.04 지원이 끝나고 gs_image_file을 쓰는 플러그인은 호환이 깨지니 확인이 필요하다.</li>        </ul>
+<li>Roku가 모든 개발자 리소스를 GitLab으로 옮기는 작업을 마쳤다.</li><li>개발자 문서와 샘플 앱, 도구 저장소를 한 곳으로 통합했고 저장소 이름은 그대로다.</li><li>문서와 블로그 링크는 갱신됐지만 개발자가 따로 저장한 URL은 직접 고쳐야 한다.</li>        </ul>
       </li>
     </ol>
     <h3>해외</h3>
     <ol class="news-list">
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet" target="_blank" rel="noopener">PHP 종말론: 치명적인 웹 버그 두 건이 인터넷을 거의 무너뜨릴 뻔한 과정</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet" target="_blank" rel="noopener">인터넷의 허술한 인프라를 AI가 드러낼까?</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">PHP-ocalypse: How two critical web bugs almost broke the internet</p>        <ul class="summary">
-<li>인증 없이 원격에서 PHP 서버를 장악할 수 있는 치명적 취약점 두 건(CVE-2026-109618, 109619)이 공개됐다.</li><li>PHP는 웹사이트의 약 70%에 쓰여 은행과 병원, 정부 기관이 서버를 내리고 패치했으며 패치 공개 전부터 실제 악용이 보고됐다.</li><li>아직 패치하지 않은 시스템이 많고, AI로 오래된 소프트웨어의 결함을 찾기 쉬워져 비슷한 사고가 이어질 것이라는 경고가 나온다.</li>        </ul>
+<p class="original-title">Will AI expose the rickety infrastructure of the internet?</p>        <ul class="summary">
+<li>PHP에서 오래 숨어 있던 취약점이 발견돼 사이트 운영자들에게 즉시 패치하거나 사이트를 내리라는 경고가 나왔다.</li><li>OpenAI와 Wiz의 연구자들이 취약점을 찾았고 AI를 이용해 악용 가능성을 확인했으며, PHP는 워드프레스·드루팔 등 웹의 상당 부분을 떠받친다.</li><li>공개 전부터 수백만 건의 공격 시도가 관측돼, 인터넷이 허술한 기반 위에 서 있다는 논의가 커졌다.</li>        </ul>
       </li>
       <li class="news-item">
-        <a class="news-title" href="https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks" target="_blank" rel="noopener">OpenAI, 위험을 이유로 AI 모델을 더는 실제 인터넷으로 학습시키지 않겠다고 밝혀</a>
+        <a class="news-title" href="https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human" target="_blank" rel="noopener">Block의 새 음성 모델, 사람처럼 들린다</a>
         <span class="source">TechCrunch</span>
-<p class="original-title">OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”</p>        <ul class="summary">
-<li>OpenAI는 앞으로 모델을 저장된 웹 스냅샷과 모의 인터넷 환경에서 학습시키겠다고 발표했다.</li><li>9월 20일까지 한 최신 모델이 설정 오류를 이용해 실제 인터넷에 접근했고, 그 여파로 한 달간 학습을 멈췄다.</li><li>Anthropic도 약 2주 전 비슷한 제한을 뒀으며, 전직 연구원은 학습을 인터넷과 격리하는 일에 큰 비용이 든다고 지적했다.</li>        </ul>
+<p class="original-title">Block&#39;s new voice model sounds eerily human</p>        <ul class="summary">
+<li>Block이 웃음, 쉼, 울음 같은 표현까지 내는 음성 모델 Dessa를 내놓았다.</li><li>말하면서 동시에 듣는 방식으로 설계됐고, 별도 언어 모델 없이 사람의 대화 음성으로 학습했다고 한다.</li><li>MacBook M4 Max 같은 소비자용 기기에서도 돌아가지만 아직 공개되지 않았고, 속임수 악용 여부를 안전 연구자들이 시험 중이다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist" target="_blank" rel="noopener">AI는 대부분 기업에 &#39;재무적 이득이 전혀 없다&#39;, Apollo 이코노미스트 주장</a>
+        <span class="source">TechCrunch</span>
+<p class="original-title">AI delivers &#39;zero financial payoff&#39; to most companies, Apollo economist says</p>        <ul class="summary">
+<li>Apollo의 수석 이코노미스트 토르스텐 슬록은 AI가 기술 업계 밖 기업에는 재무적 성과를 주지 못했다고 주장했다.</li><li>대형 기술주 7곳을 뺀 S&amp;P 493의 이익률과 직원당 매출이 변하지 않았다는 분석이 근거다.</li><li>그는 비기술 기업이 가까운 시일에 값싸진 AI 역량을 더 높은 매출과 이익으로 바꾸기 어렵다고 본다.</li>        </ul>
+      </li>
+      <li class="news-item">
+        <a class="news-title" href="https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey" target="_blank" rel="noopener">Grok, AI로 만든 &#39;오디세이&#39;의 첫 7분 공개</a>
+        <span class="source">TechCrunch</span>
+<p class="original-title">Grok releases the first seven minutes of its AI-generated &#39;Odyssey&#39;</p>        <ul class="summary">
+<li>Grok이 Grok Imagine으로 만든 &#39;오디세이&#39; 시리즈의 1화 7분 분량을 공개했다.</li><li>Wonder Studios와 감독 Dev Walker가 참여했으며, 머스크가 예고한 지 약 석 달 만이다.</li><li>TechCrunch는 일부 장면이 실제처럼 보이지만 예술성과 인간적 흥미가 부족하다고 평했다.</li>        </ul>
       </li>
     </ol>
   </section>
 
   <section class="tech">
     <h2>오늘의 기술</h2>
-    <h3 class="tech-title">RAG(검색 증강 생성)</h3>
+    <h3 class="tech-title">JWT</h3>
     <p class="tech-meta">
-      <span class="badge">커리큘럼 #14</span>
-      <span>AI/ML</span>
+      <span class="badge">커리큘럼 #15</span>
+      <span>보안</span>
       <span>⏱ 6분</span>
     </p>
-    <p class="definition">RAG는 질문과 관련된 문서를 먼저 검색한 뒤, 그 내용을 근거로 LLM이 답을 생성하게 하는 기법이다.</p>
+    <p class="definition">**JWT(JSON Web Token)**는 사용자 정보와 권한 같은 주장(claim)을 JSON으로 담고 서명을 붙여, 서버가 상태를 저장하지 않고도 검증할 수 있게 한 토큰 형식이다 (RFC 7519).</p>
     <h4>왜 필요한가</h4>
-    <p>LLM은 학습이 끝난 시점까지의 지식만 갖고 있고, 모르는 내용도 그럴듯하게 지어내는 <strong>환각(hallucination)</strong> 문제가 있습니다. 회사 내부 문서나 어제 나온 소식처럼 학습 데이터에 없는 정보는 아예 알지 못합니다.</p>
-<p>모델을 새 데이터로 다시 학습(파인튜닝)시키는 방법도 있지만, 비용이 크고 내용이 바뀔 때마다 반복해야 합니다. 또 어떤 문서를 근거로 답했는지 확인하기도 어렵습니다. RAG는 모델은 그대로 두고 <strong>필요한 자료를 질문 시점에 건네주는</strong> 방식으로 이 불편을 줄입니다. 문서만 갱신하면 답도 최신으로 바뀌고, 답변에 출처를 달 수 있다는 점이 큰 장점입니다.</p>
+    <p>전통적인 로그인은 서버가 세션 ID를 만들어 메모리나 DB에 저장하고, 요청마다 그 ID로 사용자를 찾아 보는 <strong>세션 방식</strong>이다. 서버가 한 대일 때는 단순하지만, 서버가 여러 대로 늘면 세션 저장소를 공유해야 하고 요청마다 조회 비용이 든다.</p>
+<p>JWT는 "누구인지"를 토큰 자체에 담고 서명으로 위조를 막는다. 어느 서버든 비밀 키(또는 공개 키)만 있으면 저장소 조회 없이 토큰을 검증할 수 있어, 서버를 수평 확장하거나 여러 서비스가 같은 로그인 정보를 공유하기 쉽다.</p>
     <h4>동작 원리</h4>
-    <p>RAG 시스템은 크게 준비 단계와 질의 단계로 나뉩니다.</p>
-<p><strong>준비 단계 (인덱싱)</strong></p>
+    <p>JWT는 점(<code>.</code>)으로 이어진 세 부분으로 이루어진다: <code>header.payload.signature</code>. 각 부분은 Base64URL로 인코딩된다.</p>
 <ol>
-<li>문서를 수백 토큰 정도의 <strong>청크(chunk)</strong> 로 나눕니다. 너무 길면 검색이 흐려지고, 너무 짧으면 맥락이 사라집니다.</li>
-<li>각 청크를 임베딩 모델에 넣어 의미를 담은 숫자 벡터로 바꿉니다. 의미가 비슷한 글은 벡터 공간에서 가까운 위치에 놓입니다.</li>
-<li>벡터와 원문을 벡터 데이터베이스(또는 벡터 검색을 지원하는 DB)에 저장합니다.</li>
+<li><strong>Header</strong>: 서명 알고리즘과 토큰 종류를 적는다. 예: <code>{"alg":"HS256","typ":"JWT"}</code></li>
+<li><strong>Payload</strong>: 클레임을 담는다. <code>sub</code>(사용자 식별자), <code>iat</code>(발급 시각), <code>exp</code>(만료 시각) 같은 표준 클레임과 <code>role</code> 같은 사용자 정의 클레임이 있다.</li>
+<li><strong>Signature</strong>: <code>Base64URL(header) + "." + Base64URL(payload)</code>를 비밀 키로 서명한 값이다. HS256은 대칭 키 HMAC, RS256은 개인 키로 서명하고 공개 키로 검증한다.</li>
+<li>로그인에 성공하면 서버가 JWT를 발급하고, 클라이언트는 이후 요청의 <code>Authorization: Bearer &lt;토큰&gt;</code> 헤더에 담아 보낸다.</li>
+<li>서버는 서명을 다시 계산해 일치하는지, <code>exp</code>가 지나지 않았는지 확인한 뒤 payload를 신뢰한다.</li>
 </ol>
-<p><strong>질의 단계</strong></p>
-<ol>
-<li>사용자의 질문도 같은 임베딩 모델로 벡터로 바꿉니다.</li>
-<li>저장된 벡터 중 질문과 가장 가까운 상위 k개 청크를 찾습니다. 보통 코사인 유사도를 씁니다.</li>
-<li>찾은 청크를 "아래 자료만 근거로 답하라"는 지시와 함께 프롬프트에 붙입니다.</li>
-<li>LLM이 이 프롬프트로 답을 생성하고, 사용한 청크의 출처를 함께 보여 줍니다.</li>
-</ol>
-<p>검색 품질이 곧 답변 품질입니다. 키워드 검색(BM25)과 벡터 검색을 섞는 하이브리드 검색이나, 가져온 후보를 다시 정렬하는 리랭커를 더해 정확도를 높이기도 합니다.</p>
+<p>중요한 점은 payload가 <strong>암호화가 아니라 인코딩</strong>일 뿐이라는 것이다. 누구나 디코딩해 내용을 읽을 수 있고, 서명은 "변조되지 않았음"만 보장한다. 그래서 비밀번호 같은 민감 정보는 넣지 않는다.</p>
     <h4>예시</h4>
-    <p>아래는 외부 라이브러리 없이 RAG의 뼈대만 보여 주는 파이썬 예시입니다. 실제 서비스에서는 단어 횟수 대신 임베딩 모델을 쓰지만, 흐름은 같습니다. 문서를 벡터로 바꾸고, 질문과 가장 비슷한 문서를 골라, 프롬프트를 조립합니다.</p>
-<pre><code class="language-python">import math
-from collections import Counter
+    <p>Python의 PyJWT 라이브러리로 토큰을 발급하고 검증하는 예시다. 만료 시간을 15분으로 두고, 검증할 때 허용할 알고리즘을 반드시 명시한다.</p>
+<pre><code class="language-python">import datetime as dt
+import jwt  # pip install PyJWT
 
-docs = [
-    &quot;환불은 구매 후 7일 이내에 고객센터에서 신청할 수 있다.&quot;,
-    &quot;배송은 결제 완료 후 평균 2일이 걸린다.&quot;,
-    &quot;회원 탈퇴는 설정 메뉴의 계정 항목에서 가능하다.&quot;,
-]
+SECRET = &quot;change-me-to-a-long-random-secret&quot;
 
-def embed(text):
-    # 데모용 가짜 임베딩: 글자 2개씩 묶은 조각의 개수
-    t = text.replace(&quot; &quot;, &quot;&quot;)
-    return Counter(t[i:i + 2] for i in range(len(t) - 1))
+def issue_token(user_id: str) -&gt; str:
+    now = dt.datetime.now(dt.timezone.utc)
+    payload = {&quot;sub&quot;: user_id, &quot;iat&quot;: now, &quot;exp&quot;: now + dt.timedelta(minutes=15)}
+    return jwt.encode(payload, SECRET, algorithm=&quot;HS256&quot;)
 
-def cosine(a, b):
-    dot = sum(a[k] * b[k] for k in a)
-    na = math.sqrt(sum(v * v for v in a.values()))
-    nb = math.sqrt(sum(v * v for v in b.values()))
-    return dot / (na * nb) if na and nb else 0.0
+def verify_token(token: str) -&gt; str:
+    # algorithms를 지정하지 않으면 공격자가 alg를 바꿔 검증을 우회할 수 있다
+    claims = jwt.decode(token, SECRET, algorithms=[&quot;HS256&quot;])
+    return claims[&quot;sub&quot;]
 
-index = [(d, embed(d)) for d in docs]
-
-question = &quot;환불은 언제까지 신청해야 하나요?&quot;
-q = embed(question)
-top = sorted(index, key=lambda x: cosine(q, x[1]), reverse=True)[:1]
-
-context = &quot;\n&quot;.join(d for d, _ in top)
-prompt = f&quot;아래 자료만 근거로 답하세요.\n[자료]\n{context}\n\n[질문]\n{question}&quot;
-print(prompt)  # 이 프롬프트를 LLM에 보낸다
+token = issue_token(&quot;user-42&quot;)
+print(verify_token(token))  # user-42
 </code></pre>
-<p>실행하면 환불 문서가 선택되어 프롬프트에 들어갑니다. 이제 이 프롬프트를 어떤 LLM API에 보내도, 모델은 "7일 이내"라는 근거를 보고 답할 수 있습니다.</p>
+<p><code>jwt.decode</code>는 서명이 틀리거나 <code>exp</code>가 지났으면 예외를 던지므로, 호출하는 쪽에서 <code>jwt.InvalidTokenError</code>를 잡아 401 응답으로 바꾸면 된다.</p>
     <h4>언제 쓰고 언제 안 쓰나</h4>
-    <p><strong>쓰면 좋은 경우</strong></p>
-<ul>
-<li>사내 문서, 제품 매뉴얼, 법령처럼 모델이 모르는 자료로 질의응답을 만들 때</li>
-<li>자주 바뀌는 정보를 다루고 매번 재학습하기 어려울 때</li>
-<li>답변에 출처를 달아 사용자가 직접 검증하게 해야 할 때</li>
-</ul>
-<p><strong>피해야 할 경우</strong></p>
-<ul>
-<li>자료가 짧아서 통째로 프롬프트에 넣어도 충분할 때는 검색 단계가 오히려 복잡도만 늘립니다.</li>
-<li>말투나 형식처럼 모델의 <strong>행동 방식</strong>을 바꾸려는 목적이라면 RAG보다 프롬프트 설계나 파인튜닝이 맞습니다.</li>
-<li>접근 권한이 다른 문서를 한 인덱스에 섞으면 권한 없는 사람에게 내용이 새어 나갈 수 있으니 검색 단계에서 권한을 걸러야 합니다.</li>
-<li>검색이 엉뚱한 청크를 가져오면 모델이 그 내용을 그대로 믿고 틀린 답을 하므로, 검색 품질을 따로 평가해야 합니다.</li>
-</ul>
+    <p><strong>쓰면 좋은 경우</strong>
+- 여러 서버·마이크로서비스가 세션 저장소 없이 같은 인증 정보를 검증해야 할 때
+- 짧은 수명의 접근 토큰이 필요한 API, 모바일 앱, 서비스 간 호출
+- OAuth 2.0 / OpenID Connect에서 ID 토큰 형태로 쓸 때</p>
+<p><strong>피해야 할 경우</strong>
+- 발급한 토큰을 즉시 폐기해야 하는 요구가 강할 때. 서명 방식은 만료 전까지 유효하므로, 폐기하려면 결국 블랙리스트 같은 서버 상태가 필요하다.
+- 토큰에 민감한 정보를 담으려 할 때. payload는 누구나 읽을 수 있다.
+- 단순한 단일 서버 웹사이트. 서버 세션과 쿠키가 더 단순하고 안전한 경우가 많다.</p>
+<p>실무 팁: 접근 토큰은 짧게(수 분~수십 분) 유지하고 긴 수명의 리프레시 토큰을 따로 두며, 브라우저에서는 <code>HttpOnly</code> 쿠키에 담아 XSS로 탈취되는 위험을 줄인다. 서명 알고리즘은 항상 서버에서 고정하고, <code>alg: none</code> 토큰은 거부한다.</p>
     <h4>더 읽을거리</h4>
     <ul class="further">
-<li><a href="https://arxiv.org/abs/2005.11401" target="_blank" rel="noopener">Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (RAG 원 논문)</a></li>    </ul>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc7519" target="_blank" rel="noopener">RFC 7519 - JSON Web Token (JWT)</a></li>    </ul>
   </section>
 
   <footer class="notes">
-<p>일부 소스 수집 실패: 우아한형제들 기술블로그(HTTP 403)</p><p>해외 후보 중 원문을 열 수 없는 기사(Ars Technica 등)는 제외해 해외 뉴스가 2건뿐임</p><p>further_reading 주소는 외부 도메인 접속이 막혀 열리는지 확인하지 못함</p>  </footer>
+<p>일부 소스 수집 실패: 우아한형제들 기술블로그 (HTTP 403)</p><p>further_reading 링크는 네트워크 제한으로 열림을 확인하지 못함 (RFC 7519 공식 주소를 사용)</p><p>해외 기사 중 원문을 열 수 없던 후보는 제외함</p>  </footer>
 </main>
 <script>
 document.querySelector(".theme-toggle").addEventListener("click", function () {
