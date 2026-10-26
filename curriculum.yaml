@@ -62,7 +62,7 @@ topics:
 - id: garbage-collection
   title: 가비지 컬렉션
   category: 언어/도구
-  covered_on: null
+  covered_on: '2026-10-27'
 - id: cors
   title: CORS
   category: 웹
