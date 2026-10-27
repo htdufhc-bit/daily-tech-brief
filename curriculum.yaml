@@ -66,7 +66,7 @@ topics:
 - id: cors
   title: CORS
   category: 웹
-  covered_on: null
+  covered_on: '2026-10-28'
 - id: nosql-types
   title: NoSQL의 종류
   category: 데이터베이스
