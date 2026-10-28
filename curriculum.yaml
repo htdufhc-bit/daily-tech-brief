@@ -70,7 +70,7 @@ topics:
 - id: nosql-types
   title: NoSQL의 종류
   category: 데이터베이스
-  covered_on: null
+  covered_on: '2026-10-29'
 - id: https-tls
   title: HTTPS와 TLS
   category: 네트워크
