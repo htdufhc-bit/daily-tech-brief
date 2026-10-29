@@ -74,7 +74,7 @@ topics:
 - id: https-tls
   title: HTTPS와 TLS
   category: 네트워크
-  covered_on: null
+  covered_on: '2026-10-30'
 - id: deadlock
   title: 데드락
   category: 운영체제
