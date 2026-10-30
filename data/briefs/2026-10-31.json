@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-31",
+  "headline": "알파벳 주가 13% 폭락과 북한 연계 바이낸스 63억 달러 해킹이 AI 투자 거품 우려와 보안 위기를 동시에 부각했다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "하늘길 앞에서 끊긴 통신망…인천공항 제1터미널 3곳 발권 업무 중단",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261030000261",
+      "summary": [
+        "30일 오전 4시30분쯤 인천공항에서 항공권 발권 시스템을 잇는 네트워크에 장애가 발생했다.",
+        "1터미널 8개, 2터미널 5개 등 13개 항공사에서 통신이 간헐적으로 끊겨 출국 수속이 지연됐다.",
+        "이 가운데 1터미널 항공사 3곳은 발권 업무가 한때 중단돼 현장 혼선이 이어졌다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "'최악의 하루' 구글 알파벳, 하루 새 시총 670조원 증발… 주가 13% 폭락",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261030000077",
+      "summary": [
+        "알파벳 주가가 29일(현지시간) 12.64% 급락한 283.82달러로 마감해 2004년 상장 이후 최악의 하락률을 기록했다.",
+        "AI 인프라에 막대한 돈을 쏟았지만 핵심 수익원인 검색 광고의 성장세가 시장 기대에 못 미친 것이 원인으로 풀이된다.",
+        "AI 투자 부담에 대한 투자자들의 우려가 빅테크 전반으로 퍼질 수 있다는 분석이 나온다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "현대차그룹, 새만금 9조 AI 밸리 본격화…데이터센터 착수·현장사무소 개소",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261030000197",
+      "summary": [
+        "현대차그룹이 약 9조 원 규모 '새만금 AI 밸리'의 핵심인 AI 데이터센터 건립에 본격 착수했다.",
+        "현대차·기아·현대모비스·현대건설·현대오토에버 등 주요 계열사가 투자 참여를 최종 결정했다.",
+        "11월에는 하이퍼스케일 인프라를 맡는 데이터센터 SPC를 포함해 사업 전담 법인 두 곳이 출범한다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "요즘IT",
+      "title": "AI 에이전트 비용, 모델 라우팅으로 얼마나 줄까(Liner Router API 실측기)",
+      "original_title": null,
+      "url": "https://yozm.wishket.com/magazine/detail/4015",
+      "summary": [
+        "AI 에이전트는 도구를 실행할 때마다 지금까지의 대화를 모델에 다시 보내 토큰과 비용이 빠르게 늘어난다.",
+        "쿠버네티스 장애 대응 벤치마크에 라우팅 API를 붙여 모델 차이가 큰 장애 10개로 다시 측정했다.",
+        "그 결과 품질은 상위 모델과 비슷했고 비용은 28% 수준에 그쳤다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "요즘IT",
+      "title": "AI 진단의 신뢰도를 높인 건 AI에게 덜 맡기는 것이었다",
+      "original_title": null,
+      "url": "https://yozm.wishket.com/magazine/detail/4014",
+      "summary": [
+        "같은 페이지를 세 번 돌렸더니 점수가 72점, 85점, 61점으로 달라져 고객이 신뢰하기 어려웠다.",
+        "그래서 확인 가능한 사실은 코드가 판정하고, 판단이 필요한 부분만 좁은 질문으로 AI에게 맡겼다.",
+        "신뢰는 AI를 완벽하게 만드는 데서가 아니라 AI가 틀려도 되는 곳과 안 되는 곳을 나누는 데서 나왔다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "북한 해커, 바이낸스에서 사상 최대 63억 달러 탈취 혐의",
+      "original_title": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
+      "url": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach",
+      "summary": [
+        "보안 업체들은 북한 연계 그룹이 바이낸스 지갑에서 최소 63억 달러의 암호화폐를 훔쳤다고 보고 있다.",
+        "바이낸스에 따르면 공격자는 엔지니어의 노트북을 장악해 서비스 컨테이너에 접근한 뒤 무단 출금을 요청했고, 약 3십억 달러가 동결됐다.",
+        "바이낸스는 입출금을 중단하고 조사 중이며, 노트북이 어떻게 뚫렸는지는 아직 밝혀지지 않았다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "애플비스, 앱에 DB 비밀번호를 남겨 고객 개인정보 노출",
+      "original_title": "Applebee's exposed customers' personal data after leaving database password in app",
+      "url": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app",
+      "summary": [
+        "애플비스 안드로이드 앱에 데이터베이스 비밀번호가 코드에 그대로 박혀 있어 고객 정보에 제한 없이 접근할 수 있었다.",
+        "이름, 이메일, 생년월일, 전화번호, IP 주소 등이 노출됐고 영향을 받은 고객 수는 알려지지 않았다.",
+        "회사는 취약점을 고쳤으며 무단 접근 흔적은 찾지 못했다고 밝혔고, 조사는 계속 중이다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "구글의 첫 데이터센터 위성이 가동되어 시를 쓰다",
+      "original_title": "Google's first data center satellite is online and writing poetry",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry",
+      "summary": [
+        "구글의 우주 데이터센터 시제품 위성이 지상과 통신을 시작했고, TPU 4개로 제미나이 계열 모델 Gemma 4를 돌려 첫 응답을 보냈다.",
+        "한 번에 TPU 하나만, 세션당 20분 정도 가동할 수 있으며 열 스트레스와 방사선으로 인한 비트 플립을 시험한다.",
+        "성능이 좋으면 2027년에 전력과 위성 간 광통신을 강화한 위성 두 기를 더 띄울 계획이다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "AWS는 1조 달러 사업이 될 것이라는 재시 CEO, 하지만 먼저 큰돈을 쓴다",
+      "original_title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big",
+      "summary": [
+        "앤디 재시 CEO는 AWS가 5~10년 안에 연 매출 1조 달러 사업이 될 수 있다고 밝혔다.",
+        "AWS 매출은 전년 대비 39% 늘었고 연환산 매출 규모는 1,840억 달러이며, 2026년 설비투자는 약 2,200억 달러로 예상된다.",
+        "투자자들은 회의적이어서 아마존 주가는 시간외 거래에서 약 6% 하락했다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "deadlock",
+    "title": "데드락",
+    "category": "운영체제",
+    "pick": "curriculum",
+    "reading_minutes": 5,
+    "sections": {
+      "definition": "데드락(교착 상태)은 둘 이상의 작업이 서로가 가진 자원을 기다리느라 영원히 진행하지 못하는 상태다.",
+      "why": "여러 스레드나 프로세스가 같은 자원(파일, DB 행, 락)을 함께 쓰려면 **상호 배제**가 필요하고, 그래서 락이 생겼다. 그런데 락을 여러 개 쓰기 시작하면 새로운 문제가 생긴다. 서로 상대가 쥔 락을 기다리면 둘 다 영영 깨어나지 못한다.\n\n데드락은 에러 메시지 없이 프로그램이 그냥 멈춘다는 점이 까다롭다. CPU 사용률도 낮고 로그도 조용해서 원인을 찾기 어렵다. 그래서 발생 조건을 이해하고 설계 단계에서 피하는 것이 중요하다.\n\n인천공항 발권 시스템처럼 여러 시스템이 얽힌 환경에서도 자원 대기 문제는 장애의 흔한 원인이다.",
+      "how": "데드락은 아래 **네 가지 조건**이 동시에 성립할 때만 발생한다 (코프만 조건).\n\n1. **상호 배제**: 자원을 한 번에 한 작업만 쓸 수 있다.\n2. **점유와 대기**: 자원을 하나 쥔 채로 다른 자원을 기다린다.\n3. **비선점**: 다른 작업이 쥔 자원을 강제로 빼앗을 수 없다.\n4. **순환 대기**: A는 B를, B는 A를 기다리는 식으로 대기가 원을 이룬다.\n\n동작 예시는 이렇다.\n\n1. 스레드 1이 락 A를 얻는다.\n2. 스레드 2가 락 B를 얻는다.\n3. 스레드 1이 락 B를 요청하지만 스레드 2가 쥐고 있어 기다린다.\n4. 스레드 2가 락 A를 요청하지만 스레드 1이 쥐고 있어 기다린다.\n5. 둘 다 상대가 놓아 주기를 기다리며 영원히 멈춘다.\n\n네 조건 중 **하나만 깨도** 데드락은 생기지 않는다. 가장 현실적인 방법은 순환 대기를 깨는 것으로, 모든 스레드가 락을 항상 같은 순서로 얻도록 약속한다. 그 밖에 타임아웃을 두고 실패하면 가진 락을 놓고 재시도하거나(점유와 대기 완화), 데이터베이스처럼 데드락을 감지해 한쪽 트랜잭션을 강제로 롤백하는 방법(비선점 완화)이 있다.",
+      "example": "아래 파이썬 코드는 두 스레드가 락을 반대 순서로 잡아 데드락이 생기는 상황이다. 실행하면 두 스레드가 서로를 기다리며 멈춘다.\n\n```python\nimport threading, time\n\nlock_a = threading.Lock()\nlock_b = threading.Lock()\n\ndef worker1():\n    with lock_a:\n        time.sleep(0.1)\n        with lock_b:\n            print(\"worker1 done\")\n\ndef worker2():\n    with lock_b:\n        time.sleep(0.1)\n        with lock_a:\n            print(\"worker2 done\")\n\nt1 = threading.Thread(target=worker1)\nt2 = threading.Thread(target=worker2)\nt1.start(); t2.start()\nt1.join(); t2.join()\n```\n\n고치는 방법은 두 스레드 모두 `lock_a`를 먼저, `lock_b`를 나중에 잡도록 순서를 통일하는 것이다. 이렇게 하면 순환 대기가 사라진다.\n\n```python\ndef worker2():\n    with lock_a:      # 순서를 worker1과 똑같이 맞춘다\n        time.sleep(0.1)\n        with lock_b:\n            print(\"worker2 done\")\n```",
+      "when": "**알아 두면 좋은 경우**: 락을 두 개 이상 동시에 쥐는 코드를 쓸 때, DB 트랜잭션에서 여러 행을 갱신할 때, 서비스끼리 서로를 호출하며 대기하는 구조를 설계할 때.\n\n**피하는 방법**: 가능하면 락을 하나만 쓰거나 락 범위를 짧게 유지한다. 여러 락이 필요하면 전역 순서를 정하고, 락 안에서 외부 호출처럼 오래 걸리는 작업을 하지 않는다. 타임아웃이 있는 락 획득(`acquire(timeout=...)`)도 안전망이 된다.\n\n**주의**: 운영체제가 데드락을 막으려고 모든 상황을 검사하면 비용이 크기 때문에, 일반 운영체제는 대개 데드락을 직접 막지 않고 개발자에게 맡긴다(타조 알고리즘). 반면 DB는 데드락을 감지해 한쪽을 롤백한다. 롤백된 트랜잭션은 재시도하도록 코드를 작성해야 한다.",
+      "further_reading": [
+        {
+          "title": "Python threading 공식 문서",
+          "url": "https://docs.python.org/3/library/threading.html"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: GeekNews, 카카오 기술블로그, 우아한형제들 기술블로그",
+    "전자신문 원문 페이지는 네트워크 제한으로 열지 못해 피드 요약을 근거로 작성함",
+    "참고 자료 링크(docs.python.org)는 네트워크 제한으로 열림 여부를 확인하지 못함"
+  ]
+}

@@ -78,7 +78,7 @@ topics:
 - id: deadlock
   title: 데드락
   category: 운영체제
-  covered_on: null
+  covered_on: '2026-10-31'
 - id: ci-cd
   title: CI/CD 파이프라인
   category: 클라우드/인프라
