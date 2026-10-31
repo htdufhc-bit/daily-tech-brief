@@ -82,7 +82,7 @@ topics:
 - id: ci-cd
   title: CI/CD 파이프라인
   category: 클라우드/인프라
-  covered_on: null
+  covered_on: '2026-11-01'
 - id: embedding-vector-db
   title: 임베딩과 벡터 DB
   category: AI/ML
