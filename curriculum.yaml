@@ -86,7 +86,7 @@ topics:
 - id: embedding-vector-db
   title: 임베딩과 벡터 DB
   category: AI/ML
-  covered_on: null
+  covered_on: '2026-11-02'
 - id: owasp-top10
   title: OWASP Top 10
   category: 보안
