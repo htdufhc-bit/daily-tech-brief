@@ -90,7 +90,7 @@ topics:
 - id: owasp-top10
   title: OWASP Top 10
   category: 보안
-  covered_on: null
+  covered_on: '2026-11-03'
 - id: regex
   title: 정규표현식
   category: 언어/도구
