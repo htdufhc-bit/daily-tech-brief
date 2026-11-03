@@ -1,0 +1,967 @@
+{
+  "date": "2026-11-04",
+  "items": [
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "직접 만든 Claude 비서 3주, Duet과 뭐가 다를까",
+      "url": "https://yozm.wishket.com/magazine/detail/4022",
+      "published": null,
+      "summary": "10월 21일 Anthropic이 AI 비서 Claude Duet을 리서치 프리뷰로 공개하기 전부터, 저는 이미 Claude 예약 작업과 Chrome 확장, Jira·Notion 커넥터로 비슷한 비서를 만들어 쓰고 있었습니다. 지난 3주 동안 제 비서는 어디에서 얼마나 똑똑했고, 어디에서 얼마나 멍청한 실수를 저질렀을까요? 실행 23회 중 발견한 실수 6건과 그 원인, 어디까지 알아서 하게 둘지 정한 승인 기준, 그리고 Claude Duet·ChatGPT·Gemini·Copilot Cowork와 비교한 자동화 범위까지 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "인하우스 IT 기획자가 AI로 대시보드 만들며 배운 4가지",
+      "url": "https://yozm.wishket.com/magazine/detail/4021",
+      "published": null,
+      "summary": "'솔루션 업체에 가능한지부터 확인해 봐야 한다.' 인하우스 IT 조직에서 일하다 보면 자주 듣는 말입니다. 개발 리소스를 기다리는 대신, 기획자가 VS Code와 클로드 코드로 테이블 100개 가까운 레거시 DB를 뒤져 홈페이지·앱 직판 예약 데이터 대시보드를 직접 만들었는데, 정작 가장 오래 걸린 건 코드가 아니라 검증이었습니다. 구현엔 2일, 검증엔 2주. 데이터 구조를 이해하는 법부터 AI가 짠 쿼리를 검증하는 법까지, 만들며 배운 4가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "Next.js 모바일 웹을 일주일 만에 앱으로 바꾼 방법 ②",
+      "url": "https://yozm.wishket.com/magazine/detail/4019",
+      "published": null,
+      "summary": "지난 1편은 빠르게 앱 POC를 만드는 데는 성공했지만, 바로 출시까지 가는 데는 실패했습니다. 마크다운 문서상으로는 화면이 다 올라와 있었지만, 막상 휴대폰으로 하나씩 눌러보니 SafeArea와 키보드, 터치 영역부터 겉모습은 같은데 어긋난 로직까지 문제가 한꺼번에 쏟아졌죠. “알림 화면이 있는 것”과 “푸시 알림이 오는 것”은 전혀 다른 문제였고, 스크린샷 비교만으로는 끝내 잡히지 않는 픽셀 단위 디자인 차이도 있었습니다. “앱 출시까지 2주면 된다”는 말을 직접 테스트해, 속도는 맞고 디테일은 틀렸다는 결론에 이른 기록입니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "코드 멀쩡한데 트래픽 떨어졌다면? 배포 전 SEO 장애 막는 품질 게이트 전략",
+      "url": "https://yozm.wishket.com/magazine/detail/4018",
+      "published": null,
+      "summary": "트래픽이 갑자기 떨어졌는데, 무엇이 바뀌었는지 아무도 모릅니다. SEO 담당자라면 익숙한 장면인데, 알고 보면 원인은 엔지니어가 코어 웹 바이탈을 고치다 title 태그를 엉뚱한 곳으로 옮긴 배포 한 번인 경우가 많습니다. 감사는 이미 벌어진 피해를 찾아낼 뿐이지만, 방식을 바꾸면 피해 자체를 막을 수 있다는 게 아스펜 그룹 조리 포드 시니어 디렉터의 제안입니다. '서치 서울 2026'에서 공개한, CI/CD 파이프라인에 title 태그·레이아웃 이동·스키마 마크업·canonical을 점검하는 품질 게이트 도입법을 전문으로 옮겼습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "모델이 그렇게 좋다면 오픈AI는 왜 직접 회사를 차리지 않을까",
+      "url": "https://yozm.wishket.com/magazine/detail/4017",
+      "published": null,
+      "summary": "모델이 그렇게 좋다면, 오픈AI는 왜 직접 회사를 차리지 않을까요? 해커뉴스에 올라온 이 질문에 750개 넘는 댓글이 달리며, 만드는 것보다 고객을 찾는 일이 더 어렵다는 답이 이어졌습니다. 여기에 상반기 매출 163억 달러를 밝힌 앤트로픽 상장 신청서(S-1)로 본 앤트로픽의 돈 버는 방식, 말 한마디로 제품 출시 영상을 만드는 AI 스킬 huashu-motion까지. 이번 주 프로덕트 메이커가 눈여겨볼 세 가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "국내 FDE 현황 조사 2026: 현장 FDE에게 직접 묻습니다",
+      "url": "https://yozm.wishket.com/magazine/detail/4016",
+      "published": null,
+      "summary": "FDE(Forward Deployed Engineer)라는 직무를 두고 시선이 엇갈립니다. 한쪽은 AI 시대의 새로운 직무로, 다른 한쪽은 새 이름을 단 컨설팅으로 보기도 하죠. 답은 실제로 이 일을 하는 사람들이 어디서 왔고, 또 어떻게 일하고 있는지에서 찾아야 합니다. 현재 요즘IT와 FDE·AX 엔지니어 커뮤니티 '비욘드디플로이'가 「국내 FDE 현황 조사 2026」을 진행하고 있습니다. FDE는 어디서 왔는지, 현장에서 만든 것은 어디에 남는지, 이 일을 계속하고 싶은지 등의 질문을 담았습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "세상에 나온 지 27년 된 책 '리팩터링'을 다시 펼치는 이유",
+      "url": "https://yozm.wishket.com/magazine/detail/4013",
+      "published": null,
+      "summary": "1999년 세상에 나온 책 이 2026년 기준 1판이 나온 지 햇수로 대략 27년이 됐다. 코드를 직접 생산하지 않는 변화된 개발 환경 속에서 동작하는 코드를 다시 고치는 법을 학습해야 하는 이유는 무엇일까? 코딩 에이전트에 일을 맡기기 전에 무엇이 높은 응집성이고 무엇이 느슨한 결합도인지 구분할 지식을 갖춰야 한다. 그렇지 않으면 초보자가 전문가를 이끄는 역전된 학습이 일어나고 인지적 부채만 쌓인다. 마틴 파울러의 과 켄트 벡의 를 다시 펼치며, AI 시대에도 변하지 않는 좋은 코드의 조건을 짚었다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "비개발자라면 이렇게 해보세요: 클로드 코드와 친해지기",
+      "url": "https://yozm.wishket.com/magazine/detail/4011",
+      "published": null,
+      "summary": "비개발자 기획자로서 직접 몸으로 부딪히며 터득한 바이브 코딩 실전 팁을 담았습니다. 클로드 코드를 무작정 따라 하기보다는 외부 서비스(Supabase, GitHub 등)와의 CLI 연동으로 작업을 자동화하고, 이해하기 어려운 개발 용어는 쉽게 풀거나, HTML·PNG 파일로 추출해 확인하는 노하우를 소개합니다. 파일 기반의 명확한 소통과 꼭 필요한 핵심 명령어, 단축키 활용법까지, 바이브 코딩을 시작하려는 비개발자분들을 위한 실전 가이드를 준비했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "LLM부터 MCP까지 ‘왜 필요한가’로 이해하는 AI 리터러시",
+      "url": "https://yozm.wishket.com/magazine/detail/4010",
+      "published": null,
+      "summary": "새로운 모델과 기능이 나올 때마다 찾아보고 써봤지만, 정작 업무에 뭘 써야 할지는 여전히 의문이었습니다. 나는 지금 AI라는 도구를 공부하고 있는 걸까, 아니면 일을 더 잘하고 싶어서 AI를 공부하고 있는 걸까. 이 질문에서 출발해 LLM, 프롬프트, 스킬, 에이전트, 루프, 할루시네이션, RAG, 청킹, 벡터화, API, MCP까지 11가지 개념을 업무 흐름 안에서 왜 필요한지로 다시 묶었습니다. 결국 AI를 잘 쓴다는 것도 기술을 많이 아는 일이 아니라, 내 업무에 무엇이 왜 필요한지 선택하는 일입니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "VSCode를 사용하다가 Orca로 옮긴 후기",
+      "url": "https://yozm.wishket.com/magazine/detail/4009",
+      "published": null,
+      "summary": "많은 사람이 코딩 에이전트를 터미널에서 사용하곤 합니다. VSCode에서 클로드 코드(Claude Code)나 코덱스(Codex)를 실행하면, 에이전트가 파일을 고치는 과정을 편집기에서 볼 수 있기 때문입니다. 하지만 문제는 두 번째 에이전트를 켤 때 생깁니다. 두 에이전트가 같은 디렉터리를 보고, 한쪽이 파일을 고치는 동안 다른 쪽도 같은 파일을 읽죠. 그러면 커밋할 때 어느 줄이 어느 작업의 결과인지 되짚어봐야 합니다. 그래서 찾아낸 도구가 오르카(Orca)입니다. 오르카에서는 작업마다 워크트리와 브랜치가 만들어지고 에이전트가 자기 폴더 안에서만 움직이면서 관리가 한결 가벼워졌습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "설치 없이 SQL·Java·Git·AWS 연습하는 웹 서비스 개발기",
+      "url": "https://yozm.wishket.com/magazine/detail/4008",
+      "published": null,
+      "summary": "저는 혼자서 학습하기 위해 데이터베이스를 설치하지 않고도, SQL을 연습할 수 있는 웹 서비스를 만들기 시작했습니다. 문제에 필요한 데이터를 미리 준비해 두고, 사용자가 브라우저에서 문제를 열면 곧바로 쿼리를 실행할 수 있게 했죠. 서비스를 공개하고 나니, SQL 외의 다른 기술도 복잡한 준비 없이 연습할 수 있게 만들고 싶어졌습니다. 이 글은 단순히 제가 만든 서비스를 소개하려고 쓴 글이 아닙니다. 대신 만드는 과정에서 설치 없이 연습하는 환경에서 학습자는 무엇을 배울 수 있고, 무엇은 배울 수 없을까? 화면에 성공 표시가 떴을 때, 그 성공은 무엇을 보증할까? 이 글에서는 이 질문들에 답하려고 내린 판단과, 그 판단 때문에 생긴 한계를 함께 정리해 보려고 합니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "LLM을 위한 자바스크립트 디버깅 ②: 페이지를 무너뜨리는 파일 찾기부터 AI처럼 접속해 보기까지",
+      "url": "https://yozm.wishket.com/magazine/detail/4007",
+      "published": null,
+      "summary": "여러분이 보고 있는 페이지가 LLM이 받는 페이지와 같지 않을 수 있습니다. 가져가지 못한 콘텐츠는 보이지 않으니까요. 테크니컬 SEO 컨설턴트 조너선 무어가 서치 서울 2026에서 소개한 디버깅 흐름의 나머지 세 단계, 네트워크 요청을 걸러내고 막아 범인 파일을 찾는 법부터 AI처럼 접속해 보는 사용자 에이전트 전환, 반복 확인을 맡기는 크롬 스니펫까지 정리했습니다. 페이지 템플릿, 전역 요소, 기술 스택, 서드파티 순으로 감사하는 원칙과 Sitebulb 같은 크롤러로 규모를 키우는 법까지 2회에 담았습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "LLM을 위한 자바스크립트 디버깅 ①: 크롬 개발자 도구로 AI 가시성 점검하기",
+      "url": "https://yozm.wishket.com/magazine/detail/4006",
+      "published": null,
+      "summary": "구글은 자바스크립트를 정말 잘 처리합니다. 하지만 챗GPT, 클로드, 제미나이 같은 LLM은 그렇지 않을 수 있다면, 자바스크립트는 젠가 탑의 블록 하나처럼 실패 지점이 됩니다. 블록 하나를 잘못 빼면 탑 전체가 무너지는 셈이죠. 테크니컬 SEO·애널리틱스 컨설턴트 조너선 무어는 서치 서울 2026 발표에서, 서버가 보낸 원본 HTML과 브라우저가 만든 DOM을 크롬 개발자 도구로 비교해 AI에게 보이지 않는 지점을 찾는 법을 정리했습니다. 디버깅 원칙과 도구 세팅, 텍스트 검색 방법까지 1회에 담았습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI 시대에 아이에게 무엇을 가르쳐야 할까",
+      "url": "https://yozm.wishket.com/magazine/detail/4005",
+      "published": null,
+      "summary": "AI 시대에 아이에게 무엇을 가르쳐야 할까요? 첫 아이를 기다리는 개발자 스티브 크라우스가 던진 질문에 해커뉴스에서 600개 넘는 댓글이 달리며 저마다의 답이 나왔습니다. 여기에 할 일을 먼저 챙겨서 알려주는 앤트로픽의 새 에이전트 클로드 듀엣, 클로드 코드와 Codex, 커서에서 함께 쓰는 플러그인 94개 모음까지. 이번 주 프로덕트 메이커가 눈여겨볼 세 가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "[AX일지]재고 안 맞는 유통사에서 AI가 할 수 있는 것",
+      "url": "https://yozm.wishket.com/magazine/detail/4004",
+      "published": null,
+      "summary": "구두를 파는 회사가 백화점에 매장을 냈는데, 무엇이 팔렸다는 기록은 백화점 컴퓨터에만 남고 회사 장부에는 저절로 들어오지 않습니다. 그래서 직원은 같은 판매 한 건을 장부 다섯 군데에 다시 적지만, 그래도 지금 재고가 몇 켤레인지 한 번에 답하는 곳은 어디에도 없습니다. 장부에 아예 없는 재고, 사람마다 다르게 세는 재고, 들어오기 전에 팔려 값도 모르는 재고까지 안 맞는 이유 세 가지와, 위시켓 AIDP가 AI보다 재고 정리를 먼저 택한 이유를 이 회사의 AX 일지로 담았죠."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "\"이 자료 넣어도 될까?\" 엄격한 보안 환경에서 도구를 만드는 일",
+      "url": "https://yozm.wishket.com/magazine/detail/4003",
+      "published": null,
+      "summary": "외부 프로그램 설치도, 파일을 올리는 온라인 서비스도 쓸 수 없는 보안 환경에서, 넉 달 넘게 직접 AI로 도구를 만들고 글을 쓰는 동안 나는 매번 같은 질문 앞에 섰다. 이 자료를 이 도구에 넣어도 되나? 나중에 결과물에서 이름을 지우겠다는 다짐은 방어가 되지 못한다. 지우는 일은 자료가 이미 나간 다음에 하는 일이기 때문이다. 이러한 보안 환경 속에서 넉 달간 AI 자동화 도구를 만들고 글을 연재하며 마주한 고민, 그리고 실무자가 자료를 다룰 때 지켜야 할 보안 및 활용 기준의 선을 어디에 그었는지 살펴보았다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "제품 출시 전 사용자 대신 디지털 트윈에게 물어보기: ‘august’ 사용기",
+      "url": "https://yozm.wishket.com/magazine/detail/4002",
+      "published": null,
+      "summary": "새로운 기능을 만들 때 가장 어려운 질문은 \"사용자가 정말 이 기능을 원할까?\"라는 질문입니다. 매번 사용자를 모집해 조사하기도 쉽지 않은데, august는 이 문제를 Digital Twin이라는 방식으로 접근합니다. 범용 AI 페르소나 대신, 실제 행동 데이터로 만든 합성 사용자 모델에게 신기능과 가격, 화면을 먼저 보여주고 반응을 확인하는 식이죠. PRD는 Claude에서, 목업은 Figma 플러그인으로, 코드 리뷰는 GitHub PR에서 바로 Twin의 피드백을 받을 수 있습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "Next.js 모바일 웹을 일주일 만에 앱으로 바꾼 방법 ①",
+      "url": "https://yozm.wishket.com/magazine/detail/4001",
+      "published": null,
+      "summary": "웹에서는 늘 보이던 알림창이 앱을 벗어나면 보이지 않는다는 VOC에, 이미 잘 돌아가는 모바일 웹을 기반으로 AI 에이전트에게 앱을 맡겨보기로 했습니다. 결과는 예상보다 좋아서 일주일 만에 POC 수준 이상의 앱이 나왔고, 지금은 QA를 거치는 중이죠. 다만 디자인만 맞춘다고 끝나지 않는 UI/UX 차이, 어긋난 로직, 푸시알림과 패스키 같은 네이티브 기능까지 겹치며 앱 출시까지 바로 가지는 못했습니다. Shopify가 다시 네이티브로 돌아가는 시점에 왜 React Native와 모노레포를 택했는지, 그 과정과 실패 이유까지 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "국내 FDE 현황 조사 2026: FDE의 실제 모습을 묻습니다",
+      "url": "https://yozm.wishket.com/magazine/detail/4000",
+      "published": null,
+      "summary": "AI 시대, 국내 FDE는 실제 현장에서 어떤 일을 하고 있을까요? 요즘IT와 한국 FDE·AX 엔지니어 커뮤니티 ‘비욘드디플로이’가 위시켓과 함께 ‘국내 FDE 현황 조사 2026’을 진행합니다. 국내 FDE의 실제 업무와 경험을 파악하기 위해 현업 엔지니어들의 이야기를 모으고 있습니다. 고객의 업무 문제를 AI로 해결하고, 실제 운영 환경에 적용해 본 경험이 있다면 설문에 참여해 주세요. 여러분의 경험이 국내 FDE의 현재를 이해하는 데 도움이 됩니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "기획서가 사라진 개발팀은 어떻게 일해야 할까?",
+      "url": "https://yozm.wishket.com/magazine/detail/3997",
+      "published": null,
+      "summary": "큰 틀로 나뉘던 개발 직군의 경계가 흐려지고 있다. 기획자가 코드를 짜고, 개발자가 UI 시안을 만들고, 아트가 프론트엔드를 맡는 게 당연해진 지금, 기획서를 AI로 써보고 목업부터 만들어본 두 번의 시행착오 끝에 결론은 하나였다. 넘기는 작업만 AI로 바꾸는 정도로는 파이프라인이 바뀌지 않는다는 것이다. 그래서 깃 워킹트리와 클로드 코드 세션을 연동한 도구를 직접 만들었고, 닷새 걸리던 마일리지·멤버십 개발을 사흘로 줄였다. 기획서도 목업도 아닌, 세 번째 시도에서 찾은 구조를 공유한다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "월 10달러 AI 코딩 플랜, 반복 작업에 써봤습니다",
+      "url": "https://yozm.wishket.com/magazine/detail/3996",
+      "published": null,
+      "summary": "평소 월 200달러 Codex CLI를 쓰다 부담이 적은 보조 플랜을 찾아봤습니다. OpenCode Go와 Command Code GOAT, 월 10달러 두 플랜에 같은 모델 GLM-5.3 Flash로 같은 TypeScript 도구를 맡기고, 가격 조건과 사용량 한도, 결과물을 공식 문서와 실제 기록으로 대조했습니다. 자체 테스트 48개는 모두 통과했는데, 그중 일부가 틀린 동작을 정답으로 승인하고 있었죠. 그래서 지금은 \"얼마나 많이 쓸 수 있는가\"보다 \"틀린 결과를 얼마나 빨리 발견하고 다시 이어갈 수 있는가\"를 더 현실적인 기준으로 봅니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "요즘IT 빌더나잇 후기: 배포는 안 했지만 매일 쓰는 도구 이야기",
+      "url": "https://yozm.wishket.com/magazine/detail/3995",
+      "published": null,
+      "summary": "종이 영수증 제출, 지난 회의록 뒤지기처럼 사소하지만 매일 쌓이는 귀찮은 일을 AI로 직접 해결한 사람들이 있습니다. 지난 10월 6일, 요즘IT가 노션과 함께 개최한 '빌더나잇: 로컬앱 자랑대회'에서는 본선에 오른 네 팀이, 배포하지는 않았지만 회사에서 매일 쓰는 도구를 소개했는데요. 식대 정산부터, 3년 치 업무 기록 자동화, 직접 만든 로컬 앱 4종, AI 도구를 팀에 정착시킨 시행착오까지, 그날의 생생한 현장을 후기로 전합니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "네이버 검색 알고리즘은 구글과 왜 다른가: 키워드 1,000개로 본 차이",
+      "url": "https://yozm.wishket.com/magazine/detail/3994",
+      "published": null,
+      "summary": "구글에서 통하는 SEO 원칙이 왜 네이버에서는 통하지 않을까요? 구글은 인터넷을 검색하지만, 네이버는 네이버를 검색한다는 게 핵심입니다. 키워드 1,000개를 직접 측정해 보니 자사 콘텐츠 비중이 구글 19%, 네이버 67%였고, 그 뒤에는 문서보다 '누가 썼는가'를 더 중요하게 보는 네이버만의 평가 기준이 있었습니다. 반전도 있습니다. 같은 키워드 790개에서는 네이버 블로그가 구글 1페이지에도 올라와 있었다는 겁니다. 블톡 황성원 대표가 12년간의 운영 경험과 측정 데이터로 두 검색엔진의 작동 원리와 운영 원칙을 정리했습니다."
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“평소와 다르게 짖더라니”…주인 부부 이끌고 얼음장 물에 빠진 이웃 구한 '영웅견'",
+      "url": "https://www.etnews.com/20261103000394",
+      "published": "2026-11-04T06:00:00+09:00",
+      "summary": "핀란드에서 한 반려견이 차가운 물에 빠진 이웃 주민의 생명을 구한 사연이 알려져 화제다. 지난달 28일(현지시간) 핀란드 공영방송 Yle에 따르면 핀란드 북부 라플란드 지역 키틸래에 사는 반려견 '마르타'는 최근 물에 빠져 생명이 위태로웠던 이웃 주민을 구조하는 데 결정적인 역할을 했다. 마르타는 핀란드 목축견으로 알려진 라포니안 허더(Lapponian Herder) 품종이다. 페카 네발라이넨과 그의 아내 아누가 키우는 마르타는 사건 당일 평소"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“1998년 집 나간 아들이 돌아왔다”…28년간 5만㎞ 걸어서, 헤엄쳐서 집 도착한 英 남성",
+      "url": "https://www.etnews.com/20261103000235",
+      "published": "2026-11-04T06:00:00+09:00",
+      "summary": "1998년 세계를 걸어서 횡단하겠다며 집을 떠난 영국 남성이 28년 만에 고향으로 돌아왔다. 약 5만㎞에 달하는 여정을 마친 그는 10년 만에 어머니와 재회하며 긴 모험에 마침표를 찍었다. 3일(현지시간) 영국 BBC에 따르면 영국의 탐험가 칼 부시비(57)는 지난 2일 영국 잉글랜드 헐에 도착해 28년간 이어온 세계 횡단 여정을 마무리했다. 전직 공수부대원인 부시비는 29세였던 1998년 11월 칠레 최남단 도시 푼타아레나스에서 출발했다. 당"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "[인터뷰] 변우진 ETRI 대경권연구본부장 “대구·경북을 대한민국 '피지컬 AI' 수도로”",
+      "url": "https://www.etnews.com/20261103000029",
+      "published": "2026-11-04T01:00:00+09:00",
+      "summary": "-개소 20주년을 맞은 소감이 남다를 것 같다. 지난 20년의 가장 큰 성과를 꼽는다면. ▲설립 당시 대구·경북 주력산업인 자동차·기계부품에 임베디드 소프트웨어를 접목하는 것에서 출발해, 현재는 AI 기반 도시 인프라, 로보틱스, 디지털 헬스케어 등으로 연구 영역을 크게 확장했다. 가장 자부하는 것은 '상용화'다. 대경권연구본부가 특히 기술상용화율이 높은 것은 기업 기술 수요에 대응하는 연구와 미래 선행기술 연구를 병행하는 '투트랙(Two-tr"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "빛으로 켰다 끄는 '투명 문신' 개발",
+      "url": "https://www.etnews.com/20261103000445",
+      "published": "2026-11-03T22:30:00+09:00",
+      "summary": "빛을 비추면 나타났다가 숨길 수도 있는 문신 잉크가 개발됐습니다. 미국 콜로라도대 볼더 연구팀이 개발한 '포토탯(PhotoTat)'은 평소에는 거의 보이지 않지만 자외선을 비추면 몇 초 만에 파란색과 자홍색, 노란색 등으로 색이 나타납니다. 기존 UV 타투는 자외선을 비출 때만 보이지만, 포토탯은 자외선을 한번 비추면 색이 나타난 상태가 수시간 동안 유지됩니다. 이후 밝은 빛을 비추면 다시 보이지 않게 만들 수 있습니다. 이를 이용하면 직장이나"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“심정지 아빠 살렸다”…중학생 아들이 CPR로 '7분 골든타임' 벌어",
+      "url": "https://www.etnews.com/20261103000457",
+      "published": "2026-11-03T21:55:54+09:00",
+      "summary": "학교에서 배운 심폐소생술(CPR)이 한 가족의 생명을 구했다. 전북 전주에서 중학생 아들이 심정지 상태에 빠진 아버지에게 약 7분간 심폐소생술을 실시하고, 119구급상황센터가 영상통화로 응급처치를 안내하면서 환자의 심장 박동이 돌아왔다. 3일 전북특별자치도소방본부에 따르면 지난달 18일 오후 7시51분께 전주시 덕진구의 한 아파트에서 40대 남성 B씨가 갑작스러운 호흡곤란으로 쓰러졌다. 현장을 목격한 중학생 아들 A군은 즉시 119에 신고했다."
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "현대차 “당분간 외부 AI 사용마라”…해킹 우려에 '자율주행·로봇' 핵심부서 금지령",
+      "url": "https://www.etnews.com/20261103000455",
+      "published": "2026-11-03T21:13:59+09:00",
+      "summary": "현대자동차그룹이 자율주행과 로보틱스 등 핵심 연구개발(R&D) 조직의 외부 생성형 인공지능(AI) 서비스 이용을 일시 중단했다. 글로벌 자동차 업계가 AI를 활용한 개발 경쟁에 속도를 내는 가운데 핵심 기술 유출 가능성을 차단하기 위한 조치다. 다만 외부 AI 활용 제한이 연구개발 생산성에 미칠 영향은 새로운 과제로 떠오르고 있다. 3일 완성차 업계에 따르면 현대차그룹은 지난달 말부터 국가핵심기술을 취급하는 일부 연구개발 조직의 외부 생성형 A"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "반도체 장비, 3년뒤 계약까지 줄섰다",
+      "url": "https://www.etnews.com/20261103000452",
+      "published": "2026-11-03T19:29:50+09:00",
+      "summary": "주요 글로벌 반도체 장비사가 3년 뒤에나 제공할 장비의 공급 계약을 서둘러 추진 중인 것으로 확인됐다. 반도체 제조사가 인공지능(AI) 인프라 수요에 대응, 경쟁적으로 설비 투자에 나섰기 때문으로 평시 대비 1~2년 빠른 행보다. 구매 급증과 한정된 생산 능력 탓에 반도체 장비 공급 기간(리드타임)이 급속도로 늘어나면서, 미리 장비를 확보하지 않으면 AI 반도체 패권 경쟁에서 뒤처질 수 있다는 반도체 제조사의 위기감이 반영된 것으로 풀이된다."
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "현대차 제네시스 생산라인 재가동…노사, 맨아워 협의 재개",
+      "url": "https://www.etnews.com/20261103000444",
+      "published": "2026-11-03T18:47:59+09:00",
+      "summary": "현대자동차 울산 공장 제네시스 생산이 3일 오후 정상화됐다. 제네시스를 만드는 울산 5공장 1라인은 3일 오후 5시께 다시 가동에 들어갔다. 전날 오전 10시께부터 이날까지 근무 시간 기준 24시간 넘게 중단됐던 생산이 재개된 것이다. 울산 공장 가동 중단은 제네시스 G80 하이브리드와 G90 부분변경 모델 양산을 앞두고 노사가 맨아워(MH)를 협의하는 과정에서 발생했다. 맨아워는 생산하는데 필요한 인력과 노동 투입량을 뜻한다. 신차가 투입되면"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "세계 스마트시티 혁신 한자리에…'SCEWC 2026' 개막",
+      "url": "https://www.etnews.com/20261103000244",
+      "published": "2026-11-03T18:30:00+09:00",
+      "summary": "전 세계 도시와 기업, 연구기관과 전문가들이 한자리에 모여 인공지능(AI)으로 교통 혼잡과 에너지 낭비를 줄이고 시민 안전과 주거환경을 개선하는 미래도시 해법을 제시했다. 세계 최대 스마트시티 전시회 '스마트시티 엑스포 월드 콩그레스(SCEWC) 2026'이 3일(현지시간) 바르셀로나 피라 그란 비아에서 사흘 일정으로 막을 올렸다. 올해 15회를 맞은 SCEWC의 주제는 '도시의 해법, 실질적 변화(Urban Solutions, Real Imp"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "태국 15세 유망주 경기 중 벼락 맞고 사망…“구급차도 없었다”",
+      "url": "https://www.etnews.com/20261103000387",
+      "published": "2026-11-03T17:45:00+09:00",
+      "summary": "태국에서 차세대 골프 스타로 주목받던 15세 소녀가 대회 도중 낙뢰 사고를 당해 목숨을 잃었다. 3일(현지시간) 방콕포스트는 태국 차층사오주의 한 골프장에서 열린 대회에 출전한 에야바린 프라둡야트가 지난 주말 번개에 맞아 병원으로 옮겨졌으나 사망했다고 보도했다. '농 에야'라는 애칭으로 알려진 그는 사고 당시 31세 여성 캐디와 함께 있었으며, 캐디 역시 심각한 부상을 입고 병원 중환자실에서 치료받고 있다. 사고는 지난달 31일 오후 3시경 일"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "삼성전자가 '긴급주문' SOS 보내자…대만 파운드리가 거절한 이유",
+      "url": "https://www.etnews.com/20261103000413",
+      "published": "2026-11-03T17:24:57+09:00",
+      "summary": "삼성전자가 폴더블 스마트폰의 판매 증가로 디스플레이 핵심 반도체 확보에 나섰지만, 대만 파운드리 업체로부터 추가 생산 요청을 받아들이기 어렵다는 답변을 들은 것으로 전해졌다. 예상보다 많은 제품이 팔리면서 부품 수요가 늘었지만, 제조업체의 생산 여력이 부족해 공급에 제동이 걸린 상황이다. 2일(현지시간) 대만 경제일보는 삼성전자가 대만 반도체 위탁생산 기업 UMC에 OLED 디스플레이 구동칩(DDI) 제조용 웨이퍼 1만장 이상을 추가로 요청했다"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "삼성바이오에피스, 테바와 최대 5632억원 계약…美 판매 협력↑",
+      "url": "https://www.etnews.com/20261103000412",
+      "published": "2026-11-03T17:24:22+09:00",
+      "summary": "삼성바이오에피스가 테바와 자가면역질환 치료제 2종에 대해 최대 4억2000만달러(약 5632억원) 규모의 미국 상업화 파트너십 계약을 체결했다. 기존 제품 판매 협력에 신규 파이프라인 개발 협력까지 더하며 북미 사업 기반을 확대한다. 삼성바이오에피스는 자사가 개발해 미국에서 품목허가를 받은 레미케이드 바이오시밀러 '렌플렉시스'와 엔브렐 바이오시밀러 '에티코보'에 대해 테바와 상업화 파트너십 계약을 맺었다고 3일 공시했다. 이번 계약 규모는 계약"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "3만5000명 뛴 마라톤서 재고처리?…'대회 당일로 표기된 빵 소비기한'의 반전",
+      "url": "https://www.etnews.com/20261103000406",
+      "published": "2026-11-03T17:00:46+09:00",
+      "summary": "3만5000명이 참가한 '2026 JTBC 서울마라톤'이 대회 이후 기념품으로 제공된 빵의 소비기한 논란에 휩싸였다. 소비기한이 대회 당일인 제품이 완주자들에게 지급되면서 재고 처리 의혹이 제기되자 후원 업체가 급속 냉동 방식으로 생산한 별도 제품이라며 해명에 나섰다. 지난 1일 열린 JTBC 서울마라톤에서 완주자들에게 제공된 기념품은 단백질 음료와 생수, 바나나, 초콜릿, 크림빵, 메달 등이었다. 논란이 된 제품은 미루꾸커피가 후원한 '너티솔"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "[보안긴급진단]〈2〉산업시설 해킹, 정보 유출 넘어 안전 위협",
+      "url": "https://www.etnews.com/20261103000169",
+      "published": "2026-11-03T17:00:00+09:00",
+      "summary": "〈편집자주〉 사이버 침해사고가 산업 전반으로 확산하면서 기존 보안체계의 한계가 드러나고 있다. 인공지능(AI)이 해킹에 활용되면서 산업별 보안 체계 강화가 시급해졌다. 전자신문은 '보안긴급진단' 기획 시리즈를 통해 금융·산업·정보기술(IT)·공공 등 4개 분야의 보안 실태와 구조적 취약점을 살펴보고 개선 과제를 짚어본다. 프랑스 대형마트와 미국 미군기지 식료품점의 냉동냉장 설비가 사이버 공격을 받은 데 이어 유럽 7개국에서도 비슷한 피해가 다발"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“비빔면을 뜨겁게? 짜장라면 물은 왜 버려?”…'한국인 분노유발 영상'의 속사정",
+      "url": "https://www.etnews.com/20261103000401",
+      "published": "2026-11-03T16:49:02+09:00",
+      "summary": "한국 라면을 엉뚱한 방식으로 조리하는 영상이 온라인에서 화제를 모으고 있다. 라면 수프를 절반만 넣고 물을 한강처럼 붓는가 하면, 비빔면을 찬물에 헹구지 않고 뜨거운 상태로 먹는 모습까지 담겼다. 한국인들의 분노를 유발한 이 영상에는 반전이 있었다. 알고 보니 지역 축제를 홍보하기 위해 일부러 만든 콘텐츠였다. 3일 온라인에서는 유튜브 채널 '구미라면축제'가 공개한 라면 조리 영상이 관심을 끌고 있다. 영상에는 자신을 이탈리아 요리사라고 소개한"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "외인·기관 2조 매도…코스피, 3%대 하락 5600선 마감",
+      "url": "https://www.etnews.com/20261103000382",
+      "published": "2026-11-03T16:15:10+09:00",
+      "summary": "유가증권시장에서 2조원 가량의 외국인과 기관투자자들의 매도가 이어지며 코스피가 3%대 하락해 5600선에 마감했다. 3일 한국거래소에 따르면 코스피는 3.59%(210.29P) 하락한 5648.79에 거래를 마쳤다. 코스닥은 4.08%(29.97P) 떨어진 704.39에 장을 마쳤다. 이날 유가증권시장에서 개인이 1조6608억원을 순매수했지만, 외국인과 기관이 각각 1조5151억원, 5113억원을 순매도하며 지수가 하락했다. 코스닥 시장에서는"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "아고다, 정부 제재에도 숙소 예약 '다크패턴' 여전",
+      "url": "https://www.etnews.com/20261103000315",
+      "published": "2026-11-03T16:00:00+09:00",
+      "summary": "글로벌 온라인 여행사(OTA) 아고다가 정부의 잇따른 제재에도 숙소 예약 과정에서 첫 화면의 가격과 최종 결제금액을 다르게 표시하는 '다크패턴'을 유지하고 있는 것으로 확인됐다. 온라인 다크패턴 규제 시행 이후에도 소비자 혼란을 유발하는 가격 표시 방식이 이어지고 있다는 지적이다. 3일 전자신문이 아고다에서 숙소 예약 기능을 진행한 결과 상품 탐색 화면에서 나타난 가격과 결제 전 가격이 다른 것으로 나타났다. 최종 결제 단계에선 '세금 및 제반"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“한정선 들어왔습니다”…편의점, 동네 단골 잡기 커뮤니티 전략 강화",
+      "url": "https://www.etnews.com/20261103000280",
+      "published": "2026-11-03T16:00:00+09:00",
+      "summary": "편의점업계가 동네 단골 고객을 잡기 위해 디지털 커뮤니티 활용에 속도를 내고 있다. 오픈채팅방과 지역 생활 플랫폼으로 고객과 직접 소통하며 재방문을 유도하며 고관여 고객을 늘리는 전략이다. 3일 업계에 따르면 편의점업계에는 점포별 생활권에 밀착한 디지털 영업 전략이 확산하고 있다. 편의점 CU를 운영하는 BGF리테일은 최근 저연차 임직원 중심으로 판매혁신 태스크포스(TF)를 꾸리고 젊은 감각의 아이디어를 실제 점포 영업에 적용하고 있다. 대표적"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "'비교지수 따라잡기 펀드' 전락한 韓 액티브 ETF…6번째 퇴출",
+      "url": "https://www.etnews.com/20261103000250",
+      "published": "2026-11-03T16:00:00+09:00",
+      "summary": "완전 액티브 상장지수펀드(ETF) 도입을 위한 법률안 개정이 지연되는 사이 국내 액티브 ETF 6종의 상장폐지가 결정됐다. 비교지수와 비슷하게 움직여야 한다는 상장 유지 요건 탓에 살아남은 액티브 ETF 역시 '비교지수 따라잡기'에 급급한 모양새다. 수익률이 낮아지더라도 규제를 맞추기 위해 종목을 재구성하는 사례까지 나오고 있다. NH아문디자산운용의 'HANARO 글로벌피지컬AI액티브'는 4일 상장폐지를 앞두고 3일 거래가 정지됐다. 올해 상관"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "'무니코틴'이라더니 유사니코틴?…정부, 유사니코틴 독성 연구 추진",
+      "url": "https://www.etnews.com/20261103000181",
+      "published": "2026-11-03T16:00:00+09:00",
+      "summary": "유사 니코틴을 함유한 '무니코틴' 제품 안전성에 대한 우려가 제기되면서 정부가 연내 독성 연구를 진행한다. 최근 진행한 담배 유해성분 검사 결과에서는 '무니코틴'을 내세운 액상형 흡입제품들에서 니코틴 또는 유사 니코틴 성분이 대거 검출됐다. 3일 관계부처에 따르면 식품의약품안전처는 오는 12월까지 유사니코틴 독성 연구를 진행하고 결과를 바탕으로 범정부 차원의 관리 방안을 마련할 방침이다. 앞서 정부는 지난 6월 '무니코틴'을 표방한 액상형 흡입"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "다이소·이마트 와우샵 향한 제약·바이오…상담·부담 없는 매대 공략",
+      "url": "https://www.etnews.com/20261103000171",
+      "published": "2026-11-03T16:00:00+09:00",
+      "summary": "제약·바이오 기업이 자체 연구개발 성분을 담은 화장품·건강식품을 다이소와 이마트 와우샵 매장에 잇달아 입점시키고 있다. 각 채널에 최적화한 제품군으로 약국·온라인 밖 소비층을 흡수하겠다는 전략으로 풀이된다. 3일 관련업계에 따르면 유한양행은 최근 민감 피부 장벽·진정 케어 브랜드 '더마푸라민Rx' 신제품 8종을 다이소 전용으로 출시했다. 주력인 '판테놀 베리어' 라인은 판테놀을 최대 5% 함유하고 병풀 유래 유산균과 병풀 PDRN(폴리데옥시리보"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“전략기술 분야 국산 장비 비중 높이자”…첨단 연구 장비 R&D 내년 신설",
+      "url": "https://www.etnews.com/20261103000156",
+      "published": "2026-11-03T16:00:00+09:00",
+      "summary": "정부가 해외 의존도가 높았던 연구 장비의 국산화를 목표로 하는 연구개발(R&D) 사업을 내년 추진한다. 국산 장비 기술이 첨단산업 제조공정에 활용되며 국가전략기술 확보에 기여할 것으로 기대된다. 3일 업계에 따르면 과학기술정보통신부는 내년 정부 예산안에 '첨단혁신장비 시장성장 지원'과 '글로벌선도 미래원천 첨단혁신장비 개발' 사업을 신설했다. 시장성장 지원 사업은 연구기관과 연구 장비 기업이 외산 장비를 대체하는 기술이나 기존 장비를 다른 분야"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "'가전 명가' 희석 日 전자 공룡, AI 인프라 공급망 '싹쓸이' 나섰다",
+      "url": "https://www.etnews.com/20261102000334",
+      "published": "2026-11-03T16:00:00+09:00",
+      "summary": "과거 글로벌 가전 시장을 주도했던 일본 전자 기업이 인공지능(AI) 분야로 사업을 전환하고 있다. AI 인프라 구축에 필수적인 소재·부품·서버 등 하드웨어 공급망 시장 공략에 속도를 내고 있다. 가전 제조사로서의 명성이 희석되고 있는 가운데 사업 구조를 재편, 새로운 도약을 위한 포석이다. 파나소닉 인더스트리는 AI 데이터센터용 소재와 전자부품 생산 능력 확대에 총 920억엔(약 7800억원)을 투자한다. 신규 투자 73%에 해당하는 670억엔"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“돈을 내고서라도 부모와 손절” 가족 정리하는 日…2030세대까지 확산, 왜?",
+      "url": "https://www.etnews.com/20261103000347",
+      "published": "2026-11-03T15:38:58+09:00",
+      "summary": "일본에서 부모나 친족과의 관계를 완전히 끊거나 간병·입원·장례 등 가족이 맡아온 역할을 외부 업체에 위탁하는 이른바 '가조쿠지마이(家族じまい·가족 정리)'가 확산하고 있다. 과거 고령층을 중심으로 나타났던 가족 관계 단절 움직임이 최근에는 20~30대 젊은 층으로까지 번지고 있다. 3일 연합뉴스에 따르면 일본 요미우리TV는 고령자 생애 지원 등을 담당하는 사단법인 LMN에 접수된 관련 상담이 2022년 1~3월 55건에서 올해 같은 기간 320"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "한중 피지컬 AI협력 시동… “조작 지능·범용성 필수”",
+      "url": "https://www.etnews.com/20261103000344",
+      "published": "2026-11-03T15:33:14+09:00",
+      "summary": "한국·중국 양국 전문가들이 피지컬 인공지능(AI) 산업 적용·확산을 위해 정교한 조작 지능과 다양한 환경에 대응하는 범용성 확보가 필수라고 제언했다. 로봇이 정해진 작업을 반복하는 수준에서 벗어나 다양한 산업 현장에 투입돼 안정적으로 작업을 수행할 수 있는 기반 마련 차원이다. 고품질 학습 데이터 확보와 하드웨어 성능 개선도 과제로 지목됐다. 주한중국대사관이 3일 서울 중구 더그랜드롯데 호텔에서 주최한 '한중 피지컬AI 기술산업협력포럼'에서는"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "자동차 대신 러너가 달린다… 두바이의 색다른 11월",
+      "url": "https://www.etnews.com/20261103000328",
+      "published": "2026-11-03T15:14:31+09:00",
+      "summary": "두바이 경제관광부(DET)는 올해 10주년을 맞은 ‘2026 두바이 피트니스 챌린지(Dubai Fitness Challenge·DFC)’를 통해 오는 29일까지 두바이 전역에서 다양한 스포츠와 피트니스 프로그램을 진행"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "73세 시진핑, 걸음걸이가 어떻길래…“신체기능 저하” 건강이상설 또 불거져",
+      "url": "https://www.etnews.com/20261103000316",
+      "published": "2026-11-03T15:01:21+09:00",
+      "summary": "시진핑 중국 국가주석(73)의 건강을 둘러싼 논란이 또다시 불거졌다. 내년 4연임 가능성까지 제기되는 가운데, 해외 순방 영상에서 포착된 그의 움직임을 분석한 대만 학자가 신체 기능이 이전보다 저하됐을 가능성을 제기했다. 다만 이는 영상에 근거한 개인적 분석으로, 건강 이상이 공식적으로 확인된 것은 아니다. 3일(현지시간) 대만 연합보에 따르면 대만 중앙연구원 정치학연구소의 차이원쉬안 연구원은 전날 열린 학술 좌담회에서 시 주석의 최근 신체 움"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "업스테이지 '솔라 프로 4' 범정부 AI 공통기반 탑재…행정망 국산 AI 활용",
+      "url": "https://www.etnews.com/20261103000312",
+      "published": "2026-11-03T14:55:24+09:00",
+      "summary": "업스테이지는 거대언어모델(LLM) '솔라 프로 4'를 범정부 인공지능(AI) 공통기반에 탑재하고 정식 서비스를 시작했다고 3일 밝혔다. 행정망에서 별도 그래픽처리장치(GPU) 인프라 구축 없이 국산 AI 모델을 활용할 수 있게 됐다. 범정부 AI 공통기반은 행정안전부와 과학기술정보통신부가 중앙부처와 지방자치단체에 AI 모델과 데이터, 개발 환경 등을 제공하는 행정망 전용 AI 인프라다. 솔라 프로 4는 공통기반의 AI 플랫폼인 삼성SDS '패브"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "한동훈 딸, 서울시장상 공적서에 적은 '봉사 앱'…이모가 '대리 제작' 의혹",
+      "url": "https://www.etnews.com/20261103000311",
+      "published": "2026-11-03T14:55:22+09:00",
+      "summary": "한동훈 무소속 의원 딸이 자신이 직접 만들었다고 밝힌 교육 봉사활동 애플리케이션(앱)이 과거 입시 컨설턴트로 활동한 이모 명의로 애플 앱스토어에 등록됐던 것으로 확인됐다. 해당 앱 개발은 한씨가 서울시장상과 인천시의회 의장상을 받는 데 활용한 공적 사항이어서 이른바 '이모 찬스'를 통한 허위 스펙 의혹이 제기되고 있다. 3일 박균택·윤건영 더불어민주당 의원실이 각각 서울시와 인천시에서 제출받은 자료에 따르면 한 의원의 딸 한모씨는 2021년 서"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "현대차, 내년 국내 최초 13m급 광역 수소버스 출시…친환경 상용차 시장 주도권 선점",
+      "url": "https://www.etnews.com/20261030000253",
+      "published": "2026-11-03T14:33:10+09:00",
+      "summary": "현대자동차가 단일 차종 법적 상한선(13m)에 육박하는 국내 최대 크기 광역 수소전기버스를 내년 출시한다. 가성비를 앞세운 중국산 배터리 전기버스가 국내 시내버스 시장을 빠르게 잠식하는 가운데, 현대차는 기술 진입장벽이 높은 대형 장거리 수소 상용차 분야에서 주도권을 굳히겠다는 전략이다. 3일 업계에 따르면 현대차는 최근 국립환경과학원 교통환경연구소(KENCIS)로부터 '일렉시티 수소전기 광역버스(형식명 CYEX401-A27FCEV6T-C)'의"
+    },
+    {
+      "source": "카카오 기술블로그",
+      "region": "kr",
+      "title": "옮기는 것보다 증명이 어렵다",
+      "url": "https://tech.kakao.com/posts/845",
+      "published": "2026-11-03T00:00:00+09:00",
+      "summary": "클레임 검색 색인의 CDC 전환과 검증 기록 요약 커머스 클레임(취소·교환·반품) 검색 색인의 변경 수집 방식을 변경 알림 기반에서 데이터베이스 변경 로그 기반, 즉 CDC로 전환했습니다. 기존 구조에서는 알림이 발행되지 않은 변경이 색인에 반영되지 않았고, 건의 체류 시간을 계산하는 기준시각이 무관한 필드 수정에 갱신되는 문제가 있었습니다. 전환보다 어려웠던 작업은 새 색인이 맞다는 것을 보이는 일이었습니다. 누락·값·지연 세 축으로 대조한 결과, 보..."
+    },
+    {
+      "source": "네이버 D2",
+      "region": "kr",
+      "title": "딸깍으로 안되는 Multi-interest 개발기",
+      "url": "https://d2.naver.com/helloworld/9639872",
+      "published": "2026-11-03T13:45:30+09:00",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 딸깍으로 안되는 Multi-interest 개발기 NAVER D2 | 딸깍으로 안되는 Multi-interest 개발기 naver.me ​ 발표 내용 다양한 관심사 추천 모델인 Multi-interest를 여러 지면에 적용하며 겪었던 문제를 해결했던 과정을 공유합니다. ​ 주제: Multi-interest 추천 모델(MINER)의 KREAM 실서비스 적용 사례 문제: 인기 상품 목록에서 특정 상품이 전체 유저에게 동시 노출되는 hubness 발생 분석: 점수를 유저 의존 성분과 유저 무관 성분으로 분해, 가설 3개를 실측으로 검증 조치: 유저 무관 성분 제거(centering, bias 분리), 추천 결과 다양화, 분포 지표 기반 평가 체계 도입 결과: 과노출 상품 전량 제거, 노출 상품 종류 +25%, 구매 지표 유지 시사점: 논문 구조의 실서비스 적용 시 발생하는"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "I dumped Apple’s word list",
+      "url": "https://helgesver.re/articles/macos-vulgar-word-flags",
+      "published": "2026-11-04T05:33:23+09:00",
+      "summary": "Article URL: https://helgesver.re/articles/macos-vulgar-word-flags Comments URL: https://news.ycombinator.com/item?id=50357782 Points: 111 # Comments: 50"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Preparing for the Flipper One Kickstarter and opening pre-orders",
+      "url": "https://flipper.net/pages/flipper-one",
+      "published": "2026-11-04T04:32:13+09:00",
+      "summary": "https://docs.flipper.net/one Comments URL: https://news.ycombinator.com/item?id=50356994 Points: 129 # Comments: 61"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
+      "published": "2026-11-04T02:40:00+09:00",
+      "summary": "Article URL: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Comments URL: https://news.ycombinator.com/item?id=50355251 Points: 387 # Comments: 130"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "published": "2026-11-04T02:22:37+09:00",
+      "summary": "Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 825 # Comments: 270"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "url": "https://neufangled.com",
+      "published": "2026-11-04T01:47:29+09:00",
+      "summary": "Article URL: https://neufangled.com/ Comments URL: https://news.ycombinator.com/item?id=50354358 Points: 225 # Comments: 95"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Gitbook Breached",
+      "url": "https://news.ycombinator.com/item?id=50354336",
+      "published": "2026-11-04T01:45:49+09:00",
+      "summary": "We opened a ticket with support about Gitbook availability issues and got this in reply. We have yet to see any official customer communication or breach notification. Apologies for the formatting, did the best I could as it's a mobile paste. Update: GitBook security incident update Hey , The GitBook app, the GitBook API, and published docs are available again. A few services may still be degraded as we finish restoring everything to full performance. *What happened* GitBook has been the target "
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Kalshi and its co-founders face felony charges for violating Utah gambling laws",
+      "url": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling",
+      "published": "2026-11-04T00:29:15+09:00",
+      "summary": "Article URL: https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/ Comments URL: https://news.ycombinator.com/item?id=50353229 Points: 391 # Comments: 309"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Mac at Any Scale",
+      "url": "https://namespace.so/blog/mac-at-any-scale",
+      "published": "2026-11-03T23:53:42+09:00",
+      "summary": "Article URL: https://namespace.so/blog/mac-at-any-scale Comments URL: https://news.ycombinator.com/item?id=50352758 Points: 265 # Comments: 156"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "published": "2026-11-03T21:21:17+09:00",
+      "summary": "Article URL: https://honnibal.dev/blog/astra-read-write-misleading Comments URL: https://news.ycombinator.com/item?id=50351111 Points: 827 # Comments: 187"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+      "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+      "published": "2026-11-03T16:56:21+09:00",
+      "summary": "Article URL: https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html Comments URL: https://news.ycombinator.com/item?id=50349276 Points: 408 # Comments: 182"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Writing seen in PHerc. 306B, for the first time in 2000 years",
+      "url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
+      "published": "2026-11-03T04:18:46+09:00",
+      "summary": "Article URL: https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the Comments URL: https://news.ycombinator.com/item?id=50342119 Points: 105 # Comments: 13"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack",
+      "published": "2026-11-03T01:29:19+09:00",
+      "summary": "Article URL: https://blog.nns.ee/2026/11/02/renault-hack/ Comments URL: https://news.ycombinator.com/item?id=50339288 Points: 510 # Comments: 200"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+      "published": "2026-11-02T23:02:42+09:00",
+      "summary": "Article URL: https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/ Comments URL: https://news.ycombinator.com/item?id=50336918 Points: 327 # Comments: 132"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom",
+      "published": "2026-11-04T06:43:08+09:00",
+      "summary": "Cybersecurity focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+      "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal",
+      "published": "2026-11-04T06:05:55+09:00",
+      "summary": "Palantir delivered such a huge third-quarter earnings report on Monday that its press release even bragged that the numbers were “crushing consensus expectations.” Yet, retail investors were lukewarm on the company on Tuesday, with the stock trading slightly down. That’s because Palantir’s enterprise sales, its big growth area, showed signs of slowing. First, the good […]"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Orbital Matter 3D printed the first rigid beam in the vacuum of space",
+      "url": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space",
+      "published": "2026-11-04T05:57:17+09:00",
+      "summary": "An in-space construction first could be an enabler for the space data centers of the future."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
+      "url": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist",
+      "published": "2026-11-04T04:45:48+09:00",
+      "summary": "Cybersecurity experts have long warned of the persistent and patient threat from North Korea's long-running hacks. The world's largest crypto exchange was still caught off-guard."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges",
+      "published": "2026-11-04T04:34:43+09:00",
+      "summary": "The five-year-old startup raised a $1.3 billion round led by Bessemer."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Reddit tests ads in search results as traffic declines and growth concerns mount",
+      "url": "https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount",
+      "published": "2026-11-04T04:24:37+09:00",
+      "summary": "The new ad placements could help Reddit squeeze more revenue from existing users as Google's AI search changes how people discover its content."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Ten years later, ‘Pokémon Go to the polls’ still haunts the internet",
+      "url": "https://techcrunch.com/2026/11/03/ten-years-later-pokemon-go-to-the-polls-still-haunts-the-internet",
+      "published": "2026-11-04T04:04:52+09:00",
+      "summary": "Hillary Clinton's 2016 political gaffe has become an irony-shrouded rallying cry for jaded young voters who still dare to hope for change."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Ferrari’s controversial Luce EV is sold out for 2027",
+      "url": "https://techcrunch.com/2026/11/03/ferraris-controversial-luce-ev-is-sold-out-for-2027",
+      "published": "2026-11-04T03:51:33+09:00",
+      "summary": "The Luce, Ferrari's first electric car and one of its most polarizing models, is \"fully allocated\" through 2027, according to CEO Benedetto Vigna."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood",
+      "published": "2026-11-04T03:42:16+09:00",
+      "summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+      "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off",
+      "published": "2026-11-04T02:56:52+09:00",
+      "summary": "CrowdStrike said it will buy Fiddler AI, which makes AI agent observability software, and Dreadnode, which helps companies automate AI security testing."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Anthropic is still grappling with the economics of compute",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute",
+      "published": "2026-11-04T02:07:01+09:00",
+      "summary": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Rivian spinout Also was working on an e-moto project in Kenya — until it walked away",
+      "url": "https://techcrunch.com/2026/11/03/rivian-spinout-also-owns-up-to-mistakes-in-delayed-e-bike-launch",
+      "published": "2026-11-04T01:49:09+09:00",
+      "summary": "Also co-founder and president Chris Yu told TechCrunch that he wanted to prioritize autonomous vehicles."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search",
+      "published": "2026-11-04T01:30:34+09:00",
+      "summary": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "New York City’s Mamdani criticizes Madison Square Garden owner over surveillance tech",
+      "url": "https://techcrunch.com/2026/11/03/new-york-citys-mamdani-criticizes-madison-square-garden-owner-over-surveillance-tech",
+      "published": "2026-11-04T01:04:55+09:00",
+      "summary": "The mayor's comments come after the entertainment giant's data breach last year, which exposed James Dolan's surveillance."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Apple restricts dating apps and AI companions to users 18 and up",
+      "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up",
+      "published": "2026-11-04T00:38:27+09:00",
+      "summary": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4",
+      "url": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4",
+      "published": "2026-11-03T23:30:00+09:00",
+      "summary": "On Nov. 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase",
+      "url": "https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase",
+      "published": "2026-11-03T23:00:00+09:00",
+      "summary": "Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Yvonne Bajela is bringing $17M in fresh capital to Europe’s startup scene",
+      "url": "https://techcrunch.com/2026/11/03/yvonne-bajela-is-bringing-17m-in-fresh-capital-to-europes-startup-scene",
+      "published": "2026-11-03T17:01:00+09:00",
+      "summary": "Evertrue Capital announces $17M debut fund to back early-stage AI and fintech."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
+      "published": "2026-11-03T16:20:00+09:00",
+      "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses",
+      "published": "2026-11-03T12:30:00+09:00",
+      "summary": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages."
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Here’s what it’s like to use Audio Intelligence on the Apple Watch",
+      "url": "https://www.theverge.com/tech/1025835/audio-intelligence-live-rewind-siri-recap-apple-watch",
+      "published": "2026-11-04T06:21:04+09:00",
+      "summary": "It's impossible to paint a full picture of what Audio Intelligence on the Apple Watch Series 12 and Ultra 4 will be right now. The watchOS 27.3 developer beta just dropped earlier this afternoon, and these features are meant to be lived with in day-to-day life. We're definitely going to do that over the next […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Those Jeff Bezos hair transplant photos are very fake",
+      "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+      "published": "2026-11-04T06:01:07+09:00",
+      "summary": "Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They're both famously bald, and that definitely hasn't changed in the last few days. However, there are some images of the two men circulating around X, Threads, and Bluesky in which they both have substantially more hair than their usual shaved […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "The Pixel Buds Pro 2 have returned to their lowest price to date",
+      "url": "https://www.theverge.com/gadgets/1025466/google-pixel-buds-pro-2-borderlands-goty-nintendo-switch-deal-sale",
+      "published": "2026-11-04T05:29:26+09:00",
+      "summary": "Android owners looking for an earbud upgrade are in luck. The Google Pixel Buds Pro 2 are back down to $169 at Amazon, Best Buy, and the Google Store, matching the lowest price we’ve seen. Google’s site claims the deal will last until 11:59PM PT on November 8th, and other retailers will likely follow suit. […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "iPhone 18 rumors suggest a bigger battery, higher price next year",
+      "url": "https://www.theverge.com/tech/1025748/apple-iphone-18-rumors-price-hike-battery",
+      "published": "2026-11-04T05:16:54+09:00",
+      "summary": "After Apple raised iPhone prices earlier this year, a new rumor claims it plans to launch the base iPhone 18 with a higher price, too. A Weibo post from leaker Digital Chat Station, spotted by 9to5Mac, says the base iPhone 18 is getting a couple upgrades with the price hike, including a larger battery and […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Apple starts giving Siri AI access to third-party apps",
+      "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+      "published": "2026-11-04T05:16:17+09:00",
+      "summary": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI's new features in \"all apps,\" allowing the voice assistant to draw on a user's personal context, process natural language prompts, and use on-screen awareness to […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "You can’t hit a wrong note when playing along with songs on Casio’s new keyboard",
+      "url": "https://www.theverge.com/tech/1025673/casio-digital-piano-keyboard-ct-fs1-feel-sync-technology",
+      "published": "2026-11-04T04:48:41+09:00",
+      "summary": "Casio announced a new addition to its Casiotone line of portable electronic keyboards with a feature that could help aspiring musicians master skills like rhythm and timing without the frustrations or discouragement of hitting the wrong note. The Casiotone CT-FS1 is available now for $399.99 in a monochromatic black or white version where even the […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "This Election Day, remember which party ran against EVs and tethered us all to the gas pump",
+      "url": "https://www.theverge.com/transportation/1025318/trump-gop-ev-war-record-gas-prices-midterms",
+      "published": "2026-11-04T04:44:46+09:00",
+      "summary": "It's the midterms! Here's a fun fact for you as you head to the polls: Gas prices today are the highest ever recorded for a US Election Day. The national average for a gallon of gasoline is $4.12 and $6.28 for a gallon of diesel, according to GasBuddy. Meanwhile, the Strategic Petroleum Reserve, which is […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+      "published": "2026-11-04T03:31:00+09:00",
+      "summary": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new additions are Siri Recap, which uses \"ambient listening\" to generate summaries of your conversation, and Live Rewind, which generates text transcripts of the last 15 […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "OpenAI says ChatGPT is catching up to Google in search",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "published": "2026-11-04T03:30:42+09:00",
+      "summary": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI's consumer product lead for ChatGPT, made the announcement at a press event on Monday. He said […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Reddit is adding more ads",
+      "url": "https://www.theverge.com/tech/1025602/reddit-search-ads-test",
+      "published": "2026-11-04T03:26:36+09:00",
+      "summary": "Reddit is testing ads on another area of its platform: search. With this update, ads will appear within your search results \"based on a range of factors, including contextual relevance to a search query,\" according to Reddit. That means searching for \"espresso station\" could present you with ads for espresso, machines, beans, or mugs, while […]"
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+      "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back",
+      "published": "2026-11-04T05:39:55+09:00",
+      "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
+      "url": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms",
+      "published": "2026-11-04T03:30:27+09:00",
+      "summary": "Lawsuit calls Brave \"supplier, dealer, and distributor\" of stolen news content."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Buttons are back and storage is king when it comes to car interiors",
+      "url": "https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing",
+      "published": "2026-11-04T03:19:31+09:00",
+      "summary": "We talk with Nissan designer Hiren Patel about how vehicle interior designs are changing."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Google will let schools skip AI tools, but they have to give up search, too",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too",
+      "published": "2026-11-04T02:54:43+09:00",
+      "summary": "Google will offer schools AI tools that purportedly don't give away the answers."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Another child dies of measles as CDC reportedly holds up health alert",
+      "url": "https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert",
+      "published": "2026-11-04T02:21:29+09:00",
+      "summary": "NY governor pointed to Kennedy's long-standing anti-vaccine work as spurring outbreaks."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Google dismantles botnet secretly running on 1.3 million Android TV boxes",
+      "url": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes",
+      "published": "2026-11-04T02:08:21+09:00",
+      "summary": "Google has cut ties with the company behind the botnet campaign."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "This space company is betting its future on a propellant available everywhere",
+      "url": "https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere",
+      "published": "2026-11-04T01:50:32+09:00",
+      "summary": "Is that water in your spacecraft, or are you just happy to see the delta-V?"
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
+      "url": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame",
+      "published": "2026-11-04T01:03:13+09:00",
+      "summary": "UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Trump wanted to give No Kings no air. Then, Meta suspended its Instagram.",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram",
+      "published": "2026-11-04T00:39:30+09:00",
+      "summary": "Meta faces pressure to protect No Kings Instagram on election day."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "EPA throws in the towel on policing air pollution from factory farms",
+      "url": "https://arstechnica.com/tech-policy/2026/11/epa-throws-in-the-towel-on-policing-air-pollution-from-factory-farms",
+      "published": "2026-11-03T23:49:00+09:00",
+      "summary": "Critics say EPA is effectively abandoning Clean Air Act enforcement at factory farms."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Beyond screens: Mercedes-Benz's new holographic heads-up display",
+      "url": "https://arstechnica.com/cars/2026/11/beyond-screens-mercedes-benzs-new-holographic-heads-up-display",
+      "published": "2026-11-03T23:00:07+09:00",
+      "summary": "After pioneering the passenger screen, Mercedes has designs on the windshield."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "\"At Home in Space\" opens, caps Air and Space Museum renovation",
+      "url": "https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation",
+      "published": "2026-11-03T08:30:16+09:00",
+      "summary": "The Smithsonian's National Air and Space Museum has all of its \"space\" back open."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Why large dogs age faster than small ones, and other October research highlights",
+      "url": "https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7",
+      "published": "2026-11-03T07:54:35+09:00",
+      "summary": "Plus invisible tattoos, medieval skeleton gets an ID, trapping a single antimatter particle, and more."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Third person dies of bird flu since virus started jumping to livestock",
+      "url": "https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock",
+      "published": "2026-11-03T06:21:43+09:00",
+      "summary": "The threat is still considered to be low, but the virus continues to spread."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Googling \"Zelda\" today offers a glimpse of how search worked in 1998",
+      "url": "https://arstechnica.com/gaming/2026/11/googles-legend-of-zelda-easter-egg-transports-you-back-to-1998",
+      "published": "2026-11-03T04:52:23+09:00",
+      "summary": "\"The flow of time is always cruel.\""
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Most of our measures of a key cognitive process don't agree",
+      "url": "https://arstechnica.com/science/2026/11/most-of-our-measures-of-a-key-cognitive-process-dont-agree",
+      "published": "2026-11-03T04:13:26+09:00",
+      "summary": "A big study with very little beyond negative results still gets published."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+      "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat",
+      "published": "2026-11-03T03:32:21+09:00",
+      "summary": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom",
+      "published": "2026-11-03T03:05:31+09:00",
+      "summary": "The tsunami of imitators is way bigger than any one model maker can stem."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "China publicly discloses plan for a lunar landing within three years",
+      "url": "https://arstechnica.com/space/2026/11/china-releases-timeline-for-lunar-landing-on-the-moon-targeting-before-2030",
+      "published": "2026-11-03T02:09:13+09:00",
+      "summary": "The plan does not include a mission similar to Apollo 8 or Artemis II."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "F1 in Mexico City: Yet another Ferrari fiasco, but that’s not all",
+      "url": "https://arstechnica.com/cars/2026/11/f1-in-mexico-city-we-have-a-new-world-champion",
+      "published": "2026-11-03T00:57:24+09:00",
+      "summary": "There was plenty of drama on and off the track for Formula 1 this weekend."
+    },
+    {
+      "source": "GitHub Blog",
+      "region": "global",
+      "title": "Arnis turns any place on Earth into a Minecraft world",
+      "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world",
+      "published": "2026-11-04T01:00:00+09:00",
+      "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog ."
+    }
+  ],
+  "errors": [
+    {
+      "source": "GeekNews",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "우아한형제들 기술블로그",
+      "error": "HTTP 403"
+    }
+  ]
+}
