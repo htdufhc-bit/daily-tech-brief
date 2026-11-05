@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-06",
+  "headline": "GitHub·드롭박스·박스 등이 AI 에이전트 시대에 맞춘 스토리지와 검색 인프라를 잇따라 내놓고, 메타는 데이터센터 반발을 AI 확장의 변수로 꼽았다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "공공시스템 민간 이전, 클라우드 큰장 열린다",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261105000410",
+      "summary": [
+        "국가정보자원관리원 대전센터의 공공정보시스템 690여 개 중 올해 50개에 이어 내년 최대 250여 개가 민간 클라우드로 옮겨질 전망이다.",
+        "행정안전부가 국내 클라우드서비스제공사(CSP)를 대상으로 사업설명회를 열고 이전 계획을 밝혔다.",
+        "이전 시장이 열리면서 CSP와 관리서비스제공사(MSP) 사이 경쟁이 치열해질 것으로 예상된다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "삼성전자 D램 시장 점유율 '38%'…1위 수성",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261105000460",
+      "summary": [
+        "카운터포인트리서치에 따르면 삼성전자가 3분기 D램 시장 점유율 38%로 1위를 지켰다.",
+        "뒤를 이어 SK하이닉스 29%, 마이크론 21%, CXMT 9% 순이었다.",
+        "삼성은 지난해 1분기 HBM 공급 난항으로 1위를 SK하이닉스에 내준 적이 있으며, 이번에는 HBM 판매 확대가 실적 성장을 이끌었다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "HP “클라우드 AI 절반 로컬 PC로 옮겨 비용 45% 절감”…국내 반도체·의료·방송 현장 공략",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261105000029",
+      "summary": [
+        "HP는 클라우드에서 돌리던 사내 AI 작업의 40~50%를 워크스테이션과 AI 스테이션으로 옮겨 관련 비용을 45% 줄였다고 밝혔다.",
+        "장비 투자비는 12개월 만에 회수했으며, 에이전틱 AI 확산으로 토큰 비용이 늘면서 로컬 AI로 무게중심이 옮겨가고 있다.",
+        "HP는 이 경험을 내세워 국내 반도체·의료·방송 분야 AI 시장을 공략할 계획이다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "요즘IT",
+      "title": "A2A 도입 전에 확인할 것 7가지",
+      "original_title": null,
+      "url": "https://yozm.wishket.com/magazine/detail/4024",
+      "summary": [
+        "A2A가 에이전틱 AI 재단의 호스티드 프로젝트가 된 뒤의 의미와 MCP 등과의 관계를 짚은 글이다.",
+        "에이전트 카드에 선언된 인증은 SDK 기본 구성에서 검사되지 않으며, 스펙대로 동작하는 구현은 12개 중 5개뿐이라고 한다.",
+        "도입 전 확인할 7가지와 앞으로 지켜볼 지표 3가지를 함께 정리했다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "네이버 D2",
+      "title": "FE News 26년 11월 소식을 전해드립니다.",
+      "original_title": null,
+      "url": "https://d2.naver.com/news/1095957",
+      "summary": [
+        "Tailwind CSS를 만든 Tailwind Labs가 Shopify에 합류한다고 발표했다.",
+        "오픈소스 프로젝트는 계속 MIT 라이선스로 유지되므로 기존 사용자가 당장 바꿀 것은 없고, 유료 Tailwind Plus와 ui.sh는 신규 가입을 받지 않는다.",
+        "Cloudflare와 VoidZero가 TypeScript 컴파일러를 Rust로 옮기는 tsrs를 소개한 소식도 담겼다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "GitHub Blog",
+      "title": "GitHub의 새로운 Git 스토리지 아키텍처 살펴보기",
+      "original_title": "Inside GitHub’s new Git storage architecture",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
+      "summary": [
+        "GitHub가 새 Git 스토리지 아키텍처의 동작 방식을 설명하는 엔지니어링 글을 공개했다.",
+        "이 구조는 수천 개의 에이전트가 하나의 저장소에 동시에 푸시할 수 있도록 설계됐다.",
+        "AI 에이전트가 코드 저장소를 대량으로 쓰는 시대에 맞춰 저장소 기반을 다시 만든 사례다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "드롭박스, AI 인프라 강화 위해 티그리스 데이터를 3억 5천만 달러에 인수",
+      "original_title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure",
+      "summary": [
+        "드롭박스가 Tigris Data를 3억 5천만 달러에 인수한다.",
+        "이번 인수는 AI 모델과 에이전트를 만드는 개발자를 겨냥한 새 스토리지 플랫폼 DBX Agent Cloud 개발을 뒷받침할 것으로 보인다.",
+        "파일 저장 업체가 AI 개발용 인프라로 영역을 넓히는 움직임이다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "클로드, 새 '개인 금융' 기능으로 소비 내역 분석",
+      "original_title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool",
+      "summary": [
+        "Claude에 개인 금융 기능이 추가됐다.",
+        "사용자는 Plaid를 통해 은행과 카드 계좌를 연결할 수 있다.",
+        "연결한 뒤에는 자신의 재무 상황에 대해 Claude에게 질문하며 소비를 분석할 수 있다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "박스, 엔비디아 네모트론으로 에이전트용 콘텐츠 검색 시스템 구축",
+      "original_title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system",
+      "summary": [
+        "박스가 엔비디아의 Nemotron을 활용해 에이전트를 우선 고려한 새 콘텐츠 검색 시스템을 내놓았다.",
+        "회사 측은 질의에 답하는 속도가 4배 빠르고 오류는 20% 적으며 토큰 사용량은 90% 적다고 주장한다.",
+        "이 수치는 업체가 밝힌 것으로 독립적으로 검증된 것은 아니다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "메타, 선거 후 데이터센터 반발이 AI 확장을 어렵게 할 수 있다고 경고",
+      "original_title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder",
+      "summary": [
+        "메타는 데이터센터에 대한 정치적 반대가 커지고 있다고 경고했다.",
+        "이런 반발이 향후 AI 투자를 위협할 수 있다는 것이 메타의 판단이다.",
+        "지역 사회가 데이터센터 건설에 반대하는 흐름이 AI 인프라 확장의 변수로 떠올랐다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "web-rendering",
+    "title": "CSR, SSR, SSG",
+    "category": "웹",
+    "pick": "curriculum",
+    "reading_minutes": 6,
+    "sections": {
+      "definition": "CSR, SSR, SSG는 웹 페이지의 HTML을 **언제, 어디서** 만들지에 따른 세 가지 렌더링 방식으로, 각각 브라우저에서, 요청 시 서버에서, 빌드 시점에 만드는 것을 뜻한다.",
+      "why": "초기 웹은 서버가 매번 완성된 HTML을 보내 주는 구조였다. 그러다 사용자 경험이 중요해지면서 페이지 이동 때마다 화면이 깜빡이지 않는 **단일 페이지 애플리케이션(SPA)**이 널리 쓰였고, 이는 브라우저에서 화면을 그리는 CSR 방식이다.\n\nCSR은 부드럽지만 약점이 있다. JS를 모두 내려받아 실행하기 전까지 빈 화면이 보이고, 처음 받는 HTML에 내용이 없어 검색 엔진이나 링크 미리보기가 내용을 읽기 어렵다. 이 불편을 줄이려고 서버에서 먼저 HTML을 만들어 주는 SSR, 아예 미리 만들어 두는 SSG가 다시 주목받았다.\n\n결국 세 방식은 **첫 화면 속도, 검색 노출, 최신성, 서버 비용** 사이에서 무엇을 우선할지에 대한 서로 다른 답이다.",
+      "how": "**CSR (Client-Side Rendering)**\n\n1. 서버는 거의 비어 있는 HTML과 큰 JavaScript 번들을 보낸다.\n2. 브라우저가 JS를 내려받아 실행한다.\n3. JS가 API를 호출해 데이터를 받고, DOM을 만들어 화면을 그린다.\n4. 이후 페이지 이동은 서버에 HTML을 다시 요청하지 않고 JS가 화면만 바꾼다.\n\n**SSR (Server-Side Rendering)**\n\n1. 브라우저가 페이지를 요청하면 서버가 그 자리에서 데이터를 조회해 HTML을 완성한다.\n2. 완성된 HTML이 도착하자마자 화면에 보인다.\n3. 이어서 JS가 내려와 이벤트를 연결한다. 이 과정을 **하이드레이션(hydration)**이라 한다.\n4. 요청마다 서버가 일하므로 최신 데이터를 보여줄 수 있지만 서버 부하가 늘어난다.\n\n**SSG (Static Site Generation)**\n\n1. 배포(빌드) 시점에 모든 페이지의 HTML을 미리 만들어 파일로 저장한다.\n2. 요청이 오면 서버는 계산 없이 완성된 파일을 그대로 내려준다.\n3. CDN에 올려 두면 전 세계에서 매우 빠르게 응답한다.\n4. 내용이 바뀌면 다시 빌드해야 한다. 일부 프레임워크는 일정 시간마다 특정 페이지만 다시 만드는 증분 재생성(ISR)을 제공한다.",
+      "example": "아래는 Next.js 예시다. 같은 `fetch`라도 캐시 옵션에 따라 SSG처럼, 혹은 SSR처럼 동작한다.\n\n```javascript\n// app/posts/page.js — SSG에 가까운 동작: 빌드 시 한 번 만들어 재사용\nexport default async function Posts() {\n  const res = await fetch(\"https://example.com/api/posts\", { cache: \"force-cache\" });\n  const posts = await res.json();\n  return <ul>{posts.map(p => <li key={p.id}>{p.title}</li>)}</ul>;\n}\n\n// app/me/page.js — SSR 동작: 요청마다 서버에서 새로 렌더링\nexport default async function Me() {\n  const res = await fetch(\"https://example.com/api/me\", { cache: \"no-store\" });\n  const me = await res.json();\n  return <h1>{me.name}님 안녕하세요</h1>;\n}\n```\n\n첫 번째 페이지는 내용이 모든 방문자에게 같으므로 미리 만들어 두고, 두 번째 페이지는 사용자마다 달라서 요청 때마다 서버가 그려 준다. CSR은 서버가 빈 껍데기 HTML만 주고 브라우저에서 `useEffect` 등으로 데이터를 불러와 화면을 채우는 방식이다.",
+      "when": "**CSR이 어울리는 경우**\n- 로그인 후 사용하는 대시보드, 관리자 도구처럼 검색 노출이 필요 없고 상호작용이 많은 화면\n- 피해야 할 경우: 첫 화면 속도와 검색 노출이 중요한 공개 페이지\n\n**SSR이 어울리는 경우**\n- 사용자마다 내용이 다르거나 자주 바뀌면서도 검색 노출이 필요한 페이지(상품 상세, 피드 등)\n- 피해야 할 경우: 트래픽이 많은데 내용은 거의 변하지 않는 페이지. 매 요청마다 서버가 일하므로 비용이 낭비된다.\n\n**SSG가 어울리는 경우**\n- 블로그, 문서, 랜딩 페이지처럼 내용이 모든 방문자에게 같고 자주 바뀌지 않는 페이지\n- 피해야 할 경우: 페이지 수가 매우 많거나 내용이 수시로 바뀌는 서비스. 빌드 시간이 길어지고 최신성이 떨어진다.\n\n실제 서비스는 한 가지만 쓰지 않는다. 한 사이트 안에서도 소개 페이지는 SSG, 상품 목록은 SSR, 마이페이지는 CSR처럼 **페이지 단위로 섞어 쓰는 것**이 일반적이다. 선택이 막막하다면 \"이 페이지의 내용이 누구에게나 같은가, 얼마나 자주 바뀌는가, 검색에 노출돼야 하는가\" 세 가지 질문부터 던져 보자.",
+      "further_reading": [
+        {
+          "title": "MDN: 서버 사이드 렌더링(SSR) 용어집",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/SSR"
+        },
+        {
+          "title": "Next.js 공식 문서: Rendering",
+          "url": "https://nextjs.org/docs/app/building-your-application/rendering"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: GeekNews, 카카오 기술블로그, 우아한형제들 기술블로그",
+    "네트워크 제한으로 더 읽을거리 링크의 열림 여부를 확인하지 못함"
+  ]
+}

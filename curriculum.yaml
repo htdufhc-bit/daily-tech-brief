@@ -98,7 +98,7 @@ topics:
 - id: web-rendering
   title: CSR, SSR, SSG
   category: 웹
-  covered_on: null
+  covered_on: '2026-11-06'
 - id: redis-caching
   title: Redis 캐싱 전략
   category: 데이터베이스
