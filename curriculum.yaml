@@ -102,7 +102,7 @@ topics:
 - id: redis-caching
   title: Redis 캐싱 전략
   category: 데이터베이스
-  covered_on: null
+  covered_on: '2026-11-07'
 - id: load-balancer
   title: 로드 밸런서
   category: 네트워크
