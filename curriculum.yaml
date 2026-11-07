@@ -106,7 +106,7 @@ topics:
 - id: load-balancer
   title: 로드 밸런서
   category: 네트워크
-  covered_on: null
+  covered_on: '2026-11-08'
 - id: async-io
   title: 비동기 I/O와 이벤트 루프
   category: 운영체제
