@@ -110,7 +110,7 @@ topics:
 - id: async-io
   title: 비동기 I/O와 이벤트 루프
   category: 운영체제
-  covered_on: null
+  covered_on: '2026-11-09'
 - id: serverless
   title: 서버리스
   category: 클라우드/인프라

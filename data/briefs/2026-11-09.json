@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-09",
+  "headline": "엔비디아 이사회가 젠슨 황 CEO와 중국 스파이 의혹 인물의 관계 조사에 착수했다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "TSMC '메모리 반도체 사업 진출설' 공식 부인…“기존 파운드리 집중”",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261108000094",
+      "summary": [
+        "TSMC가 엔비디아 요청으로 차세대 3D D램 생산을 검토한다는 외신 보도를 공식 부인했다.",
+        "회사 대변인은 전업 파운드리라는 핵심 사업에 계속 집중하겠다는 입장을 밝혔다.",
+        "앞으로도 글로벌 로직 반도체 산업에서 신뢰받는 공급자가 되겠다고 덧붙였다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "글로벌 보안 M&A 449건 '역대 최다'…협력 뒤처진 韓, 통합플랫폼 강화 서둘러야",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261106000280",
+      "summary": [
+        "해킹 위협이 커지면서 올해 글로벌 사이버보안 기업 인수합병이 역대 최대인 449건에 이를 전망이다.",
+        "주요 기업들이 통합 플랫폼 경쟁력을 키우려고 공격적으로 인수에 나선 결과다.",
+        "상대적으로 M&A가 적은 국내 보안업계도 기업 간 협력으로 경쟁력을 높여야 한다는 목소리가 나온다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "KT, 국방 AI 플랫폼 구축…박윤영 대표 체제 AX 성과",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261106000286",
+      "summary": [
+        "KT가 214억원 규모의 국방 인공지능 플랫폼 고도화 사업을 수주했다.",
+        "군사 데이터를 AI 개발과 학습에 활용할 수 있는 국방 AI 인프라 구축을 맡는다.",
+        "KT는 국방 AX 분야의 주요 레퍼런스를 확보해 공공·기업 사업 확장에 속도를 낼 전망이다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "美 데이터센터 규제 공포 과도, “장기 수요 이상 無”",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261108000051",
+      "summary": [
+        "미국 중간선거에서 민주당이 압승하자 데이터센터 인허가 규제 우려로 한·미 반도체 주가가 크게 흔들렸다.",
+        "국내 업계와 학계는 규제가 국내 반도체 공급망에 주는 실제 타격이 제한적이라고 본다.",
+        "단기 증시 과민 반응과 중장기 산업 방향성을 나눠 봐야 한다는 진단이 중론이다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "요즘IT",
+      "title": "오픈소스 컴퓨터 유즈 cua-driver 써보니: GUI 시나리오 5개 막힌 곳과 우회법",
+      "original_title": null,
+      "url": "https://yozm.wishket.com/magazine/detail/4026",
+      "summary": [
+        "오픈소스 드라이버 cua-driver를 MCP로 연결해 에이전트에게 브라우저와 마우스·키보드 조작을 맡겨 봤다.",
+        "다섯 가지 데스크톱 시나리오에서 막힌 지점을 추적했고 한글 입력이 깨지거나 창 닫기가 거부되기도 했다.",
+        "공식 문서에 없는 한계와 우회 경로, 에이전트의 완료 보고를 얼마나 믿을지도 다룬다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "엔비디아, 젠슨 황과 중국 스파이 의혹 인물의 관계 조사에 착수",
+      "original_title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy",
+      "summary": [
+        "엔비디아 이사회가 젠슨 황 CEO가 중국 스파이 공작의 표적이 됐다는 보도에 대해 독립 조사를 시작한다고 밝혔다.",
+        "황 CEO는 사내 메시지에서 싱가포르 반도체 기업 메가스피드의 전직 임원과 불륜 관계였음을 인정했다.",
+        "이사회는 국가 안보나 회사 기밀이 유출됐다고 볼 근거가 없다고 했고, 외부 법률 자문과 함께 조사한다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "오픈AI, 기업가치 1조 2,500억 달러로 110억 달러 추가 조달 보도",
+      "original_title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
+      "summary": [
+        "블룸버그에 따르면 오픈AI가 기업가치 1조 2,500억 달러 평가로 지금까지 110억 달러를 조달했다.",
+        "라운드는 아직 마감되지 않았고 최종 약 200억 달러로, 9월에 알려진 목표 300억 달러에는 못 미칠 전망이다.",
+        "오픈AI의 상장 계획은 올해에서 미뤄져 내년이 유력하며, 중간선거 결과와 데이터센터 여론이 시장 불안 요인으로 거론된다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "크루소, 난항을 겪던 와이오밍 데이터센터 프로젝트를 구글에 매각",
+      "original_title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
+      "summary": [
+        "데이터센터 개발사 크루소가 와이오밍 남동부의 미완공 프로젝트를 구글에 팔았다고 확인했다.",
+        "구글은 크루소 운영 아래의 비용과 공사 일정을 우려했고, 앞서 고객으로 계약하려다 실패한 것으로 알려졌다.",
+        "매각 금액은 비공개이고, 구글은 이 부지에 170억 달러를 투자할 계획이며 크루소는 텍사스 아마릴로 건설을 계속한다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "The Verge",
+      "title": "애플, 시리를 더 에이전트답게 만들기 위해 속도전",
+      "original_title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "summary": [
+        "블룸버그의 마크 거먼에 따르면 존 터너스 CEO가 크레이그 페더리기에게 시리 로드맵을 앞당기라고 압박하고 있다.",
+        "목표는 오픈AI의 Dots나 메타의 Muse에 맞설 강력한 AI 에이전트를 내놓는 것이다.",
+        "페더리기는 짧은 기간에 작동하는 시리 AI 버전을 내놓았지만, 애플도 아직 충분하지 않다고 본다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "async-io",
+    "title": "비동기 I/O와 이벤트 루프",
+    "category": "운영체제",
+    "pick": "curriculum",
+    "reading_minutes": 5,
+    "sections": {
+      "definition": "비동기 I/O는 입출력이 끝나기를 기다리며 멈추지 않고 다른 일을 계속하게 해 주는 방식이고, 이벤트 루프는 준비된 I/O 이벤트를 하나씩 꺼내 처리하는 반복 구조다.",
+      "why": "전통적인 방식은 연결 하나마다 스레드 하나를 두고, 데이터가 올 때까지 그 스레드를 **블로킹**한다. 연결이 수백 개일 때는 괜찮지만 수만 개가 되면 문제가 생긴다. 스레드마다 메모리(스택)가 필요하고, 스레드 사이를 오가는 컨텍스트 스위칭 비용도 커지기 때문이다. 게다가 대부분의 스레드는 네트워크나 디스크를 기다리며 CPU를 쓰지도 않고 자리만 차지한다.\n\n비동기 I/O는 \"기다리는 시간\"을 다른 작업에 쓰자는 발상이다. 적은 수의 스레드(때로는 하나)로 많은 동시 연결을 처리할 수 있어서 웹 서버, 채팅 서버, 크롤러처럼 I/O 비중이 큰 프로그램에서 자원을 크게 아낀다. Node.js, Nginx, 파이썬 `asyncio`, 자바스크립트의 `Promise`가 모두 이 모델 위에 있다.",
+      "how": "1. 프로그램이 파일이나 소켓 같은 I/O 작업을 **논블로킹**으로 요청하고, 결과를 기다리지 않고 바로 다음 코드로 넘어간다.\n2. 운영체제의 이벤트 알림 기능(Linux의 `epoll`, macOS의 `kqueue`, Windows의 IOCP)에 \"이 소켓들 중 준비된 것이 생기면 알려 달라\"고 한꺼번에 등록한다.\n3. **이벤트 루프**가 반복문을 돌며 알림을 기다린다. 준비된 I/O가 있으면 거기에 연결해 둔 콜백(또는 재개할 코루틴)을 큐에서 꺼내 실행한다.\n4. 콜백이나 코루틴은 짧게 실행되고 다시 루프로 돌아온다. 한 스레드가 수천 개의 연결을 번갈아 처리하는 셈이다.\n5. `async`/`await` 문법은 이 과정을 읽기 쉽게 감싼 것이다. `await`를 만나면 현재 함수가 일시 중단되고 제어권이 루프로 넘어가며, 결과가 준비되면 그 지점에서 다시 시작한다.\n\n핵심 규칙은 **루프를 막지 않는 것**이다. 루프 안에서 오래 걸리는 계산이나 블로킹 호출을 하면 다른 모든 작업이 멈춘다.",
+      "example": "아래는 파이썬 `asyncio`로 세 개의 작업을 동시에 실행하는 예시다. 각 작업은 I/O를 기다리는 동안 `await`로 제어권을 넘긴다.\n\n```python\nimport asyncio\nimport time\n\nasync def fetch(name: str, delay: float) -> str:\n    await asyncio.sleep(delay)  # 네트워크 대기를 흉내 낸다\n    return f\"{name} 완료 ({delay}초)\"\n\nasync def main():\n    start = time.perf_counter()\n    results = await asyncio.gather(\n        fetch(\"A\", 1.0),\n        fetch(\"B\", 1.5),\n        fetch(\"C\", 0.5),\n    )\n    for r in results:\n        print(r)\n    print(f\"총 {time.perf_counter() - start:.1f}초\")\n\nasyncio.run(main())\n```\n\n순서대로 실행하면 3초가 걸리지만, 세 작업이 대기 시간을 겹쳐 쓰므로 가장 긴 작업과 비슷한 약 1.5초에 끝난다. `time.sleep(1)`처럼 블로킹 함수를 쓰면 이 이점이 사라진다는 점도 직접 바꿔 실행해 보면 확인할 수 있다.",
+      "when": "**쓰면 좋은 경우**\n- 동시 연결이 많은 네트워크 서버(API 게이트웨이, 채팅, 스트리밍)\n- 여러 외부 API나 DB를 동시에 호출해야 하는 작업\n- 대기 시간이 대부분이라 CPU는 한가한 프로그램\n\n**피해야 할 경우**\n- 이미지 처리, 암호화, 대규모 계산처럼 **CPU를 오래 쓰는 작업**. 이벤트 루프 하나가 막혀 전체가 느려지므로 별도 프로세스나 워커 스레드로 분리해야 한다.\n- 동시성이 거의 필요 없는 단순 스크립트. 코드 복잡도(콜백, 예외 처리, 디버깅)만 늘어난다.\n- 동기 라이브러리를 그대로 `async` 함수 안에서 호출하는 경우. 겉보기만 비동기이고 실제로는 루프를 막는다.",
+      "further_reading": [
+        {
+          "title": "The Node.js Event Loop",
+          "url": "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: GeekNews, 카카오 기술블로그, 우아한형제들 기술블로그",
+    "Hacker News 링크 원문(mailroute.net, apiiro.com, thestateofai.com)은 네트워크 허용 목록 문제로 열 수 없어 해당 기사를 제외함"
+  ]
+}
