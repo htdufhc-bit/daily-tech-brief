@@ -114,7 +114,7 @@ topics:
 - id: serverless
   title: 서버리스
   category: 클라우드/인프라
-  covered_on: null
+  covered_on: '2026-11-10'
 - id: ai-agent
   title: AI 에이전트와 도구 호출
   category: AI/ML
