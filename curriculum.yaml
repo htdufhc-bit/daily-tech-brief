@@ -118,7 +118,7 @@ topics:
 - id: ai-agent
   title: AI 에이전트와 도구 호출
   category: AI/ML
-  covered_on: null
+  covered_on: '2026-11-11'
 - id: password-hashing
   title: 비밀번호 해싱
   category: 보안

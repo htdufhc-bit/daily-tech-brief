@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-11",
+  "headline": "금융보안원 평가시스템이 해킹당해 자료가 유출됐고, N-able은 제로데이 공개로 원격 접속 서비스를 중단했다.",
+  "news": [
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "금융보안원도 뚫렸다…금융사 평가자료 유출",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261110000480",
+      "summary": [
+        "금융보안원의 '정보보호 상시평가 지원시스템'이 해킹을 당해 일부 자료가 유출된 정황이 확인됐다.",
+        "금융보안원은 지난 9일 침해 사실을 파악해 시스템을 긴급 차단하고 관계 당국에 신고했다.",
+        "금융당국은 사고 경위를 규명하고 전체 시스템을 다시 점검하라고 지시했다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "토스 기술블로그",
+      "title": "실행은 격리하고, 세션은 이어간다: 망분리 환경의 Agent Platform 설계기",
+      "original_title": null,
+      "url": "https://toss.tech/article/agent-platform-foundation",
+      "summary": [
+        "토스는 망분리 규제 때문에 내부망 데이터를 밖으로 옮기지 못하는 환경에서 분석용 에이전트 플랫폼을 설계했다.",
+        "사용자별 Workspace마다 Pod를 두고 bubblewrap으로 하네스를 격리하며, 실제 API 키는 프록시가 대신 넣어 준다.",
+        "작업 파일과 세션 상태는 영구 볼륨에 저장해 새 환경에서도 이어 쓸 수 있게 했다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "TSMC, AI 반도체 호황에 10월 매출 5869억대만달러…월간 기준 사상 최대치",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261110000479",
+      "summary": [
+        "TSMC의 지난달 매출이 AI 반도체 수요 급증으로 월간 기준 역대 최대를 기록했다.",
+        "전월보다 14.7%, 전년 동월보다 59.7% 늘어 기존 최고였던 8월 기록을 넘어섰다.",
+        "1~10월 누적 매출도 전년 동기 대비 크게 증가했다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "[단독] 국정원, 보안제품 중복 시험 줄인다…업계 부담 완화 기대",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261110000268",
+      "summary": [
+        "국가정보원이 보안제품에 기능을 추가할 때 받는 보안기능확인 시험을 간소화하는 방안을 검토한다.",
+        "기존에 검증받은 기능에 변경이나 영향이 없으면 신규 기능과 관련 부분만 검증하는 방식이다.",
+        "국정원은 업계 의견을 모아 내년 상반기까지 세부 계획안을 마련할 계획이다."
+      ]
+    },
+    {
+      "region": "kr",
+      "source": "전자신문",
+      "title": "행안부, 공공 AI법 이행 속도…AI 서비스 관리·공개기준 마련",
+      "original_title": null,
+      "url": "https://www.etnews.com/20261110000306",
+      "summary": [
+        "행정안전부가 공공부문 AI 활용을 위해 실무 지침과 교육 체계를 정비하고 있다.",
+        "최근 '인공지능 활용 서비스 목록 관리 및 공표에 관한 규정'을 제정해 시행했다.",
+        "공공 AI법 시행으로 생긴 업무가 현장에 자리 잡도록 투명성과 책임성 기준을 마련하는 데 집중한다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "GitHub Blog",
+      "title": "Git 보안 취약점 6건 공개",
+      "original_title": "Git security vulnerabilities announced",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7",
+      "summary": [
+        "Git이 보안 취약점 6건을 해결하는 업데이트를 내놓는다.",
+        "취약점은 재귀 클론, 참조 처리, 병합, 바이너리 패치, 임포트와 관련돼 있다.",
+        "Git 사용자는 공지를 확인하고 새 버전으로 업데이트해야 한다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "구글, 특수 목적 AI 칩 두 종 추가로 하드웨어 포트폴리오 확대",
+      "original_title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips",
+      "summary": [
+        "구글이 8세대 TPU를 바탕으로 한 새 칩 TPU 8tx와 TPU 8i Max를 공개했다.",
+        "TPU 8tx는 AMD와 만들었고 하드웨어 수준에서 보안을 넣어 기밀 모델 학습과 추론을 겨냥한다.",
+        "TPU 8i Max는 TPU 8i 두 개를 묶어 메모리와 처리 능력, 대역폭을 대략 두 배로 늘렸다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "뉴욕 AI 안전법 시행, OpenAI와 앤트로픽에 새 감독",
+      "original_title": "OpenAI, Anthropic face new oversight as New York's AI safety law takes effect",
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect",
+      "summary": [
+        "뉴욕주가 포괄적인 AI 안전법의 집행을 준비하고 있다.",
+        "OpenAI, 앤트로픽 같은 주요 개발사는 등록하고 안전 관행을 공개해야 한다.",
+        "중대한 사고는 보고해야 하며 위반하면 과징금을 물 수 있다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "앤트로픽, 회의 내용을 계획과 작업으로 바꿔 주는 Claude Meetings 출시",
+      "original_title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
+      "summary": [
+        "앤트로픽이 회의에서 오간 논의를 계획과 작업으로 바꿔 주는 Claude Meetings를 선보였다.",
+        "참가자가 대화하는 동안 Claude가 계획 초안을 쓰고 화이트보드에 일정을 그린다.",
+        "회의 채팅 질문에 답하고 연결된 업무 앱에서 작년 수치 같은 정보도 가져온다."
+      ]
+    },
+    {
+      "region": "global",
+      "source": "TechCrunch",
+      "title": "N-able, 연구원이 제로데이 수십 건 공개하자 원격 접속 서비스 중단",
+      "original_title": "N-able takes its remote access service offline after researcher publishes dozens of zero-day bugs",
+      "url": "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs",
+      "summary": [
+        "원격 접속 업체 N-able이 연구원의 제로데이 취약점 수십 건 공개 뒤 원격 접속 서비스를 오프라인으로 돌렸다.",
+        "회사는 이를 '심각한 보안 사고'로 규정했다.",
+        "사이버 공격을 우려해 자체 서버를 운영하는 고객에게도 서버를 내리라고 권고했다."
+      ]
+    }
+  ],
+  "tech": {
+    "topic_id": "ai-agent",
+    "title": "AI 에이전트와 도구 호출",
+    "category": "AI/ML",
+    "pick": "curriculum",
+    "reading_minutes": 5,
+    "sections": {
+      "definition": "대규모 언어 모델(LLM)이 스스로 외부 도구를 골라 호출하고, 그 결과를 보며 목표를 달성할 때까지 단계를 반복하는 방식이 AI 에이전트다.",
+      "why": "LLM 혼자서는 학습 시점 이후의 정보를 모르고, 정확한 계산을 못 할 때가 있으며, 파일을 읽거나 서비스에 요청을 보내는 일도 할 수 없다. 그저 글자를 이어 쓰는 모델이기 때문이다. 도구 호출은 이 한계를 메우려고 나왔다. 모델은 \"어떤 함수를 어떤 인자로 부르고 싶다\"는 요청을 구조화해 내놓고, 실제 실행은 바깥의 프로그램이 맡는다. 이렇게 하면 모델은 최신 정보 검색, 코드 실행, 데이터베이스 조회, 외부 서비스 제어까지 할 수 있다. 도구 호출이 없으면 사람이 모델의 답을 보고 직접 복사해서 실행하고 결과를 다시 붙여 넣어야 해서 번거롭고 느리다.",
+      "how": "1. **도구 정의**: 개발자가 함수의 이름, 설명, 입력 형식(JSON 스키마)을 모델에 알려 준다.\n2. **모델의 판단**: 사용자 요청을 받은 모델이 도구가 필요하다고 판단하면 도구 이름과 인자를 구조화된 형태로 출력한다. 이때 모델이 함수를 직접 실행하지는 않는다.\n3. **실행**: 에이전트 프로그램(하네스)이 그 호출을 받아 실제로 함수를 실행한다. 파일 읽기, 검색, API 호출 등이 여기에 해당한다.\n4. **결과 전달**: 실행 결과를 대화에 다시 넣어 모델에게 돌려준다.\n5. **반복**: 모델이 결과를 보고 다른 도구를 더 부르거나, 충분하다고 판단하면 최종 답을 낸다.\n\n이 순환을 **에이전트 루프**라고 한다. 루프를 안전하게 운영하려면 최대 반복 횟수, 도구별 권한, 실행 환경의 격리가 필요하다. 모델이 만든 인자는 사용자 입력처럼 믿지 말고 항상 검증해야 한다. 오늘 소개한 토스의 사례처럼 실행 환경을 격리하는 설계도 같은 이유에서 나온다.",
+      "example": "아래는 도구 하나(`add`)를 가진 가장 단순한 에이전트 루프의 뼈대다. `call_model`은 실제로는 LLM API 호출이며, 여기서는 흐름을 보이기 위해 가짜로 만들었다.\n\n```python\nimport json\n\ndef add(a: int, b: int) -> int:\n    return a + b\n\nTOOLS = {\"add\": add}\n\ndef call_model(messages):\n    # 가짜 모델: 아직 도구 결과가 없으면 도구를 부르고, 있으면 답한다\n    last = messages[-1]\n    if last[\"role\"] == \"user\":\n        return {\"tool\": \"add\", \"args\": {\"a\": 2, \"b\": 3}}\n    return {\"answer\": f\"결과는 {last['content']}입니다.\"}\n\nmessages = [{\"role\": \"user\", \"content\": \"2와 3을 더해 줘\"}]\nfor _ in range(5):  # 최대 반복 횟수로 무한 루프를 막는다\n    reply = call_model(messages)\n    if \"answer\" in reply:\n        print(reply[\"answer\"])\n        break\n    result = TOOLS[reply[\"tool\"]](**reply[\"args\"])\n    messages.append({\"role\": \"tool\", \"content\": json.dumps(result)})\n```\n\n실행하면 `결과는 5입니다.`가 출력된다. 실제 서비스에서는 `call_model` 자리에 LLM API를 넣고, 도구 이름이 `TOOLS`에 있는지, 인자가 스키마에 맞는지 먼저 확인해야 한다.",
+      "when": "**쓰면 좋은 경우**: 최신 정보가 필요하거나, 여러 단계의 조사와 작업을 자동화하거나, 정해진 API와 내부 시스템을 자연어로 다루게 하고 싶을 때 잘 맞는다. 코드 작성 보조, 데이터 분석 반복 작업, 고객 문의 처리 같은 일이 대표적이다.\n\n**피해야 할 경우**: 결과가 항상 같아야 하는 단순 계산이나 규칙 기반 처리는 일반 코드가 더 빠르고 싸고 정확하다. 결제나 삭제처럼 되돌리기 어려운 작업은 사람의 확인 단계 없이 맡기지 않는 편이 좋다. 에이전트가 읽는 웹 페이지나 문서에 숨은 지시문(프롬프트 인젝션)이 들어 있을 수 있으므로, 권한은 필요한 만큼만 주고 실행 환경을 격리해야 한다.",
+      "further_reading": [
+        {
+          "title": "Claude 문서: 도구 사용 개요",
+          "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "일부 소스 수집 실패: GeekNews, 우아한형제들 기술블로그",
+    "Ars Technica 원문을 열 수 없어 해당 기사는 제외함"
+  ]
+}
