@@ -122,7 +122,7 @@ topics:
 - id: password-hashing
   title: 비밀번호 해싱
   category: 보안
-  covered_on: null
+  covered_on: '2026-11-12'
 - id: websocket
   title: WebSocket
   category: 웹

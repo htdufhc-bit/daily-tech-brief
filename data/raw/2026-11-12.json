@@ -1,0 +1,995 @@
+{
+  "date": "2026-11-12",
+  "items": [
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "엔지니어의 취향은 무기다",
+      "url": "https://yozm.wishket.com/magazine/detail/4035",
+      "published": null,
+      "summary": "우후죽순 등장하는 서비스들을 보고 있으면 묘한 감정이 든다. 그 어색함은 AI를 썼다는 사실이 아니라, 의사결정의 길목마다 사람의 흔적이 느껴지지 않는 데서 온다. 엔지니어의 취향은 근거 없는 고집이 아니라 반복된 실패와 기술적 고찰을 통해 압축된 판단 기준이다. MSA와 모놀리식, ORM과 저장 프로시저 사이에서 무엇을 포기하고 무엇을 얻을지 되물었던 경험을 지나, 평균적인 해답은 AI로도 쉽게 얻는 시대이기에 엔지니어의 취향이 강력한 무기가 될 수 있다는 결론에 이른다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "비개발 직군에 AI 가드레일 배포할 때 주의할 5가지",
+      "url": "https://yozm.wishket.com/magazine/detail/4034",
+      "published": null,
+      "summary": "이제는 비개발 직군도 직접 Git 저장소를 만들고 웹페이지를 배포하며 데이터를 가공합니다. 이 저장소를 개인 계정에 만들어도 되는지, AI가 만든 페이지를 바로 외부에 공개해도 되는지, 업무 파일이 섞인 폴더에서 에이전트를 돌려도 되는지는 기존 계정 관리나 문서 공유 기준만으로 답하기 어렵죠. PO로서 비개발 직군의 AI 활용 범위가 넓어지는 과정을 지켜보며, 접근·연결·실행 범위를 중심으로 AI 업무 가드레일을 설계한 경험을 다섯 가지로 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI 시대 현직 개발자의 자기 효능감에 관하여",
+      "url": "https://yozm.wishket.com/magazine/detail/4033",
+      "published": null,
+      "summary": "오늘도 개발자가 안 된다고 말하던 시절을 지나, 이제 동료들은 바이브 코딩으로 필요한 툴을 직접 만들어 쓴다. 게임 회사 플랫폼 부서에서 일하는 글쓴이는 그 모습을 보며 앞으로 나는 무슨 일을 해야 할까 불안했다고 털어놓는다. 하지만 엑셀 diff 툴과 MCP 서버를 함께 고민하는 동료들을 지켜보며, 나를 움직이는 건 꼭 필요한 일을 하고 있다는 자기효능감임을 다시 확인한다. 모두가 툴을 만들 수 있게 되었다고 해서, 내가 해줄 수 있는 일까지 없어지는 건 아니었다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI. vs 사람 맡길 일 고르는 기준 4가지",
+      "url": "https://yozm.wishket.com/magazine/detail/4032",
+      "published": null,
+      "summary": "‘이것도 돼?’를 넘어 이제는 어디까지 맡기고 어떤 건 내가 꼭 해야 하는지 정해야 할 때입니다. 사업관리 담당자, 법률 AI 디자이너, 프론트엔드 개발자까지 아홉 명이 먼저 맡겨보고 찾은 기준은 비슷했습니다. 맡길 가치가 있는 일을 고르고, 정해진 답은 규칙으로 묶고, 되돌리기 어려운 결정은 사람에게 남기고, 확인할 지점을 미리 설계하는 것. 경계선을 긋는 건 AI의 성능이 아니라 오류의 비용이라는 걸, 아홉 편의 레퍼런스를 분석해 네 가지로 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "깃허브 스타 42만 개 REA로 노션형 블록 에디터 구현해봤다",
+      "url": "https://yozm.wishket.com/magazine/detail/4028",
+      "published": null,
+      "summary": "그렇다면 REA를 설치하면 정말 남의 앱 기능을 알아내고 따라 만들 수 있을까요? 노션과 비슷한 오픈소스 앱 AFFiNE의 슬래시 메뉴와 블록 이동 기능을 REA로 분석하고 원본 소스와 맞춰 채점한 뒤 직접 다시 만들어 봤는데, 정리한 동작 규칙 18개 중 16개가 원본과 일치했습니다. 나머지 2개는 압축된 조건식을 반대로 읽은 해석 오류였고요. 번들 구조를 읽을 줄 아는 프론트엔드 개발자에게는 권하지만, 검증할 방법 없이 상용 서비스를 그대로 베끼는 용도로는 권하지 않는 이유까지 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "한 번 연결한 MCP, 다른 환경에서도 그대로 쓸 수 있을까? Liner Actions 일주일 사용기",
+      "url": "https://yozm.wishket.com/magazine/detail/4023",
+      "published": null,
+      "summary": "새 프로젝트를 열면 서비스마다 다시 붙이고, 다른 컴퓨터로 가면 로그인과 키 설정을 또 하고, 웹이나 폰, 다른 에이전트에서는 아예 처음부터 해야 했죠. MCP 서버 하나를 등록하고 라이너 계정에 서비스 연결을 한 번 해 두면, 다른 환경과 에이전트에서도 그 연결을 그대로 쓸 수 있다는 Liner Actions를 일주일 넘게 써 봤습니다. GitHub·Notion·Sender·Mixpanel을 맥북과 웹, 폰, Codex를 오가며 써 보니 쓰는 내내 AI에 팔다리가 붙은 느낌이었지만, 쓰기 권한만큼은 따로 챙겨야 했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "직접 만든 Claude 비서 3주, Duet과 뭐가 다를까",
+      "url": "https://yozm.wishket.com/magazine/detail/4022",
+      "published": null,
+      "summary": "10월 21일 Anthropic이 AI 비서 Claude Duet을 리서치 프리뷰로 공개하기 전부터, 저는 이미 Claude 예약 작업과 Chrome 확장, Jira·Notion 커넥터로 비슷한 비서를 만들어 쓰고 있었습니다. 지난 3주 동안 제 비서는 어디에서 얼마나 똑똑했고, 어디에서 얼마나 멍청한 실수를 저질렀을까요? 실행 23회 중 발견한 실수 6건과 그 원인, 어디까지 알아서 하게 둘지 정한 승인 기준, 그리고 Claude Duet·ChatGPT·Gemini·Copilot Cowork와 비교한 자동화 범위까지 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "인하우스 IT 기획자가 AI로 대시보드 만들며 배운 4가지",
+      "url": "https://yozm.wishket.com/magazine/detail/4021",
+      "published": null,
+      "summary": "'솔루션 업체에 가능한지부터 확인해 봐야 한다.' 인하우스 IT 조직에서 일하다 보면 자주 듣는 말입니다. 개발 리소스를 기다리는 대신, 기획자가 VS Code와 클로드 코드로 테이블 100개 가까운 레거시 DB를 뒤져 홈페이지·앱 직판 예약 데이터 대시보드를 직접 만들었는데, 정작 가장 오래 걸린 건 코드가 아니라 검증이었습니다. 구현엔 2일, 검증엔 2주. 데이터 구조를 이해하는 법부터 AI가 짠 쿼리를 검증하는 법까지, 만들며 배운 4가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "Next.js 모바일 웹을 일주일 만에 앱으로 바꾼 방법 ②",
+      "url": "https://yozm.wishket.com/magazine/detail/4019",
+      "published": null,
+      "summary": "지난 1편은 빠르게 앱 POC를 만드는 데는 성공했지만, 바로 출시까지 가는 데는 실패했습니다. 마크다운 문서상으로는 화면이 다 올라와 있었지만, 막상 휴대폰으로 하나씩 눌러보니 SafeArea와 키보드, 터치 영역부터 겉모습은 같은데 어긋난 로직까지 문제가 한꺼번에 쏟아졌죠. “알림 화면이 있는 것”과 “푸시 알림이 오는 것”은 전혀 다른 문제였고, 스크린샷 비교만으로는 끝내 잡히지 않는 픽셀 단위 디자인 차이도 있었습니다. “앱 출시까지 2주면 된다”는 말을 직접 테스트해, 속도는 맞고 디테일은 틀렸다는 결론에 이른 기록입니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "모델이 그렇게 좋다면 오픈AI는 왜 직접 회사를 차리지 않을까",
+      "url": "https://yozm.wishket.com/magazine/detail/4017",
+      "published": null,
+      "summary": "모델이 그렇게 좋다면, 오픈AI는 왜 직접 회사를 차리지 않을까요? 해커뉴스에 올라온 이 질문에 750개 넘는 댓글이 달리며, 만드는 것보다 고객을 찾는 일이 더 어렵다는 답이 이어졌습니다. 여기에 상반기 매출 163억 달러를 밝힌 앤트로픽 상장 신청서(S-1)로 본 앤트로픽의 돈 버는 방식, 말 한마디로 제품 출시 영상을 만드는 AI 스킬 huashu-motion까지. 이번 주 프로덕트 메이커가 눈여겨볼 세 가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "국내 FDE 현황 조사 2026: 현장 FDE에게 직접 묻습니다",
+      "url": "https://yozm.wishket.com/magazine/detail/4016",
+      "published": null,
+      "summary": "FDE(Forward Deployed Engineer)라는 직무를 두고 시선이 엇갈립니다. 한쪽은 AI 시대의 새로운 직무로, 다른 한쪽은 새 이름을 단 컨설팅으로 보기도 하죠. 답은 실제로 이 일을 하는 사람들이 어디서 왔고, 또 어떻게 일하고 있는지에서 찾아야 합니다. 현재 요즘IT와 FDE·AX 엔지니어 커뮤니티 '비욘드디플로이'가 「국내 FDE 현황 조사 2026」을 진행하고 있습니다. FDE는 어디서 왔는지, 현장에서 만든 것은 어디에 남는지, 이 일을 계속하고 싶은지 등의 질문을 담았습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "세상에 나온 지 27년 된 책 '리팩터링'을 다시 펼치는 이유",
+      "url": "https://yozm.wishket.com/magazine/detail/4013",
+      "published": null,
+      "summary": "1999년 세상에 나온 책 이 2026년 기준 1판이 나온 지 햇수로 대략 27년이 됐다. 코드를 직접 생산하지 않는 변화된 개발 환경 속에서 동작하는 코드를 다시 고치는 법을 학습해야 하는 이유는 무엇일까? 코딩 에이전트에 일을 맡기기 전에 무엇이 높은 응집성이고 무엇이 느슨한 결합도인지 구분할 지식을 갖춰야 한다. 그렇지 않으면 초보자가 전문가를 이끄는 역전된 학습이 일어나고 인지적 부채만 쌓인다. 마틴 파울러의 과 켄트 벡의 를 다시 펼치며, AI 시대에도 변하지 않는 좋은 코드의 조건을 짚었다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "비개발자라면 이렇게 해보세요: 클로드 코드와 친해지기",
+      "url": "https://yozm.wishket.com/magazine/detail/4011",
+      "published": null,
+      "summary": "비개발자 기획자로서 직접 몸으로 부딪히며 터득한 바이브 코딩 실전 팁을 담았습니다. 클로드 코드를 무작정 따라 하기보다는 외부 서비스(Supabase, GitHub 등)와의 CLI 연동으로 작업을 자동화하고, 이해하기 어려운 개발 용어는 쉽게 풀거나, HTML·PNG 파일로 추출해 확인하는 노하우를 소개합니다. 파일 기반의 명확한 소통과 꼭 필요한 핵심 명령어, 단축키 활용법까지, 바이브 코딩을 시작하려는 비개발자분들을 위한 실전 가이드를 준비했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "LLM부터 MCP까지 ‘왜 필요한가’로 이해하는 AI 리터러시",
+      "url": "https://yozm.wishket.com/magazine/detail/4010",
+      "published": null,
+      "summary": "새로운 모델과 기능이 나올 때마다 찾아보고 써봤지만, 정작 업무에 뭘 써야 할지는 여전히 의문이었습니다. 나는 지금 AI라는 도구를 공부하고 있는 걸까, 아니면 일을 더 잘하고 싶어서 AI를 공부하고 있는 걸까. 이 질문에서 출발해 LLM, 프롬프트, 스킬, 에이전트, 루프, 할루시네이션, RAG, 청킹, 벡터화, API, MCP까지 11가지 개념을 업무 흐름 안에서 왜 필요한지로 다시 묶었습니다. 결국 AI를 잘 쓴다는 것도 기술을 많이 아는 일이 아니라, 내 업무에 무엇이 왜 필요한지 선택하는 일입니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "VSCode를 사용하다가 Orca로 옮긴 후기",
+      "url": "https://yozm.wishket.com/magazine/detail/4009",
+      "published": null,
+      "summary": "많은 사람이 코딩 에이전트를 터미널에서 사용하곤 합니다. VSCode에서 클로드 코드(Claude Code)나 코덱스(Codex)를 실행하면, 에이전트가 파일을 고치는 과정을 편집기에서 볼 수 있기 때문입니다. 하지만 문제는 두 번째 에이전트를 켤 때 생깁니다. 두 에이전트가 같은 디렉터리를 보고, 한쪽이 파일을 고치는 동안 다른 쪽도 같은 파일을 읽죠. 그러면 커밋할 때 어느 줄이 어느 작업의 결과인지 되짚어봐야 합니다. 그래서 찾아낸 도구가 오르카(Orca)입니다. 오르카에서는 작업마다 워크트리와 브랜치가 만들어지고 에이전트가 자기 폴더 안에서만 움직이면서 관리가 한결 가벼워졌습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "설치 없이 SQL·Java·Git·AWS 연습하는 웹 서비스 개발기",
+      "url": "https://yozm.wishket.com/magazine/detail/4008",
+      "published": null,
+      "summary": "저는 혼자서 학습하기 위해 데이터베이스를 설치하지 않고도, SQL을 연습할 수 있는 웹 서비스를 만들기 시작했습니다. 문제에 필요한 데이터를 미리 준비해 두고, 사용자가 브라우저에서 문제를 열면 곧바로 쿼리를 실행할 수 있게 했죠. 서비스를 공개하고 나니, SQL 외의 다른 기술도 복잡한 준비 없이 연습할 수 있게 만들고 싶어졌습니다. 이 글은 단순히 제가 만든 서비스를 소개하려고 쓴 글이 아닙니다. 대신 만드는 과정에서 설치 없이 연습하는 환경에서 학습자는 무엇을 배울 수 있고, 무엇은 배울 수 없을까? 화면에 성공 표시가 떴을 때, 그 성공은 무엇을 보증할까? 이 글에서는 이 질문들에 답하려고 내린 판단과, 그 판단 때문에 생긴 한계를 함께 정리해 보려고 합니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "LLM을 위한 자바스크립트 디버깅 ②: 페이지를 무너뜨리는 파일 찾기부터 AI처럼 접속해 보기까지",
+      "url": "https://yozm.wishket.com/magazine/detail/4007",
+      "published": null,
+      "summary": "여러분이 보고 있는 페이지가 LLM이 받는 페이지와 같지 않을 수 있습니다. 가져가지 못한 콘텐츠는 보이지 않으니까요. 테크니컬 SEO 컨설턴트 조너선 무어가 서치 서울 2026에서 소개한 디버깅 흐름의 나머지 세 단계, 네트워크 요청을 걸러내고 막아 범인 파일을 찾는 법부터 AI처럼 접속해 보는 사용자 에이전트 전환, 반복 확인을 맡기는 크롬 스니펫까지 정리했습니다. 페이지 템플릿, 전역 요소, 기술 스택, 서드파티 순으로 감사하는 원칙과 Sitebulb 같은 크롤러로 규모를 키우는 법까지 2회에 담았습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "LLM을 위한 자바스크립트 디버깅 ①: 크롬 개발자 도구로 AI 가시성 점검하기",
+      "url": "https://yozm.wishket.com/magazine/detail/4006",
+      "published": null,
+      "summary": "구글은 자바스크립트를 정말 잘 처리합니다. 하지만 챗GPT, 클로드, 제미나이 같은 LLM은 그렇지 않을 수 있다면, 자바스크립트는 젠가 탑의 블록 하나처럼 실패 지점이 됩니다. 블록 하나를 잘못 빼면 탑 전체가 무너지는 셈이죠. 테크니컬 SEO·애널리틱스 컨설턴트 조너선 무어는 서치 서울 2026 발표에서, 서버가 보낸 원본 HTML과 브라우저가 만든 DOM을 크롬 개발자 도구로 비교해 AI에게 보이지 않는 지점을 찾는 법을 정리했습니다. 디버깅 원칙과 도구 세팅, 텍스트 검색 방법까지 1회에 담았습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI 시대에 아이에게 무엇을 가르쳐야 할까",
+      "url": "https://yozm.wishket.com/magazine/detail/4005",
+      "published": null,
+      "summary": "AI 시대에 아이에게 무엇을 가르쳐야 할까요? 첫 아이를 기다리는 개발자 스티브 크라우스가 던진 질문에 해커뉴스에서 600개 넘는 댓글이 달리며 저마다의 답이 나왔습니다. 여기에 할 일을 먼저 챙겨서 알려주는 앤트로픽의 새 에이전트 클로드 듀엣, 클로드 코드와 Codex, 커서에서 함께 쓰는 플러그인 94개 모음까지. 이번 주 프로덕트 메이커가 눈여겨볼 세 가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "[AX일지]재고 안 맞는 유통사에서 AI가 할 수 있는 것",
+      "url": "https://yozm.wishket.com/magazine/detail/4004",
+      "published": null,
+      "summary": "구두를 파는 회사가 백화점에 매장을 냈는데, 무엇이 팔렸다는 기록은 백화점 컴퓨터에만 남고 회사 장부에는 저절로 들어오지 않습니다. 그래서 직원은 같은 판매 한 건을 장부 다섯 군데에 다시 적지만, 그래도 지금 재고가 몇 켤레인지 한 번에 답하는 곳은 어디에도 없습니다. 장부에 아예 없는 재고, 사람마다 다르게 세는 재고, 들어오기 전에 팔려 값도 모르는 재고까지 안 맞는 이유 세 가지와, 위시켓 AIDP가 AI보다 재고 정리를 먼저 택한 이유를 이 회사의 AX 일지로 담았죠."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "\"이 자료 넣어도 될까?\" 엄격한 보안 환경에서 도구를 만드는 일",
+      "url": "https://yozm.wishket.com/magazine/detail/4003",
+      "published": null,
+      "summary": "외부 프로그램 설치도, 파일을 올리는 온라인 서비스도 쓸 수 없는 보안 환경에서, 넉 달 넘게 직접 AI로 도구를 만들고 글을 쓰는 동안 나는 매번 같은 질문 앞에 섰다. 이 자료를 이 도구에 넣어도 되나? 나중에 결과물에서 이름을 지우겠다는 다짐은 방어가 되지 못한다. 지우는 일은 자료가 이미 나간 다음에 하는 일이기 때문이다. 이러한 보안 환경 속에서 넉 달간 AI 자동화 도구를 만들고 글을 연재하며 마주한 고민, 그리고 실무자가 자료를 다룰 때 지켜야 할 보안 및 활용 기준의 선을 어디에 그었는지 살펴보았다."
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "영하 24도 '남극 마라톤' 도전한 로봇…결과는?",
+      "url": "https://www.etnews.com/20261111000440",
+      "published": "2026-11-12T06:00:00+09:00",
+      "summary": "영하 24도의 남극에서 마라톤 완주에 도전한 휴머노이드 로봇이 화제입니다. 지난 8일 남극 동부 울티마 캠프 인근에서 열린 '남극 아이스 울트라' 대회에 휴머노이드 로봇 '케스트르'가 참가했습니다. 대회는 새벽 1시에 시작됐으며, 케스트르는 추위를 막기 위해 두꺼운 보온 재킷을 입고 25명의 인간 참가자들과 함께 출발했습니다. 그러나 약 3km를 이동한 뒤 배터리가 방전되면서 로봇은 결국 기권했습니다. 대회 주최 측에 따르면 휴머노이드 로봇이"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“신입생 환영 대신 화형을?”…美 명문대 동아리서 무슨 일이",
+      "url": "https://www.etnews.com/20261111000362",
+      "published": "2026-11-12T06:00:00+09:00",
+      "summary": "미국의 한 명문 주립대학 사교클럽에서 신입 회원들에게 불을 붙이는 가혹행위가 벌어졌다는 의혹이 제기돼 경찰이 수사에 나섰다. 당시 상황이 담긴 것으로 추정되는 영상이 사회관계망서비스(SNS)를 통해 확산하면서 논란이 커지고 있다. 10일(현지시간) 미국 CBS뉴스에 따르면 지난 8일 오하이오주립대학교의 남성 사교클럽 '시그마 알파 엡실론(SAE)'에서 신입 회원을 대상으로 위험한 가혹행위가 벌어졌다는 신고가 경찰에 접수됐다. 신고자는 911 신"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "호박통에 얼굴 끼어 물도 못마신 사슴… 10일 추적 끝에 '극적 구조'",
+      "url": "https://www.etnews.com/20261111000420",
+      "published": "2026-11-11T22:30:00+09:00",
+      "summary": "미국에서 핼러윈 장식용 플라스틱 호박통에 얼굴이 끼인 채 열흘 동안 돌아다니던 사슴이 지역 주민들과 동물구조단체의 노력 끝에 구조됐다. 9일(현지시간) 영국 인디펜던트에 따르면 미국 미시간주 디트로이트 일대에서 머리에 주황색 플라스틱 호박통을 뒤집어쓴 어린 수사슴 한 마리가 지난 8일 밤 구조됐다. 이 사슴은 디트로이트 인근 리보니아에서 처음 발견됐다. 당시 플라스틱 호박 장식물이 사슴의 코를 완전히 덮고 있어 먹이를 먹거나 물을 마시기 어려운"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "증시 바닥인 줄…“남은 건 반등” 지하 못 본 개미들 '빚투' 자극한 결과",
+      "url": "https://www.etnews.com/20261111000446",
+      "published": "2026-11-11T17:42:22+09:00",
+      "summary": "은행권 가계대출 잔액이 사상 처음으로 1200조원을 넘어섰다. 주택 거래가 둔화하는 가운데 중도금·이주비 등 집단대출이 늘어난 데다 개인투자자들의 주식 매수세가 신용대출 증가로 이어진 영향이다. 특히 코스피 반등을 노린 개인투자자들의 이른바 '빚투' 수요까지 가세하면서 가계대출 증가세가 다시 확대됐다. 11일 한국은행이 발표한 '2026년 10월 금융시장 동향'에 따르면 지난달 은행권 가계대출 잔액은 1203조9000억원으로 전월보다 5조원 증"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "261만 유튜브 수익 얼마길래?…빠니보틀 “방송보다 훨씬 많이 벌어”",
+      "url": "https://www.etnews.com/20261111000445",
+      "published": "2026-11-11T17:42:11+09:00",
+      "summary": "여행 유튜버 빠니보틀(39·본명 박재한)이 방송 출연을 늘린 이유와 유튜브 수입에 대한 생각을 밝혔다. 방송 활동이 돈을 벌기 위한 목적이라기보다 새로운 경험을 즐기기 위한 선택이라는 설명이다. 지난 10일 유튜브 채널 '강지영의 동그라미'에 공개된 영상에서 진행자 강지영은 빠니보틀에게 방송 출연에 나름의 기준이 있을 것 같다며 출연 배경을 물었다. 빠니보틀은 “많은 분이 '여행은 안 가고 맨날 방송만 한다', '돈 벌려고 그런다'고 오해한다”"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "해외서 구입한 비만치료제도 국내 들여온다…해외 처방약 12일부터 반입 허용",
+      "url": "https://www.etnews.com/20261111000444",
+      "published": "2026-11-11T17:27:32+09:00",
+      "summary": "해외에서 처방받은 비만치료제 등 자가 치료용 의약품을 국내로 가져올 수 있게 된다. 정식 처방·구매한 의약품도 입국 과정에서 통관이 보류되던 문제가 개선되면서 해외 치료 환자와 유학생 등의 불편이 줄어들 전망이다. 식품의약품안전처와 관세청은 12일부터 정상적인 의료체계에 따라 처방·구매한 자가 치료용 의약품의 개인 휴대 반입을 허용한다고 11일 밝혔다. 이번 조치의 핵심은 의약품 종류와 용법에 따라 반입 수량을 인정한다는 점이다. 해당 국가의"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "불륜은 불륜, 출근은 출근?…엔비디아 찾은 젠슨 황, 사과했으니 일 합시다?",
+      "url": "https://www.etnews.com/20261111000441",
+      "published": "2026-11-11T17:18:24+09:00",
+      "summary": "젠슨 황 엔비디아 최고경영자(CEO)가 혼외 관계를 인정한 뒤에도 평소처럼 출근해 경영 일정을 소화하고 있지만, 회사 내부 분위기는 가라앉은 것으로 전해졌다. 인공지능(AI) 반도체 시장을 이끌어온 황 CEO의 사생활 논란에 직원들이 충격을 받은 데다 중국 정보기관 연루 의혹까지 겹치면서 리더십에 대한 우려도 커지고 있다. 미국 CNBC는 복수의 소식통을 인용해 황 CEO가 엔비디아의 분기 실적 발표를 일주일 앞둔 10일(현지시간) 캘리포니아주"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "[K-카본 플래그십]첨단산업의 미래, 탄소소재로 만든다",
+      "url": "https://www.etnews.com/20261111000091",
+      "published": "2026-11-11T17:00:00+09:00",
+      "summary": "탄소소재가 항공기와 자동차, 에너지 등 첨단산업의 핵심 소재로 활용 범위를 넓히고 있다. 경량화와 고성능을 동시에 구현할 수 있는 탄소소재의 중요성이 커지면서 기술개발과 사업화도 활발해지고 있다. 산업통상부는 탄소소재 산업의 경쟁력 강화와 글로벌 시장 진출을 지원하기 위해 2024년부터 'K-카본 플래그십 기술개발 사업'을 추진하고 있다. 탄소섬유 복합재와 인조흑연 등 핵심 탄소소재를 다양한 산업의 실제 제품에 적용하기 위한 국가 연구개발(R&"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "LG화학, 日 주도 HBM 접합 소재 국산화 확대",
+      "url": "https://www.etnews.com/20261111000313",
+      "published": "2026-11-11T16:31:00+09:00",
+      "summary": "LG화학이 고대역폭메모리(HBM) 제조에 필수인 매스리플로-몰디드언더필(MR-MUF) 공정용 소재 개발에 착수했다. 앞서 D램을 접합(본딩)해 HBM을 만드는 비전도성접착필름(NCF)에 이어 MR-MUF 공정용 소재 개발에도 나서면서 HBM 핵심 소재 국산화 범위를 넓힌다. 그간 일본에 의존했던 HBM 접합 소재 공급망 다변화 효과와 함께 LG화학으로선 HBM 소재 고객사 확대가 기대된다. 11일 업계에 따르면 LG화학은 기존 NCF 개발에 더"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "강남언니, '언니가이드센터' 명동에 2호점 연다…글로벌 사업 확대 속도",
+      "url": "https://www.etnews.com/20261111000306",
+      "published": "2026-11-11T16:30:00+09:00",
+      "summary": "강남언니 운영사 힐링페이퍼가 외국인 의료관광객을 겨냥한 오프라인 거점을 확대한다. 미국 시장 진출을 위한 신사업 발굴도 추진하며 글로벌 성장 동력 확보에 속도를 낸다. 11일 업계에 따르면 힐링페이퍼는 오는 12월 서울 명동에 '언니가이드센터' 2호점을 오픈할 예정이다. 언니가이드센터는 한국을 방문한 외국인 관광객에게 병·의원 예약과 현장 통역 등 의료관광 서비스를 지원하는 오프라인 공간이다. 지난 3월 신논현점을 오픈하며 기존 플랫폼 사업에서"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "유통가 칼바람 속 '올·다·무' 채용 질주…일자리 지형 바뀐다",
+      "url": "https://www.etnews.com/20261111000286",
+      "published": "2026-11-11T16:30:00+09:00",
+      "summary": "'올·다·무'(CJ올리브영·아성다이소·무신사)가 국내 유통시장의 고용 창출 엔진으로 급부상했다. 오프라인 매장 확장과 온라인 플랫폼 경쟁력 강화 전략을 바탕으로 외형 성장과 일자리 창출을 동시에 실현하면서 공격적으로 인력을 늘리고 있다. 11일 전자신문이 국민연금공단 자료를 분석한 결과 올해 9월 기준 올리브영과 다이소, 무신사의 국민연금 가입자 수(임직원 수)는 총 3만2498명으로 집계됐다. 지난해 말 2만9165명에서 9개월 만에 3333"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“구조현장 날아서 간다”… 中 샤오펑, 내년 '하늘 나는 차' 출시 예고",
+      "url": "https://www.etnews.com/20261111000421",
+      "published": "2026-11-11T16:25:00+09:00",
+      "summary": "중국 전기차 업체 샤오펑(XPeng)이 개발한 이른바 '하늘을 나는 자동차'가 이르면 내년 여름부터 중국에서 운행될 전망이다. 약 4억원에 달하는 이 비행체는 일반 소비자의 레저 활동과 긴급 구조 현장 등에 우선 투입될 예정이다. 10일(현지시간) 영국 가디언에 따르면 샤오펑의 비행자동차 사업을 담당하는 에어리지(XPeng ARIDGE)의 델리 자오 창업자 겸 대표는 이날 포르투갈 리스본에서 열린 '웹 서밋(Web Summit)' 행사에서 2인"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "코스피 2.6% 오른 5375선 마감…코스닥 이틀 연속 급등해 700선 회복",
+      "url": "https://www.etnews.com/20261111000414",
+      "published": "2026-11-11T16:09:52+09:00",
+      "summary": "코스피가 2.6% 상승해 5300선을 회복했다. 삼성전자와 SK하이닉스가 상승폭을 키우며 지수 반등을 이끌었다. 코스닥은 이틀 연속 매수 사이드카가 발동됐고, 5% 넘게 올라 700선을 되찾았다. 한국거래소에 따르면 11일 코스피는 전 거래일 대비 2.60% 오른 5375.36에 거래를 마쳤다. 0.56% 내린 5209.71로 출발했으나 장중 상승 전환했다. 코스닥은 5.62% 오른 705.10에 마감했다. 두 지수 모두 이틀 연속 올랐다. 반"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "312조 영남권 메가프로젝트 '속도'…두산·삼성·현대차 투자 점검",
+      "url": "https://www.etnews.com/20261111000355",
+      "published": "2026-11-11T16:00:00+09:00",
+      "summary": "정부가 312조원 규모의 영남권 메가프로젝트 추진에 속도를 낸다. 두산·삼성·한화·현대차·LG·SK 등 주요 기업의 투자 진행 상황을 점검하고 인허가 지연과 규제 등 투자 걸림돌을 해소할 방침이다. 재정경제부는 11일 이형일 부총리 겸 재정경제부 장관이 서울 수출입은행에서 '영남권 메가프로젝트 이행점검 태스크포스(TF)' 회의를 주재했다고 밝혔다. 이번 회의에는 과학기술정보통신부와 산업통상부 등 관계부처를 비롯해 부산·대구·울산시, 경북·경남도"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "미국발 불확실성에 삼성 AI 인프라 현지 전략도 '주춤'…美 비스트라, 헬릭스 자금납입 연기",
+      "url": "https://www.etnews.com/20261111000159",
+      "published": "2026-11-11T16:00:00+09:00",
+      "summary": "삼성전자 등 삼성 6개 계열사가 공동 출자로 추진하는 미국 인공지능(AI) 인프라 사업에 불확실성이 커지고 있다. 미국 중간선거 전후로 인공지능 데이터센터(AIDC) 개발을 둘러싼 정치적 불확실성이 확대되는 가운데 삼성과 투자에 참여한 핵심 전력 공급사가 사업 추진 지연을 공식화했다. AIDC 개발 선행 조건인 전력 확보와 프로젝트 추진 일정에 변수가 발생, 삼성 계열사의 후속 사업 기회에도 영향이 불가피할 전망이다. 미국 전력기업 비스트라(V"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "[경남 디지털 혁신거점] 세계가 주목하는 피지컬 AI 대표 행사 'The NEXT AI'",
+      "url": "https://www.etnews.com/20261111000004",
+      "published": "2026-11-11T16:00:00+09:00",
+      "summary": "2025년 처음 개최된 'The NEXT AI'에는 69개사가 136부스 규모로 참가해 5680명의 관람객을 맞았다. 바이어 상담회를 통한 비즈니스 실적도 상담 총 172건, 상담액 104억원 중 계약 35건, 계약액 33억원으로 작지만 의미 있는 첫걸음을 내디뎠다. 지난 10월 14~16일 창원컨벤션센터에서 열린 '2026 The NEXT AI'는 행사 외연을 키우는 동시에 전문성도 한층 강화하며 불과 2회째 만에 지역 대표 AI 전시·컨벤션"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "[경남 디지털 혁신거점] 제조업 중심지 넘어 '글로벌 피지컬 AI 선도도시'로",
+      "url": "https://www.etnews.com/20261111000003",
+      "published": "2026-11-11T16:00:00+09:00",
+      "summary": "창원국가산업단지를 중심으로 대한민국 제조업을 세계 최고 수준으로 올려놓은 경남이 이제는 인공지능(AI) 기반 자율제조 등 혁신기술이 집중되는 디지털 혁신거점으로 발돋움하면서 글로벌 피지컬 AI 선도도시로 급부상한다. 경남 디지털 혁신거점 조성지원사업은 조선, 항공, 자동차 등 지역 주력산업의 디지털 대전환 지원 허브로서 집적화된 디지털 지원시설과 산·학·연 협력 네트워크를 기반으로 제조업의 디지털 문제를 해결하며 지속가능한 성장을 견인하는 새로"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“매출 13% 늘 때 이익은 30% 이상 뛰어”…대한조선, 3분기 누적 영업이익 2606억",
+      "url": "https://www.etnews.com/20261111000389",
+      "published": "2026-11-11T15:27:16+09:00",
+      "summary": "대한민국 수익성 1등 조선소 대한조선이 올해 3분기에도 매출 증가율을 크게 웃도는 영업이익 성장세를 이어갔다. 대한조선은 11일 잠정실적 공시를 통해 2026년 3분기 연결 기준 매출액 3,277억 원, 영업이익 827억 원을 기록했다고 밝혔다. 올해 3분기 누적 매출액은 9904억 원, 누적 영업이익은 2606억 원으로, 영업이익률 26.3%를 기록했다. 올해 연간 실적에 대한 기대감도 높아지고 있다. 대한조선은 3분기까지 누적 영업이익 26"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“키 키우려고 항암제까지 먹는다”… 美 10대 사이 위험한 유행",
+      "url": "https://www.etnews.com/20261111000363",
+      "published": "2026-11-11T15:25:00+09:00",
+      "summary": "미국에서 키를 키우기 위해 항암제를 복용하는 이른바 '하이트맥싱(Heightmaxxing)'이 10대 청소년 사이에서 확산하고 있다는 보도가 나왔다. 의료 전문가들은 심각한 부작용을 초래할 수 있다며 주의를 당부했다. 10일(현지시간) 미국 폭스뉴스에 따르면 최근 미국의 일부 10대 남학생들이 키를 키우기 위해 암 치료제를 불법적으로 구입해 복용하는 사례가 보고되고 있다. 이들이 사용하는 약물은 진행성 방광암 치료에 승인된 표적항암제 '에르다피"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "10월 가계대출 6조4000억원 반등…은행 잔액 1200조원 첫 돌파",
+      "url": "https://www.etnews.com/20261111000386",
+      "published": "2026-11-11T15:20:36+09:00",
+      "summary": "지난달 전체 금융권 가계대출이 집단대출 실행 확대와 주식 투자 수요 증가 영향으로 6조4000억원 늘며 한 달 만에 증가 전환했다. 은행권 가계대출 잔액은 사상 처음 1200조원을 넘어섰다. 11일 한국은행과 금융위원회가 발표한 '금융시장 동향' 및 '가계대출 동향'에 따르면, 10월 말 기준 예금은행의 가계대출 잔액(정책모기지론 포함)은 전월 대비 5조원 늘어난 1203조9000억원을 기록했다. 은행 가계대출 잔액이 1200조원을 돌파한 것은"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "[AIx소프트웨이브 2026] AI+X 투자사협의회 “AI 기업 키울 전주기 투자 생태계 구축해야”",
+      "url": "https://www.etnews.com/20261111000371",
+      "published": "2026-11-11T15:09:15+09:00",
+      "summary": "“인공지능(AI)·딥테크 기업이 성장하려면 기술과 자본, 산업 현장이 끊김 없이 연결되는 생태계가 필요합니다.” AI+X 투자사협의회(이하 협의회) 공동회장인 최치호 한국과학기술지주 대표와 조남훈 케이그라운드벤처스 대표는 최근 본지와 만나 국내 AI·딥테크 기업의 기술을 사업화로 연결할 투자 생태계 구축의 중요성을 강조했다. 유망 기술이 있어도 자금과 시장 진입 기회가 끊기면 사업화가 어려운 만큼, 기술과 자본, 산업계의 인공지능 전환(AX)"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "[뉴스줌인]금융사 돈으로 운영되는 금보원, 박상원 원장 전문성 도마",
+      "url": "https://www.etnews.com/20261111000344",
+      "published": "2026-11-11T15:00:00+09:00",
+      "summary": "회원사 분담금으로 운영되는 금융보안원이 해킹으로 금융사에서 제출받은 자료를 유출하면서 기관의 보안 역량과 업무 범위가 도마에 올랐다. 금융의 사이버 위협에 공동 대응하기 위해 출범한 전문기관이 자체 평가 시스템 보안을 지키지 못했다. 금융보안원은 2015년 금융결제원과 코스콤의 정보공유분석센터, 금융보안연구원의 기능을 통합해 출범했다. 금융회사별로 대응하기 어려운 위협에 대비해 보안관제와 침해사고 대응, 취약점 분석을 한곳에 모았다. 이번에 보"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "한화 방산 3사, 동반성장 첫 '최우수'…삼성전자는 15년 연속 최우수",
+      "url": "https://www.etnews.com/20261111000360",
+      "published": "2026-11-11T14:55:08+09:00",
+      "summary": "한화와 한화시스템, 한화에어로스페이스 등 한화그룹 방산 관련 3개사가 동반성장지수 평가에서 나란히 처음으로 최우수 등급에 올랐다. 롯데면세점과 코리아세븐도 첫 최고등급을 받는 등 34개사의 등급이 전년보다 상승했다. 삼성전자는 2011년 평가 도입 이후 최초로 15년 연속 최우수 등급을 받는 기록을 세웠다. 반면 쿠팡은 '미흡', KG모빌리티와 서울반도체 등은 올해 신설된 '매우 미흡' 등급에 포함됐다. 첫 상생금융지수 시범평가에서는 IBK기업"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "삼성전자, 협력사에 '제조 AI' 심는다…기업 최초 동반성장지수 15년 연속 최우수",
+      "url": "https://www.etnews.com/20261111000350",
+      "published": "2026-11-11T14:41:14+09:00",
+      "summary": "삼성전자가 동반성장위원회의 2026년도(2025년 실적) 동반성장지수 평가에서 최우수 등급을 받았다고 11일 밝혔다. 15년 연속 최우수 등급을 받은 기업은 삼성전자가 유일하다. 동반성장지수는 대·중소기업 간 동반성장 수준을 최우수·우수·보통·미흡·매우 미흡 5개 등급으로 매기는 지표다. 삼성전자는 스마트공장 보급에 이어 제조 AI까지 중소기업 현장에 이식하며 지원 범위를 넓히고 있다. 삼성전자는 2015년부터 중소기업 맞춤형 스마트공장 구축을"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "[단독]중소 IT서비스 기업 유큐브, 기업회생 신청",
+      "url": "https://www.etnews.com/20261111000349",
+      "published": "2026-11-11T14:41:12+09:00",
+      "summary": "연매출 500억원대 정보기술(IT)서비스 기업 유큐브가 법원에 기업회생을 신청했다. 다수 공공사업을 수행해왔던 만큼 향후 사업 추진에도 영향을 받을 전망이다. 더욱이 지난해 네이버시스템과 조인트리 등 공공사업 수행 기업의 경영난이 반복되면서 중소 IT서비스업계의 경영 불안도 다시 부각되고 있다. 11일 업계에 따르면 서울회생법원 제14부는 유큐브에 대해 포괄적 금지명령을 내렸다. 이에 따라 회생절차 개시 여부가 결정될 때까지 회생채권·회생담보권"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "박홍근 “반도체 편중 리스크 줄여야”…7대 신산업 투자 확대",
+      "url": "https://www.etnews.com/20261111000347",
+      "published": "2026-11-11T14:38:45+09:00",
+      "summary": "정부가 미국 중간선거 이후 정책 변화와 금융시장 변동성에 대응해 반도체 중심의 산업구조 다변화에 나선다. 소형모듈원자로(SMR)와 양자 등 차세대 성장동력에 재정투자를 확대하고, 초과세수를 활용해 취약계층 지원도 강화한다. 기획예산처는 11일 박홍근 장관이 국회 의원회관에서 공공기관·민간·학계 전문가들과 간담회를 열고 미국 중간선거 이후 국내외 경제 동향과 재정 대응방향을 논의했다고 밝혔다. 박 장관은 미국 중간선거 결과로 정책 지형에 적지 않"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“소비쿠폰 효과, GPT로 검증”…오픈AI, 韓 정책 연구 공개",
+      "url": "https://www.etnews.com/20261111000340",
+      "published": "2026-11-11T14:32:42+09:00",
+      "summary": "오픈AI가 생성형 인공지능(AI)으로 '민생회복 소비쿠폰' 정책의 가계 소비 효과를 예측·검증하는 연구를 통해 챗GPT의 정책 연구 활용 가능성을 제시했다. 권혁구 싱가포르 난양공과대(NTU) 정보시스템학과 석좌교수는 11일 서울 강남구 오픈AI 사무실에서 열린 '오픈 인사이트: 정책 연구에서의 AI 활용' 미디어 세션에서 “GPT에 소비자별 생활 여건과 소비 패턴을 학습시켜 정부 지원금 정책의 효과를 검증할 것”이라고 말했다. 이번 연구는 오"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "취약점 찾아준다던 금융보안원, 자체 보안 뚫렸다",
+      "url": "https://www.etnews.com/20261111000336",
+      "published": "2026-11-11T14:31:00+09:00",
+      "summary": "금융보안원이 공격표면관리(ASM)와 실전형 모의해킹을 확대하고도 자체 시스템의 정보 유출을 막지 못했다. 공격자가 금융감독원을 사칭해 시스템에 접근한 것으로 파악되면서 금융보안원의 계정·접근권한 관리에도 허점이 드러났다. 11일 금융권에 따르면 공격자는 금감원을 사칭한 가짜 계정으로 금보원의 '정보보호 상시평가 지원시스템'에 접근했다. 접속 과정에서 인터넷주소(IP)를 수시로 바꾼 것으로 전해졌다. 시스템은 금융회사가 평가에 필요한 자료를 제출"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "[보도 그 후] 가전 에너지 등급 '꼼수 등록' 사후관리 강화…업계 제보제 내년 신설",
+      "url": "https://www.etnews.com/20261111000316",
+      "published": "2026-11-11T14:21:30+09:00",
+      "summary": "내년부터 가전 에너지효율등급 시험 우회가 의심되는 제품을 제보받아 사후관리 대상에 반영하는 제도가 신설된다. 중국 가전 기업의 에너지 등급 '꼼수 등록' 의혹이 제기된 이후 사후관리 실효성을 높이기 위한 조치다. 한국에너지공단은 내년 초에 가전 기업으로부터 시험 우회 의심 제품 제보를 받을 계획이다. 제보를 공식 접수하고, 사후관리 대상 선정에 반영하는 절차를 처음으로 마련한다. 공단은 제보받은 제품을 내부적으로 검토해 사후관리 대상에 추가할"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“증권·펀드 거래도 블록체인으로”…스테이블코인 결제 확산 전망",
+      "url": "https://www.etnews.com/20261111000311",
+      "published": "2026-11-11T14:15:47+09:00",
+      "summary": "글로벌 금융시장에서 스테이블코인의 활용이 해외송금을 넘어 펀드·증권 거래와 결제, 담보 관리 등 자본시장 전반으로 확대될 것이라는 전망이 나왔다. 블록체인을 활용해 금융자산의 소유권 이전과 대금 지급을 동시에 처리하면 기존 금융시스템의 결제 지연과 비용을 줄일 수 있다는 분석이다. 11일 서울 여의도 포스트타워에서 '스테이블코인 시대, 대한민국 크로스보더 페이먼트의 미래' 세미나가 열렸다. 이날 첫 발제를 맡은 이은진 리플 아시아태평양(APAC"
+    },
+    {
+      "source": "네이버 D2",
+      "region": "kr",
+      "title": "Chaos Mesh로 Kubernetes 앱의 장애 내구성 검증하기",
+      "url": "https://d2.naver.com/helloworld/6523094",
+      "published": "2026-11-11T16:49:24+09:00",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 Kubernetes 상에서 가상 인프라 장애를 통해 시스템을 사전에 검증하고 장애를 예방하는 기술을 소개합니다. ​ 발표 대상 Chaos Engineering 도입을 고민중인 개발자 ​ 목차 도입 : Chaos Engineering PART 1. Chaos Mesh 소개 Chaos Mesh 란 주입 매커니즘 Workflow PART 2. 실제 서비스에 적용하기 장애 제어와 테스트 테스트 구성과 자동화 주의사항 ​ ​ ◎ NAVER Engineering Day란? ​ NAVER에서는 사내 개발 경험과 기술 트렌드를 교류를 할 수 있는 프로그램이 많이 있습니다. 그중 이제는 매회 평균 100개 이상의 발표가 이루어지는 NAVER Engineering Day를 빼놓을 수 없는데요. 2016년부터 시작된 ENGINEERING DAY는 실무에서의 기술 개발 경험"
+    },
+    {
+      "source": "네이버 D2",
+      "region": "kr",
+      "title": "AI 산출물이 프로덕션이 되기까지-AI와 디자인시스템이 함께 일하는 법",
+      "url": "https://d2.naver.com/helloworld/2568242",
+      "published": "2026-11-11T17:10:44+09:00",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 AI변화와 함께 성장하는 디자인시스템을 소개합니다. ​ AI 산출물이 프로덕션으로 이어지지 못하는 5가지 이유 스펙·HTML·이미지 어떤 입력이든 Figma로 모으는 전략과, Figma를 중심에 둔 이유 AI와 설계자가 같은 블록으로 조립하도록 컴포넌트·디자인 토큰·design.md로 설계 의도를 표현하는 방법 접근성·인터랙션·엣지 케이스가 담긴 코드 컴포넌트와 Code Connect로 Figma와 코드를 잇는 방법 이미지 → Figma, Figma → 마크업, Figma ↔ 마크업 비교 데모 (Claude Code 플러그인 defign-toolkit) Figma의 높은 자유도를 보완하는 deFign assistant 도입 후 달라진 점과 앞으로의 방향 (Spec → Code) ​ 발표 대상 AI로 만든 결과물을 실제 서비스로 옮기는 데 드는 재작업이 "
+    },
+    {
+      "source": "네이버 D2",
+      "region": "kr",
+      "title": "검수도 답변도 호출도 AI가? 커머스API의 2026",
+      "url": "https://d2.naver.com/helloworld/7749530",
+      "published": "2026-11-11T17:11:58+09:00",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 같은 API 스펙이 AI 에게 검수되고, 문의 답변의 근거가 되고, tool 로 호출되기까지 — 커머스API 플랫폼이 올해 진행한 AI native 과제 세 건의 설계 결정과 운영 결과를 소개합니다. ​ 발표 대상 API 를 만들거나 운영하는 백엔드 개발자 게이트웨이·플랫폼 운영자 LLM·MCP 를 서비스에 연결하려는 개발자 ​ 목차 도입 : 우리가 맡은 플랫폼과 AI 로 할 수 있게 된 것 1장. 라우팅 룰 AI 검수 - 자동화 규칙 50개를 데이터로 만들고, 판단이 필요한 규칙까지 자동으로 검수하는 엔진 2장. MCP G/W(MCP 게이트웨이) - 도구화 API 명세를 AI 에이전트가 부르는 Tool 로 바꾸고, 같은 검수와 통제를 거치게 한 창구 3장. 기술지원 운영 업무 AI 지원 - 영역 확대 흩어진 지식을 지식 자산으로 모아, AI 가 읽는 "
+    },
+    {
+      "source": "네이버 D2",
+      "region": "kr",
+      "title": "Socket.IO 서버를 여러 Pod에서 운영하기",
+      "url": "https://d2.naver.com/helloworld/3517874",
+      "published": "2026-11-11T17:14:48+09:00",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 Socket.IO와 n3r 기반의 소켓 서버를 자체 구축하면서, 여러 Pod 사이의 이벤트 전달과 안정적인 연결 유지를 위한 설계와 검증 과정, 운영 경험을 정리해 공유합니다. ​ <참고> 영상속 사내용어 n3r = 네이버 사내 쿠버네티스 기반 컨테이너 플랫폼 ​ 발표 대상 WebSocket이나 Socket.IO 서버를 Kubernetes 위에서 여러 인스턴스로 운영하려는 백엔드 개발자 ​ 목차 배경 기존 플랫폼의 제약과 신규 소켓 서버 구축 목표 기본 개념 Socket.IO의 역할과 다중 Pod 환경의 연결 특성 설계 연결 인증, Pod 간 이벤트 전달, 자료구조와 사용자 흐름 운영 타임아웃, 오토스케일과 재분산, 배포와 연결 종료 검증 부하 시험과 배포 전략 비교, 결과에 따른 설계 보완 정리 다중 Pod 소켓 서버를 설계하고 운영하며 배운 점 ​ "
+    },
+    {
+      "source": "네이버 D2",
+      "region": "kr",
+      "title": "AI 스킬 만들기 10계명: Figma→Code 자동화 실전기",
+      "url": "https://d2.naver.com/helloworld/8562180",
+      "published": "2026-11-10T19:27:18+09:00",
+      "summary": "이 글에서 예로 든 스킬은 naver/design-to-ui 라는 이름의 오픈 소스로 공개되어 있습니다. 들어가며: 같은 모델, 다른 결과 AI 코딩 도구를 쓰다 보면 프롬프트에서 같은 설명을 매번 반복하게 됩니다. \"이건 아이콘이니까 에셋으로 받아\", \"이건 그래프니까 Canvas로 그려\", \"색상은 하드코딩하지 말고 디자인 토큰을 써\" 같은 설명이 그렇습니다. Figma 디자인을 Android 코드로 옮길 때도 마찬가지였습니다. 그래서 Claude의 스킬(Agent Skills) 기능이 공개되자마자 Figma 디자인을 Android UI로 변환하는 스킬을 만들기 시작했습니다. 목표는 프롬프트 한 번으로 완성도 높은 UI를 얻는 것이었습니다. 스킬의 효과는 생각보다 컸습니다. 2026년 3월, 같은 모델(Claude Opus 4.6)과 같은 프롬프트에 Figma Desktop MCP 서버까지 똑같이 쓰고 스킬만 바꿔 화면 하나를 조건마다 한 번씩 변환해 보았습니다. 그 결과는 다음"
+    },
+    {
+      "source": "네이버 D2",
+      "region": "kr",
+      "title": "우리 팀만의 스펙 주도 개발 정착기",
+      "url": "https://d2.naver.com/helloworld/8644274",
+      "published": "2026-11-11T17:15:47+09:00",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 스펙 주도 개발(SDD)을 팀 내 개발 정책으로 채택한 배경과 시행착오에 대해 소개합니다. ​ 발표 대상 스펙 주도 개발 도입을 고민중인 개발자 ​ 목차 배경 - SDD를 도입하게 된 이유 우리 팀이 채택한 SDD의 구조 팀 SDD 정책을 세우며 마주친 고민 일곱갈래 다음 고민과 남은 숙제 ​ ​ ◎ NAVER Engineering Day란? ​ NAVER에서는 사내 개발 경험과 기술 트렌드를 교류를 할 수 있는 프로그램이 많이 있습니다. 그중 이제는 매회 평균 100개 이상의 발표가 이루어지는 NAVER Engineering Day를 빼놓을 수 없는데요. 2016년부터 시작된 ENGINEERING DAY는 실무에서의 기술 개발 경험과 새로운 기술과 플랫폼 도입 시 유용하게 활용될 수 있는 팁 등을 공유하며 서로 배우고 성장하는 네이버의 대표적인 사내 "
+    },
+    {
+      "source": "네이버 D2",
+      "region": "kr",
+      "title": "worklog-system 주간보고 자동화 구축 경험기",
+      "url": "https://d2.naver.com/helloworld/5037598",
+      "published": "2026-11-11T17:17:53+09:00",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 발표 내용 대 AI 시대에 본인의 업무 기록을 수집하고 TODO 및 회의록을 기록하는 시스템을 소개합니다. ​ 이 도구를 만들며 부딪힌 세 가지 문제를 차례로 다룹니다. 기억이 아니라 기록에서 주간보고를 모으는 방법 재택과 사무실을 오가며 여러 기기와 VPN 환경에서 기록을 빠짐없이 모으는 구조 주간보고 화면에 노트·TODO·일정을 더해 업무 도구로 키우면서 중앙 서버 없이 해결한 과정 ​ <참고> 영상속 사내용어 OSS = 네이버 사내 GitHub Enterprise 인스턴스 ​ 발표 대상 주간보고를 쓰는 모든 직군 반복되는 업무 기록과 보고를 자동화하고 싶은 분 AI 도구와 사내 협업 도구(Slack, Jira, Confluence, GitHub)를 엮어 개인 생산성 도구를 만들어 보고 싶은 분 ​ 목차 데모: 하루 끝, 주간보고 끝 Episode 1. 주간보고 "
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+      "url": "https://termsheetplease.com",
+      "published": "2026-11-12T04:12:16+09:00",
+      "summary": "Article URL: https://termsheetplease.com/ Comments URL: https://news.ycombinator.com/item?id=50457230 Points: 120 # Comments: 58"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Retirement Savings Are Fueling the AI Bubble",
+      "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble",
+      "published": "2026-11-12T04:06:43+09:00",
+      "summary": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 116 # Comments: 121"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "published": "2026-11-12T03:32:42+09:00",
+      "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ Comments URL: https://news.ycombinator.com/item?id=50456791 Points: 145 # Comments: 45"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "published": "2026-11-12T03:21:38+09:00",
+      "summary": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an... Comments URL: https://news.ycombinator.com/item?id=50456631 Points: 488 # Comments: 169"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "published": "2026-11-12T01:57:45+09:00",
+      "summary": "Article URL: https://machinelearning.apple.com/research/faster-retrieval Comments URL: https://news.ycombinator.com/item?id=50455633 Points: 117 # Comments: 22"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter",
+      "published": "2026-11-12T01:38:44+09:00",
+      "summary": "Article URL: https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/ Comments URL: https://news.ycombinator.com/item?id=50455394 Points: 338 # Comments: 167"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "published": "2026-11-12T00:33:06+09:00",
+      "summary": "Hey HN, I’m Eric and I want to share an OSS project that I’ve been building in my free time. Yogurt is a free, MIT licensed desktop app that uses on-device AI models to transcribe, summarize, and chat with your meetings. Here's a quick demo video: https://www.youtube.com/watch?v=BFfbXAwRq98 Similar to Granola, Yogurt runs in the background and does not join your calls. But unlike Granola, Yogurt is open-source, free to use, and private. Your meeting transcripts, call recordings, and summaries ne"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Pharo in the Browser with WebAssembly",
+      "url": "https://massimo-nocentini.github.io/pharo-vm/world.html",
+      "published": "2026-11-11T23:21:27+09:00",
+      "summary": "Article URL: https://massimo-nocentini.github.io/pharo-vm/world.html Comments URL: https://news.ycombinator.com/item?id=50453763 Points: 113 # Comments: 32"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Atuin Threads: All your agent sessions on every machine",
+      "url": "https://blog.atuin.sh/threads-agent-sessions",
+      "published": "2026-11-11T23:10:46+09:00",
+      "summary": "Article URL: https://blog.atuin.sh/threads-agent-sessions/ Comments URL: https://news.ycombinator.com/item?id=50453637 Points: 169 # Comments: 62"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Hyper-Realistic Sand with WebGL2",
+      "url": "https://av.github.io/safe-sand",
+      "published": "2026-11-11T22:39:29+09:00",
+      "summary": "Article URL: https://av.github.io/safe-sand/ Comments URL: https://news.ycombinator.com/item?id=50453288 Points: 258 # Comments: 57"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Can a Linear Program Do Weight-Space Programming?",
+      "url": "https://nathan.rs/posts/weight-space-lp",
+      "published": "2026-11-11T21:30:17+09:00",
+      "summary": "Article URL: https://nathan.rs/posts/weight-space-lp/ Comments URL: https://news.ycombinator.com/item?id=50452655 Points: 222 # Comments: 33"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "We need more goat sacrifices",
+      "url": "https://www.experimental-history.com/p/we-need-more-goat-sacrifices",
+      "published": "2026-11-11T21:29:48+09:00",
+      "summary": "Article URL: https://www.experimental-history.com/p/we-need-more-goat-sacrifices Comments URL: https://news.ycombinator.com/item?id=50452652 Points: 169 # Comments: 100"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "My AI agents found an unmapped Maya site",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "published": "2026-11-11T21:05:22+09:00",
+      "summary": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 885 # Comments: 320"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Using voltage glitching to unleash the A100 in my mining card",
+      "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100",
+      "published": "2026-11-11T19:48:40+09:00",
+      "summary": "Article URL: https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/ Comments URL: https://news.ycombinator.com/item?id=50451903 Points: 239 # Comments: 98"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Tim Peters has died",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "published": "2026-11-11T16:03:17+09:00",
+      "summary": "https://www.reddit.com/r/Python/s/2Cm5dBcvQw Comments URL: https://news.ycombinator.com/item?id=50450488 Points: 664 # Comments: 66"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Why the data center you dread might never even be built",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built",
+      "published": "2026-11-12T05:15:15+09:00",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Meta is losing its longtime head of infrastructure",
+      "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure",
+      "published": "2026-11-12T05:12:01+09:00",
+      "summary": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Olaf Sakkers is betting he can beat the emerging-manager squeeze",
+      "url": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze",
+      "published": "2026-11-12T05:04:28+09:00",
+      "summary": "Entering into the world of venture capital has never been easy, especially as a first-time fund manager. But it's especially daunting right now. Olaf Sakkers has spent the past five years proving that difficult doesn't mean impossible."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth",
+      "published": "2026-11-12T04:54:00+09:00",
+      "summary": "CoreWeave is increasingly asking customers to pay upfront, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips",
+      "published": "2026-11-12T04:34:55+09:00",
+      "summary": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+      "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair",
+      "published": "2026-11-12T04:22:22+09:00",
+      "summary": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+      "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems",
+      "published": "2026-11-12T01:16:07+09:00",
+      "summary": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time",
+      "published": "2026-11-12T01:14:44+09:00",
+      "summary": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Siri co-founder backs Helix for its voice ID tech",
+      "url": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech",
+      "published": "2026-11-12T00:02:47+09:00",
+      "summary": "With the rise of AI agents like Instinct and Muse, the industry needs to rethink human identity on the internet and rely on biometric signals like voice, which is where Helix comes in."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth",
+      "published": "2026-11-12T00:00:00+09:00",
+      "summary": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+      "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads",
+      "published": "2026-11-11T23:00:00+09:00",
+      "summary": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+      "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn",
+      "published": "2026-11-11T16:30:51+09:00",
+      "summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "X launches its own clipping feature to spur influencer engagement",
+      "url": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement",
+      "published": "2026-11-11T10:02:13+09:00",
+      "summary": "X is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder",
+      "published": "2026-11-11T06:08:52+09:00",
+      "summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
+      "url": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development",
+      "published": "2026-11-11T05:47:05+09:00",
+      "summary": "Former SignalFire investor Sahir Raoof raises $27.5 million for new fund targeting AI in pharma."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "X-energy gets green light to build its first small modular nuclear reactors",
+      "url": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors",
+      "published": "2026-11-11T05:43:55+09:00",
+      "summary": "X-energy received a construction permit from the U.S. Nuclear Regulatory Commission to build four reactors in Texas."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
+      "published": "2026-11-11T04:57:52+09:00",
+      "summary": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
+      "published": "2026-11-11T04:23:34+09:00",
+      "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery",
+      "published": "2026-11-11T04:03:52+09:00",
+      "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades."
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+      "url": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
+      "published": "2026-11-12T07:00:00+09:00",
+      "summary": "Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more devices into your smart home. It's part of Home Assistant's ongoing efforts to become more user-friendly. And it's working. I've been testing the […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "United won’t let your AI agent book your flight",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "published": "2026-11-12T06:54:21+09:00",
+      "summary": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
+      "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
+      "published": "2026-11-12T03:13:52+09:00",
+      "summary": "Gaming, social media, and e-commerce platforms are facing a fresh wave of sweeping European Union rules that aim to make \"your online experience fairer.\" The newly proposed Digital Fairness Act (DFA) published by the EU Commission on Wednesday is designed to tackle practices that exploit consumers into spending more of their time and money online, […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck",
+      "url": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
+      "published": "2026-11-12T02:09:58+09:00",
+      "summary": "Toyota is dusting off the Scion badge for a radically different mission. Rather than targeting youth-market hatchbacks, \"Scion by Toyota\" is being positioned as an experimental mobility incubator - and its first vehicle is an authentic Japanese-style kei truck built in Indiana. Kei vehicles, which are built to satisfy Japan's light vehicle regulations, are enjoying […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+      "published": "2026-11-12T01:00:00+09:00",
+      "summary": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "The best early Black Friday deals you can already shop",
+      "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+      "published": "2026-11-12T00:53:55+09:00",
+      "summary": "The countdown to Black Friday is on, and the first discounts are starting to appear. Although the shopping holiday isn’t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Sharge’s eye-catching MacBook charger is over 25 percent off",
+      "url": "https://www.theverge.com/gadgets/1031301/sharge-140w-gan-charger-lenovo-yoga-mini-desktop-pc-deal-sale",
+      "published": "2026-11-12T00:30:00+09:00",
+      "summary": "Looking for a MacBook and device charger that’s as stylish as it is capable? Both Amazon and Sharge are selling the Pixel 140W GaN charger for $69.88 and $69.90, respectively, a $24 discount on its usual price. If you’re not in need of that much wattage but like the style, Sharge is also selling the […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Ocarina of Time is even better if you use a smartphone app",
+      "url": "https://www.theverge.com/games/1031321/the-legend-of-zelda-ocarina-of-time-notes-app-gold-skulltula",
+      "published": "2026-11-12T00:00:00+09:00",
+      "summary": "I never liked hunting for Golden Skulltulas in The Legend of Zelda: Ocarina of Time. The game has 100 of them tucked all over Hyrule, and even over my many hours with the N64 classic growing up, I can't remember ever actually finding all of them, or even wanting to. Jumping into the Ocarina of […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+      "published": "2026-11-12T00:00:00+09:00",
+      "summary": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold important clues to the causes of disease - and point the way to new treatments. AlphaGenome 2 is the successor […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Sony’s latest Pulse wireless headset packs planar magnetic drivers at a good price",
+      "url": "https://www.theverge.com/games/1031291/sony-playstation-pulse-wireless-gaming-headset-hands-on",
+      "published": "2026-11-11T23:00:00+09:00",
+      "summary": "It's tempting to seek out the do-everything wireless gaming headset with noise cancellation, phenomenal sound quality, multiplatform connectivity, swappable batteries - you name it. But if you just want the basics done well, Sony's new $99.99 PlayStation Pulse headset is worth considering. It has very good sound and just enough extras, even if you use […]"
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says",
+      "url": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says",
+      "published": "2026-11-12T05:32:21+09:00",
+      "summary": "Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Anduril says its first satellite can see adversaries maneuver in orbital night",
+      "url": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness",
+      "published": "2026-11-12T05:22:03+09:00",
+      "summary": "\"What's unique is it's got a huge dynamic range. We can see things in full dark.\""
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "NASA's secret weapon in the lunar space race may be ... procurement reform?",
+      "url": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon",
+      "published": "2026-11-12T04:00:26+09:00",
+      "summary": "\"The pace that's occurring, and the nature of the procurements, is unprecedented.\""
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+      "published": "2026-11-12T03:16:40+09:00",
+      "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Trump admin loses fight to spy on random journalists’ LinkedIn DMs",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms",
+      "published": "2026-11-12T03:05:26+09:00",
+      "summary": "Confidential sources “lifeblood” of free press, court rules in LinkedIn fight."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+      "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
+      "published": "2026-11-12T02:37:32+09:00",
+      "summary": "Any amount of AI coding is too much for many Independent Games Festival judges."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Apple is shuttering its 28-year-old online community forum",
+      "url": "https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum",
+      "published": "2026-11-12T02:04:26+09:00",
+      "summary": "Apple has already made the forum read-only."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "IBM to offer access to a dual-processor quantum system in 2027",
+      "url": "https://arstechnica.com/science/2026/11/ibm-to-offer-access-to-a-dual-processor-quantum-system-in-2027",
+      "published": "2026-11-12T01:33:08+09:00",
+      "summary": "The company plans on linking two 520-qubit chips before next year is over."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Trump wanted little Kei trucks for America, Toyota makes it happen",
+      "url": "https://arstechnica.com/cars/2026/11/toyota-resurrects-scion-with-right-hand-drive-kei-trucks",
+      "published": "2026-11-12T00:25:44+09:00",
+      "summary": "Does this herald the start of a small car revolution, or is it a meaningless distraction?"
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Google DeepMind just mathematically verified key parts of Signal",
+      "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+      "published": "2026-11-11T23:08:57+09:00",
+      "summary": "The four-week project hints that AI could make formal verification far more practical."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Seagate's new hybrid drive raises some old questions",
+      "url": "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive",
+      "published": "2026-11-11T08:30:56+09:00",
+      "summary": "The FireCuda Forge revisits an old idea, with some familiar questions."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "The US military seems to be getting nervous about the launch supply crunch",
+      "url": "https://arstechnica.com/space/2026/11/the-us-military-seems-to-be-getting-nervous-about-the-launch-supply-crunch",
+      "published": "2026-11-11T08:02:39+09:00",
+      "summary": "\"Launch is extremely constrained and that is exactly the situation we predicted.\""
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "url": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot",
+      "published": "2026-11-11T07:35:01+09:00",
+      "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Democrats oppose plan to stack FCC with Republicans, plan probes of Chairman Carr",
+      "url": "https://arstechnica.com/tech-policy/2026/11/democrats-oppose-plan-to-stack-fcc-with-republicans-plan-probes-of-chairman-carr",
+      "published": "2026-11-11T06:55:26+09:00",
+      "summary": "Democrats accuse FCC nominee of evading questions about Carr, her current boss."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
+      "published": "2026-11-11T06:12:59+09:00",
+      "summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "What happens to mathematics when AI becomes an oracle?",
+      "url": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
+      "published": "2026-11-11T05:30:01+09:00",
+      "summary": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World ."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Google Fi adds support for a second 5G network, won't say which one",
+      "url": "https://arstechnica.com/google/2026/11/google-fi-adds-support-for-a-second-5g-network-wont-say-which-one",
+      "published": "2026-11-11T04:35:59+09:00",
+      "summary": "Fi has always supported T-Mobile, but the new one? Google won't say."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Pixel phones getting new icon styles, Create My Widget, and more in November Pixel Drop",
+      "url": "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family",
+      "published": "2026-11-11T04:00:26+09:00",
+      "summary": "Spruce up your home screen with expanded custom icons and AI-generated widgets."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Free video-streaming service Tubi lets users share curated watchlists now",
+      "url": "https://arstechnica.com/gadgets/2026/11/free-video-streaming-service-tubi-lets-users-share-curated-watchlists-now",
+      "published": "2026-11-11T03:39:16+09:00",
+      "summary": "User-based recommendations could make it easier to find stuff to watch on Tubi."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Steam Deck performance gets a reality check with Valve's new FPS data",
+      "url": "https://arstechnica.com/gaming/2026/11/steam-deck-performance-gets-a-reality-check-with-valves-new-fps-data",
+      "published": "2026-11-11T02:26:44+09:00",
+      "summary": "Benchmark tools for generic gaming rigs could be coming soon."
+    }
+  ],
+  "errors": [
+    {
+      "source": "GeekNews",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "카카오 기술블로그",
+      "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "우아한형제들 기술블로그",
+      "error": "HTTP 403"
+    }
+  ]
+}
