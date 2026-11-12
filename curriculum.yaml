@@ -126,7 +126,7 @@ topics:
 - id: websocket
   title: WebSocket
   category: 웹
-  covered_on: null
+  covered_on: '2026-11-13'
 - id: db-replication-sharding
   title: 복제와 샤딩
   category: 데이터베이스
