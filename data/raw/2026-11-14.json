@@ -1,0 +1,947 @@
+{
+  "date": "2026-11-14",
+  "items": [
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI가 \"개발 완료\"라고 하면, 어디까지 믿어도 될까",
+      "url": "https://yozm.wishket.com/magazine/detail/4039",
+      "published": null,
+      "summary": "에이전트에게 일을 맡기면 코드는 금방 나오지만, 그 코드를 사람이 읽고 확인하는 속도는 예전과 크게 다르지 않습니다. 테스트와 CI를 모두 통과했는데 막상 화면을 열어 보니 기능이 빠져 있는 일도 생기죠. 이제는 AI가 '다 됐다'고 보고할 때 그 말을 어디까지 믿고, 사람은 어디서 직접 확인할지 정해야 할 때입니다. 요즘IT에 2026년 7월부터 11월까지 실린 글 가운데 에이전트가 쓴 코드를 확인하는 장치를 만든 일곱 편을 분석해, 그 방법을 네 가지로 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "골드만삭스는 왜 트레이더에게서 클로드 코드를 뺏었을까",
+      "url": "https://yozm.wishket.com/magazine/detail/4037",
+      "published": null,
+      "summary": "골드만삭스는 왜 트레이더에게서 클로드 코드를 뺏었을까요? 블룸버그에 따르면 골드만삭스는 AI 코딩 도구를 엔지니어에게만 쓰게 했고, 스테이트 오브 AI는 그 이유를 검토 없이 쓰이는 코드, 부서 사이의 정보 차단, 비용으로 해석했습니다. 개인 AI 에이전트의 항공권 예약을 금지한 유나이티드항공, 클로드 안에서 팀과 함께 쓰는 화이트보드·시트·데이터까지. 이번 주 프로덕트 메이커가 눈여겨볼 세 가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "엔지니어의 취향은 무기다",
+      "url": "https://yozm.wishket.com/magazine/detail/4035",
+      "published": null,
+      "summary": "우후죽순 등장하는 서비스들을 보고 있으면 묘한 감정이 든다. 그 어색함은 AI를 썼다는 사실이 아니라, 의사결정의 길목마다 사람의 흔적이 느껴지지 않는 데서 온다. 엔지니어의 취향은 근거 없는 고집이 아니라 반복된 실패와 기술적 고찰을 통해 압축된 판단 기준이다. MSA와 모놀리식, ORM과 저장 프로시저 사이에서 무엇을 포기하고 무엇을 얻을지 되물었던 경험을 지나, 평균적인 해답은 AI로도 쉽게 얻는 시대이기에 엔지니어의 취향이 강력한 무기가 될 수 있다는 결론에 이른다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "비개발 직군에 AI 가드레일 배포할 때 주의할 5가지",
+      "url": "https://yozm.wishket.com/magazine/detail/4034",
+      "published": null,
+      "summary": "이제는 비개발 직군도 직접 Git 저장소를 만들고 웹페이지를 배포하며 데이터를 가공합니다. 이 저장소를 개인 계정에 만들어도 되는지, AI가 만든 페이지를 바로 외부에 공개해도 되는지, 업무 파일이 섞인 폴더에서 에이전트를 돌려도 되는지는 기존 계정 관리나 문서 공유 기준만으로 답하기 어렵죠. PO로서 비개발 직군의 AI 활용 범위가 넓어지는 과정을 지켜보며, 접근·연결·실행 범위를 중심으로 AI 업무 가드레일을 설계한 경험을 다섯 가지로 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI 시대 현직 개발자의 자기 효능감에 관하여",
+      "url": "https://yozm.wishket.com/magazine/detail/4033",
+      "published": null,
+      "summary": "오늘도 개발자가 안 된다고 말하던 시절을 지나, 이제 동료들은 바이브 코딩으로 필요한 툴을 직접 만들어 쓴다. 게임 회사 플랫폼 부서에서 일하는 글쓴이는 그 모습을 보며 앞으로 나는 무슨 일을 해야 할까 불안했다고 털어놓는다. 하지만 엑셀 diff 툴과 MCP 서버를 함께 고민하는 동료들을 지켜보며, 나를 움직이는 건 꼭 필요한 일을 하고 있다는 자기효능감임을 다시 확인한다. 모두가 툴을 만들 수 있게 되었다고 해서, 내가 해줄 수 있는 일까지 없어지는 건 아니었다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "AI. vs 사람 맡길 일 고르는 기준 4가지",
+      "url": "https://yozm.wishket.com/magazine/detail/4032",
+      "published": null,
+      "summary": "‘이것도 돼?’를 넘어 이제는 어디까지 맡기고 어떤 건 내가 꼭 해야 하는지 정해야 할 때입니다. 사업관리 담당자, 법률 AI 디자이너, 프론트엔드 개발자까지 아홉 명이 먼저 맡겨보고 찾은 기준은 비슷했습니다. 맡길 가치가 있는 일을 고르고, 정해진 답은 규칙으로 묶고, 되돌리기 어려운 결정은 사람에게 남기고, 확인할 지점을 미리 설계하는 것. 경계선을 긋는 건 AI의 성능이 아니라 오류의 비용이라는 걸, 아홉 편의 레퍼런스를 분석해 네 가지로 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "국내 FDE 지도 2026: FDE는 무슨 일을 할까",
+      "url": "https://yozm.wishket.com/magazine/detail/4031",
+      "published": null,
+      "summary": "요즘 IT 업계에서 부쩍 자주 들리는 직군이 있습니다. 바로 FDE입니다. 사무실에서 요청을 받아 개발하는 대신, 고객 현장에 직접 들어가 문제를 찾고 실제로 돌아가는 시스템까지 만들어 내는 엔지니어를 가리키는데요. FDE라는 직무를 처음 만든 팔란티어의 공고부터 읽고, 올해 국내에서 FDE를 뽑거나 FDE 조직을 밝힌 회사 122곳을 지도로 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "깃허브 스타 42만 개 REA로 노션형 블록 에디터 구현해봤다",
+      "url": "https://yozm.wishket.com/magazine/detail/4028",
+      "published": null,
+      "summary": "그렇다면 REA를 설치하면 정말 남의 앱 기능을 알아내고 따라 만들 수 있을까요? 노션과 비슷한 오픈소스 앱 AFFiNE의 슬래시 메뉴와 블록 이동 기능을 REA로 분석하고 원본 소스와 맞춰 채점한 뒤 직접 다시 만들어 봤는데, 정리한 동작 규칙 18개 중 16개가 원본과 일치했습니다. 나머지 2개는 압축된 조건식을 반대로 읽은 해석 오류였고요. 번들 구조를 읽을 줄 아는 프론트엔드 개발자에게는 권하지만, 검증할 방법 없이 상용 서비스를 그대로 베끼는 용도로는 권하지 않는 이유까지 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "한 번 연결한 MCP, 다른 환경에서도 그대로 쓸 수 있을까? Liner Actions 일주일 사용기",
+      "url": "https://yozm.wishket.com/magazine/detail/4023",
+      "published": null,
+      "summary": "새 프로젝트를 열면 서비스마다 다시 붙이고, 다른 컴퓨터로 가면 로그인과 키 설정을 또 하고, 웹이나 폰, 다른 에이전트에서는 아예 처음부터 해야 했죠. MCP 서버 하나를 등록하고 라이너 계정에 서비스 연결을 한 번 해 두면, 다른 환경과 에이전트에서도 그 연결을 그대로 쓸 수 있다는 Liner Actions를 일주일 넘게 써 봤습니다. GitHub·Notion·Sender·Mixpanel을 맥북과 웹, 폰, Codex를 오가며 써 보니 쓰는 내내 AI에 팔다리가 붙은 느낌이었지만, 쓰기 권한만큼은 따로 챙겨야 했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "인하우스 IT 기획자가 AI로 대시보드 만들며 배운 4가지",
+      "url": "https://yozm.wishket.com/magazine/detail/4021",
+      "published": null,
+      "summary": "'솔루션 업체에 가능한지부터 확인해 봐야 한다.' 인하우스 IT 조직에서 일하다 보면 자주 듣는 말입니다. 개발 리소스를 기다리는 대신, 기획자가 VS Code와 클로드 코드로 테이블 100개 가까운 레거시 DB를 뒤져 홈페이지·앱 직판 예약 데이터 대시보드를 직접 만들었는데, 정작 가장 오래 걸린 건 코드가 아니라 검증이었습니다. 구현엔 2일, 검증엔 2주. 데이터 구조를 이해하는 법부터 AI가 짠 쿼리를 검증하는 법까지, 만들며 배운 4가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "Next.js 모바일 웹을 일주일 만에 앱으로 바꾼 방법 ②",
+      "url": "https://yozm.wishket.com/magazine/detail/4019",
+      "published": null,
+      "summary": "지난 1편은 빠르게 앱 POC를 만드는 데는 성공했지만, 바로 출시까지 가는 데는 실패했습니다. 마크다운 문서상으로는 화면이 다 올라와 있었지만, 막상 휴대폰으로 하나씩 눌러보니 SafeArea와 키보드, 터치 영역부터 겉모습은 같은데 어긋난 로직까지 문제가 한꺼번에 쏟아졌죠. “알림 화면이 있는 것”과 “푸시 알림이 오는 것”은 전혀 다른 문제였고, 스크린샷 비교만으로는 끝내 잡히지 않는 픽셀 단위 디자인 차이도 있었습니다. “앱 출시까지 2주면 된다”는 말을 직접 테스트해, 속도는 맞고 디테일은 틀렸다는 결론에 이른 기록입니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "모델이 그렇게 좋다면 오픈AI는 왜 직접 회사를 차리지 않을까",
+      "url": "https://yozm.wishket.com/magazine/detail/4017",
+      "published": null,
+      "summary": "모델이 그렇게 좋다면, 오픈AI는 왜 직접 회사를 차리지 않을까요? 해커뉴스에 올라온 이 질문에 750개 넘는 댓글이 달리며, 만드는 것보다 고객을 찾는 일이 더 어렵다는 답이 이어졌습니다. 여기에 상반기 매출 163억 달러를 밝힌 앤트로픽 상장 신청서(S-1)로 본 앤트로픽의 돈 버는 방식, 말 한마디로 제품 출시 영상을 만드는 AI 스킬 huashu-motion까지. 이번 주 프로덕트 메이커가 눈여겨볼 세 가지를 정리했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "국내 FDE 현황 조사 2026: 현장 FDE에게 직접 묻습니다",
+      "url": "https://yozm.wishket.com/magazine/detail/4016",
+      "published": null,
+      "summary": "FDE(Forward Deployed Engineer)라는 직무를 두고 시선이 엇갈립니다. 한쪽은 AI 시대의 새로운 직무로, 다른 한쪽은 새 이름을 단 컨설팅으로 보기도 하죠. 답은 실제로 이 일을 하는 사람들이 어디서 왔고, 또 어떻게 일하고 있는지에서 찾아야 합니다. 현재 요즘IT와 FDE·AX 엔지니어 커뮤니티 '비욘드디플로이'가 「국내 FDE 현황 조사 2026」을 진행하고 있습니다. FDE는 어디서 왔는지, 현장에서 만든 것은 어디에 남는지, 이 일을 계속하고 싶은지 등의 질문을 담았습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "세상에 나온 지 27년 된 책 '리팩터링'을 다시 펼치는 이유",
+      "url": "https://yozm.wishket.com/magazine/detail/4013",
+      "published": null,
+      "summary": "1999년 세상에 나온 책 이 2026년 기준 1판이 나온 지 햇수로 대략 27년이 됐다. 코드를 직접 생산하지 않는 변화된 개발 환경 속에서 동작하는 코드를 다시 고치는 법을 학습해야 하는 이유는 무엇일까? 코딩 에이전트에 일을 맡기기 전에 무엇이 높은 응집성이고 무엇이 느슨한 결합도인지 구분할 지식을 갖춰야 한다. 그렇지 않으면 초보자가 전문가를 이끄는 역전된 학습이 일어나고 인지적 부채만 쌓인다. 마틴 파울러의 과 켄트 벡의 를 다시 펼치며, AI 시대에도 변하지 않는 좋은 코드의 조건을 짚었다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "비개발자라면 이렇게 해보세요: 클로드 코드와 친해지기",
+      "url": "https://yozm.wishket.com/magazine/detail/4011",
+      "published": null,
+      "summary": "비개발자 기획자로서 직접 몸으로 부딪히며 터득한 바이브 코딩 실전 팁을 담았습니다. 클로드 코드를 무작정 따라 하기보다는 외부 서비스(Supabase, GitHub 등)와의 CLI 연동으로 작업을 자동화하고, 이해하기 어려운 개발 용어는 쉽게 풀거나, HTML·PNG 파일로 추출해 확인하는 노하우를 소개합니다. 파일 기반의 명확한 소통과 꼭 필요한 핵심 명령어, 단축키 활용법까지, 바이브 코딩을 시작하려는 비개발자분들을 위한 실전 가이드를 준비했습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "LLM부터 MCP까지 ‘왜 필요한가’로 이해하는 AI 리터러시",
+      "url": "https://yozm.wishket.com/magazine/detail/4010",
+      "published": null,
+      "summary": "새로운 모델과 기능이 나올 때마다 찾아보고 써봤지만, 정작 업무에 뭘 써야 할지는 여전히 의문이었습니다. 나는 지금 AI라는 도구를 공부하고 있는 걸까, 아니면 일을 더 잘하고 싶어서 AI를 공부하고 있는 걸까. 이 질문에서 출발해 LLM, 프롬프트, 스킬, 에이전트, 루프, 할루시네이션, RAG, 청킹, 벡터화, API, MCP까지 11가지 개념을 업무 흐름 안에서 왜 필요한지로 다시 묶었습니다. 결국 AI를 잘 쓴다는 것도 기술을 많이 아는 일이 아니라, 내 업무에 무엇이 왜 필요한지 선택하는 일입니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "VSCode를 사용하다가 Orca로 옮긴 후기",
+      "url": "https://yozm.wishket.com/magazine/detail/4009",
+      "published": null,
+      "summary": "많은 사람이 코딩 에이전트를 터미널에서 사용하곤 합니다. VSCode에서 클로드 코드(Claude Code)나 코덱스(Codex)를 실행하면, 에이전트가 파일을 고치는 과정을 편집기에서 볼 수 있기 때문입니다. 하지만 문제는 두 번째 에이전트를 켤 때 생깁니다. 두 에이전트가 같은 디렉터리를 보고, 한쪽이 파일을 고치는 동안 다른 쪽도 같은 파일을 읽죠. 그러면 커밋할 때 어느 줄이 어느 작업의 결과인지 되짚어봐야 합니다. 그래서 찾아낸 도구가 오르카(Orca)입니다. 오르카에서는 작업마다 워크트리와 브랜치가 만들어지고 에이전트가 자기 폴더 안에서만 움직이면서 관리가 한결 가벼워졌습니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "설치 없이 SQL·Java·Git·AWS 연습하는 웹 서비스 개발기",
+      "url": "https://yozm.wishket.com/magazine/detail/4008",
+      "published": null,
+      "summary": "저는 혼자서 학습하기 위해 데이터베이스를 설치하지 않고도, SQL을 연습할 수 있는 웹 서비스를 만들기 시작했습니다. 문제에 필요한 데이터를 미리 준비해 두고, 사용자가 브라우저에서 문제를 열면 곧바로 쿼리를 실행할 수 있게 했죠. 서비스를 공개하고 나니, SQL 외의 다른 기술도 복잡한 준비 없이 연습할 수 있게 만들고 싶어졌습니다. 이 글은 단순히 제가 만든 서비스를 소개하려고 쓴 글이 아닙니다. 대신 만드는 과정에서 설치 없이 연습하는 환경에서 학습자는 무엇을 배울 수 있고, 무엇은 배울 수 없을까? 화면에 성공 표시가 떴을 때, 그 성공은 무엇을 보증할까? 이 글에서는 이 질문들에 답하려고 내린 판단과, 그 판단 때문에 생긴 한계를 함께 정리해 보려고 합니다."
+    },
+    {
+      "source": "요즘IT",
+      "region": "kr",
+      "title": "LLM을 위한 자바스크립트 디버깅 ②: 페이지를 무너뜨리는 파일 찾기부터 AI처럼 접속해 보기까지",
+      "url": "https://yozm.wishket.com/magazine/detail/4007",
+      "published": null,
+      "summary": "여러분이 보고 있는 페이지가 LLM이 받는 페이지와 같지 않을 수 있습니다. 가져가지 못한 콘텐츠는 보이지 않으니까요. 테크니컬 SEO 컨설턴트 조너선 무어가 서치 서울 2026에서 소개한 디버깅 흐름의 나머지 세 단계, 네트워크 요청을 걸러내고 막아 범인 파일을 찾는 법부터 AI처럼 접속해 보는 사용자 에이전트 전환, 반복 확인을 맡기는 크롬 스니펫까지 정리했습니다. 페이지 템플릿, 전역 요소, 기술 스택, 서드파티 순으로 감사하는 원칙과 Sitebulb 같은 크롤러로 규모를 키우는 법까지 2회에 담았습니다."
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "50대 청소부 외모가 배우급…“기억을 잃은 재벌 회장님 아니냐” SNS 난리",
+      "url": "https://www.etnews.com/20261113000282",
+      "published": "2026-11-14T06:00:00+09:00",
+      "summary": "중국의 한 50대 청소부가 배우를 연상케 하는 외모로 온라인에서 화제를 모으고 있다. 유명 배우들과 닮았다는 반응이 쏟아졌지만, 정작 본인은 유명세에 흔들리지 않고 청소 업무를 계속하겠다는 뜻을 밝혔다. 13일(현지시간) 홍콩 사우스차이나모닝포스트(SCMP)에 따르면 중국 랴오닝성 선양의 한 고급 쇼핑몰에서 일하는 청소부 천징푸(55)씨는 최근 근무 모습이 담긴 영상이 소셜미디어(SNS)에서 확산하면서 유명해졌다. 누리꾼들은 천씨의 외모가 중국"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "우울증·골다골증 경고에도…日 2030 여성, 저체중에 목숨 거는 까닭",
+      "url": "https://www.etnews.com/20261113000176",
+      "published": "2026-11-14T06:00:00+09:00",
+      "summary": "일본 젊은 여성들 사이에서 마른 몸매를 이상적인 외모로 여기는 인식이 퍼지면서 건강 악화에 대한 경고음이 커지고 있다. 10일(현지시간) 일본 후지뉴스네트워크(FNN)에 따르면 소네 히로히토 니가타대 교수는 최근 젊은 여성층에서 저체중과 영양 결핍 문제가 두드러지고 있다고 밝혔다. 일본의 20~30대 여성 가운데 약 20%는 저체중에 해당하는 것으로 전해졌다. 일반적으로 체질량지수(BMI·체중을 키의 제곱으로 나눈 값)가 18.5에 미치지 못하"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "캠핑하다 실종된 호주 10대 소년, 엿새만에 발견…“감자칩 1봉과 개울물로 버텨”",
+      "url": "https://www.etnews.com/20261113000127",
+      "published": "2026-11-13T22:30:00+09:00",
+      "summary": "호주에서 캠핑 도중 실종된 10대 소년이 엿새 만에 극적으로 구조됐다. 낯선 산속에서 길을 잃은 소년은 감자칩 한 봉지와 개울물에 의지하며 구조를 기다린 것으로 알려졌다. 12일(현지시간) 미국 피플지와 호주 시드니모닝헤럴드 등에 따르면 지난 6일 호주 빅토리아주 월할라에서 실종된 윌리엄 바클리(17)가 이날 오후 경찰 헬기에 의해 발견됐다. 자폐스펙트럼장애가 있는 윌리엄은 지난 6일 친구와 함께 캠핑하기 위해 멜버른에서 약 185㎞ 떨어진 월"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "삼성·구글·젠틀몬스터 AI 안경, 1차 예판 완판…체험예약도 마감",
+      "url": "https://www.etnews.com/20261113000294",
+      "published": "2026-11-13T18:08:16+09:00",
+      "summary": "삼성전자와 구글, 젠틀몬스터가 협업한 인공지능(AI) 안경 '인텔리전트 아이웨어'가 정식 출시 전부터 초기 반응을 끌어내고 있다. 사전예약을 시작한 지 수 시간 만에 주요 제품이 품절됐고, 미국 뉴욕에서 진행하는 일반 공개 행사도 예약이 모두 찬 것으로 파악됐다. 13일 업계에 따르면 젠틀몬스터는 전날 한국과 미국에서 인텔리전트 아이웨어 컬렉션 사전예약을 시작했다. 예약 개시 이후 수 시간 만에 주요 제품이 품절됐다. 현재 공식 온라인 스토어를"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "KB캐피탈, 해킹으로 임직원·고객 1800여명 정보 유출",
+      "url": "https://www.etnews.com/20261113000293",
+      "published": "2026-11-13T18:05:02+09:00",
+      "summary": "KB캐피탈에서 해킹 공격으로 고객, 협력사와 임직원 1800여명의 개인정보가 유출됐다. 13일 금융권에 따르면 KB캐피탈은 지난 10일 KB캐피탈의 내부시스템인 자동차임대자산관리시스템에 서버 부하가 발생해 조치하던 중 국내 IP의 의심스러운 다수의 조회 시도를 확인해 긴급 차단했다. 당일 침해공격에 의한 정보유출에 대해 금융감독원에 보고했다. 유출된 정보는 고객의 이름, 생년월일, 휴대폰번호, 주소, 차량번호와 협력업체 직원·임직원의 이름, 휴"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "12차 석유 최고가격도 동결…휘발유 리터당 1,784원 유지",
+      "url": "https://www.etnews.com/20261113000214",
+      "published": "2026-11-13T18:00:00+09:00",
+      "summary": "정부가 12차 석유 최고가격을 동결했다. 유가가 6월 말 대비 여전히 높은 수준을 유지하고 해상운임 부담도 큰 상황이지만, 민생을 위한 가격안정 기조를 유지할 필요성이 크다고 판단했기 때문이다. 산업통상부는 14일 0시부터 향후 4주간 적용될 12차 석유 최고가격을 기존 11차 최고가격인 리터당 휘발유 1784원, 경유 1773원, 등유 1380원으로 동결했다. 국제유가는 두바이 브렌트유가 배럴당 90불대로 10월 평균 대비 하락했으나, 현재"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "젠슨 황 사임에도 韓 GPU 26만장 공급 유지…정부 점검회의서 재확인",
+      "url": "https://www.etnews.com/20261113000289",
+      "published": "2026-11-13T17:49:13+09:00",
+      "summary": "엔비디아가 젠슨 황 최고경영자(CEO) 사임 이후에도 한국에 첨단 그래픽처리장치(GPU) 26만장을 공급을 기존 계획대로 추진한다. 황 CEO가 갑작스럽게 사임하면서 국내 인공지능(AI) 인프라 협력 사업이 차질을 빚을 수 있다는 우려가 나오자 정부가 직접 점검에 나섰다. 배경훈 부총리 겸 과학기술정보통신부 장관은 13일 사회관계망서비스(SNS)를 통해 “오늘 오전 과기정통부 제2차관 주재로 엔비디아 측과 현안점검회의를 열었다”며 “첨단 GPU"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "젠슨 황이 떠날 때 노렸나…美 개미들, '폭락' 엔비디아 30분 만에 '1500억' 줍줍",
+      "url": "https://www.etnews.com/20261113000286",
+      "published": "2026-11-13T17:30:12+09:00",
+      "summary": "젠슨 황의 전격 사임으로 엔비디아 주가가 급락하자 미국 개인투자자들이 오히려 매수에 나섰다. 레버리지 상장지수펀드(ETF)와 단기 콜옵션까지 활용해 주가 반등에 베팅하는 공격적인 투자도 이어졌다. 12일(현지시간) 월스트리트저널(WSJ)에 따르면 개인투자자들은 이날 뉴욕증시 개장 후 30분 동안 엔비디아 주식 1억1100만달러(약 1480억원)어치를 순매수했다. 개장 후 30분 기준 역대 최대 규모다. 엔비디아 주가는 이날 전 거래일보다 13."
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "中 스파이 의혹에도 젠슨 황 챙긴 트럼프…사임 직전 전화 걸어 “끝까지 싸워 자리 지켜라”",
+      "url": "https://www.etnews.com/20261113000281",
+      "published": "2026-11-13T16:55:29+09:00",
+      "summary": "도널드 트럼프 미국 대통령이 중국 정보기관 연계 의혹과 혼외 관계 논란으로 사임 위기에 놓인 젠슨 황 엔비디아 전 최고경영자(CEO)에게 직접 전화해 끝까지 자리를 지키기 위해 싸우라고 독려했던 것으로 전해졌다. 황 전 CEO의 퇴진이 미국 증시와 경제에 미칠 충격을 우려했기 때문이라는 분석이다. 뉴욕타임스(NYT)는 12일(현지시간) 통화 내용을 전달받은 소식통 2명을 인용해 트럼프 대통령이 지난 10일 황 전 CEO에게 전화해 사임에 맞서"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“대통령님 점심은 제가 쏩니다” 카드 꺼낸 이재용",
+      "url": "https://www.etnews.com/20261113000272",
+      "published": "2026-11-13T16:27:04+09:00",
+      "summary": "이재명 대통령이 12일 충남 아산 삼성전자 온양캠퍼스를 찾아 이재용 삼성전자 회장, 직원들과 구내식당에서 점심을 함께했다. 식사 비용은 이 회장이 자신의 카드로 결제했다. 후식으로 나온 밤을 두고는 이 대통령이 최근 알밤 농가의 어려움을 호소했던 일화도 화제가 됐다. 이 대통령은 이날 삼성전자가 약 6조원을 투자해 조성하는 고대역폭메모리(HBM) 첨단 패키징 시설인 온양캠퍼스 5라인 착공식에 참석했다. 이어 이 회장의 안내를 받아 온양캠퍼스의"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“비행기표 이미 끊었는데”…日, 한 달 새 강진 이어져 “더 큰 지진” 경고까지",
+      "url": "https://www.etnews.com/20261113000263",
+      "published": "2026-11-13T15:56:59+09:00",
+      "summary": "일본 도쿄 수도권과 인접한 지바현 및 이바라키현 해역에서 지진 발생이 잦아지고 있다. 최근 한 달 동안 규모 5~6 수준의 지진이 연이어 발생한 데다 일본 정부가 추가적인 강진 가능성까지 거론하면서 지역 사회의 경계심이 높아지고 있다. 13일(현지시간) 일본 정부 지진조사위원회는 최근 지진 동향을 검토한 결과 지바현 동쪽 해역과 이바라키현 앞바다에서 지각 활동이 두드러지고 있다고 발표했다. 일본 수도권 주변에서는 최근 강한 지진이 연속적으로 관"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“난 쓰레기 같은 인간”…무너진 젠슨 황, 아내와 '그녀들' 걱정했다",
+      "url": "https://www.etnews.com/20261113000250",
+      "published": "2026-11-13T15:39:13+09:00",
+      "summary": "엔비디아를 33년간 이끌어온 젠슨 황 전 최고경영자(CEO)가 사임 직전 자신을 “쓰레기 같은 인간(piece of shit)”이라고 자책할 정도로 심리적으로 무너졌던 것으로 전해졌다. 혼외 관계 의혹을 수주간 부인하며 자리를 지키려 했지만, 추가 폭로가 이어지면서 결국 이사회의 사임 요구를 받아들였다는 것이다. 13일(현지시간) 블룸버그통신은 복수의 관계자를 인용해 황 전 CEO가 최근 자신의 행동을 거칠게 비난하며 깊은 후회를 드러냈다고 보"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "李 대통령 “코스닥 부실기업 신속 퇴출”…상폐 제도 개선 주문",
+      "url": "https://www.etnews.com/20261113000234",
+      "published": "2026-11-13T15:11:17+09:00",
+      "summary": "이재명 대통령이 코스닥 시장의 부실기업을 신속하게 퇴출하도록 상장폐지 제도를 정비할 것을 주문했다. 그러나 법원의 가처분 결정으로 시가총액 미달 기업의 상장폐지 절차가 중단되면서 퇴출 정책에 차질이 빚어지고 있다. 관련 기업이 39곳까지 쌓인 것으로 나타나 제도 개선 필요성이 커지고 있다. 이 대통령은 13일 서울 여의도 한국거래소에서 열린 '신뢰받는 자본시장, 현장에서 묻고 답을 찾다' 정책 간담회에서 “부실한 기업과 저성과 기업은 상장폐지"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "삼성전자, 이달에만 제6·제7노조 연이어 설립 추진",
+      "url": "https://www.etnews.com/20261113000229",
+      "published": "2026-11-13T15:02:46+09:00",
+      "summary": "삼성전자에서 일주일여 만에 추가 노동조합 설립이 추진되고 있다. 삼성전자 내 일곱번째 노조다. 기존 노조에서도 내부 갈등이 신규 노조 설립을 부추기고 있다는 비판이 이어진다. 13일 업계에 따르면 이날 광주지방고용노동청에 '삼성전자 광주노동조합' 설립신고서가 제출됐다. 지난 4일 '삼성전자 유니온샵 노동조합' 설립신고서가 접수된 지 9일 만이다. 제7노조 위원장은 삼성그룹 초기업노동조합 삼성전자지부에서 광주지부장을 지낸 이원일 씨로 알려졌다."
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "테슬라, 2인승 로보택시 '사이버캡' 韓서 첫 공개",
+      "url": "https://www.etnews.com/20261113000227",
+      "published": "2026-11-13T15:00:48+09:00",
+      "summary": "미국 테슬라가 완전 자율주행 로보택시(무인택시) '사이버캡'을 한국에서 처음으로 공개했다. 사이버캡은 테슬라에서 출시한 운전대·페달이 없는 2인승 자율주행 택시 전용 차량이다. 테슬라코리아는 12일부터 15일까지 경기도 안성시 스타필드 안성에서 사이버캡을 공개한다. 사이버캡은 테슬라 전기 픽업트럭 사이버트럭과 전시됐다. 사이버캡은 2024년 10월 미국 로스앤젤레스에서 세계 최초로 공개됐다. 운전대와 가속·브레이크 페달이 빠졌고 운전기사가 직접"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "李 대통령 “자본시장 개혁 고위급 전담기구 만들라…직접 보고받겠다”",
+      "url": "https://www.etnews.com/20261113000211",
+      "published": "2026-11-13T14:36:25+09:00",
+      "summary": "이재명 대통령이 자본시장 정상화와 선진화를 추진할 고위급 개혁 전담기구 신설을 지시했다. 국회와 금융당국, 민간 전문가 등이 참여하는 별도 조직을 구성하고 주요 개혁 과제를 직접 보고받겠다는 구상이다. 이 대통령은 13일 서울 여의도 한국거래소에서 열린 '신뢰받는 자본시장, 현장에서 묻고 답을 찾다' 정책 간담회에서 “우리 정부 안에 자본시장 정상화 또는 선진화와 관련된 태스크포스(TF)가 있느냐”며 “통상적인 논의 구조 말고 자본시장 개혁과"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "정부, 메가프로젝트 전력·용수 인프라에 '10년간 84조원' 투입",
+      "url": "https://www.etnews.com/20261113000202",
+      "published": "2026-11-13T14:25:16+09:00",
+      "summary": "정부가 메가프로젝트 추진을 위한 전력·용수 인프라 확충에 2036년까지 10년간 약 84조원을 투입될 것으로 예상했다. 더불어민주당 메가성장특별위원회는 13일 국회 의원회관에서 열린 메가성장특위 예산안 간담회에서 정부로부터 이 같은 내용의 메가프로젝트 인프라 투자 계획을 보고받았다고 밝혔다. 정부 보고안에 따르면 2036년까지 국가첨단산업 전력 인프라 확충에 79조원, 용수 인프라 확충에 5조원 등 총 84조원이 소요될 것으로 추산됐다. 이 중"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "스페이스X·테슬라, 사상 최대 합병 임박…“이르면 내달 발표”",
+      "url": "https://www.etnews.com/20261113000198",
+      "published": "2026-11-13T14:22:57+09:00",
+      "summary": "일론 머스크가 이끄는 스페이스X와 테슬라의 인수합병(M&A)이 이르면 다음달 이뤄질 수 있다는 관측이 나왔다. 블룸버그 통신은 12일(현지시간) 소식통을 인용해 스페이스X와 테슬라가 12월 사상 최대 규모의 합병 계약을 발표할 수 있다고 보도했다. 앞서 지난달 양사 이사회가 합병 검토를 위해 특별위원회를 구성했고, 논의가 진전되면서 합병 조건과 지배구조 관련 조율이 이뤄지고 있다고 소식통은 전했다. 특히 스페이스X가 테슬라 투자자에게 얼마만큼의"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "“젠슨 황 불륜녀 앨리스 황, 中 국가안전부 '칩 팀' 요원”…정보수장이 직접 지휘",
+      "url": "https://www.etnews.com/20261113000197",
+      "published": "2026-11-13T14:20:21+09:00",
+      "summary": "엔비디아 최고경영자(CEO) 젠슨 황과 부적절한 관계를 맺은 것으로 알려진 중국계 여성 앨리스 황(중국명 황러)이 중국 최고 정보기관인 국가안전부의 반도체 전담 공작 조직 소속이라는 보도가 나왔다. 젠슨 황과의 사적 관계를 이용해 미국의 수출 통제망을 뚫고 첨단 반도체를 중국에 공급하는 한편, 미국 정부의 대중국 수출 규제 완화까지 유도하려 했다는 의혹이다. 11일(현지시간) 대만 자유시보는 미국 측이 확보한 정보와 관계자들을 인용해 앨리스 황"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "11개월 아들 '개 우리'에 넣어 생매장한 美 아빠…“살인미수로 체포”",
+      "url": "https://www.etnews.com/20261112000392",
+      "published": "2026-11-13T14:00:00+09:00",
+      "summary": "미국에서 생후 11개월 된 아들을 반려견용 철창에 넣어 땅속에 묻은 혐의로 20대 아버지가 체포됐다. 아기는 약 24시간 동안 땅속에 갇혀 있었지만, 수색 중이던 구조대원들이 울음소리를 듣고 극적으로 구조했다. 11일(현지시간) 미국 CNN과 NBC뉴스 등에 따르면 사우스캐롤라이나주 렉싱턴카운티 보안관실은 생후 11개월 된 아들 코아 샤프를 생매장한 혐의로 마이클 코머(25)를 체포해 기소했다고 밝혔다. 코머에게는 살인미수와 아동에 대한 불법행"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "델, AMD 6세대 에픽 탑재 서버 2종 출시…기존 데이터센터 활용 극대화",
+      "url": "https://www.etnews.com/20261113000177",
+      "published": "2026-11-13T13:41:50+09:00",
+      "summary": "델 테크놀로지스가 기존 데이터센터의 냉각시설을 교체하지 않고도 컴퓨팅 성능을 높일 수 있는 서버 신제품 2종을 선보였다. 서버 통합을 통해 전력과 냉각, 소프트웨어 라이선스 비용도 절감할 수 있도록 설계했다. 델 테크놀로지스는 13일 AMD 6세대 에픽(EPYC) 프로세서를 탑재한 '파워엣지 R9825'와 '파워엣지 R9815'를 공개했다. 두 제품 모두 기존 데이터센터에서 사용하는 공랭식 냉각을 기본으로 지원한다. 필요에 따라 직접 액체 냉각"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "기아, 인도에 2조6000억원 투자해 2공장 건설",
+      "url": "https://www.etnews.com/20261113000158",
+      "published": "2026-11-13T12:47:22+09:00",
+      "summary": "기아가 인도에 20억달러(약 2조6000억원)를 투자해 두 번째 자동차 공장 신설을 추진한다. 기아 인도법인은 13일(현지시간) 남부 안드라프라데시주 정부와 제2공장을 건설하기 위한 업무협약(MOU)을 체결했다고 밝혔다. 기아는 아난타푸르 188만㎡ 부지에 연간 20만대 규모의 공장을 짓는다. 2030부터 자동차를 생산하며 기존 1공장을 포함해 총 생산능력은 60만대를 넘어선다. 일자리 1만2000개를 만들 수 있을 것으로 기대된다. 기아는 2"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "日정부, 엔비디아 사태 주시…'피지컬 AI' 영향 우려",
+      "url": "https://www.etnews.com/20261113000155",
+      "published": "2026-11-13T12:14:06+09:00",
+      "summary": "젠슨 황 엔비디아 최고경영자(CEO)가 불명예 퇴진하면서 엔비디아와 피지컬 AI 분야 협력을 추진 해온 일본 정부에도 위기감이 돌고 있다. 마이니치신문은 13일 일본 정부가 황 전 CEO의 동향을 예의주시하고 있다고 보도했다. 일본 정부는 로봇 등을 피지컬 AI를 일본 경제의 새로운 성장 동력으로 낙점하고, 전폭적인 지원 정책을 수립해왔다. 피지컬 AI를 개발하고 구동하려면 방대한 컴퓨팅 자원이 필요하기에 세계 최대 AI 반도체 칩 회사인 엔비"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "정부, 구글 지도 반출 조건 이행 확인…국외 이전 수순",
+      "url": "https://www.etnews.com/20261113000154",
+      "published": "2026-11-13T12:11:53+09:00",
+      "summary": "정부가 지난 2월 조건부 허가한 구글의 고정밀지도 국외반출에 대해 보안조건 이행 결과를 확인했다. 한국 영토의 좌표표시 제거와 군사·보안시설 보호체계 마련 등 주요 조치를 점검한 것으로, 앞으로 국내에서 가공한 지도 데이터를 정부 심사를 거쳐 국외로 반출하는 절차가 이어진다. 정부는 이 과정에서 보안조건 준수 여부를 지속 관리할 방침이다. 13일 국토교통부에 따르면 관계부처와 민간 전문가로 구성된 기본측량성과 국외반출 협의체는 이날 회의를 열고"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "카카오워크 뚫렸다…카카오엔터프라이즈 전·현직 임직원 정보 유출",
+      "url": "https://www.etnews.com/20261113000152",
+      "published": "2026-11-13T11:59:37+09:00",
+      "summary": "카카오의 업무용 협업 서비스 '카카오워크'가 외부 공격을 받아 카카오엔터프라이즈 전·현직 임직원 등의 개인정보가 유출됐다. 13일 정보기술(IT) 업계에 따르면 디케이테크인은 전날 카카오워크 홈페이지 공지를 통해 “지난 9일 카카오워크 시스템에 외부 공격자의 비정상적인 접근이 발생했으며 이 과정에서 일부 이용자의 개인정보가 유출된 사실을 확인했다”고 밝혔다. 유출 대상은 카카오엔터프라이즈의 전·현직 임직원과 회사 계정을 이용한 외부 인원 및 일"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "젠슨 황, 불륜녀 '中 스파이' 확정되면…“최대 징역 20년”",
+      "url": "https://www.etnews.com/20261113000136",
+      "published": "2026-11-13T11:08:06+09:00",
+      "summary": "엔비디아 전 최고경영자(CEO) 젠슨 황이 불륜 상대로 지목된 앨리스 황의 중국 스파이 의혹과 관련해 최대 징역 20년형에 처해질 수 있다는 분석이 나왔다. 앨리스 황을 통한 미국 정부 기밀 유출이나 엔비디아 반도체의 중국 우회수출에 관여한 사실이 드러날 경우 형사처벌을 피하기 어려울 수 있다는 관측이다. 12일 니혼게이자이신문 등 외신에 따르면 황 전 CEO가 앨리스 황에게 기밀을 전달하거나 엔비디아 반도체의 중국 우회수출에 관여한 것으로 확"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "배낭에 8대까지 휴대…손으로 던지는 '공격 드론'",
+      "url": "https://www.etnews.com/20261112000358",
+      "published": "2026-11-13T11:05:00+09:00",
+      "summary": "손으로 던지면 날아가 장갑차를 타격하는 소형 공격 드론이 공개됐습니다. 미국 방산 스타트업 엑스다운(XDOWN)은 최근 투척형 공격 드론 '스터드(STUD)'의 타격 시험에 성공했다고 밝혔습니다. 이 드론은 길이 약 44.5cm, 무게 2.36kg으로 최고 속도는 시속 305km입니다. 비행거리는 약 64km이며 최대 25분간 비행할 수 있습니다. 별도의 발사 장비가 필요 없고 군용 배낭 하나에 최대 8대를 휴대할 수 있습니다. 회사 측은 50"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "메르세데스-벤츠, 독일 공장 폐쇄 검토…“국내 투자 중단”",
+      "url": "https://www.etnews.com/20261113000122",
+      "published": "2026-11-13T10:53:12+09:00",
+      "summary": "메르세데스-벤츠가 독일 내 공장 폐쇄 논의를 공식화했다. 한델스블라트 등에 따르면 벤츠는 12일(현지시간) 사내 게시판에 경영진 인터뷰 형식의 글을 올려 독일 내 모든 투자를 중단하고 공장 폐쇄를 검토하겠다고 밝혔다. 브리타 제거 인사 담당 이사는 “(비용 절감에 대한) 집중적 논의에도 현재로서 해결의 실마리가 보이지 않는다”며 “독일에서 어떠한 공장을 유지할 수 있을 지 구체적이고 자세하게 논의할 수밖에 없다”고 말했다. 앞서 벤츠는 9월 비"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "李 “정부·與, 노력했지만 여전히 부족…자본시장 신뢰 회복에 집중”",
+      "url": "https://www.etnews.com/20261113000109",
+      "published": "2026-11-13T10:37:52+09:00",
+      "summary": "이재명 대통령이 자본시장의 가장 큰 목표로 '신뢰 회복'을 꺼냈다. 이 대통령은 자본시장 신뢰 회복을 위한 다양한 조치를 통해 코리아디스카운트를 해소해 정상화를 이루겠다고 다짐했다. 이 대통령은 13일 서울 여의도 한국거래소에서 열린 '자본시장 정책 간담회'에서 “목표는 명확하다. 자산시장의 정상화, 금융시장이 정상화되는 것”이라며 “정부가 시장신뢰 회복에 집중하겠다”라고 말했다. 이날 이 대통령은 '상승장'을 의미하는 붉은색 계열의 넥타이를"
+    },
+    {
+      "source": "전자신문",
+      "region": "kr",
+      "title": "MS 주요 서비스 대규모 장애…국내 기업도 업무 차질",
+      "url": "https://www.etnews.com/20261113000090",
+      "published": "2026-11-13T10:28:53+09:00",
+      "summary": "마이크로소프트(MS)의 업무용 서비스인 MS365와 아웃룩, 팀스에서 대규모 접속 장애가 발생했다. 오픈AI와 앤스로픽의 MS365 연동 기능까지 영향을 받으면서 장애 여파가 확산했다. 국내 기업 업무에도 차질이 빚어지고 있다. 12일(현지시간) 로이터통신에 따르면 장애 추적 사이트 다운디텍터에는 이날 미 동부시간 오후 2시 7분 기준 아웃룩 관련 신고가 9만7000건 이상 접수됐다. MS365 관련 신고는 3만8000건 이상, 팀스는 약 45"
+    },
+    {
+      "source": "네이버 D2",
+      "region": "kr",
+      "title": "AI 시대의 개발자를 꿈꾸는 학생 개발자에게",
+      "url": "https://d2.naver.com/helloworld/1975819",
+      "published": "2026-11-13T15:48:41+09:00",
+      "summary": "시작하며: 2018년과 2026년 사이의 간격과 격변기의 고민 ​ 2018년에 저는 ' 백엔드 개발자를 꿈꾸는 학생개발자에게 '라는 글을 이곳 D2 블로그에 공유했습니다. 당시 학생 개발자들과의 미트업 행사에서 나왔던 질문과 답변을 정리한 글이었습니다. 그 후 8년의 시간이 흘렀기에 그 글만 노출된다면 학생들에게 현시점에 적절한 정보를 주지 못할까 봐 걱정되었습니다. 그래서 2025년 말 설문으로 질문을 받아 후속편을 작성했습니다. ​ 그동안 저도 경험과 지식을 더 쌓았습니다. 하지만 지금 학생 개발자들이 한 질문에는 답하기가 더 어려워졌습니다. 개발자의 역할과 같은 큰 주제를 묻는 질문이 많았는데, 지금은 AI로 인한 변화가 큰 시기이기 때문입니다. 스스로도 확신이 없는 시기에 이런 글을 쓰는 것이 적절할지 고민도 했습니다. ​ 그럼에도 2018년의 글에 보내 주신 관심에 용기를 얻어서 이 글을 발행합니다. 최근의 경험을 나누고 미래를 함께 상상해 보는 일이 지금 시점에는 더 의미"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "FAA Issues National Ground Stop",
+      "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
+      "published": "2026-11-14T06:05:53+09:00",
+      "summary": "Article URL: https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111 Comments URL: https://news.ycombinator.com/item?id=50489641 Points: 548 # Comments: 233"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Big tech is here to let us down",
+      "url": "https://blog.jsweeting.me/big-tech-is-here-to-let-us-down",
+      "published": "2026-11-14T05:20:30+09:00",
+      "summary": "Article URL: https://blog.jsweeting.me/big-tech-is-here-to-let-us-down Comments URL: https://news.ycombinator.com/item?id=50489083 Points: 132 # Comments: 118"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "No AI Slop: A Manifesto",
+      "url": "https://www.slopmanifesto.com",
+      "published": "2026-11-14T04:51:56+09:00",
+      "summary": "Article URL: https://www.slopmanifesto.com/ Comments URL: https://news.ycombinator.com/item?id=50488769 Points: 121 # Comments: 66"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "FM-1 Workbench",
+      "url": "https://open.m-vave.com/fm1-workbench",
+      "published": "2026-11-14T04:14:02+09:00",
+      "summary": "Article URL: https://open.m-vave.com/fm1-workbench Comments URL: https://news.ycombinator.com/item?id=50488325 Points: 116 # Comments: 74"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "published": "2026-11-14T03:40:44+09:00",
+      "summary": "Article URL: https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas Comments URL: https://news.ycombinator.com/item?id=50487864 Points: 187 # Comments: 105"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Models can now transmit viruses in weight-space",
+      "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+      "published": "2026-11-14T03:33:35+09:00",
+      "summary": "Article URL: https://www.alphaxiv.org/abs/2611.weight-space-misfolding Comments URL: https://news.ycombinator.com/item?id=50487762 Points: 118 # Comments: 40"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+      "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for",
+      "published": "2026-11-14T03:18:37+09:00",
+      "summary": "Article URL: https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/ Comments URL: https://news.ycombinator.com/item?id=50487522 Points: 193 # Comments: 97"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+      "url": "https://isometricsf.com",
+      "published": "2026-11-14T02:58:37+09:00",
+      "summary": "Technical Write-up: https://www.justinchavez.com/blog/isometric-sf-how/ Hi HN! Showcasing this fun project. I took 1300 square miles of the SF Bay Area from Google Photorealistic 3D Tiles and transformed them into a cohesive pixel map. It's really fun to explore and stumble upon various famous landmarks like Apple Park, Palace of Fine Arts, or UC Berkeley. The technicals involve using Nano Banana 2 to train a Qwen-Image-Edit 2511 LoRA which is used to prototype the style and generation methods. "
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
+      "published": "2026-11-14T02:55:28+09:00",
+      "summary": "Article URL: https://haddyalchaer.com/jepa Comments URL: https://news.ycombinator.com/item?id=50487185 Points: 174 # Comments: 31"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "OpenAI disbands its robotics team as its general models start running robots",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots",
+      "published": "2026-11-14T02:55:23+09:00",
+      "summary": "Article URL: https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/ Comments URL: https://news.ycombinator.com/item?id=50487184 Points: 118 # Comments: 53"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "published": "2026-11-14T02:30:10+09:00",
+      "summary": "Article URL: https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths Comments URL: https://news.ycombinator.com/item?id=50486748 Points: 261 # Comments: 77"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "LibreOffice actually works 365 days a year",
+      "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
+      "published": "2026-11-14T02:09:58+09:00",
+      "summary": "Article URL: https://twitter.com/LibreOffice/status/2121205272479998268 Comments URL: https://news.ycombinator.com/item?id=50486482 Points: 758 # Comments: 238"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Minnesota guitarist's \"palmfrets\" invention strikes a new chord",
+      "url": "https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord",
+      "published": "2026-11-14T00:08:07+09:00",
+      "summary": "https://palmfrets.com/ Comments URL: https://news.ycombinator.com/item?id=50484650 Points: 104 # Comments: 66"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "A technical vision for the Haskell ecosystem",
+      "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+      "published": "2026-11-13T23:43:12+09:00",
+      "summary": "Article URL: https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078 Comments URL: https://news.ycombinator.com/item?id=50484235 Points: 155 # Comments: 74"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Lonewolf 0.3 – A standalone XMPP server written in Rust",
+      "url": "https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0",
+      "published": "2026-11-13T23:28:40+09:00",
+      "summary": "Article URL: https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0 Comments URL: https://news.ycombinator.com/item?id=50484007 Points: 114 # Comments: 32"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+      "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+      "published": "2026-11-13T21:10:24+09:00",
+      "summary": "Article URL: https://www.science.org/doi/10.1126/science.132.3436.1291 Comments URL: https://news.ycombinator.com/item?id=50482379 Points: 409 # Comments: 287"
+    },
+    {
+      "source": "Hacker News",
+      "region": "global",
+      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud",
+      "published": "2026-11-13T07:03:09+09:00",
+      "summary": "Article URL: https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/ Comments URL: https://news.ycombinator.com/item?id=50474959 Points: 622 # Comments: 183"
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "US government grounds all flights across the United States ‘due to extraordinary circumstances’",
+      "url": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances",
+      "published": "2026-11-14T06:44:38+09:00",
+      "summary": "A spokesperson for the FAA told TechCrunch that it issued the ground stop \"following communication issues impacting multiple Air Route Traffic Control Centers.\""
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board",
+      "url": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board",
+      "published": "2026-11-14T05:07:24+09:00",
+      "summary": "Drogue is harvesting heat from the ocean to power data centers on floating vessels. The first prototype should be bobbing around the ocean, crunching bits, in less than two years."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+      "published": "2026-11-14T04:37:57+09:00",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+      "published": "2026-11-14T03:40:30+09:00",
+      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+      "published": "2026-11-14T01:00:12+09:00",
+      "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+      "published": "2026-11-14T00:58:00+09:00",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
+      "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach",
+      "published": "2026-11-13T23:57:55+09:00",
+      "summary": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams",
+      "published": "2026-11-13T23:44:48+09:00",
+      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Microsoft’s latest email outage turned into a full-blown global cloud crisis",
+      "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis",
+      "published": "2026-11-13T22:15:20+09:00",
+      "summary": "Microsoft's day-long outage began with Outlook and Teams, and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil",
+      "published": "2026-11-13T21:52:19+09:00",
+      "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Jensen Huang didn’t show confidence in his successor, report says",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says",
+      "published": "2026-11-13T21:28:23+09:00",
+      "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump",
+      "published": "2026-11-13T07:42:51+09:00",
+      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay",
+      "published": "2026-11-13T07:22:28+09:00",
+      "summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports",
+      "published": "2026-11-13T05:26:47+09:00",
+      "summary": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+      "published": "2026-11-13T04:11:00+09:00",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question",
+      "published": "2026-11-13T03:39:23+09:00",
+      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition."
+    },
+    {
+      "source": "TechCrunch",
+      "region": "global",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "published": "2026-11-13T02:36:40+09:00",
+      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition."
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "FAA ground stop shuts down flights nationwide",
+      "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "published": "2026-11-14T06:38:25+09:00",
+      "summary": "Takeoffs from airports throughout the US paused on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. US Transportation Secretary Sean Duffy tweeted: The FAA issued a nationwide ground stop for all U.S. airports following a […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "published": "2026-11-14T05:45:10+09:00",
+      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
+      "url": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
+      "published": "2026-11-14T05:30:00+09:00",
+      "summary": "Bluetooth speakers are often boring boxes in plain colors, but not this one! As part of Nothing’s ongoing early Black Friday promo, you can grab its unique, milk carton-shaped CMF Speaker S from Amazon and Nothing for just $39. That’s a solid $20 discount and the lowest price we’ve seen on Nothing’s newfangled wireless speaker, […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Here’s how you can save on your GTA VI preorder ahead of launch",
+      "url": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
+      "published": "2026-11-14T04:14:38+09:00",
+      "summary": "The long-awaited launch of GTA VI is around the corner, happening next Friday, November 19th. While discounts on the game itself will be rare for some time, there’s a clever workaround to save you a few bucks on your digital copy. We found discounts on gift cards for both Sony PlayStation and Microsoft Xbox Series […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
+      "url": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
+      "published": "2026-11-14T03:10:41+09:00",
+      "summary": "The Nape Pro was Keychron's first trackball device that was introduced at CES 2026 with a slim and compact design allowing it to be positioned right up against a keyboard. The company's new T1 HE instead looks more like other trackball mice already available from companies like Logitech and Kensington with a 34mm ball positioned […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Jensen Huang was reckless with the environment, too",
+      "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+      "published": "2026-11-14T02:44:22+09:00",
+      "summary": "Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-after chips have triggered a new wave of water- and chemical-intensive factories, drained power grids from inside massive data centers, and set the stage for a looming e-waste problem. Under Huang's […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
+      "url": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
+      "published": "2026-11-14T02:12:56+09:00",
+      "summary": "Last week, Camp Snap launched a miniaturized version of its screen-free CS-8 video camera that was half the size of the original with a smaller grip designed to be easier for kids to hold. But it turns out the company wasn't done shrinking its hardware. Camp Snap's new CS-8 Micro is even smaller than the […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "The new Apple TV has a YouTube problem",
+      "url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
+      "published": "2026-11-14T01:55:57+09:00",
+      "summary": "People who received the brand new Apple TV 4k today saw some strange error messages as soon as they opened the YouTube app. As the first units arrived, the app was initially only showing a black screen with a QR code and an error message saying \"YouTube is not yet available on this device.\" In […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "Microsoft’s massive Outlook outage might be over",
+      "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+      "published": "2026-11-14T01:17:11+09:00",
+      "summary": "Service is recovering for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state on Friday morning, some people (including Verge staffers) reported that access to their emails had been restored, though the flow of Outlook mail […]"
+    },
+    {
+      "source": "The Verge",
+      "region": "global",
+      "title": "The Verge’s 2026 gift guide for dads",
+      "url": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
+      "published": "2026-11-14T01:00:00+09:00",
+      "summary": "Gone are the days when you could just buy your father a random tie or some leather-clad alcohol vessel or a shaving kit. Dads want - nay, deserve - something memorable. Luckily for you, it's not that hard to find something special that he'll approve of, and we're here to guide you. We've curated this […]"
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Millions in US use unapproved GLP-1s—and use them in unapproved ways",
+      "url": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways",
+      "published": "2026-11-14T06:59:01+09:00",
+      "summary": "Cost and access barriers are pushing people to modified use and unapproved versions."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "In elephants, the resilience of communities has its limits",
+      "url": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits",
+      "published": "2026-11-14T05:03:13+09:00",
+      "summary": "In Sri Lanka, ecological change is shrinking a park's elephant population."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Kalshi ditches Trump Jr. as advisor; CEO admitted \"optics\" weren't good",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket",
+      "published": "2026-11-14T04:49:16+09:00",
+      "summary": "Trump son advised Kalshi and got equity while Trump admin helped Kalshi in lawsuits."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "url": "https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+      "published": "2026-11-14T02:25:45+09:00",
+      "summary": "Researcher traces a path from AI reward hacking to potential human extinction."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+      "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights",
+      "published": "2026-11-14T01:26:32+09:00",
+      "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
+      "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage",
+      "published": "2026-11-14T00:26:53+09:00",
+      "summary": "Governments, hospitals, courts scrambled by global Microsoft outage."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "It's the end of the world as we know it, per a physicist's 1960 prediction",
+      "url": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction",
+      "published": "2026-11-14T00:09:39+09:00",
+      "summary": "Heinz von Foerster thought population would grow exponentially and \"squeeze\" us all to death."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Screenless GPS: Slate Auto says, \"Remember the road atlas\"",
+      "url": "https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas",
+      "published": "2026-11-13T23:45:04+09:00",
+      "summary": "What’s more fitting than a spiral-bound map for a bare-bones two-door pickup?"
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Scientists warn 1.5°C climate change threshold could arrive by 2029",
+      "url": "https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029",
+      "published": "2026-11-13T23:29:15+09:00",
+      "summary": "Climate action has stalled for five years as fossil fuel development keeps growing."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Rocket Report: Starship set for historic test flight; a century of Electron",
+      "url": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron",
+      "published": "2026-11-13T21:00:40+09:00",
+      "summary": "\"You can simplify it as a big tank feeding engines.\""
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride",
+      "url": "https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride",
+      "published": "2026-11-13T20:50:38+09:00",
+      "summary": "Specialized’s second-fastest bike may be the smart buy."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "In reversal, American Cancer Society urges routine prostate cancer screening",
+      "url": "https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men",
+      "published": "2026-11-13T07:59:51+09:00",
+      "summary": "Men aged 50–69 and at average risk should get PSA screening every two years."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+      "published": "2026-11-13T07:28:47+09:00",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers",
+      "published": "2026-11-13T04:59:59+09:00",
+      "summary": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "The Elder Scrolls' most obscure adventure gets a 4K PC makeover",
+      "url": "https://arstechnica.com/gaming/2026/11/the-elder-scrolls-most-obscure-adventure-gets-a-4k-pc-makeover",
+      "published": "2026-11-13T04:49:11+09:00",
+      "summary": "N-Gage exclusive Shadowkey gets an AI-coded glow-up with plenty of new features."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
+      "published": "2026-11-13T04:23:03+09:00",
+      "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Ukraine says it can’t stop Russian strikes because Starshield is limited again",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt",
+      "published": "2026-11-13T04:09:57+09:00",
+      "summary": "Report: Ukraine suspects speeds limits are intended to help Russia in peace talks."
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+      "published": "2026-11-13T03:57:45+09:00",
+      "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”"
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Netflix releases new trailer for Ray Gunn",
+      "url": "https://arstechnica.com/culture/2026/11/netflix-releases-new-trailer-for-ray-gunn",
+      "published": "2026-11-13T03:38:38+09:00",
+      "summary": "\"It's hard being the only honest players in a crooked game.\""
+    },
+    {
+      "source": "Ars Technica",
+      "region": "global",
+      "title": "Building a rocket is hard. AST SpaceMobile thinks it's \"simple.\"",
+      "url": "https://arstechnica.com/space/2026/11/building-a-rocket-is-hard-ast-spacemobile-thinks-its-simple",
+      "published": "2026-11-13T03:28:22+09:00",
+      "summary": "\"We're not doing this thing because we like rockets.\""
+    },
+    {
+      "source": "GitHub Blog",
+      "region": "global",
+      "title": "GitHub availability report: October 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026",
+      "published": "2026-11-13T09:20:16+09:00",
+      "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog ."
+    },
+    {
+      "source": "GitHub Blog",
+      "region": "global",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+      "published": "2026-11-13T07:54:52+09:00",
+      "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog ."
+    }
+  ],
+  "errors": [
+    {
+      "source": "GeekNews",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "카카오 기술블로그",
+      "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "우아한형제들 기술블로그",
+      "error": "HTTP 403"
+    }
+  ]
+}

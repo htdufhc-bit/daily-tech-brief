@@ -130,7 +130,7 @@ topics:
 - id: db-replication-sharding
   title: 복제와 샤딩
   category: 데이터베이스
-  covered_on: null
+  covered_on: '2026-11-14'
 - id: cdn
   title: CDN
   category: 네트워크
